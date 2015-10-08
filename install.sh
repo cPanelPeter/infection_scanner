@@ -13,13 +13,13 @@ mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/infection_scanner
 curl -s https://raw.githubusercontent.com/cPanelPeter/infection_scanner/master/is_files.tar.gz > /usr/local/cpanel/base/frontend/paper_lantern/infection_scanner/is_files.tar.gz
 
 # Uncompress the archive
-tar xzf /usr/local/cpanel/base/frontend/paper_lanter/infection_scanner/is_files.tar.gz
+tar xzf /usr/local/cpanel/base/frontend/paper_lantern/infection_scanner/is_files.tar.gz
 
 # Install the plugin (which also places the png image in the proper location)
 /usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/paper_lantern/infection_scanner/infection_scanner.tar.gz
 
-# Rebuild the sprites
-/usr/local/cpanel/bin/rebuild_sprites
+# Rebuild the sprites - NOT required on paper_lantern theme (only x3)
+#/usr/local/cpanel/bin/rebuild_sprites
 
 echo "Installation is complete!"
 
