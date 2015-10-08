@@ -7,16 +7,16 @@ clear
 echo "Installing infection_scanner"
 
 # Create the directory for the plugin
-mkdir /usr/local/cpanel/whostmgr/docroot/cgi/infection_scanner
+mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/infection_scanner
 
 # Get the plugin files from Github
-curl -s https://raw.githubusercontent.com/cPanelPeter/infection_scanner/master/infection_scanner.tar.gz > /usr/local/cpanel/whostmgr/docroot/cgi/infection_scanner
+curl -s https://raw.githubusercontent.com/cPanelPeter/infection_scanner/master/is_files.tar.gz > /usr/local/cpanel/base/frontend/paper_lantern/infection_scanner/is_files.tar.gz
 
 # Uncompress the archive
-tar xzf /usr/local/cpanel/whostmgr/docroot/cgi/infection_scanner/infection_scanner.tar.gz
+tar xzf /usr/local/cpanel/base/frontend/paper_lanter/infection_scanner/is_files.tar.gz
 
-# Register the plugin (which also places the png image in the proper location)
-/usr/local/cpanel/bin/register_cpanelplugin /usr/local/cpanel/whostmgr/docroot/cgi/infection_scanner/register.tar.gz
+# Install the plugin (which also places the png image in the proper location)
+/usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/paper_lantern/infection_scanner/infection_scanner.tar.gz
 
 # Rebuild the sprites
 /usr/local/cpanel/bin/rebuild_sprites
