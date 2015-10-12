@@ -10,9 +10,6 @@ my $cpanel = Cpanel::LiveAPI->new();
 # Turn off buffering
 $| = 1;
 
-# First download the latest strings to search for.
-system( "curl -s https://raw.githubusercontent.com/cPanelPeter/infection_scanner/master/infections.txt > /usr/local/cpanel/base/frontend/paper_lantern/infection_scanner/infections.txt" );
-
 my $USERPATH = $cpanel->cpanelprint('$homedir');
 print "Content-type: text/html\r\n\r\n";
 print <<END;
@@ -29,12 +26,21 @@ p {font-family:Cursive;font-size:14px;font-style:normal;font-weight:bold;color:0
 </style>
 </head>
 <body>
-<h3>Simple Infection Scanner</h3>
-<p>This little infection scanner was purely designed to show how easy it is to create/install plugins within cPanel.  It is in no way a comprehensive scanner and should not be solely relied upon.  This program will NOT remove nor quarantine anything.  All detections should be thoroughly and manually investigated.  
+<center><h3>Simple Infection Scanner</h3></center>
+<p>This little infection scanner was purely designed to show how easy it is to create/install<br> 
+plugins within cPanel.  It is in no way a comprehensive scanner and should not be solely relied<br>
+upon.  This program will NOT remove nor quarantine anything.  All detections should be<br>
+thoroughly and manually investigated.  
 
+<p>
+<font color="RED">
 Please DO NOT contact your hosting provider nor cPanel, Inc. for support regarding this program. 
-
-Quick Disclaimer: This free infection scanner is provided "AS IS". 100% detection rate does not exist and no vendor in the market can guarantee it. Neither your web hosting provider nor cPanel, Inc. claims any responsibility for the detection or failure to detect malicious code on your website or any other websites.  
+</font>
+<p>
+Quick Disclaimer: This free infection scanner is provided "AS IS". 100% detection rate does <br>
+not exist and no vendor in the market can guarantee it. Neither your web hosting provider nor<c>
+cPanel, Inc. claims any responsibility for the detection or failure to detect malicious code<br>
+on your website or any other websites.  
 </p>
 <hr>
 END
@@ -66,8 +72,12 @@ if ($SOMETHING_FOUND > 0) {
       print "$found<br>\n";
    }
 }
+else { 
+   print "<p>Congratulations!  Nothing suspicious was found!\n";
+}
 
 print <<END;
 </body>
 </html>
 END
+
