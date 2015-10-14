@@ -25,7 +25,7 @@ mv /root/infection_scanner.tar.gz /usr/local/cpanel/base/frontend/paper_lantern/
 # Move dlinfections script to /etc/cron.weekly (and run it once)
 mv /root/dlinfections /etc/cron.weekly
 chmod 0755 /etc/cron.weekly/dlinfections 
-/usr/local/bin/perl /etc/cron.weekly/dlinfections
+/usr/local/cpanel/3rdparty/bin/perl /etc/cron.weekly/dlinfections
 
 echo "Installation is complete!"
 
