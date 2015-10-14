@@ -12,6 +12,7 @@ $| = 1;
 
 my $USERPATH = $cpanel->cpanelprint('$homedir');
 print "Content-type: text/html\r\n\r\n";
+print $cpanel->header('Simple Infection Scanner!');
 print <<END;
 <!DOCTYPE html>
 <html>
@@ -73,11 +74,14 @@ if ($SOMETHING_FOUND > 0) {
    }
 }
 else { 
-   print "<p>Congratulations!  Nothing suspicious was found!\n";
+	print "<p>Congratulations!  Nothing suspicious was found!\n";
 }
 
 print <<END;
-</body>
-</html>
+<p>
+<a href="../index.html">Home</a>
 END
+
+print $cpanel->footer();
+$cpanel->end();
 
