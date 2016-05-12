@@ -200,7 +200,7 @@
     q['HacKeD By {{LaMiN3 DK}}, Algerian Defacer'],
     q['Hacked ByP!R!7'],
     q['Hacked By Ulow'],
-    q['Hacked in 2015 By [ Mr.PROTOCOL'],
+    q['Hacked in 2015 By \[ Mr.PROTOCOL'\]],
     q['HACKER Yar'],
     q['hackmeplz'],
     q['HackTeam'],
