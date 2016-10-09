@@ -214,7 +214,7 @@ Hacked in 2015 By \[ Mr.PROTOCOL\]
 HACKER Yar
 hackmeplz
 HackTeam
-HA$KEL
+HA\$KEL
 Haxor
 hfbakhsh.com
 HiDder OwnZz You
@@ -270,7 +270,7 @@ kinbokun2234@gmail.com,
 Kish0r3 P4sh4
 kntnight@gmail.com,
 kohehasa@gmail.com
-$kola
+\$kola
 krad.c
 kunlexy,
 L4z4ru5
