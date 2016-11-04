@@ -11,11 +11,10 @@
 7iemH yb dekcah
 83.133.123.174
 8m0slmesh
-eval *(str_rot13 *(base64_decode *(
-eval *(
-base64_decode *(
-gzinflate *(
 Configs Grabber
+HunTerZ Family
+Happy Ending YunusOchills
+Mugi Doa Ibu Ingkang Varokah
 Mauritania Attacker
 adorablejimalvarez@gmail.com
 Afghan Cyber Army (ACA)
@@ -38,7 +37,6 @@ AXA Banque ReZulT
 aykutbilgic@gmail.com,
 ayotomiwa11@gmail.com
 ayoubaittoto@gmail.com
-b374k
 BackBone
 BACK-CONNECT
 BACKDOOR
@@ -135,8 +133,7 @@ dangerissaoui@outlook.com.fr,
 danielgrochowski1@gmail.com
 dannymckay
 Dark.anGel
-defaced
-defacer
+deface
 Developed By Mohajer22
 Developed By sNiper_hEx
 Developer by SnIpEr_SA
@@ -172,13 +169,12 @@ fake mailer
 faqux1@gmail.com
 fedora.chen.polymet@gmail.com
 FeeLCoMz
-FilesMa
 FilesTools
 focusyearme@yahoo.com
 [+] Founded 
 fourofour
-Fredericka the Great
 free shell
+Rifqyajx
 freshnewly@she.com,
 fuckyou4321
 fukq
@@ -225,12 +221,12 @@ horneymace@gmail.com
 H_P_J
 hrhbox2015@gmail.com
 H@SEB
-http://c99.me/base/jquery.js
-http://emp3ror.com/kira/
-http://safecheck1.net/check.html
-http://stayinfranschhoek.co.za
-http://upload.sa3eka.com/upa/133301473417.png
-http://www.ahdal.com/css
+c99.me/base
+emp3ror.com
+safecheck1.net
+stayinfranschhoek.co.za
+upload.sa3eka.com
+www.ahdal.com
 huken90@gmail.com
 iamtriumphant07@gmail.com
 icloud.com
@@ -330,7 +326,7 @@ MooT HaCkEr - NaiF KSA
 morganstanley.com
 Moroccan H4x0r
 Mr-Anobs
-/* Mr.HiTman */
+Mr.HiTman
 Mr-Lordz
 Mr.PoorBAD@Alpha.com
 MugiwaraCrew
@@ -369,7 +365,7 @@ paulodadaj1@gmail.com
 PayPal US Bank Spam ReZulT
 Peruvian R00lz
 Ph33r
-PHP: Eval+(GZINFLATE||GZUNCOMPRESS||B64||ROT13)
+Eval+(GZINFLATE||GZUNCOMPRESS||B64||ROT13)
 php_ini@126.com
 PHPJackal
 PHP_OS.chr\(49\).chr\(48\).chr\(43\)
@@ -383,7 +379,6 @@ Pinpal
 Plugin Name: Wordpress Plugin Manager
 pOcOpOcO
 Post DC Back Connect
-POST[GmailAddress]
 Powered By leetc0des.blogspot.com
 powered by os comerce
 PR0L3T3RS
@@ -405,7 +400,7 @@ Recoded By XGHoSTn
 Recovery Email Address:
 rednoize
 regions.com
-Re-Modified by #!physx^
+Re-Modified by 
 Remote Code Execution Exploit
 reply@result.com
 reputable3811@yandex.com
@@ -538,5 +533,4 @@ YAHOO.membership
 yahoopassword
 YeMeNi HaCkeR
 zen.co.uk
-ZHC
 ziteditora.com.br
