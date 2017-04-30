@@ -47,7 +47,10 @@ on your website or any other websites.
 END
 
 print "Now scanning $USERPATH...<P>\n";
-require '/usr/local/cpanel/base/frontend/paper_lantern/infection_scanner/infections.txt';
+#require '/usr/local/cpanel/base/frontend/paper_lantern/infection_scanner/infections.txt';
+my $URL="https://raw.githubusercontent.com/cPanelPeter/infection_scanner/master/strings.txt";
+my @DEFINITIONS = qx[ curl -s $URL ];
+my $StringCnt = @DEFINITIONS;
 my @SEARCHSTRING=sort(@DEFINITIONS);
 my @FOUND=undef;
 my $SOMETHING_FOUND=0;
@@ -56,20 +59,23 @@ my $cntFound=0;
 foreach $SEARCHSTRING(@SEARCHSTRING) {
    chomp($SEARCHSTRING);
    print ".\n";
-   my $SCAN=qx[ grep -rIl --exclude-dir=www $SEARCHSTRING $USERPATH/* ];
+   my $SCAN=qx[ grep -rIl --exclude-dir=www --exclude-dir=mail --exclude-dir=tmp -w "$SEARCHSTRING" $USERPATH/* ];
    chomp($SCAN);
    if($SCAN) {
       $cntFound++;
       $SOMETHING_FOUND=1;
-      push(@FOUND,"The phrase $SEARCHSTRING was found in file $SCAN");
+      push(@FOUND,"<font color=GREEN>The phrase</font> <font color=RED>$SEARCHSTRING</font> <font color=GREEN>was found in file</font> <font color=BLUE>$SCAN</font>");
    }
 # UNCOMMENT THIS NEXT LINE TO PUT A .10 SECOND PAUSE (for drammatic effect).
 #       select(undef, undef, undef, 0.10);
 }
-my $found;
 if ($SOMETHING_FOUND > 0) {
+   my $found;
+   my $FoundCnt = @FOUND;
+   print "<p>Results: $FountCnt possible infections found.<p>\n";
    foreach $found(@FOUND) {
       chomp($found);
+      $found =~ s/\\//g;
       print "$found<br>\n";
    }
 }
@@ -78,6 +84,8 @@ else {
 }
 
 print <<END;
+<p>
+Please note that these are "possible" infections and could very well be false positives. Each file should be carefully examined for security issues. YOU SHOULD NOT BLINDLY DELETE A FILE!
 <p>
 <a href="../index.html">Home</a>
 END

@@ -22,10 +22,5 @@ mv /root/infection_scanner.tar.gz /usr/local/cpanel/base/frontend/paper_lantern/
 # Install the plugin (which also places the png image in the proper location)
 /usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/paper_lantern/infection_scanner/infection_scanner.tar.gz
 
-# Move dlinfections script to /etc/cron.weekly (and run it once)
-mv /root/dlinfections /etc/cron.weekly
-chmod 0755 /etc/cron.weekly/dlinfections 
-/usr/local/cpanel/3rdparty/bin/perl /etc/cron.weekly/dlinfections
-
 echo "Installation is complete!"
 
