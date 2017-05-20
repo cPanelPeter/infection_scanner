@@ -589,7 +589,7 @@ suthallen@gmail.com
 Symlink Bypass 2014 by Faisal 1337
 sysctl -n kern
 tafiki
--risen-
+\-risen\-
 T1KUS90T
 Tak Ada Kata
 Tapi Selebihnya
