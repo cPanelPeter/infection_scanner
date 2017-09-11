@@ -261,7 +261,7 @@ Gend3ruw0
 ggmail.html
 G\-Google ACCU
 gh0st
-GIF89a.*\[\r\n\]*.*<\?php
+GIF8?a.*<\?php
 Gmail recovery details
 Gok\-Boru    
 goldmanagement2@gmail.com
@@ -376,7 +376,6 @@ jem.smith@yandex.com
 jessica_biel_naked_in_my_bed.c
 jexboss
 Jijle3 Web PHP Shell
-Jijle3 Web PHP Shell 2015
 Jingklong   
 JMBUD NGNTD CMP WEB
 joaomatosf.com
@@ -547,8 +546,6 @@ PH4NTHER
 PhantomGhost
 php_ini@126.com
 PHPJackal
-PHP_OS.chr\(49\).chr\(48\).chr\(43\)
-PHP_OS.chr\(49\).chr\(49\).chr\(43\)
 phpremoteview
 phpshell
 phpsploitclass.php
@@ -721,7 +718,7 @@ upl0ad
 upload.sa3eka.com
 Upload Shell Korang
 Upload Success !!!
-UP="pentagon"
+UP=\"pentagon\"
 usaa.com
 Use this function to check in witch domain zones user comes
 usta upload basarili olmadi.Baska siteye dal!!
@@ -808,7 +805,7 @@ ZONE-H
 ZoRRoKiN
 PD9waHAgJHsiXHg0N0xceDR
 \$payload_file
-$udborfbq="data"
+\$udborfbq=\"data\"
 crkekatkek_kfkukncktkikon
 laterain testin9
 HackeD By Hussam
