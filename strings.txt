@@ -147,6 +147,7 @@ CGI\-Telnet
 Ch3rn0by1
 cha88.cn
 Chakus
+Changes every cPanel password on the server and stores the credentials
 chase.com
 Chase USA 
 Check Mail Pass Login Access
@@ -156,6 +157,7 @@ chishijen12
 Chizzy
 chizzyspamm@gmail.com
 chr(112).chr(49)
+christbb616@gmail.com
 chukuma0000007@yahoo.com
 CIA@MYWORK
 click to Extract usernames and mass symlink
@@ -233,6 +235,7 @@ Developed By ANASH
 Developed By Mohajer22
 Developed By sNiper_hEx
 Developer by SnIpEr_SA
+dGhteXR2
 Dhanush
 DHL WIRE LOG
 die(PHP_OS.chr(49).chr(48).chr(43).md5(0987654321
@@ -446,6 +449,7 @@ jugaad XD
 k2ll33d
 k2ll33d shell
 K2LL33D SHELL
+k3y r3ZulT
 k4l0nk
 kaMtiEz
 Kaneki404 
@@ -457,6 +461,7 @@ kerde khaat khadi
 Ketan Singh
 kinbokun2234@gmail.com
 Kish0r3 P4sh4
+KitcPyg/PSRocGhwJ0FVc210dXJucmVzZXR1O3N3JGxpaW5lcnJvcHViO2lmbXRwLT5
 kntnight@gmail.com
 kohehasa@gmail.com
 \$kola
@@ -478,9 +483,11 @@ laterain testin9
 leahmc1@rocketmail.com
 Legend Bot
 legend.rocks
+LinEnum.sh
 linusdanny7@gmail.com
 linus.danny@outlook.com
 Linux vmsplice Local Root Exploit
+Local Linux Enumeration & Privilege Escalation Script
 Local root indishell
 LockeD By Joky
 LOCUS7S.COM
@@ -609,6 +616,7 @@ Ownedby|v!nc3
 ownersdirectorsintl@gmail.com
 ozcanlesbigboss@hotmail.fr
 P0150n Op3r470r
+P0w3r3d By pedro
 p1mmaxweel@gmail.com
 Pain Script To Symlink Configs
 Pain Symlink
@@ -656,6 +664,7 @@ python connect\-back door
 R00t3d Br4!n
 r00txxPcP
 r0nin
+R0xPQkFMUw==
 r3v3ng4ns
 R4ZW4N BIN SUL4IM4N
 r57
@@ -726,7 +735,9 @@ Security Cyber Art
 Security Ghost
 sec\-w.com
 semi\-priv8
+send an report to 
 Setor PP Boz
+sgtdennisnathan@gmail.com
 sh3LL
 Sh4hien
 sHaf00n
@@ -851,6 +862,7 @@ Webmail Of Sellers
 webmaster@altavistadelago.com
 Webshell
 Web Shell
+\*\*\*We can read root\'s home directory!
 weevely backdoor
 \-\-\-:||Wellsfargo||:\-\-\-
 wellsfargo.com
