@@ -1111,3 +1111,5 @@ SHADOW Z118
 Create User FOLDER SCAM
 fhVENcmKTJ
 LaHmuQPfnzW
+webminepool.com
+var miner=new WMP.User
