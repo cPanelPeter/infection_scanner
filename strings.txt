@@ -822,7 +822,7 @@ Powered By leetc0des.blogspot.com
 powered by os comerce
 PR0L3T3RS
 prepare_the_exploit
-PRI[ll
+PRI\[ll
 Priv8 2011 Attack Shell
 Priv8 M@iler
 Private Mailer 6.2
