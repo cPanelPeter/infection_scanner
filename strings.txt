@@ -145,6 +145,7 @@ by misafir
 Byms_Cod
 By  NaZZ
 By NeT.Defacer
+Bypass etc/passw
 Bypass Shell
 By RxR
 By The 1962 Script Coded By Akram Stelle
@@ -225,9 +226,12 @@ Cowok Kerens Team
 Cowok Tersakiti Team
 CPanel Brut3r
 CPanel Bruteforce
+CPanel Crack
 cPanel Cracker
+CPanel/FTP Auto Deface
 CP Bruter
 cpcracker.py
+cr1p.blogspot.com
 cracktype
 Crash & Burn
 Created By Hacker L3L3
@@ -255,6 +259,7 @@ D33F_404
 d3b~X
 D4rkSect0r
 DABBING404
+DaiMon
 dalnet
 DamaneDz
 dangerissaoui@outlook.com.fr
@@ -266,7 +271,9 @@ Darkwolf indishell
 dcvi.net
 Dear Kids This is Payback! for Defacing The Islamia University of Bahawalpur
 deface
+Deface Gagal
 DEFACE IP GRABBER
+Defacer.ID
 default pass : haurgeulis
 DeMiGoD
 Developed By ANASH
@@ -327,6 +334,7 @@ F1X404
 FaisaL Ahmed aka rEd X
 Faisal Symlink Bypass
 fake mailer
+Fake Root
 Family Attack Cyber
 faqux1@gmail.com
 Fazlast
@@ -527,6 +535,7 @@ johnsonjames002dc@outlook.com
 Joky Priv8
 jo mass info changer
 Jombang Cyber Team
+Joomla Auto Edit User
 JPMorgan Chase
 jugaad XD
 k2ll33d
@@ -535,6 +544,7 @@ K2LL33D SHELL
 k3y r3ZulT
 k4l0nk
 K4MVR3T717
+Kali Anda Telah Ngecrot  Disini
 kaMtiEz
 Kaneki404 
 Karar alShaMi
@@ -588,6 +598,7 @@ Local root indishell
 LockeD By Joky
 LOCUS7S.COM
 Locus7s Modified c100 Shell
+Login Sukses
 login.yahoo.com
 Logs Eraser
 LolzSec
@@ -629,6 +640,7 @@ Man404_ID
 managedforexaccount
 Mannu
 marli.vianna00@gmail.com
+mass defacer and log eraser
 MaStEr HaCkEr
 MATRIX CYBER TEAM
 Mauritania Attacker
@@ -664,6 +676,7 @@ Monsters Defacers
 MooT HaCkEr \- NaiF KSA
 morganstanley.com
 Moroccan H4x0r
+Morocco.Security.Rulz
 MOSLEM CYBER TEAM
 Mr\-Anobs
 Mr.BIN
@@ -701,6 +714,7 @@ Mr.X98
 Mr.xBaraKuda
 MrxCyberX 
 MR.ZADZIK
+MSRml.pl
 Mugi Doa Ibu Ingkang Varokah
 MugiwaraCrew
 mugiwaranoluffy@fastmail.com
@@ -762,10 +776,12 @@ Pak Cyber Pyrates
 Pakistan Zindabad
 Panel Cracker By Team IndiShell
 Pankaj Sharma
+passwbypass
 PATO LOKO PARA DE VIADAGEM
 paulodadaj1@gmail.com
 \$payload_file
 ++====\[ PayPal \]====++
+Paypal Token Generator
 PayPal US Bank Spam ReZulT
 PD9waHAgJHsiXHg0N0xceDR
 Penggila Coli
@@ -775,6 +791,7 @@ PETR03X
 Ph33r
 PH4NTHER    
 PhantomGhost
+PHOENIX SHELL
 php_ini@126.com
 PHPJackal
 phpremoteview
@@ -792,6 +809,7 @@ Powered By leetc0des.blogspot.com
 powered by os comerce
 PR0L3T3RS
 prepare_the_exploit
+PRI[ll
 Priv8 2011 Attack Shell
 Priv8 M@iler
 Private Mailer 6.2
@@ -895,6 +913,9 @@ Shardhanand
 shawnphill77345@aol.in
 Sheko H4CK3R
 shellbot
+Shell Checker
+shellchk
+Shell Finder
 shellinvoker
 shellololol
 Shell Recoded From IndoXploit Shell
@@ -911,6 +932,7 @@ skrill
 SKSking
 skyline@cash4u.com
 slac4ever@gmail.com
+SMTP Grabber
 SNMP cracker
 solevisible@gmail.com
 spam_rezult@spammerindo.com
@@ -929,6 +951,7 @@ stayinfranschhoek.co.za
 Stealth Shellbot
 Stm Nazie 102
 storesbrown147@gmail.com
+Sukses Deface
 SuLiMaN.HackeR
 SultanHaikal
 SUNUCU HAKKINDA
@@ -976,6 +999,7 @@ Tn.SkullCyber
 TobaSec
 TobaSec 
 TOBILOBA
+Tools Carder
 toolzmorathy1
 totallyfreecursors.com
 Toxica DZ Was Here
@@ -1053,6 +1077,7 @@ williambell1233@gmail.com
 wkendy76@blumail.org
 wolu yb dekcah
 wonderfulboy01@gmai.com
+WordPress Auto Deface
 Wordpress Csrf Exploit
 WORK HARD DREAM B!G
 wp mass info changer
@@ -1110,14 +1135,10 @@ Zero_S
 zetas.oujda
 Zetas Oujdi
 ziteditora.com.br
+Zone-H
 ZONE-H
 zoozoo
 ZoRRoKiN
 帐户验证已完成
 正在验证您的帐户
 电子邮件设置
-DaiMon
-MSRml.pl
-PRI[ll
-Morocco.Security.Rulz
-mass defacer and log eraser
