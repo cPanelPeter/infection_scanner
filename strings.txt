@@ -210,6 +210,7 @@ changed every time so chrome & bots can\'t see the scam source code
 Changes every cPanel password on the server and stores the credentials
 chase.com
 Chase USA 
+Check  Mailling
 Check Mail Pass Login Access
 chiacheng2012@gmail.com
 ChickenLittle Shell
@@ -219,6 +220,7 @@ Chizzy
 chizzyspamm@gmail.com
 chr(112).chr(49)
 christbb616@gmail.com
+Christian "FireFart" Mehlmauer
 chukuma0000007@yahoo.com
 CIA@MYWORK
 click to Extract usernames and mass symlink
@@ -331,6 +333,7 @@ dimakanhwik@gmail.com
 Dinaraditya154@gmail.com
 Dinelson Amine
 Dinoxchrome
+dirtycow
 DK Shell
 DM Mini Shell
 DoitSelf
@@ -463,6 +466,7 @@ hack\-back
 Hackeado
 HACKED
 hacked by 
+Hacked By: 4Ri3 60ndr0n9
 Hacked By BadC0de
 Hacked By BALA SNIPER
 Hacked By BDJ-007
@@ -542,6 +546,8 @@ http://PaLteam.Org
 http://rst.void.ru
 https://fb.com/fir3.hawk5
 https://fb.com/Jokr.H4xor
+https://firefart.at
+https://github.com/dirtycow/dirtycow.github.io/blob/master/pokemon.c
 http://www.sa-hacker.com/vb
 huken90@gmail.com
 HunTerZ Family
@@ -911,6 +917,7 @@ Pinpal
 Please enter the new password
 Plugin Name: Wordpress Plugin Manager
 pOcOpOcO
+pokemon exploit
 Post DC Back Connect
 Powered By leetc0des.blogspot.com
 powered by os comerce
@@ -924,6 +931,7 @@ Problem Cyber Team
 Procoderz Team Albania
 psherwoodmarketing@gmail.com
 psybnc
+ptrace_pokedata
 PUBER -
 Pwnd?
 pwned
