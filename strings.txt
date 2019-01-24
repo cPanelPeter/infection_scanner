@@ -10,6 +10,7 @@
 0tamega
 0xfans
 104.20.209.21
+107.181.160.197
 10f89b8c.com
 123.59.120.219
 13.113.240.221
@@ -163,6 +164,7 @@ CGI-Telnet
 CGI\-Telnet
 CIA@MYWORK
 CODED BY RAB3OUN
+COUNT DOMAIN USER Password .accesshash
 CP Bruter
 CPanel Brut3r
 CPanel Bruteforce
@@ -836,6 +838,7 @@ Whcms Killer
 WordPress Auto Deface
 Wordpress Csrf Exploit
 Wr0nG P4sSw0rD
+Wscript.Shell
 Wso1 SHELL
 WwW.Gaza\-Hacker.NeT
 WwW.SeCuReDeAtH.cOm
@@ -1245,6 +1248,7 @@ r0nin
 r3coded by Kerupuk
 r3v3ng4ns
 r57
+rEd X
 rOx
 rWmpisiBWQglW/n3OBtqwt8T0NwjeiW+8Kd9N
 rab3oun.net
