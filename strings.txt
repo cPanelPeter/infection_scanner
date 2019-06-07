@@ -336,6 +336,7 @@ GIF8?a.*<\?php
 GREETZ TO ALL KCS MEMBERS
 G\-Google ACCU
 GaLers xh3LL Backd00r
+Gagal
 GalehDotId
 Gantengers
 Garuda Security Hacker
@@ -483,6 +484,7 @@ Kali Anda Telah Ngecrot  Disini
 Kaneki404 
 Karar alShaMi
 Kazuya404
+Kesalahan Server
 Ketan Singh
 Khaled Mardam-Bey
 Kish0r3 P4sh4
@@ -573,6 +575,7 @@ MikiSoft
 Minhal Mehdi 
 Mini shell
 Mirror Zone\-BBHH
+Missing type of reverse shell
 Miyachung
 Mizt3riO\-uZ
 Modified by Shadow & Preddy
@@ -712,7 +715,6 @@ Problem Cyber Team
 Procoderz Team Albania
 Procoder’z Team Albania
 Prosox
-Psy Shell
 Pwnd?
 Pwned by Lalabitch
 QHR hacker
@@ -995,8 +997,10 @@ _Tuan2Fay_
 a8ab0
 aBu.HaLiL501
 aWYgKGlzc2V0KCRfUkVRVUVTVFsnc
+ada data yang kosong
 add.francafranca.com
 admin.furstoutountzi.com
+adminer.php
 adorablejimalvarez@gmail.com
 advanced html base64 encryptor
 aeskoly
@@ -1073,6 +1077,7 @@ cdn.popcash.net/pop.js
 cdob1s
 cek Disini goblok!
 centurylink.com
+cgitelnet
 cha88.cn
 changed every time so chrome & bots can\'t see the scam source code
 chase.com
@@ -1127,6 +1132,7 @@ die(PHP_OS.chr(49).chr(48).chr(43).md5(0987654321
 dimakanhwik@gmail.com
 dirtycow
 dollypizzu37@gmail.com
+domains.yougetsignal.com
 donflow2015@yahoo.com
 downserverdown@gmail.com
 dr.t3rr0r
@@ -1299,6 +1305,7 @@ mageonline.net/js/mage.js
 mahdi WAS HERE
 mahmud.ghazni.1
 mahmud.ghazni@yahoo.com
+makman.php
 managedforexaccount
 marli.vianna00@gmail.com
 mass defacer and log eraser
@@ -1359,6 +1366,7 @@ phpshell
 phpsploitclass.php
 phpspypass
 pokemon exploit
+portal-f
 poti.sadz@gmail.com
 powered by os comerce
 prappo-prince.me
@@ -1366,6 +1374,8 @@ prepare_the_exploit
 psherwoodmarketing@gmail.com
 psybnc
 ptrace_pokedata
+pw/XcTyTp
+pw/bash/include/xtaccess
 pwned
 python connect\-back door
 r00txxPcP
@@ -1380,6 +1390,7 @@ rab3oun.net
 rad paul
 ransomeware@Lalabitch.today
 raslan58
+recaptcha-in
 rednoize
 regions.com
 renownd
@@ -1440,10 +1451,12 @@ tHAnks tO Sir ShOcKs
 tHAnks tO Timeless
 tafiki
 tds-narod.ru
+tesemelgan@gmail.com
 toolzmorathy1
 totallyfreecursors.com
 try.ciela.co
 try.ucr.news
+tujuanmail
 turkblackhats
 turkishkebab00@gmail.com
 ubhteam.org
@@ -1465,8 +1478,8 @@ w00t
 w4ck1ng
 w7h7j7c57.homepage.t\-online.de
 w7sh.syria
-wala
 walemilton003@gmail.com
+webconsole.php
 webmaster@altavistadelago.com
 webminepool.com
 weevely backdoor
