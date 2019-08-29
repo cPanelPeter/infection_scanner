@@ -1,5 +1,5 @@
 (c)oded by 1dt.w0lf
-++====[ PayPal ]====++
+++====\[ PayPal \]====++
 +Codewizard+
 /tmp/passwd.bak
 04d92810.com
@@ -409,7 +409,7 @@ Hacked by RxR HaCkEr
 Hacked by Shade
 Hacked by Sxtz
 Hacked by ZeDaN-Mrx
-Hacked in 2015 By [ Mr.PROTOCOL]
+Hacked in 2015 By \[ Mr.PROTOCOL\]
 Hacker By Conversely
 Hacker Patah Hati
 Hacker Sakit Hati 
@@ -690,7 +690,7 @@ PHOENIX SHELL
 PHP Encode by  http://Www.PHPJiaMi.Com/
 PHPJackal
 PR0L3T3RS
-PRI[ll
+PRI\[ll
 PUBER -
 Pain Script To Symlink Configs
 Pain Symlink
@@ -785,7 +785,7 @@ Scorpiol
 Script Resetpass CP
 Sec BY Jonior.com
 Secsion<infos@hacker_Shenzen>
-Security Angel Team [S4T]
+Security Angel Team \[S4T\]
 Security Cyber Art
 Security Ghost
 SecurityBus
@@ -915,7 +915,7 @@ WHMCS KILLER V3 CODED BY RAB3OUN
 WHMCS Killer v3 Decoded By N!nj@
 WORK HARD DREAM B!G
 WSO 2.1.5
-WSO [2.6]
+WSO \[2.6\]
 WSO r3coded by eX-Sh1Ne
 WSOsetcookie
 WScript.Shell
@@ -1002,7 +1002,7 @@ $udborfbq=\"data\"
 -W3lc0me
 ---:||Wellsfargo||:---
 -risen-
-[+] Founded 
+\[+\] Founded 
 _0xaae8
 _68758598
 _Tuan2Fay_ 
@@ -1127,7 +1127,7 @@ crowdweed
 cryptonight
 ctcpflood
 cwings
-cxib [ a.T] securityreason [ d0t] com
+cxib \[ a.T\] securityreason \[ d0t\] com
 cyber gladiator
 cyber warrior
 cyberheroez.ddos.im
