@@ -3,6 +3,7 @@
 +Codewizard+
 /tmp/passwd.bak
 04d92810.com
+04d92810\[.\]com
 07b0418e1119091a9281ac5614cb9d776a85f
 088116101097
 08zvd
@@ -30,7 +31,7 @@
 313.legend.rocks
 32f988f6.com
 33db9538.com
-33db9538.com|31.184.192.173
+33db9538\[.\]com|31.184.192.173
 3FT Hna Pour unzipi
 3Turr ~ CPanel Cracker
 3c856e8ca0030a3f8e7ca0cfaa5d74b6dd6db2f9
@@ -39,10 +40,10 @@
 3xp1r3 Cyber Army
 40000 Emails This May Hack The Server
 404_NOT_FOUND 
-498296c9.com
+498296c9\[.\]com
 4Ri3 60ndr0n9
 54dfa1cb.com
-54dfa1cb.com|31.184.192.163
+54dfa1cb\[.\]com|31.184.192.163
 5P!R!7 #UN73R
 5iNON!MOU23
 7547ec6af9d987359dd34c888224afb1
@@ -57,7 +58,7 @@
 8m0slmesh
 90sec
 9507c4e8.com
-9507c4e8.com|31.184.192.163
+9507c4e8\[.\]com|31.184.192.163
 9974-5263-1008-5189
 99754106633f94d350db34d548d6091a
 9aldo6r0y_p24m8e
@@ -94,7 +95,7 @@ Anas laribi
 Andela1C3 Priv8 Webshell
 Aneesh Dogra
 Angga   
-Ani-Shell
+Ani\-Shell
 AnonGhost
 Anonymous Cyber Team
 AnonyniX
@@ -119,14 +120,14 @@ B.A.D TEAM
 B0c4H_Id30T
 B0tchZ
 BACKDOOR
-BACK-CONNECT
+BACK\-CONNECT
 BAHARI TROUBLE MAKER
 BANGLADESHI HACKER
 BD BLACK HAT HACKERS
 BHP.php
 BLACKMANSNOOP
 BLAZING HACKERS PAKISTAN
-BLESSED-HOTMAIL LOGINS
+BLESSED\-HOTMAIL LOGINS
 BY GENtLEMind
 BackBone
 BackConnect Php By Con7ext
@@ -142,7 +143,7 @@ Bksmile
 Bl@cK Ic3
 BlackBlood
 BlackSHOP
-BlackSmith Hacker's Team
+BlackSmith Hacker\'s Team
 BlackWeb
 Blackportt
 Blazing Hackers Pakistan
@@ -174,7 +175,7 @@ C0o5@yahoo.com
 C99 Modified By Psych0
 CCOCOT
 CGI-Telnet
-CGI-Telnet
+CGI\-Telnet
 CIA@MYWORK
 CODED BY RAB3OUN
 COUNT DOMAIN USER Password .accesshash
@@ -199,16 +200,16 @@ Check  Mailling
 Check Mail Pass Login Access
 ChickenLittle Shell
 Chizzy
-Christian \"FireFart\" Mehlmauer
+Christian "FireFart" Mehlmauer
 Cod3d by 3xp1r3
-Cod3d by Haxor-Waha
-Cod3d by Mr.Alsa3ek and Al-Swisre
+Cod3d by Haxor\-Waha
+Cod3d by Mr.Alsa3ek and Al\-Swisre
 Code By Astra
 Code by Mr.HaurgeulisX196
 Code for India,Hack for India,Die for India
-Coded By GENERAL-IQ
+Coded By GENERAL\-IQ
 Coded By P4LTEAM
-Coded By - SaMir InjectOr
+Coded By \- SaMir InjectOr
 Coded by Anonisma
 Coded by Miyachung
 Coded by van1lle @ Hackforums.net
@@ -235,7 +236,7 @@ Created By vi3nas ym
 Cy3er C0mmand0s
 Cyb er Hunter
 Cyb3r.Bl@d3r
-Cyb3r-DZ Config
+Cyb3r\-DZ Config
 Cyber 71
 Cyber Ace
 Cyber Merah Putih
@@ -290,12 +291,12 @@ E@gle Invectus Backdoor Handler
 EBSCO ReZulTsz
 EFRAIM AYYILDIZ
 EITest
-EXI2T-team
+EXI2T\-team
 EXIT_KERNEL_TO_NULL
 EXPECT US!
 Eddie Kidiw
 EdiT3R: Dr.KAsBeR
-Edited By GuN-Jack
+Edited By GuN\-Jack
 El Moujahidin (the source has been moved and devloped)
 ElKiller.2013
 Encryption provided by iWEBTOOL.com
@@ -309,7 +310,7 @@ F1X404
 FB.com/J1jeI
 FL3Z0X
 FORBIDD3N
-FREE TOOLS 2015-2016
+FREE TOOLS 2015\-2016
 FRK48   
 FRU_403
 FULLZ LoGiN
@@ -332,9 +333,9 @@ Freedom For Tunisia
 French Hacker
 Furubi
 Fx29Sh
-GIF8?a.*<?php
+GIF8?a.*<\?php
 GREETZ TO ALL KCS MEMBERS
-G-Google ACCU
+G\-Google ACCU
 GaLers xh3LL Backd00r
 Gagal
 GalehDotId
@@ -344,9 +345,9 @@ Gend3ruw0
 Girl_Carding
 Gmail recovery details
 Godzila
-Gok-Boru    
+Gok\-Boru    
 Golden boy INDIA
-Gr0ss-mailer
+Gr0ss\-mailer
 GreenL1ne
 GreenLine Hacker
 Greetz
@@ -367,7 +368,7 @@ HACKED BY MR.WEXENT
 HACKED BY SYSTEM G33K
 HACKER Yar
 HAXOR N1LOY
-HA$KEL
+HA\$KEL
 HEXolzWOLF
 HOSSAM
 H_P_J
@@ -530,7 +531,7 @@ Logs Eraser
 LolzSec
 Lon.Cua.Co.Be
 LorD of IRAN HACKERS SABOTAGE
-LorD-C0d3r-NT
+LorD\-C0d3r\-NT
 Lov3rDns
 Ludarubma
 Luge Racer
@@ -544,7 +545,7 @@ MA DZ TN V2
 MATRIX CYBER TEAM
 MA_h4ck0601
 MCA Shell
-MD-GHOST
+MD\-GHOST
 ML/EF8ZjRZnsUrk/hVMOJaQZS19pZ
 MNTR27
 MOSLEM CYBER TEAM
@@ -563,7 +564,7 @@ Mahdi Curva Sud
 Mahiin
 MailBox Renewal Portal
 Maile Inbox By
-Mailer by X-Nero
+Mailer by X\-Nero
 MainHack
 Make in China
 Maked By 
@@ -578,10 +579,10 @@ Mercury2911
 MikiSoft
 Minhal Mehdi 
 Mini shell
-Mirror Zone-BBHH
+Mirror Zone\-BBHH
 Missing type of reverse shell
 Miyachung
-Mizt3riO-uZ
+Mizt3riO\-uZ
 Modified by Shadow & Preddy
 Modon Tak
 Mohammad Yasir
@@ -589,7 +590,7 @@ Mohkalad HaXor
 Moneer Masoud
 Monkey B Luffy
 Monsters Defacers
-MooT HaCkEr - NaiF KSA
+MooT HaCkEr \- NaiF KSA
 Moroccan H4x0r
 Morocco.Security.Rulz
 Mr. DellatioNx196
@@ -635,8 +636,8 @@ Mr.wexent
 Mr.x0x
 Mr.xBaraKuda
 MrJoker
-Mr-Anobs
-Mr-Lordz
+Mr\-Anobs
+Mr\-Lordz
 Mr_Oxygen 
 MrxCyberX 
 Mugi Doa Ibu Ingkang Varokah
@@ -646,8 +647,8 @@ Mujahidin303
 Muslim Cyber Army
 Muslim Cyber Security
 My Bee
-My DARK-H
-My ZONE-H
+My DARK\-H
+My ZONE\-H
 N16H7H4WK
 N45HT
 N4sKun
@@ -659,12 +660,12 @@ Neneng Juhairiah
 Neo hacker ICA
 Net Scrap Shop
 NetJackal
-Netflix - Billing Information
-Netflix - Payment Information
+Netflix \- Billing Information
+Netflix \- Payment Information
 Newbie3viLc063s h3x4Crew RileksCrew Family
 Nginx1337
 Nilotpal Biswas
-Ninja-Security
+Ninja\-Security
 NmR.Hacker
 Nobrex
 NonameUser
@@ -674,7 +675,7 @@ Obfuscation provided by FOPO
 Obisidian Cyber Team
 Old-Rebuild Lady
 Oli404
-Open-Realty
+Open\-Realty
 Opreker
 OrionsHunter
 Ov3rLorD
@@ -735,7 +736,7 @@ ROOTSHELL
 ROOTTN
 Raj bhai ji
 ReZulT
-Re-Modified by 
+Re\-Modified by 
 Reborn India
 Recoded By XGHoSTn
 Recovery Email Address:
@@ -767,8 +768,8 @@ SILVER FOX
 SKSking
 SMTP Grabber
 SNMP cracker
-SQL CMD 3.0 | al-swisre
-SQL_CMD 3.0 by al-swisre
+SQL CMD 3.0 | al\-swisre
+SQL_CMD 3.0 by al\-swisre
 SQli 1.0 Exploiter 
 SUNUCU HAKKINDA
 SYMLINKER BY GRAY BYTE
@@ -856,7 +857,7 @@ Th3 K!ng Scam
 Thanks Buat Yg Udh Support Buat Shell Ini
 Thanks To Brothers V!rus YassCom
 Thats Good lemme try
-The Cyber Heroez White-Hat Crew
+The Cyber Heroez White\-Hat Crew
 The Next JanCox Shell
 The Scam is 100% Clean Undetected Forever
 The file you want Downloadable was nonexistent
@@ -949,7 +950,7 @@ Wordpress Csrf Exploit
 Wr0nG P4sSw0rD
 Wscript.Shell
 Wso1 SHELL
-WwW.Gaza-Hacker.NeT
+WwW.Gaza\-Hacker.NeT
 WwW.SeCuReDeAtH.cOm
 X Attacker
 X-Wu7z 
@@ -958,10 +959,10 @@ X3VzZXJfYWJ
 XMRig
 XXX~HACKER TEAM
 XXX~HACKER TEAM WAS HERE
-X-Blackerz INC.
-X-GHOST MA
-X-Sn!p3r_P4l
-X-Wjdy
+X\-Blackerz INC.
+X\-GHOST MA
+X\-Sn!p3r_P4l
+X\-Wjdy
 X_0
 XaiSyndicate
 Xalvadela 
@@ -994,14 +995,14 @@ Zetas Oujdi
 ZoRRoKiN
 Zone-H
 Zz3ro CooL
-$kola
-$payload_file
-$udborfbq=\"data\"
-**(RooTTN)**
-***We can read root's home directory!
--W3lc0me
----:||Wellsfargo||:---
--risen-
+\$kola
+\$payload_file
+\$udborfbq=\"data\"
+\*\*(RooTTN)\*\*
+\*\*\*We can read root\'s home directory!
+\-W3lc0me
+\-\-\-:||Wellsfargo||:\-\-\-
+\-risen\-
 \[+\] Founded 
 _0xaae8
 _68758598
@@ -1076,7 +1077,7 @@ c0d3d By
 c0d3d by lionaneesh
 c43760b9
 c7ca8
-c84c8098.com
+c84c8098\[.\]com
 c99
 c99.me/base
 c999sh_surl
@@ -1094,7 +1095,7 @@ cek Disini goblok!
 centurylink.com
 cgitelnet
 cha88.cn
-changed every time so chrome & bots can't see the scam source code
+changed every time so chrome & bots can\'t see the scam source code
 chase.com
 chiacheng2012@gmail.com
 chinazfans@gmail.com
@@ -1160,10 +1161,10 @@ dr.t3rr0r
 dropmybin.me
 dzph@bk.ru
 e0aae
-e42d078d.com
+e42d078d\[.\]com
 e5057bd08dc553311081fd1107f05d7a
 e5b57288.com
-e5b57288.com|31.184.192.173
+e5b57288\[.\]com|31.184.192.173
 e693bc675b171a2f4ad0338d6a9b158c515295e1
 eIAgn9fjRC68DC7QIDhGN43qSDcw2
 eM.Pr404
@@ -1219,7 +1220,7 @@ grav3
 guardservices
 gujj4rPcP
 h4xc0rp
-hack-back
+hack\-back
 hackattackdude@gmail.com
 hacked By Chinafans
 hacked By Fallag Gassrini
@@ -1262,7 +1263,7 @@ if do you want rezultaa text in html file
 if you want to victem showed bank page
 imprisond
 indoxploit.or.id
-info@el-nacional.com
+info@el\-nacional.com
 info@xsender.com
 infoicb76@gmail.com
 infos@Aguda.ng
@@ -1407,7 +1408,7 @@ ptrace_pokedata
 pw/XcTyTp
 pw/bash/include/xtaccess
 pwned
-python connect-back door
+python connect\-back door
 qusckboendqg
 r00txxPcP
 r0nin
@@ -1445,8 +1446,8 @@ sandranix001@hotmail.com
 sant.marasliyanziylan@gmail.com
 sc.imp.live.com
 scotiabank.com
-sec-w.com
-semi-priv8
+sec\-w.com
+semi\-priv8
 send an report to 
 serjoi.colmadory@gmail.com
 sgtdennisnathan@gmail.com
@@ -1470,7 +1471,7 @@ spendit.laulau@yahoo.co
 spymeta
 starktomtht
 startonthisfuckingpoint
-stat-dns.com 
+stat-dns\[.\]com 
 stayinfranschhoek.co.za
 storesbrown147@gmail.com
 sub attacker
@@ -1478,7 +1479,7 @@ susanalbert1980@gmail.com
 suthallen@gmail.com
 svtpdagx
 symlinker
-sysctl -n kern
+sysctl \-n kern
 tHAnks tO Sir ShOcKs
 tHAnks tO Timeless
 tafiki
@@ -1506,14 +1507,14 @@ var miner=new WMP.User
 vecweb.net.ua
 victim@host.com
 vinsm0ke_id
-vito-RawckerheaD
-void.ru
+vito\-RawckerheaD
+void\.ru
 vulns could lead to total disaters
 vulnscan
 w00t
 w0lgix-tool
 w4ck1ng
-w7h7j7c57.homepage.t-online.de
+w7h7j7c57.homepage.t\-online.de
 w7sh.syria
 walemilton003@gmail.com
 webconsole.php
