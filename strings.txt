@@ -1246,6 +1246,7 @@ http://fb.com/CazanovaHaxorStore
 http://ghc.ru
 http://rst.void.ru
 http://www.sa-hacker.com/vb
+http://yourservice.live/include.js
 https://fb.com/Jokr.H4xor
 https://fb.com/fir3.hawk5
 https://firefart.at
