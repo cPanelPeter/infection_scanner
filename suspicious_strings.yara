@@ -4,7 +4,7 @@ rule SuspiciousString_1
 		description = "Suspicious String 1"
 
 	strings:
-		$a = "(c)oded by 1dt.w0lf"
+		$a = "$kola"
 
 	condition:
 		$a 
@@ -15,7 +15,7 @@ rule SuspiciousString_2
 		description = "Suspicious String 2"
 
 	strings:
-		$a = "++====[ PayPal ]====++"
+		$a = "$payload_file"
 
 	condition:
 		$a 
@@ -26,7 +26,7 @@ rule SuspiciousString_3
 		description = "Suspicious String 3"
 
 	strings:
-		$a = "+Codewizard+"
+		$a = "$udborfbq=\"data\""
 
 	condition:
 		$a 
@@ -37,7 +37,7 @@ rule SuspiciousString_4
 		description = "Suspicious String 4"
 
 	strings:
-		$a = "/tmp/passwd.bak"
+		$a = "(c)oded by 1dt.w0lf"
 
 	condition:
 		$a 
@@ -48,7 +48,7 @@ rule SuspiciousString_5
 		description = "Suspicious String 5"
 
 	strings:
-		$a = "04d92810.com"
+		$a = "**(RooTTN)**"
 
 	condition:
 		$a 
@@ -59,7 +59,7 @@ rule SuspiciousString_6
 		description = "Suspicious String 6"
 
 	strings:
-		$a = "07b0418e1119091a9281ac5614cb9d776a85f"
+		$a = "***We can read root's home directory!"
 
 	condition:
 		$a 
@@ -70,7 +70,7 @@ rule SuspiciousString_7
 		description = "Suspicious String 7"
 
 	strings:
-		$a = "088116101097"
+		$a = "++====[ PayPal ]====++"
 
 	condition:
 		$a 
@@ -81,7 +81,7 @@ rule SuspiciousString_8
 		description = "Suspicious String 8"
 
 	strings:
-		$a = "08zvd"
+		$a = "+Codewizard+"
 
 	condition:
 		$a 
@@ -92,7 +92,7 @@ rule SuspiciousString_9
 		description = "Suspicious String 9"
 
 	strings:
-		$a = "0D3S3CT0R URBANNED"
+		$a = "---:||Wellsfargo||:---"
 
 	condition:
 		$a 
@@ -103,7 +103,7 @@ rule SuspiciousString_10
 		description = "Suspicious String 10"
 
 	strings:
-		$a = "0tamega"
+		$a = "-W3lc0me"
 
 	condition:
 		$a 
@@ -114,7 +114,7 @@ rule SuspiciousString_11
 		description = "Suspicious String 11"
 
 	strings:
-		$a = "0xfans"
+		$a = "-risen-"
 
 	condition:
 		$a 
@@ -125,7 +125,7 @@ rule SuspiciousString_12
 		description = "Suspicious String 12"
 
 	strings:
-		$a = "104.20.209.21"
+		$a = "/tmp/passwd.bak"
 
 	condition:
 		$a 
@@ -136,7 +136,7 @@ rule SuspiciousString_13
 		description = "Suspicious String 13"
 
 	strings:
-		$a = "107.181.160.197"
+		$a = "04d92810.com"
 
 	condition:
 		$a 
@@ -147,7 +147,7 @@ rule SuspiciousString_14
 		description = "Suspicious String 14"
 
 	strings:
-		$a = "10f89b8c.com"
+		$a = "07b0418e1119091a9281ac5614cb9d776a85f"
 
 	condition:
 		$a 
@@ -158,7 +158,7 @@ rule SuspiciousString_15
 		description = "Suspicious String 15"
 
 	strings:
-		$a = "123.59.120.219"
+		$a = "088116101097"
 
 	condition:
 		$a 
@@ -169,7 +169,7 @@ rule SuspiciousString_16
 		description = "Suspicious String 16"
 
 	strings:
-		$a = "13.113.240.221"
+		$a = "08zvd"
 
 	condition:
 		$a 
@@ -180,7 +180,7 @@ rule SuspiciousString_17
 		description = "Suspicious String 17"
 
 	strings:
-		$a = "1337passkey"
+		$a = "0D3S3CT0R URBANNED"
 
 	condition:
 		$a 
@@ -191,7 +191,7 @@ rule SuspiciousString_18
 		description = "Suspicious String 18"
 
 	strings:
-		$a = "1337w0rm"
+		$a = "0tamega"
 
 	condition:
 		$a 
@@ -202,7 +202,7 @@ rule SuspiciousString_19
 		description = "Suspicious String 19"
 
 	strings:
-		$a = "1639-7537-4662-1478"
+		$a = "0xfans"
 
 	condition:
 		$a 
@@ -213,7 +213,7 @@ rule SuspiciousString_20
 		description = "Suspicious String 20"
 
 	strings:
-		$a = "17_PersonNotFound"
+		$a = "104.20.209.21"
 
 	condition:
 		$a 
@@ -224,7 +224,7 @@ rule SuspiciousString_21
 		description = "Suspicious String 21"
 
 	strings:
-		$a = "191.101.30.254"
+		$a = "107.181.160.197"
 
 	condition:
 		$a 
@@ -235,7 +235,7 @@ rule SuspiciousString_22
 		description = "Suspicious String 22"
 
 	strings:
-		$a = "1dGlvbl90aW1l"
+		$a = "10f89b8c.com"
 
 	condition:
 		$a 
@@ -246,7 +246,7 @@ rule SuspiciousString_23
 		description = "Suspicious String 23"
 
 	strings:
-		$a = "1gh.saveboston.today"
+		$a = "123.59.120.219"
 
 	condition:
 		$a 
@@ -257,7 +257,7 @@ rule SuspiciousString_24
 		description = "Suspicious String 24"
 
 	strings:
-		$a = "1ntr0ver7.id"
+		$a = "13.113.240.221"
 
 	condition:
 		$a 
@@ -268,7 +268,7 @@ rule SuspiciousString_25
 		description = "Suspicious String 25"
 
 	strings:
-		$a = "1ntr0ver7_Tersakiti"
+		$a = "1337passkey"
 
 	condition:
 		$a 
@@ -279,7 +279,7 @@ rule SuspiciousString_26
 		description = "Suspicious String 26"
 
 	strings:
-		$a = "2015priv8bypass"
+		$a = "1337w0rm"
 
 	condition:
 		$a 
@@ -290,7 +290,7 @@ rule SuspiciousString_27
 		description = "Suspicious String 27"
 
 	strings:
-		$a = "23.247.73.219"
+		$a = "1639-7537-4662-1478"
 
 	condition:
 		$a 
@@ -301,7 +301,7 @@ rule SuspiciousString_28
 		description = "Suspicious String 28"
 
 	strings:
-		$a = "2kb Shell"
+		$a = "17_PersonNotFound"
 
 	condition:
 		$a 
@@ -312,7 +312,7 @@ rule SuspiciousString_29
 		description = "Suspicious String 29"
 
 	strings:
-		$a = "31.184.192.250"
+		$a = "191.101.30.254"
 
 	condition:
 		$a 
@@ -323,7 +323,7 @@ rule SuspiciousString_30
 		description = "Suspicious String 30"
 
 	strings:
-		$a = "313.legend.rocks"
+		$a = "1dGlvbl90aW1l"
 
 	condition:
 		$a 
@@ -334,7 +334,7 @@ rule SuspiciousString_31
 		description = "Suspicious String 31"
 
 	strings:
-		$a = "32f988f6.com"
+		$a = "1gh.saveboston.today"
 
 	condition:
 		$a 
@@ -345,7 +345,7 @@ rule SuspiciousString_32
 		description = "Suspicious String 32"
 
 	strings:
-		$a = "33db9538.com"
+		$a = "1ntr0ver7.id"
 
 	condition:
 		$a 
@@ -356,7 +356,7 @@ rule SuspiciousString_33
 		description = "Suspicious String 33"
 
 	strings:
-		$a = "33db9538.com|31.184.192.173"
+		$a = "1ntr0ver7_Tersakiti"
 
 	condition:
 		$a 
@@ -367,7 +367,7 @@ rule SuspiciousString_34
 		description = "Suspicious String 34"
 
 	strings:
-		$a = "3FT Hna Pour unzipi"
+		$a = "2015priv8bypass"
 
 	condition:
 		$a 
@@ -378,7 +378,7 @@ rule SuspiciousString_35
 		description = "Suspicious String 35"
 
 	strings:
-		$a = "3Turr ~ CPanel Cracker"
+		$a = "23.247.73.219"
 
 	condition:
 		$a 
@@ -389,7 +389,7 @@ rule SuspiciousString_36
 		description = "Suspicious String 36"
 
 	strings:
-		$a = "3c856e8ca0030a3f8e7ca0cfaa5d74b6dd6db2f9"
+		$a = "2kb Shell"
 
 	condition:
 		$a 
@@ -400,7 +400,7 @@ rule SuspiciousString_37
 		description = "Suspicious String 37"
 
 	strings:
-		$a = "3xcr3w.php"
+		$a = "31.184.192.250"
 
 	condition:
 		$a 
@@ -411,7 +411,7 @@ rule SuspiciousString_38
 		description = "Suspicious String 38"
 
 	strings:
-		$a = "3xp1r3"
+		$a = "313.legend.rocks"
 
 	condition:
 		$a 
@@ -422,7 +422,7 @@ rule SuspiciousString_39
 		description = "Suspicious String 39"
 
 	strings:
-		$a = "3xp1r3 Cyber Army"
+		$a = "32f988f6.com"
 
 	condition:
 		$a 
@@ -433,7 +433,7 @@ rule SuspiciousString_40
 		description = "Suspicious String 40"
 
 	strings:
-		$a = "40000 Emails This May Hack The Server"
+		$a = "33db9538.com"
 
 	condition:
 		$a 
@@ -444,7 +444,7 @@ rule SuspiciousString_41
 		description = "Suspicious String 41"
 
 	strings:
-		$a = "404_NOT_FOUND "
+		$a = "33db9538.com|31.184.192.173"
 
 	condition:
 		$a 
@@ -455,7 +455,7 @@ rule SuspiciousString_42
 		description = "Suspicious String 42"
 
 	strings:
-		$a = "498296c9.com"
+		$a = "3FT Hna Pour unzipi"
 
 	condition:
 		$a 
@@ -466,7 +466,7 @@ rule SuspiciousString_43
 		description = "Suspicious String 43"
 
 	strings:
-		$a = "4Ri3 60ndr0n9"
+		$a = "3Turr ~ CPanel Cracker"
 
 	condition:
 		$a 
@@ -477,7 +477,7 @@ rule SuspiciousString_44
 		description = "Suspicious String 44"
 
 	strings:
-		$a = "54dfa1cb.com"
+		$a = "3c856e8ca0030a3f8e7ca0cfaa5d74b6dd6db2f9"
 
 	condition:
 		$a 
@@ -488,7 +488,7 @@ rule SuspiciousString_45
 		description = "Suspicious String 45"
 
 	strings:
-		$a = "54dfa1cb.com|31.184.192.163"
+		$a = "3xcr3w.php"
 
 	condition:
 		$a 
@@ -499,7 +499,7 @@ rule SuspiciousString_46
 		description = "Suspicious String 46"
 
 	strings:
-		$a = "5P!R!7 #UN73R"
+		$a = "3xp1r3"
 
 	condition:
 		$a 
@@ -510,7 +510,7 @@ rule SuspiciousString_47
 		description = "Suspicious String 47"
 
 	strings:
-		$a = "5iNON!MOU23"
+		$a = "3xp1r3 Cyber Army"
 
 	condition:
 		$a 
@@ -521,7 +521,7 @@ rule SuspiciousString_48
 		description = "Suspicious String 48"
 
 	strings:
-		$a = "7547ec6af9d987359dd34c888224afb1"
+		$a = "40000 Emails This May Hack The Server"
 
 	condition:
 		$a 
@@ -532,7 +532,7 @@ rule SuspiciousString_49
 		description = "Suspicious String 49"
 
 	strings:
-		$a = "7L14e+I40jD8uee65j9r2OySe"
+		$a = "404_NOT_FOUND "
 
 	condition:
 		$a 
@@ -543,7 +543,7 @@ rule SuspiciousString_50
 		description = "Suspicious String 50"
 
 	strings:
-		$a = "7VdrT+NGFP1eqf9hiCIcKwHFj7ClIQ"
+		$a = "498296c9.com"
 
 	condition:
 		$a 
@@ -554,7 +554,7 @@ rule SuspiciousString_51
 		description = "Suspicious String 51"
 
 	strings:
-		$a = "7ca95"
+		$a = "4Ri3 60ndr0n9"
 
 	condition:
 		$a 
@@ -565,7 +565,7 @@ rule SuspiciousString_52
 		description = "Suspicious String 52"
 
 	strings:
-		$a = "7iemH yb dekcah"
+		$a = "54dfa1cb.com"
 
 	condition:
 		$a 
@@ -576,7 +576,7 @@ rule SuspiciousString_53
 		description = "Suspicious String 53"
 
 	strings:
-		$a = "81140a9f1e58612c51ef8f30b62030aeedceac8f"
+		$a = "54dfa1cb.com|31.184.192.163"
 
 	condition:
 		$a 
@@ -587,7 +587,7 @@ rule SuspiciousString_54
 		description = "Suspicious String 54"
 
 	strings:
-		$a = "83.133.123.174"
+		$a = "5P!R!7 #UN73R"
 
 	condition:
 		$a 
@@ -598,7 +598,7 @@ rule SuspiciousString_55
 		description = "Suspicious String 55"
 
 	strings:
-		$a = "8a4bf282852bf4c49e17f0951f645e72"
+		$a = "5iNON!MOU23"
 
 	condition:
 		$a 
@@ -609,7 +609,7 @@ rule SuspiciousString_56
 		description = "Suspicious String 56"
 
 	strings:
-		$a = "8b238dd6.com"
+		$a = "7547ec6af9d987359dd34c888224afb1"
 
 	condition:
 		$a 
@@ -620,7 +620,7 @@ rule SuspiciousString_57
 		description = "Suspicious String 57"
 
 	strings:
-		$a = "8m0slmesh"
+		$a = "7L14e+I40jD8uee65j9r2OySe"
 
 	condition:
 		$a 
@@ -631,7 +631,7 @@ rule SuspiciousString_58
 		description = "Suspicious String 58"
 
 	strings:
-		$a = "90sec"
+		$a = "7VdrT+NGFP1eqf9hiCIcKwHFj7ClIQ"
 
 	condition:
 		$a 
@@ -642,7 +642,7 @@ rule SuspiciousString_59
 		description = "Suspicious String 59"
 
 	strings:
-		$a = "9507c4e8.com"
+		$a = "7ca95"
 
 	condition:
 		$a 
@@ -653,7 +653,7 @@ rule SuspiciousString_60
 		description = "Suspicious String 60"
 
 	strings:
-		$a = "9507c4e8.com|31.184.192.163"
+		$a = "7iemH yb dekcah"
 
 	condition:
 		$a 
@@ -664,7 +664,7 @@ rule SuspiciousString_61
 		description = "Suspicious String 61"
 
 	strings:
-		$a = "9974-5263-1008-5189"
+		$a = "81140a9f1e58612c51ef8f30b62030aeedceac8f"
 
 	condition:
 		$a 
@@ -675,7 +675,7 @@ rule SuspiciousString_62
 		description = "Suspicious String 62"
 
 	strings:
-		$a = "99754106633f94d350db34d548d6091a"
+		$a = "83.133.123.174"
 
 	condition:
 		$a 
@@ -686,7 +686,7 @@ rule SuspiciousString_63
 		description = "Suspicious String 63"
 
 	strings:
-		$a = "9aldo6r0y_p24m8e"
+		$a = "8a4bf282852bf4c49e17f0951f645e72"
 
 	condition:
 		$a 
@@ -697,7 +697,7 @@ rule SuspiciousString_64
 		description = "Suspicious String 64"
 
 	strings:
-		$a = "9dbb40d076c4df840899d7f16de0f206"
+		$a = "8b238dd6.com"
 
 	condition:
 		$a 
@@ -708,7 +708,7 @@ rule SuspiciousString_65
 		description = "Suspicious String 65"
 
 	strings:
-		$a = "@NubzSec"
+		$a = "8m0slmesh"
 
 	condition:
 		$a 
@@ -719,7 +719,7 @@ rule SuspiciousString_66
 		description = "Suspicious String 66"
 
 	strings:
-		$a = "@s3n4t00r"
+		$a = "90sec"
 
 	condition:
 		$a 
@@ -730,7 +730,7 @@ rule SuspiciousString_67
 		description = "Suspicious String 67"
 
 	strings:
-		$a = "ADP MOBILE RESPONSE!"
+		$a = "9507c4e8.com"
 
 	condition:
 		$a 
@@ -741,7 +741,7 @@ rule SuspiciousString_68
 		description = "Suspicious String 68"
 
 	strings:
-		$a = "AFK404"
+		$a = "9507c4e8.com|31.184.192.163"
 
 	condition:
 		$a 
@@ -752,7 +752,7 @@ rule SuspiciousString_69
 		description = "Suspicious String 69"
 
 	strings:
-		$a = "AL-VRI"
+		$a = "9974-5263-1008-5189"
 
 	condition:
 		$a 
@@ -763,7 +763,7 @@ rule SuspiciousString_70
 		description = "Suspicious String 70"
 
 	strings:
-		$a = "ALARENG?N"
+		$a = "99754106633f94d350db34d548d6091a"
 
 	condition:
 		$a 
@@ -774,7 +774,7 @@ rule SuspiciousString_71
 		description = "Suspicious String 71"
 
 	strings:
-		$a = "ALFA TEaM"
+		$a = "9aldo6r0y_p24m8e"
 
 	condition:
 		$a 
@@ -785,7 +785,7 @@ rule SuspiciousString_72
 		description = "Suspicious String 72"
 
 	strings:
-		$a = "ASPX Shell by LT"
+		$a = "9dbb40d076c4df840899d7f16de0f206"
 
 	condition:
 		$a 
@@ -796,7 +796,7 @@ rule SuspiciousString_73
 		description = "Suspicious String 73"
 
 	strings:
-		$a = "AXA Banque ReZulT"
+		$a = "@NubzSec"
 
 	condition:
 		$a 
@@ -807,7 +807,7 @@ rule SuspiciousString_74
 		description = "Suspicious String 74"
 
 	strings:
-		$a = "AZZATSSINS"
+		$a = "@s3n4t00r"
 
 	condition:
 		$a 
@@ -818,7 +818,7 @@ rule SuspiciousString_75
 		description = "Suspicious String 75"
 
 	strings:
-		$a = "Achon666ju5t"
+		$a = "ADP MOBILE RESPONSE!"
 
 	condition:
 		$a 
@@ -829,7 +829,7 @@ rule SuspiciousString_76
 		description = "Suspicious String 76"
 
 	strings:
-		$a = "AdjieDotId"
+		$a = "AFK404"
 
 	condition:
 		$a 
@@ -840,7 +840,7 @@ rule SuspiciousString_77
 		description = "Suspicious String 77"
 
 	strings:
-		$a = "Administrator@Guess_me"
+		$a = "AL-VRI"
 
 	condition:
 		$a 
@@ -851,7 +851,7 @@ rule SuspiciousString_78
 		description = "Suspicious String 78"
 
 	strings:
-		$a = "Afghan Cyber Army (ACA)"
+		$a = "ALARENG?N"
 
 	condition:
 		$a 
@@ -862,7 +862,7 @@ rule SuspiciousString_79
 		description = "Suspicious String 79"
 
 	strings:
-		$a = "Ahmdosa Hacker"
+		$a = "ALFA TEaM"
 
 	condition:
 		$a 
@@ -873,7 +873,7 @@ rule SuspiciousString_80
 		description = "Suspicious String 80"
 
 	strings:
-		$a = "Ahmed Alarbi"
+		$a = "ASPX Shell by LT"
 
 	condition:
 		$a 
@@ -884,7 +884,7 @@ rule SuspiciousString_81
 		description = "Suspicious String 81"
 
 	strings:
-		$a = "Al3x M@rken"
+		$a = "AXA Banque ReZulT"
 
 	condition:
 		$a 
@@ -895,7 +895,7 @@ rule SuspiciousString_82
 		description = "Suspicious String 82"
 
 	strings:
-		$a = "AlMajhool hacker"
+		$a = "AZZATSSINS"
 
 	condition:
 		$a 
@@ -906,7 +906,7 @@ rule SuspiciousString_83
 		description = "Suspicious String 83"
 
 	strings:
-		$a = "AlZzAelm"
+		$a = "Achon666ju5t"
 
 	condition:
 		$a 
@@ -917,7 +917,7 @@ rule SuspiciousString_84
 		description = "Suspicious String 84"
 
 	strings:
-		$a = "Alansary LY"
+		$a = "AdjieDotId"
 
 	condition:
 		$a 
@@ -928,7 +928,7 @@ rule SuspiciousString_85
 		description = "Suspicious String 85"
 
 	strings:
-		$a = "Alfa_Protect_Shell"
+		$a = "Administrator@Guess_me"
 
 	condition:
 		$a 
@@ -939,7 +939,7 @@ rule SuspiciousString_86
 		description = "Suspicious String 86"
 
 	strings:
-		$a = "Alicks"
+		$a = "Afghan Cyber Army (ACA)"
 
 	condition:
 		$a 
@@ -950,7 +950,7 @@ rule SuspiciousString_87
 		description = "Suspicious String 87"
 
 	strings:
-		$a = "All Bangladeshi Hackers"
+		$a = "Ahmdosa Hacker"
 
 	condition:
 		$a 
@@ -961,7 +961,7 @@ rule SuspiciousString_88
 		description = "Suspicious String 88"
 
 	strings:
-		$a = "All Muslims Hackers"
+		$a = "Ahmed Alarbi"
 
 	condition:
 		$a 
@@ -972,7 +972,7 @@ rule SuspiciousString_89
 		description = "Suspicious String 89"
 
 	strings:
-		$a = "All Pakistani Hackers Teams"
+		$a = "Al3x M@rken"
 
 	condition:
 		$a 
@@ -983,7 +983,7 @@ rule SuspiciousString_90
 		description = "Suspicious String 90"
 
 	strings:
-		$a = "Alliance Rezult"
+		$a = "AlMajhool hacker"
 
 	condition:
 		$a 
@@ -994,7 +994,7 @@ rule SuspiciousString_91
 		description = "Suspicious String 91"
 
 	strings:
-		$a = "Amin Safi"
+		$a = "AlZzAelm"
 
 	condition:
 		$a 
@@ -1005,7 +1005,7 @@ rule SuspiciousString_92
 		description = "Suspicious String 92"
 
 	strings:
-		$a = "An0n 3xPloiTeR"
+		$a = "Alansary LY"
 
 	condition:
 		$a 
@@ -1016,7 +1016,7 @@ rule SuspiciousString_93
 		description = "Suspicious String 93"
 
 	strings:
-		$a = "Anas laribi"
+		$a = "Alfa_Protect_Shell"
 
 	condition:
 		$a 
@@ -1027,7 +1027,7 @@ rule SuspiciousString_94
 		description = "Suspicious String 94"
 
 	strings:
-		$a = "Andela1C3 Priv8 Webshell"
+		$a = "Alicks"
 
 	condition:
 		$a 
@@ -1038,7 +1038,7 @@ rule SuspiciousString_95
 		description = "Suspicious String 95"
 
 	strings:
-		$a = "Aneesh Dogra"
+		$a = "All Bangladeshi Hackers"
 
 	condition:
 		$a 
@@ -1049,7 +1049,7 @@ rule SuspiciousString_96
 		description = "Suspicious String 96"
 
 	strings:
-		$a = "Angga   "
+		$a = "All Muslims Hackers"
 
 	condition:
 		$a 
@@ -1060,7 +1060,7 @@ rule SuspiciousString_97
 		description = "Suspicious String 97"
 
 	strings:
-		$a = "Ani-Shell"
+		$a = "All Pakistani Hackers Teams"
 
 	condition:
 		$a 
@@ -1071,7 +1071,7 @@ rule SuspiciousString_98
 		description = "Suspicious String 98"
 
 	strings:
-		$a = "AnonGhost"
+		$a = "Alliance Rezult"
 
 	condition:
 		$a 
@@ -1082,7 +1082,7 @@ rule SuspiciousString_99
 		description = "Suspicious String 99"
 
 	strings:
-		$a = "Anonymous Cyber Team"
+		$a = "Amin Safi"
 
 	condition:
 		$a 
@@ -1093,7 +1093,7 @@ rule SuspiciousString_100
 		description = "Suspicious String 100"
 
 	strings:
-		$a = "AnonyniX"
+		$a = "An0n 3xPloiTeR"
 
 	condition:
 		$a 
@@ -1104,7 +1104,7 @@ rule SuspiciousString_101
 		description = "Suspicious String 101"
 
 	strings:
-		$a = "Ashura"
+		$a = "Anas laribi"
 
 	condition:
 		$a 
@@ -1115,7 +1115,7 @@ rule SuspiciousString_102
 		description = "Suspicious String 102"
 
 	strings:
-		$a = "AsteriX"
+		$a = "Andela1C3 Priv8 Webshell"
 
 	condition:
 		$a 
@@ -1126,7 +1126,7 @@ rule SuspiciousString_103
 		description = "Suspicious String 103"
 
 	strings:
-		$a = "Aswaja007"
+		$a = "Aneesh Dogra"
 
 	condition:
 		$a 
@@ -1137,7 +1137,7 @@ rule SuspiciousString_104
 		description = "Suspicious String 104"
 
 	strings:
-		$a = "Atul Dwivedi"
+		$a = "Angga   "
 
 	condition:
 		$a 
@@ -1148,7 +1148,7 @@ rule SuspiciousString_105
 		description = "Suspicious String 105"
 
 	strings:
-		$a = "Aughost"
+		$a = "Ani-Shell"
 
 	condition:
 		$a 
@@ -1159,7 +1159,7 @@ rule SuspiciousString_106
 		description = "Suspicious String 106"
 
 	strings:
-		$a = "Author Sole Sad & Invisible"
+		$a = "AnonGhost"
 
 	condition:
 		$a 
@@ -1170,7 +1170,7 @@ rule SuspiciousString_107
 		description = "Suspicious String 107"
 
 	strings:
-		$a = "Auto Root Exploit"
+		$a = "Anonymous Cyber Team"
 
 	condition:
 		$a 
@@ -1181,7 +1181,7 @@ rule SuspiciousString_108
 		description = "Suspicious String 108"
 
 	strings:
-		$a = "Automatic cPanel Finder/Cracker"
+		$a = "AnonyniX"
 
 	condition:
 		$a 
@@ -1192,7 +1192,7 @@ rule SuspiciousString_109
 		description = "Suspicious String 109"
 
 	strings:
-		$a = "Awake | Offiice 365"
+		$a = "Ashura"
 
 	condition:
 		$a 
@@ -1203,7 +1203,7 @@ rule SuspiciousString_110
 		description = "Suspicious String 110"
 
 	strings:
-		$a = "Awake | hotrnail"
+		$a = "AsteriX"
 
 	condition:
 		$a 
@@ -1214,7 +1214,7 @@ rule SuspiciousString_111
 		description = "Suspicious String 111"
 
 	strings:
-		$a = "Awake | otlher"
+		$a = "Aswaja007"
 
 	condition:
 		$a 
@@ -1225,7 +1225,7 @@ rule SuspiciousString_112
 		description = "Suspicious String 112"
 
 	strings:
-		$a = "Awake| Company grnail"
+		$a = "Atul Dwivedi"
 
 	condition:
 		$a 
@@ -1236,7 +1236,7 @@ rule SuspiciousString_113
 		description = "Suspicious String 113"
 
 	strings:
-		$a = "Awake| a0l"
+		$a = "Aughost"
 
 	condition:
 		$a 
@@ -1247,7 +1247,7 @@ rule SuspiciousString_114
 		description = "Suspicious String 114"
 
 	strings:
-		$a = "Awake| yah00"
+		$a = "Author Sole Sad & Invisible"
 
 	condition:
 		$a 
@@ -1258,7 +1258,7 @@ rule SuspiciousString_115
 		description = "Suspicious String 115"
 
 	strings:
-		$a = "Aweu404"
+		$a = "Auto Root Exploit"
 
 	condition:
 		$a 
@@ -1269,7 +1269,7 @@ rule SuspiciousString_116
 		description = "Suspicious String 116"
 
 	strings:
-		$a = "Ayaan CH"
+		$a = "Automatic cPanel Finder/Cracker"
 
 	condition:
 		$a 
@@ -1280,7 +1280,7 @@ rule SuspiciousString_117
 		description = "Suspicious String 117"
 
 	strings:
-		$a = "Azzatssins"
+		$a = "Awake | Offiice 365"
 
 	condition:
 		$a 
@@ -1291,7 +1291,7 @@ rule SuspiciousString_118
 		description = "Suspicious String 118"
 
 	strings:
-		$a = "B.A.D TEAM"
+		$a = "Awake | hotrnail"
 
 	condition:
 		$a 
@@ -1302,7 +1302,7 @@ rule SuspiciousString_119
 		description = "Suspicious String 119"
 
 	strings:
-		$a = "B0c4H_Id30T"
+		$a = "Awake | otlher"
 
 	condition:
 		$a 
@@ -1313,7 +1313,7 @@ rule SuspiciousString_120
 		description = "Suspicious String 120"
 
 	strings:
-		$a = "B0tchZ"
+		$a = "Awake| Company grnail"
 
 	condition:
 		$a 
@@ -1324,7 +1324,7 @@ rule SuspiciousString_121
 		description = "Suspicious String 121"
 
 	strings:
-		$a = "BACKDOOR"
+		$a = "Awake| a0l"
 
 	condition:
 		$a 
@@ -1335,7 +1335,7 @@ rule SuspiciousString_122
 		description = "Suspicious String 122"
 
 	strings:
-		$a = "BACK-CONNECT"
+		$a = "Awake| yah00"
 
 	condition:
 		$a 
@@ -1346,7 +1346,7 @@ rule SuspiciousString_123
 		description = "Suspicious String 123"
 
 	strings:
-		$a = "BAHARI TROUBLE MAKER"
+		$a = "Aweu404"
 
 	condition:
 		$a 
@@ -1357,7 +1357,7 @@ rule SuspiciousString_124
 		description = "Suspicious String 124"
 
 	strings:
-		$a = "BANGLADESHI HACKER"
+		$a = "Ayaan CH"
 
 	condition:
 		$a 
@@ -1368,7 +1368,7 @@ rule SuspiciousString_125
 		description = "Suspicious String 125"
 
 	strings:
-		$a = "BD BLACK HAT HACKERS"
+		$a = "Azzatssins"
 
 	condition:
 		$a 
@@ -1379,7 +1379,7 @@ rule SuspiciousString_126
 		description = "Suspicious String 126"
 
 	strings:
-		$a = "BHP.php"
+		$a = "B.A.D TEAM"
 
 	condition:
 		$a 
@@ -1390,7 +1390,7 @@ rule SuspiciousString_127
 		description = "Suspicious String 127"
 
 	strings:
-		$a = "BLACKMANSNOOP"
+		$a = "B0c4H_Id30T"
 
 	condition:
 		$a 
@@ -1401,7 +1401,7 @@ rule SuspiciousString_128
 		description = "Suspicious String 128"
 
 	strings:
-		$a = "BLAZING HACKERS PAKISTAN"
+		$a = "B0tchZ"
 
 	condition:
 		$a 
@@ -1412,7 +1412,7 @@ rule SuspiciousString_129
 		description = "Suspicious String 129"
 
 	strings:
-		$a = "BLESSED-HOTMAIL LOGINS"
+		$a = "BACK-CONNECT"
 
 	condition:
 		$a 
@@ -1423,7 +1423,7 @@ rule SuspiciousString_130
 		description = "Suspicious String 130"
 
 	strings:
-		$a = "BY GENtLEMind"
+		$a = "BACKDOOR"
 
 	condition:
 		$a 
@@ -1434,7 +1434,7 @@ rule SuspiciousString_131
 		description = "Suspicious String 131"
 
 	strings:
-		$a = "BackBone"
+		$a = "BAHARI TROUBLE MAKER"
 
 	condition:
 		$a 
@@ -1445,7 +1445,7 @@ rule SuspiciousString_132
 		description = "Suspicious String 132"
 
 	strings:
-		$a = "BackConnect Php By Con7ext"
+		$a = "BANGLADESHI HACKER"
 
 	condition:
 		$a 
@@ -1456,7 +1456,7 @@ rule SuspiciousString_133
 		description = "Suspicious String 133"
 
 	strings:
-		$a = "Bahari Trouble Maker"
+		$a = "BD BLACK HAT HACKERS"
 
 	condition:
 		$a 
@@ -1467,7 +1467,7 @@ rule SuspiciousString_134
 		description = "Suspicious String 134"
 
 	strings:
-		$a = "Bd Xtor"
+		$a = "BHP.php"
 
 	condition:
 		$a 
@@ -1478,7 +1478,7 @@ rule SuspiciousString_135
 		description = "Suspicious String 135"
 
 	strings:
-		$a = "Beep-Beep"
+		$a = "BLACKMANSNOOP"
 
 	condition:
 		$a 
@@ -1489,7 +1489,7 @@ rule SuspiciousString_136
 		description = "Suspicious String 136"
 
 	strings:
-		$a = "Bejo_Abk"
+		$a = "BLAZING HACKERS PAKISTAN"
 
 	condition:
 		$a 
@@ -1500,7 +1500,7 @@ rule SuspiciousString_137
 		description = "Suspicious String 137"
 
 	strings:
-		$a = "Bella!"
+		$a = "BLESSED-HOTMAIL LOGINS"
 
 	condition:
 		$a 
@@ -1511,7 +1511,7 @@ rule SuspiciousString_138
 		description = "Suspicious String 138"
 
 	strings:
-		$a = "BerdendangC0de"
+		$a = "BY GENtLEMind"
 
 	condition:
 		$a 
@@ -1522,7 +1522,7 @@ rule SuspiciousString_139
 		description = "Suspicious String 139"
 
 	strings:
-		$a = "Bhuppi"
+		$a = "BackBone"
 
 	condition:
 		$a 
@@ -1533,7 +1533,7 @@ rule SuspiciousString_140
 		description = "Suspicious String 140"
 
 	strings:
-		$a = "BigStar"
+		$a = "BackConnect Php By Con7ext"
 
 	condition:
 		$a 
@@ -1544,7 +1544,7 @@ rule SuspiciousString_141
 		description = "Suspicious String 141"
 
 	strings:
-		$a = "Bksmile"
+		$a = "Bahari Trouble Maker"
 
 	condition:
 		$a 
@@ -1555,7 +1555,7 @@ rule SuspiciousString_142
 		description = "Suspicious String 142"
 
 	strings:
-		$a = "Bl@cK Ic3"
+		$a = "Bd Xtor"
 
 	condition:
 		$a 
@@ -1566,7 +1566,7 @@ rule SuspiciousString_143
 		description = "Suspicious String 143"
 
 	strings:
-		$a = "BlackBlood"
+		$a = "Beep-Beep"
 
 	condition:
 		$a 
@@ -1577,7 +1577,7 @@ rule SuspiciousString_144
 		description = "Suspicious String 144"
 
 	strings:
-		$a = "BlackSHOP"
+		$a = "Bejo_Abk"
 
 	condition:
 		$a 
@@ -1588,7 +1588,7 @@ rule SuspiciousString_145
 		description = "Suspicious String 145"
 
 	strings:
-		$a = "BlackSmith Hacker's Team"
+		$a = "Bella!"
 
 	condition:
 		$a 
@@ -1599,7 +1599,7 @@ rule SuspiciousString_146
 		description = "Suspicious String 146"
 
 	strings:
-		$a = "BlackWeb"
+		$a = "BerdendangC0de"
 
 	condition:
 		$a 
@@ -1610,7 +1610,7 @@ rule SuspiciousString_147
 		description = "Suspicious String 147"
 
 	strings:
-		$a = "Blackportt"
+		$a = "Bhuppi"
 
 	condition:
 		$a 
@@ -1621,7 +1621,7 @@ rule SuspiciousString_148
 		description = "Suspicious String 148"
 
 	strings:
-		$a = "Blazing Hackers Pakistan"
+		$a = "BigStar"
 
 	condition:
 		$a 
@@ -1632,7 +1632,7 @@ rule SuspiciousString_149
 		description = "Suspicious String 149"
 
 	strings:
-		$a = "Bloc_Anon/404 "
+		$a = "Bksmile"
 
 	condition:
 		$a 
@@ -1643,7 +1643,7 @@ rule SuspiciousString_150
 		description = "Suspicious String 150"
 
 	strings:
-		$a = "Blood Tears No Team Squad"
+		$a = "Bl@cK Ic3"
 
 	condition:
 		$a 
@@ -1654,7 +1654,7 @@ rule SuspiciousString_151
 		description = "Suspicious String 151"
 
 	strings:
-		$a = "BoffMax"
+		$a = "BlackBlood"
 
 	condition:
 		$a 
@@ -1665,7 +1665,7 @@ rule SuspiciousString_152
 		description = "Suspicious String 152"
 
 	strings:
-		$a = "Bogor BlackHat"
+		$a = "BlackSHOP"
 
 	condition:
 		$a 
@@ -1676,7 +1676,7 @@ rule SuspiciousString_153
 		description = "Suspicious String 153"
 
 	strings:
-		$a = "Bougaa DZ"
+		$a = "BlackSmith Hacker's Team"
 
 	condition:
 		$a 
@@ -1687,7 +1687,7 @@ rule SuspiciousString_154
 		description = "Suspicious String 154"
 
 	strings:
-		$a = "Brian Kamikaze"
+		$a = "BlackWeb"
 
 	condition:
 		$a 
@@ -1698,7 +1698,7 @@ rule SuspiciousString_155
 		description = "Suspicious String 155"
 
 	strings:
-		$a = "BrotherHood"
+		$a = "Blackportt"
 
 	condition:
 		$a 
@@ -1709,7 +1709,7 @@ rule SuspiciousString_156
 		description = "Suspicious String 156"
 
 	strings:
-		$a = "Budhaoo"
+		$a = "Blazing Hackers Pakistan"
 
 	condition:
 		$a 
@@ -1720,7 +1720,7 @@ rule SuspiciousString_157
 		description = "Suspicious String 157"
 
 	strings:
-		$a = "Bumi404"
+		$a = "Bloc_Anon/404 "
 
 	condition:
 		$a 
@@ -1731,7 +1731,7 @@ rule SuspiciousString_158
 		description = "Suspicious String 158"
 
 	strings:
-		$a = "By  NaZZ"
+		$a = "Blood Tears No Team Squad"
 
 	condition:
 		$a 
@@ -1742,7 +1742,7 @@ rule SuspiciousString_159
 		description = "Suspicious String 159"
 
 	strings:
-		$a = "By Alarg53"
+		$a = "BoffMax"
 
 	condition:
 		$a 
@@ -1753,7 +1753,7 @@ rule SuspiciousString_160
 		description = "Suspicious String 160"
 
 	strings:
-		$a = "By Hawleri_hacker"
+		$a = "Bogor BlackHat"
 
 	condition:
 		$a 
@@ -1764,7 +1764,7 @@ rule SuspiciousString_161
 		description = "Suspicious String 161"
 
 	strings:
-		$a = "By NeT.Defacer"
+		$a = "Bougaa DZ"
 
 	condition:
 		$a 
@@ -1775,7 +1775,7 @@ rule SuspiciousString_162
 		description = "Suspicious String 162"
 
 	strings:
-		$a = "By RxR"
+		$a = "Brian Kamikaze"
 
 	condition:
 		$a 
@@ -1786,7 +1786,7 @@ rule SuspiciousString_163
 		description = "Suspicious String 163"
 
 	strings:
-		$a = "By The 1962 Script Coded By Akram Stelle"
+		$a = "BrotherHood"
 
 	condition:
 		$a 
@@ -1797,7 +1797,7 @@ rule SuspiciousString_164
 		description = "Suspicious String 164"
 
 	strings:
-		$a = "By Toxica DZ"
+		$a = "Budhaoo"
 
 	condition:
 		$a 
@@ -1808,7 +1808,7 @@ rule SuspiciousString_165
 		description = "Suspicious String 165"
 
 	strings:
-		$a = "By: 3Turr"
+		$a = "Bumi404"
 
 	condition:
 		$a 
@@ -1819,7 +1819,7 @@ rule SuspiciousString_166
 		description = "Suspicious String 166"
 
 	strings:
-		$a = "ByAgeNT"
+		$a = "By  NaZZ"
 
 	condition:
 		$a 
@@ -1830,7 +1830,7 @@ rule SuspiciousString_167
 		description = "Suspicious String 167"
 
 	strings:
-		$a = "Byms_Cod"
+		$a = "By Alarg53"
 
 	condition:
 		$a 
@@ -1841,7 +1841,7 @@ rule SuspiciousString_168
 		description = "Suspicious String 168"
 
 	strings:
-		$a = "Bypass Shell"
+		$a = "By Hawleri_hacker"
 
 	condition:
 		$a 
@@ -1852,7 +1852,7 @@ rule SuspiciousString_169
 		description = "Suspicious String 169"
 
 	strings:
-		$a = "Bypass User With :"
+		$a = "By NeT.Defacer"
 
 	condition:
 		$a 
@@ -1863,7 +1863,7 @@ rule SuspiciousString_170
 		description = "Suspicious String 170"
 
 	strings:
-		$a = "Bypass etc/passw"
+		$a = "By RxR"
 
 	condition:
 		$a 
@@ -1874,7 +1874,7 @@ rule SuspiciousString_171
 		description = "Suspicious String 171"
 
 	strings:
-		$a = "C0D3D"
+		$a = "By The 1962 Script Coded By Akram Stelle"
 
 	condition:
 		$a 
@@ -1885,7 +1885,7 @@ rule SuspiciousString_172
 		description = "Suspicious String 172"
 
 	strings:
-		$a = "C0d3d by kid brizy"
+		$a = "By Toxica DZ"
 
 	condition:
 		$a 
@@ -1896,7 +1896,7 @@ rule SuspiciousString_173
 		description = "Suspicious String 173"
 
 	strings:
-		$a = "C0o5@yahoo.com"
+		$a = "By: 3Turr"
 
 	condition:
 		$a 
@@ -1907,7 +1907,7 @@ rule SuspiciousString_174
 		description = "Suspicious String 174"
 
 	strings:
-		$a = "C99 Modified By Psych0"
+		$a = "ByAgeNT"
 
 	condition:
 		$a 
@@ -1918,7 +1918,7 @@ rule SuspiciousString_175
 		description = "Suspicious String 175"
 
 	strings:
-		$a = "CCOCOT"
+		$a = "Byms_Cod"
 
 	condition:
 		$a 
@@ -1929,7 +1929,7 @@ rule SuspiciousString_176
 		description = "Suspicious String 176"
 
 	strings:
-		$a = "CGI-Telnet"
+		$a = "Bypass Shell"
 
 	condition:
 		$a 
@@ -1940,7 +1940,7 @@ rule SuspiciousString_177
 		description = "Suspicious String 177"
 
 	strings:
-		$a = "CGI-Telnet"
+		$a = "Bypass User With :"
 
 	condition:
 		$a 
@@ -1951,7 +1951,7 @@ rule SuspiciousString_178
 		description = "Suspicious String 178"
 
 	strings:
-		$a = "CIA@MYWORK"
+		$a = "Bypass etc/passw"
 
 	condition:
 		$a 
@@ -1962,7 +1962,7 @@ rule SuspiciousString_179
 		description = "Suspicious String 179"
 
 	strings:
-		$a = "CODED BY RAB3OUN"
+		$a = "C0D3D"
 
 	condition:
 		$a 
@@ -1973,7 +1973,7 @@ rule SuspiciousString_180
 		description = "Suspicious String 180"
 
 	strings:
-		$a = "COUNT DOMAIN USER Password .accesshash"
+		$a = "C0d3d by kid brizy"
 
 	condition:
 		$a 
@@ -1984,7 +1984,7 @@ rule SuspiciousString_181
 		description = "Suspicious String 181"
 
 	strings:
-		$a = "CP Bruter"
+		$a = "C0o5@yahoo.com"
 
 	condition:
 		$a 
@@ -1995,7 +1995,7 @@ rule SuspiciousString_182
 		description = "Suspicious String 182"
 
 	strings:
-		$a = "CPanel Brut3r"
+		$a = "C99 Modified By Psych0"
 
 	condition:
 		$a 
@@ -2006,7 +2006,7 @@ rule SuspiciousString_183
 		description = "Suspicious String 183"
 
 	strings:
-		$a = "CPanel Bruteforce"
+		$a = "CCOCOT"
 
 	condition:
 		$a 
@@ -2017,7 +2017,7 @@ rule SuspiciousString_184
 		description = "Suspicious String 184"
 
 	strings:
-		$a = "CPanel Crack"
+		$a = "CGI-Telnet"
 
 	condition:
 		$a 
@@ -2028,7 +2028,7 @@ rule SuspiciousString_185
 		description = "Suspicious String 185"
 
 	strings:
-		$a = "CPanel/FTP Auto Deface"
+		$a = "CGI-Telnet"
 
 	condition:
 		$a 
@@ -2039,7 +2039,7 @@ rule SuspiciousString_186
 		description = "Suspicious String 186"
 
 	strings:
-		$a = "CaZaNoVa163"
+		$a = "CIA@MYWORK"
 
 	condition:
 		$a 
@@ -2050,7 +2050,7 @@ rule SuspiciousString_187
 		description = "Suspicious String 187"
 
 	strings:
-		$a = "Captain Crunch"
+		$a = "CODED BY RAB3OUN"
 
 	condition:
 		$a 
@@ -2061,7 +2061,7 @@ rule SuspiciousString_188
 		description = "Suspicious String 188"
 
 	strings:
-		$a = "Cardiman Asooooh"
+		$a = "COUNT DOMAIN USER Password .accesshash"
 
 	condition:
 		$a 
@@ -2072,7 +2072,7 @@ rule SuspiciousString_189
 		description = "Suspicious String 189"
 
 	strings:
-		$a = "Cardiman Asoooooooooh"
+		$a = "CP Bruter"
 
 	condition:
 		$a 
@@ -2083,7 +2083,7 @@ rule SuspiciousString_190
 		description = "Suspicious String 190"
 
 	strings:
-		$a = "Casper_Cell"
+		$a = "CPanel Brut3r"
 
 	condition:
 		$a 
@@ -2094,7 +2094,7 @@ rule SuspiciousString_191
 		description = "Suspicious String 191"
 
 	strings:
-		$a = "Ccocot "
+		$a = "CPanel Bruteforce"
 
 	condition:
 		$a 
@@ -2105,7 +2105,7 @@ rule SuspiciousString_192
 		description = "Suspicious String 192"
 
 	strings:
-		$a = "Cgi WebShell ByPasser"
+		$a = "CPanel Crack"
 
 	condition:
 		$a 
@@ -2116,7 +2116,7 @@ rule SuspiciousString_193
 		description = "Suspicious String 193"
 
 	strings:
-		$a = "Ch3rn0by1"
+		$a = "CPanel/FTP Auto Deface"
 
 	condition:
 		$a 
@@ -2127,7 +2127,7 @@ rule SuspiciousString_194
 		description = "Suspicious String 194"
 
 	strings:
-		$a = "Chakus"
+		$a = "CaZaNoVa163"
 
 	condition:
 		$a 
@@ -2138,7 +2138,7 @@ rule SuspiciousString_195
 		description = "Suspicious String 195"
 
 	strings:
-		$a = "Champion.hack"
+		$a = "Captain Crunch"
 
 	condition:
 		$a 
@@ -2149,7 +2149,7 @@ rule SuspiciousString_196
 		description = "Suspicious String 196"
 
 	strings:
-		$a = "Changes every cPanel password on the server and stores the credentials"
+		$a = "Cardiman Asooooh"
 
 	condition:
 		$a 
@@ -2160,7 +2160,7 @@ rule SuspiciousString_197
 		description = "Suspicious String 197"
 
 	strings:
-		$a = "Chase USA "
+		$a = "Cardiman Asoooooooooh"
 
 	condition:
 		$a 
@@ -2171,7 +2171,7 @@ rule SuspiciousString_198
 		description = "Suspicious String 198"
 
 	strings:
-		$a = "Check  Mailling"
+		$a = "Casper_Cell"
 
 	condition:
 		$a 
@@ -2182,7 +2182,7 @@ rule SuspiciousString_199
 		description = "Suspicious String 199"
 
 	strings:
-		$a = "Check Mail Pass Login Access"
+		$a = "Ccocot "
 
 	condition:
 		$a 
@@ -2193,7 +2193,7 @@ rule SuspiciousString_200
 		description = "Suspicious String 200"
 
 	strings:
-		$a = "ChickenLittle Shell"
+		$a = "Cgi WebShell ByPasser"
 
 	condition:
 		$a 
@@ -2204,7 +2204,7 @@ rule SuspiciousString_201
 		description = "Suspicious String 201"
 
 	strings:
-		$a = "Chizzy"
+		$a = "Ch3rn0by1"
 
 	condition:
 		$a 
@@ -2215,7 +2215,7 @@ rule SuspiciousString_202
 		description = "Suspicious String 202"
 
 	strings:
-		$a = "Christian \"FireFart\" Mehlmauer"
+		$a = "Chakus"
 
 	condition:
 		$a 
@@ -2226,7 +2226,7 @@ rule SuspiciousString_203
 		description = "Suspicious String 203"
 
 	strings:
-		$a = "Cod3d by 3xp1r3"
+		$a = "Champion.hack"
 
 	condition:
 		$a 
@@ -2237,7 +2237,7 @@ rule SuspiciousString_204
 		description = "Suspicious String 204"
 
 	strings:
-		$a = "Cod3d by Haxor-Waha"
+		$a = "Changes every cPanel password on the server and stores the credentials"
 
 	condition:
 		$a 
@@ -2248,7 +2248,7 @@ rule SuspiciousString_205
 		description = "Suspicious String 205"
 
 	strings:
-		$a = "Cod3d by Mr.Alsa3ek and Al-Swisre"
+		$a = "Chase USA "
 
 	condition:
 		$a 
@@ -2259,7 +2259,7 @@ rule SuspiciousString_206
 		description = "Suspicious String 206"
 
 	strings:
-		$a = "Code By Astra"
+		$a = "Check  Mailling"
 
 	condition:
 		$a 
@@ -2270,7 +2270,7 @@ rule SuspiciousString_207
 		description = "Suspicious String 207"
 
 	strings:
-		$a = "Code by Mr.HaurgeulisX196"
+		$a = "Check Mail Pass Login Access"
 
 	condition:
 		$a 
@@ -2281,7 +2281,7 @@ rule SuspiciousString_208
 		description = "Suspicious String 208"
 
 	strings:
-		$a = "Code for India,Hack for India,Die for India"
+		$a = "ChickenLittle Shell"
 
 	condition:
 		$a 
@@ -2292,7 +2292,7 @@ rule SuspiciousString_209
 		description = "Suspicious String 209"
 
 	strings:
-		$a = "Coded By GENERAL-IQ"
+		$a = "Chizzy"
 
 	condition:
 		$a 
@@ -2303,7 +2303,7 @@ rule SuspiciousString_210
 		description = "Suspicious String 210"
 
 	strings:
-		$a = "Coded By P4LTEAM"
+		$a = "Christian \"FireFart\" Mehlmauer"
 
 	condition:
 		$a 
@@ -2314,7 +2314,7 @@ rule SuspiciousString_211
 		description = "Suspicious String 211"
 
 	strings:
-		$a = "Coded By - SaMir InjectOr"
+		$a = "Cod3d by 3xp1r3"
 
 	condition:
 		$a 
@@ -2325,7 +2325,7 @@ rule SuspiciousString_212
 		description = "Suspicious String 212"
 
 	strings:
-		$a = "Coded by Anonisma"
+		$a = "Cod3d by Haxor-Waha"
 
 	condition:
 		$a 
@@ -2336,7 +2336,7 @@ rule SuspiciousString_213
 		description = "Suspicious String 213"
 
 	strings:
-		$a = "Coded by Miyachung"
+		$a = "Cod3d by Mr.Alsa3ek and Al-Swisre"
 
 	condition:
 		$a 
@@ -2347,7 +2347,7 @@ rule SuspiciousString_214
 		description = "Suspicious String 214"
 
 	strings:
-		$a = "Coded by van1lle @ Hackforums.net"
+		$a = "Code By Astra"
 
 	condition:
 		$a 
@@ -2358,7 +2358,7 @@ rule SuspiciousString_215
 		description = "Suspicious String 215"
 
 	strings:
-		$a = "Codz by angel(4ngel)"
+		$a = "Code by Mr.HaurgeulisX196"
 
 	condition:
 		$a 
@@ -2369,7 +2369,7 @@ rule SuspiciousString_216
 		description = "Suspicious String 216"
 
 	strings:
-		$a = "CoinHive.User"
+		$a = "Code for India,Hack for India,Die for India"
 
 	condition:
 		$a 
@@ -2380,7 +2380,7 @@ rule SuspiciousString_217
 		description = "Suspicious String 217"
 
 	strings:
-		$a = "Con7ext "
+		$a = "Coded By - SaMir InjectOr"
 
 	condition:
 		$a 
@@ -2391,7 +2391,7 @@ rule SuspiciousString_218
 		description = "Suspicious String 218"
 
 	strings:
-		$a = "Config Fucker"
+		$a = "Coded By GENERAL-IQ"
 
 	condition:
 		$a 
@@ -2402,7 +2402,7 @@ rule SuspiciousString_219
 		description = "Suspicious String 219"
 
 	strings:
-		$a = "Config Password Grabber"
+		$a = "Coded By P4LTEAM"
 
 	condition:
 		$a 
@@ -2413,7 +2413,7 @@ rule SuspiciousString_220
 		description = "Suspicious String 220"
 
 	strings:
-		$a = "Config SHELL"
+		$a = "Coded by Anonisma"
 
 	condition:
 		$a 
@@ -2424,7 +2424,7 @@ rule SuspiciousString_221
 		description = "Suspicious String 221"
 
 	strings:
-		$a = "Config Symlink Script V-3.0"
+		$a = "Coded by Miyachung"
 
 	condition:
 		$a 
@@ -2435,7 +2435,7 @@ rule SuspiciousString_222
 		description = "Suspicious String 222"
 
 	strings:
-		$a = "Configs Grabber"
+		$a = "Coded by van1lle @ Hackforums.net"
 
 	condition:
 		$a 
@@ -2446,7 +2446,7 @@ rule SuspiciousString_223
 		description = "Suspicious String 223"
 
 	strings:
-		$a = "Configv2 SHELL"
+		$a = "Codz by angel(4ngel)"
 
 	condition:
 		$a 
@@ -2457,7 +2457,7 @@ rule SuspiciousString_224
 		description = "Suspicious String 224"
 
 	strings:
-		$a = "Connecting email server on progress"
+		$a = "CoinHive.User"
 
 	condition:
 		$a 
@@ -2468,7 +2468,7 @@ rule SuspiciousString_225
 		description = "Suspicious String 225"
 
 	strings:
-		$a = "Coupdegrace"
+		$a = "Con7ext "
 
 	condition:
 		$a 
@@ -2479,7 +2479,7 @@ rule SuspiciousString_226
 		description = "Suspicious String 226"
 
 	strings:
-		$a = "CowoKerensTeam"
+		$a = "Config Fucker"
 
 	condition:
 		$a 
@@ -2490,7 +2490,7 @@ rule SuspiciousString_227
 		description = "Suspicious String 227"
 
 	strings:
-		$a = "Cowok Kerens Team"
+		$a = "Config Password Grabber"
 
 	condition:
 		$a 
@@ -2501,7 +2501,7 @@ rule SuspiciousString_228
 		description = "Suspicious String 228"
 
 	strings:
-		$a = "Cowok Tersakiti Team"
+		$a = "Config SHELL"
 
 	condition:
 		$a 
@@ -2512,7 +2512,7 @@ rule SuspiciousString_229
 		description = "Suspicious String 229"
 
 	strings:
-		$a = "Crash & Burn"
+		$a = "Config Symlink Script V-3.0"
 
 	condition:
 		$a 
@@ -2523,7 +2523,7 @@ rule SuspiciousString_230
 		description = "Suspicious String 230"
 
 	strings:
-		$a = "Create User FOLDER SCAM"
+		$a = "Configs Grabber"
 
 	condition:
 		$a 
@@ -2534,7 +2534,7 @@ rule SuspiciousString_231
 		description = "Suspicious String 231"
 
 	strings:
-		$a = "Created BY RF in 2018 (skype:RF)"
+		$a = "Configv2 SHELL"
 
 	condition:
 		$a 
@@ -2545,7 +2545,7 @@ rule SuspiciousString_232
 		description = "Suspicious String 232"
 
 	strings:
-		$a = "Created BY TIKTAK 20"
+		$a = "Connecting email server on progress"
 
 	condition:
 		$a 
@@ -2556,7 +2556,7 @@ rule SuspiciousString_233
 		description = "Suspicious String 233"
 
 	strings:
-		$a = "Created By Hacker L3L3"
+		$a = "Coupdegrace"
 
 	condition:
 		$a 
@@ -2567,7 +2567,7 @@ rule SuspiciousString_234
 		description = "Suspicious String 234"
 
 	strings:
-		$a = "Created By vi3nas ym"
+		$a = "CowoKerensTeam"
 
 	condition:
 		$a 
@@ -2578,7 +2578,7 @@ rule SuspiciousString_235
 		description = "Suspicious String 235"
 
 	strings:
-		$a = "Cy3er C0mmand0s"
+		$a = "Cowok Kerens Team"
 
 	condition:
 		$a 
@@ -2589,7 +2589,7 @@ rule SuspiciousString_236
 		description = "Suspicious String 236"
 
 	strings:
-		$a = "Cyb er Hunter"
+		$a = "Cowok Tersakiti Team"
 
 	condition:
 		$a 
@@ -2600,7 +2600,7 @@ rule SuspiciousString_237
 		description = "Suspicious String 237"
 
 	strings:
-		$a = "Cyb3r.Bl@d3r"
+		$a = "Crash & Burn"
 
 	condition:
 		$a 
@@ -2611,7 +2611,7 @@ rule SuspiciousString_238
 		description = "Suspicious String 238"
 
 	strings:
-		$a = "Cyb3r-DZ Config"
+		$a = "Create User FOLDER SCAM"
 
 	condition:
 		$a 
@@ -2622,7 +2622,7 @@ rule SuspiciousString_239
 		description = "Suspicious String 239"
 
 	strings:
-		$a = "Cyber 71"
+		$a = "Created BY RF in 2018 (skype:RF)"
 
 	condition:
 		$a 
@@ -2633,7 +2633,7 @@ rule SuspiciousString_240
 		description = "Suspicious String 240"
 
 	strings:
-		$a = "Cyber Ace"
+		$a = "Created BY TIKTAK 20"
 
 	condition:
 		$a 
@@ -2644,7 +2644,7 @@ rule SuspiciousString_241
 		description = "Suspicious String 241"
 
 	strings:
-		$a = "Cyber Merah Putih"
+		$a = "Created By Hacker L3L3"
 
 	condition:
 		$a 
@@ -2655,7 +2655,7 @@ rule SuspiciousString_242
 		description = "Suspicious String 242"
 
 	strings:
-		$a = "Cyber Security Down"
+		$a = "Created By vi3nas ym"
 
 	condition:
 		$a 
@@ -2666,7 +2666,7 @@ rule SuspiciousString_243
 		description = "Suspicious String 243"
 
 	strings:
-		$a = "Cyber Tron Darkness"
+		$a = "Cy3er C0mmand0s"
 
 	condition:
 		$a 
@@ -2677,7 +2677,7 @@ rule SuspiciousString_244
 		description = "Suspicious String 244"
 
 	strings:
-		$a = "CyberTeamRox"
+		$a = "Cyb er Hunter"
 
 	condition:
 		$a 
@@ -2688,7 +2688,7 @@ rule SuspiciousString_245
 		description = "Suspicious String 245"
 
 	strings:
-		$a = "Cybertech"
+		$a = "Cyb3r-DZ Config"
 
 	condition:
 		$a 
@@ -2699,7 +2699,7 @@ rule SuspiciousString_246
 		description = "Suspicious String 246"
 
 	strings:
-		$a = "D33F_404 "
+		$a = "Cyb3r.Bl@d3r"
 
 	condition:
 		$a 
@@ -2710,7 +2710,7 @@ rule SuspiciousString_247
 		description = "Suspicious String 247"
 
 	strings:
-		$a = "D4rkSect0r"
+		$a = "Cyber 71"
 
 	condition:
 		$a 
@@ -2721,7 +2721,7 @@ rule SuspiciousString_248
 		description = "Suspicious String 248"
 
 	strings:
-		$a = "D@rk sH@d0w"
+		$a = "Cyber Ace"
 
 	condition:
 		$a 
@@ -2732,7 +2732,7 @@ rule SuspiciousString_249
 		description = "Suspicious String 249"
 
 	strings:
-		$a = "DABBING404"
+		$a = "Cyber Merah Putih"
 
 	condition:
 		$a 
@@ -2743,7 +2743,7 @@ rule SuspiciousString_250
 		description = "Suspicious String 250"
 
 	strings:
-		$a = "DDoS Perl IrcBot v1.0"
+		$a = "Cyber Security Down"
 
 	condition:
 		$a 
@@ -2754,7 +2754,7 @@ rule SuspiciousString_251
 		description = "Suspicious String 251"
 
 	strings:
-		$a = "DEFACE IP GRABBER"
+		$a = "Cyber Tron Darkness"
 
 	condition:
 		$a 
@@ -2765,7 +2765,7 @@ rule SuspiciousString_252
 		description = "Suspicious String 252"
 
 	strings:
-		$a = "DHL WIRE LOG"
+		$a = "CyberTeamRox"
 
 	condition:
 		$a 
@@ -2776,7 +2776,7 @@ rule SuspiciousString_253
 		description = "Suspicious String 253"
 
 	strings:
-		$a = "DK Shell"
+		$a = "Cybertech"
 
 	condition:
 		$a 
@@ -2787,7 +2787,7 @@ rule SuspiciousString_254
 		description = "Suspicious String 254"
 
 	strings:
-		$a = "DM Mini Shell"
+		$a = "D33F_404 "
 
 	condition:
 		$a 
@@ -2798,7 +2798,7 @@ rule SuspiciousString_255
 		description = "Suspicious String 255"
 
 	strings:
-		$a = "DR.RooT"
+		$a = "D4rkSect0r"
 
 	condition:
 		$a 
@@ -2809,7 +2809,7 @@ rule SuspiciousString_256
 		description = "Suspicious String 256"
 
 	strings:
-		$a = "DaiMon"
+		$a = "D@rk sH@d0w"
 
 	condition:
 		$a 
@@ -2820,7 +2820,7 @@ rule SuspiciousString_257
 		description = "Suspicious String 257"
 
 	strings:
-		$a = "DamaneDz"
+		$a = "DABBING404"
 
 	condition:
 		$a 
@@ -2831,7 +2831,7 @@ rule SuspiciousString_258
 		description = "Suspicious String 258"
 
 	strings:
-		$a = "Dark Pinus Squad"
+		$a = "DDoS Perl IrcBot v1.0"
 
 	condition:
 		$a 
@@ -2842,7 +2842,7 @@ rule SuspiciousString_259
 		description = "Suspicious String 259"
 
 	strings:
-		$a = "Dark Shell"
+		$a = "DEFACE IP GRABBER"
 
 	condition:
 		$a 
@@ -2853,7 +2853,7 @@ rule SuspiciousString_260
 		description = "Suspicious String 260"
 
 	strings:
-		$a = "Dark.anGel"
+		$a = "DHL WIRE LOG"
 
 	condition:
 		$a 
@@ -2864,7 +2864,7 @@ rule SuspiciousString_261
 		description = "Suspicious String 261"
 
 	strings:
-		$a = "DarkWireless "
+		$a = "DK Shell"
 
 	condition:
 		$a 
@@ -2875,7 +2875,7 @@ rule SuspiciousString_262
 		description = "Suspicious String 262"
 
 	strings:
-		$a = "Darkwolf indishell"
+		$a = "DM Mini Shell"
 
 	condition:
 		$a 
@@ -2886,7 +2886,7 @@ rule SuspiciousString_263
 		description = "Suspicious String 263"
 
 	strings:
-		$a = "DeMiGoD"
+		$a = "DR.RooT"
 
 	condition:
 		$a 
@@ -2897,7 +2897,7 @@ rule SuspiciousString_264
 		description = "Suspicious String 264"
 
 	strings:
-		$a = "Dead Inside"
+		$a = "DaiMon"
 
 	condition:
 		$a 
@@ -2908,7 +2908,7 @@ rule SuspiciousString_265
 		description = "Suspicious String 265"
 
 	strings:
-		$a = "Dear Kids This is Payback! for Defacing The Islamia University of Bahawalpur"
+		$a = "DamaneDz"
 
 	condition:
 		$a 
@@ -2919,7 +2919,7 @@ rule SuspiciousString_266
 		description = "Suspicious String 266"
 
 	strings:
-		$a = "Death Adders Crew"
+		$a = "Dark Pinus Squad"
 
 	condition:
 		$a 
@@ -2930,7 +2930,7 @@ rule SuspiciousString_267
 		description = "Suspicious String 267"
 
 	strings:
-		$a = "Deface Gagal"
+		$a = "Dark Shell"
 
 	condition:
 		$a 
@@ -2941,7 +2941,7 @@ rule SuspiciousString_268
 		description = "Suspicious String 268"
 
 	strings:
-		$a = "Defacer.ID"
+		$a = "Dark.anGel"
 
 	condition:
 		$a 
@@ -2952,7 +2952,7 @@ rule SuspiciousString_269
 		description = "Suspicious String 269"
 
 	strings:
-		$a = "Developed By ANASH"
+		$a = "DarkWireless "
 
 	condition:
 		$a 
@@ -2963,7 +2963,7 @@ rule SuspiciousString_270
 		description = "Suspicious String 270"
 
 	strings:
-		$a = "Developed By Mohajer22"
+		$a = "Darkwolf indishell"
 
 	condition:
 		$a 
@@ -2974,7 +2974,7 @@ rule SuspiciousString_271
 		description = "Suspicious String 271"
 
 	strings:
-		$a = "Developed By sNiper_hEx"
+		$a = "DeMiGoD"
 
 	condition:
 		$a 
@@ -2985,7 +2985,7 @@ rule SuspiciousString_272
 		description = "Suspicious String 272"
 
 	strings:
-		$a = "Developer by SnIpEr_SA"
+		$a = "Dead Inside"
 
 	condition:
 		$a 
@@ -2996,7 +2996,7 @@ rule SuspiciousString_273
 		description = "Suspicious String 273"
 
 	strings:
-		$a = "Dhanush"
+		$a = "Dear Kids This is Payback! for Defacing The Islamia University of Bahawalpur"
 
 	condition:
 		$a 
@@ -3007,7 +3007,7 @@ rule SuspiciousString_274
 		description = "Suspicious String 274"
 
 	strings:
-		$a = "Dicky Injector "
+		$a = "Death Adders Crew"
 
 	condition:
 		$a 
@@ -3018,7 +3018,7 @@ rule SuspiciousString_275
 		description = "Suspicious String 275"
 
 	strings:
-		$a = "DiffMuRis "
+		$a = "Deface Gagal"
 
 	condition:
 		$a 
@@ -3029,7 +3029,7 @@ rule SuspiciousString_276
 		description = "Suspicious String 276"
 
 	strings:
-		$a = "Dinaraditya154@gmail.com"
+		$a = "Defacer.ID"
 
 	condition:
 		$a 
@@ -3040,7 +3040,7 @@ rule SuspiciousString_277
 		description = "Suspicious String 277"
 
 	strings:
-		$a = "Dinelson Amine"
+		$a = "Developed By ANASH"
 
 	condition:
 		$a 
@@ -3051,7 +3051,7 @@ rule SuspiciousString_278
 		description = "Suspicious String 278"
 
 	strings:
-		$a = "Dinoxchrome"
+		$a = "Developed By Mohajer22"
 
 	condition:
 		$a 
@@ -3062,7 +3062,7 @@ rule SuspiciousString_279
 		description = "Suspicious String 279"
 
 	strings:
-		$a = "Dipu Dada"
+		$a = "Developed By sNiper_hEx"
 
 	condition:
 		$a 
@@ -3073,7 +3073,7 @@ rule SuspiciousString_280
 		description = "Suspicious String 280"
 
 	strings:
-		$a = "Dir ngk Writeable"
+		$a = "Developer by SnIpEr_SA"
 
 	condition:
 		$a 
@@ -3084,7 +3084,7 @@ rule SuspiciousString_281
 		description = "Suspicious String 281"
 
 	strings:
-		$a = "DoitSelf"
+		$a = "Dhanush"
 
 	condition:
 		$a 
@@ -3095,7 +3095,7 @@ rule SuspiciousString_282
 		description = "Suspicious String 282"
 
 	strings:
-		$a = "Dr.S4mom    "
+		$a = "Dicky Injector "
 
 	condition:
 		$a 
@@ -3106,7 +3106,7 @@ rule SuspiciousString_283
 		description = "Suspicious String 283"
 
 	strings:
-		$a = "Dr.iExplit"
+		$a = "DiffMuRis "
 
 	condition:
 		$a 
@@ -3117,7 +3117,7 @@ rule SuspiciousString_284
 		description = "Suspicious String 284"
 
 	strings:
-		$a = "Dr.rba7"
+		$a = "Dinaraditya154@gmail.com"
 
 	condition:
 		$a 
@@ -3128,7 +3128,7 @@ rule SuspiciousString_285
 		description = "Suspicious String 285"
 
 	strings:
-		$a = "Dz Mafia Team"
+		$a = "Dinelson Amine"
 
 	condition:
 		$a 
@@ -3139,7 +3139,7 @@ rule SuspiciousString_286
 		description = "Suspicious String 286"
 
 	strings:
-		$a = "E108dfcb.com"
+		$a = "Dinoxchrome"
 
 	condition:
 		$a 
@@ -3150,7 +3150,7 @@ rule SuspiciousString_287
 		description = "Suspicious String 287"
 
 	strings:
-		$a = "E7B_404"
+		$a = "Dipu Dada"
 
 	condition:
 		$a 
@@ -3161,7 +3161,7 @@ rule SuspiciousString_288
 		description = "Suspicious String 288"
 
 	strings:
-		$a = "E@GL3 STR!K3R"
+		$a = "Dir ngk Writeable"
 
 	condition:
 		$a 
@@ -3172,7 +3172,7 @@ rule SuspiciousString_289
 		description = "Suspicious String 289"
 
 	strings:
-		$a = "E@gle Invectus Backdoor Handler"
+		$a = "DoitSelf"
 
 	condition:
 		$a 
@@ -3183,7 +3183,7 @@ rule SuspiciousString_290
 		description = "Suspicious String 290"
 
 	strings:
-		$a = "EBSCO ReZulTsz"
+		$a = "Dr.S4mom    "
 
 	condition:
 		$a 
@@ -3194,7 +3194,7 @@ rule SuspiciousString_291
 		description = "Suspicious String 291"
 
 	strings:
-		$a = "EFRAIM AYYILDIZ"
+		$a = "Dr.iExplit"
 
 	condition:
 		$a 
@@ -3205,7 +3205,7 @@ rule SuspiciousString_292
 		description = "Suspicious String 292"
 
 	strings:
-		$a = "EITest"
+		$a = "Dr.rba7"
 
 	condition:
 		$a 
@@ -3216,7 +3216,7 @@ rule SuspiciousString_293
 		description = "Suspicious String 293"
 
 	strings:
-		$a = "EXI2T-team"
+		$a = "Dz Mafia Team"
 
 	condition:
 		$a 
@@ -3227,7 +3227,7 @@ rule SuspiciousString_294
 		description = "Suspicious String 294"
 
 	strings:
-		$a = "EXIT_KERNEL_TO_NULL"
+		$a = "E108dfcb.com"
 
 	condition:
 		$a 
@@ -3238,7 +3238,7 @@ rule SuspiciousString_295
 		description = "Suspicious String 295"
 
 	strings:
-		$a = "EXPECT US!"
+		$a = "E7B_404"
 
 	condition:
 		$a 
@@ -3249,7 +3249,7 @@ rule SuspiciousString_296
 		description = "Suspicious String 296"
 
 	strings:
-		$a = "Eddie Kidiw"
+		$a = "E@GL3 STR!K3R"
 
 	condition:
 		$a 
@@ -3260,7 +3260,7 @@ rule SuspiciousString_297
 		description = "Suspicious String 297"
 
 	strings:
-		$a = "EdiT3R: Dr.KAsBeR"
+		$a = "E@gle Invectus Backdoor Handler"
 
 	condition:
 		$a 
@@ -3271,7 +3271,7 @@ rule SuspiciousString_298
 		description = "Suspicious String 298"
 
 	strings:
-		$a = "Edited By GuN-Jack"
+		$a = "EBSCO ReZulTsz"
 
 	condition:
 		$a 
@@ -3282,7 +3282,7 @@ rule SuspiciousString_299
 		description = "Suspicious String 299"
 
 	strings:
-		$a = "El Moujahidin (the source has been moved and devloped)"
+		$a = "EFRAIM AYYILDIZ"
 
 	condition:
 		$a 
@@ -3293,7 +3293,7 @@ rule SuspiciousString_300
 		description = "Suspicious String 300"
 
 	strings:
-		$a = "ElKiller.2013"
+		$a = "EITest"
 
 	condition:
 		$a 
@@ -3304,7 +3304,7 @@ rule SuspiciousString_301
 		description = "Suspicious String 301"
 
 	strings:
-		$a = "Encryption provided by iWEBTOOL.com"
+		$a = "EXI2T-team"
 
 	condition:
 		$a 
@@ -3315,7 +3315,7 @@ rule SuspiciousString_302
 		description = "Suspicious String 302"
 
 	strings:
-		$a = "ErrOr SquaD"
+		$a = "EXIT_KERNEL_TO_NULL"
 
 	condition:
 		$a 
@@ -3326,7 +3326,7 @@ rule SuspiciousString_303
 		description = "Suspicious String 303"
 
 	strings:
-		$a = "Eval+(GZINFLATE||GZUNCOMPRESS||B64||ROT13)"
+		$a = "EXPECT US!"
 
 	condition:
 		$a 
@@ -3337,7 +3337,7 @@ rule SuspiciousString_304
 		description = "Suspicious String 304"
 
 	strings:
-		$a = "Evils"
+		$a = "Eddie Kidiw"
 
 	condition:
 		$a 
@@ -3348,7 +3348,7 @@ rule SuspiciousString_305
 		description = "Suspicious String 305"
 
 	strings:
-		$a = "Ewa-Turk"
+		$a = "EdiT3R: Dr.KAsBeR"
 
 	condition:
 		$a 
@@ -3359,7 +3359,7 @@ rule SuspiciousString_306
 		description = "Suspicious String 306"
 
 	strings:
-		$a = "Extreme Crew !"
+		$a = "Edited By GuN-Jack"
 
 	condition:
 		$a 
@@ -3370,7 +3370,7 @@ rule SuspiciousString_307
 		description = "Suspicious String 307"
 
 	strings:
-		$a = "F13xy"
+		$a = "El Moujahidin (the source has been moved and devloped)"
 
 	condition:
 		$a 
@@ -3381,7 +3381,7 @@ rule SuspiciousString_308
 		description = "Suspicious String 308"
 
 	strings:
-		$a = "F1X404"
+		$a = "ElKiller.2013"
 
 	condition:
 		$a 
@@ -3392,7 +3392,7 @@ rule SuspiciousString_309
 		description = "Suspicious String 309"
 
 	strings:
-		$a = "FB.com/J1jeI"
+		$a = "Encryption provided by iWEBTOOL.com"
 
 	condition:
 		$a 
@@ -3403,7 +3403,7 @@ rule SuspiciousString_310
 		description = "Suspicious String 310"
 
 	strings:
-		$a = "FL3Z0X"
+		$a = "ErrOr SquaD"
 
 	condition:
 		$a 
@@ -3414,7 +3414,7 @@ rule SuspiciousString_311
 		description = "Suspicious String 311"
 
 	strings:
-		$a = "FORBIDD3N"
+		$a = "Eval+(GZINFLATE||GZUNCOMPRESS||B64||ROT13)"
 
 	condition:
 		$a 
@@ -3425,7 +3425,7 @@ rule SuspiciousString_312
 		description = "Suspicious String 312"
 
 	strings:
-		$a = "FREE TOOLS 2015-2016"
+		$a = "Evils"
 
 	condition:
 		$a 
@@ -3436,7 +3436,7 @@ rule SuspiciousString_313
 		description = "Suspicious String 313"
 
 	strings:
-		$a = "FRK48   "
+		$a = "Ewa-Turk"
 
 	condition:
 		$a 
@@ -3447,7 +3447,7 @@ rule SuspiciousString_314
 		description = "Suspicious String 314"
 
 	strings:
-		$a = "FRU_403"
+		$a = "Extreme Crew !"
 
 	condition:
 		$a 
@@ -3458,7 +3458,7 @@ rule SuspiciousString_315
 		description = "Suspicious String 315"
 
 	strings:
-		$a = "FULLZ LoGiN"
+		$a = "F13xy"
 
 	condition:
 		$a 
@@ -3469,7 +3469,7 @@ rule SuspiciousString_316
 		description = "Suspicious String 316"
 
 	strings:
-		$a = "FaisaL Ahmed aka rEd X"
+		$a = "F1X404"
 
 	condition:
 		$a 
@@ -3480,7 +3480,7 @@ rule SuspiciousString_317
 		description = "Suspicious String 317"
 
 	strings:
-		$a = "Faisal Symlink Bypass"
+		$a = "FB.com/J1jeI"
 
 	condition:
 		$a 
@@ -3491,7 +3491,7 @@ rule SuspiciousString_318
 		description = "Suspicious String 318"
 
 	strings:
-		$a = "Fake Root"
+		$a = "FL3Z0X"
 
 	condition:
 		$a 
@@ -3502,7 +3502,7 @@ rule SuspiciousString_319
 		description = "Suspicious String 319"
 
 	strings:
-		$a = "Falc0n Eye"
+		$a = "FORBIDD3N"
 
 	condition:
 		$a 
@@ -3513,7 +3513,7 @@ rule SuspiciousString_320
 		description = "Suspicious String 320"
 
 	strings:
-		$a = "Family Attack Cyber"
+		$a = "FREE TOOLS 2015-2016"
 
 	condition:
 		$a 
@@ -3524,7 +3524,7 @@ rule SuspiciousString_321
 		description = "Suspicious String 321"
 
 	strings:
-		$a = "Fazlast"
+		$a = "FRK48   "
 
 	condition:
 		$a 
@@ -3535,7 +3535,7 @@ rule SuspiciousString_322
 		description = "Suspicious String 322"
 
 	strings:
-		$a = "FeeLCoMz"
+		$a = "FRU_403"
 
 	condition:
 		$a 
@@ -3546,7 +3546,7 @@ rule SuspiciousString_323
 		description = "Suspicious String 323"
 
 	strings:
-		$a = "Ffe ^_^"
+		$a = "FULLZ LoGiN"
 
 	condition:
 		$a 
@@ -3557,7 +3557,7 @@ rule SuspiciousString_324
 		description = "Suspicious String 324"
 
 	strings:
-		$a = "FilesMan"
+		$a = "FaisaL Ahmed aka rEd X"
 
 	condition:
 		$a 
@@ -3568,7 +3568,7 @@ rule SuspiciousString_325
 		description = "Suspicious String 325"
 
 	strings:
-		$a = "FilesTools"
+		$a = "Faisal Symlink Bypass"
 
 	condition:
 		$a 
@@ -3579,7 +3579,7 @@ rule SuspiciousString_326
 		description = "Suspicious String 326"
 
 	strings:
-		$a = "Finder Script by c0ax"
+		$a = "Fake Root"
 
 	condition:
 		$a 
@@ -3590,7 +3590,7 @@ rule SuspiciousString_327
 		description = "Suspicious String 327"
 
 	strings:
-		$a = "Fir3 H@wk"
+		$a = "Falc0n Eye"
 
 	condition:
 		$a 
@@ -3601,7 +3601,7 @@ rule SuspiciousString_328
 		description = "Suspicious String 328"
 
 	strings:
-		$a = "Fl0ki"
+		$a = "Family Attack Cyber"
 
 	condition:
 		$a 
@@ -3612,7 +3612,7 @@ rule SuspiciousString_329
 		description = "Suspicious String 329"
 
 	strings:
-		$a = "Frbdn403"
+		$a = "Fazlast"
 
 	condition:
 		$a 
@@ -3623,7 +3623,7 @@ rule SuspiciousString_330
 		description = "Suspicious String 330"
 
 	strings:
-		$a = "Free Palestine"
+		$a = "FeeLCoMz"
 
 	condition:
 		$a 
@@ -3634,7 +3634,7 @@ rule SuspiciousString_331
 		description = "Suspicious String 331"
 
 	strings:
-		$a = "Freedom For Tunisia"
+		$a = "Ffe ^_^"
 
 	condition:
 		$a 
@@ -3645,7 +3645,7 @@ rule SuspiciousString_332
 		description = "Suspicious String 332"
 
 	strings:
-		$a = "French Hacker"
+		$a = "FilesMan"
 
 	condition:
 		$a 
@@ -3656,7 +3656,7 @@ rule SuspiciousString_333
 		description = "Suspicious String 333"
 
 	strings:
-		$a = "Furubi"
+		$a = "FilesTools"
 
 	condition:
 		$a 
@@ -3667,7 +3667,7 @@ rule SuspiciousString_334
 		description = "Suspicious String 334"
 
 	strings:
-		$a = "Fx29Sh"
+		$a = "Finder Script by c0ax"
 
 	condition:
 		$a 
@@ -3678,7 +3678,7 @@ rule SuspiciousString_335
 		description = "Suspicious String 335"
 
 	strings:
-		$a = "GIF8?a.*<?php"
+		$a = "Fir3 H@wk"
 
 	condition:
 		$a 
@@ -3689,7 +3689,7 @@ rule SuspiciousString_336
 		description = "Suspicious String 336"
 
 	strings:
-		$a = "GREETZ TO ALL KCS MEMBERS"
+		$a = "Fl0ki"
 
 	condition:
 		$a 
@@ -3700,7 +3700,7 @@ rule SuspiciousString_337
 		description = "Suspicious String 337"
 
 	strings:
-		$a = "G-Google ACCU"
+		$a = "Frbdn403"
 
 	condition:
 		$a 
@@ -3711,7 +3711,7 @@ rule SuspiciousString_338
 		description = "Suspicious String 338"
 
 	strings:
-		$a = "GaLers xh3LL Backd00r"
+		$a = "Free Palestine"
 
 	condition:
 		$a 
@@ -3722,7 +3722,7 @@ rule SuspiciousString_339
 		description = "Suspicious String 339"
 
 	strings:
-		$a = "Gagal"
+		$a = "Freedom For Tunisia"
 
 	condition:
 		$a 
@@ -3733,7 +3733,7 @@ rule SuspiciousString_340
 		description = "Suspicious String 340"
 
 	strings:
-		$a = "GalehDotId"
+		$a = "French Hacker"
 
 	condition:
 		$a 
@@ -3744,7 +3744,7 @@ rule SuspiciousString_341
 		description = "Suspicious String 341"
 
 	strings:
-		$a = "Gantengers"
+		$a = "Furubi"
 
 	condition:
 		$a 
@@ -3755,7 +3755,7 @@ rule SuspiciousString_342
 		description = "Suspicious String 342"
 
 	strings:
-		$a = "Garuda Security Hacker"
+		$a = "Fx29Sh"
 
 	condition:
 		$a 
@@ -3766,7 +3766,7 @@ rule SuspiciousString_343
 		description = "Suspicious String 343"
 
 	strings:
-		$a = "Gend3ruw0   "
+		$a = "G-Google ACCU"
 
 	condition:
 		$a 
@@ -3777,7 +3777,7 @@ rule SuspiciousString_344
 		description = "Suspicious String 344"
 
 	strings:
-		$a = "Girl_Carding"
+		$a = "GIF8?a.*<?php"
 
 	condition:
 		$a 
@@ -3788,7 +3788,7 @@ rule SuspiciousString_345
 		description = "Suspicious String 345"
 
 	strings:
-		$a = "Gmail recovery details"
+		$a = "GREETZ TO ALL KCS MEMBERS"
 
 	condition:
 		$a 
@@ -3799,7 +3799,7 @@ rule SuspiciousString_346
 		description = "Suspicious String 346"
 
 	strings:
-		$a = "Godzila"
+		$a = "GaLers xh3LL Backd00r"
 
 	condition:
 		$a 
@@ -3810,7 +3810,7 @@ rule SuspiciousString_347
 		description = "Suspicious String 347"
 
 	strings:
-		$a = "Gok-Boru    "
+		$a = "Gagal"
 
 	condition:
 		$a 
@@ -3821,7 +3821,7 @@ rule SuspiciousString_348
 		description = "Suspicious String 348"
 
 	strings:
-		$a = "Golden boy INDIA"
+		$a = "GalehDotId"
 
 	condition:
 		$a 
@@ -3832,7 +3832,7 @@ rule SuspiciousString_349
 		description = "Suspicious String 349"
 
 	strings:
-		$a = "Gr0ss-mailer"
+		$a = "Gantengers"
 
 	condition:
 		$a 
@@ -3843,7 +3843,7 @@ rule SuspiciousString_350
 		description = "Suspicious String 350"
 
 	strings:
-		$a = "GreenL1ne"
+		$a = "Garuda Security Hacker"
 
 	condition:
 		$a 
@@ -3854,7 +3854,7 @@ rule SuspiciousString_351
 		description = "Suspicious String 351"
 
 	strings:
-		$a = "GreenLine Hacker"
+		$a = "Gend3ruw0   "
 
 	condition:
 		$a 
@@ -3865,7 +3865,7 @@ rule SuspiciousString_352
 		description = "Suspicious String 352"
 
 	strings:
-		$a = "Greetz"
+		$a = "Girl_Carding"
 
 	condition:
 		$a 
@@ -3876,7 +3876,7 @@ rule SuspiciousString_353
 		description = "Suspicious String 353"
 
 	strings:
-		$a = "Greetz : Indonesian People"
+		$a = "Gmail recovery details"
 
 	condition:
 		$a 
@@ -3887,7 +3887,7 @@ rule SuspiciousString_354
 		description = "Suspicious String 354"
 
 	strings:
-		$a = "GrenXPaRTa "
+		$a = "Godzila"
 
 	condition:
 		$a 
@@ -3898,7 +3898,7 @@ rule SuspiciousString_355
 		description = "Suspicious String 355"
 
 	strings:
-		$a = "Group x3"
+		$a = "Gok-Boru    "
 
 	condition:
 		$a 
@@ -3909,7 +3909,7 @@ rule SuspiciousString_356
 		description = "Suspicious String 356"
 
 	strings:
-		$a = "Guru ji zero"
+		$a = "Golden boy INDIA"
 
 	condition:
 		$a 
@@ -3920,7 +3920,7 @@ rule SuspiciousString_357
 		description = "Suspicious String 357"
 
 	strings:
-		$a = "H1R4ICH1"
+		$a = "Gr0ss-mailer"
 
 	condition:
 		$a 
@@ -3931,7 +3931,7 @@ rule SuspiciousString_358
 		description = "Suspicious String 358"
 
 	strings:
-		$a = "H311 c0d3"
+		$a = "GreenL1ne"
 
 	condition:
 		$a 
@@ -3942,7 +3942,7 @@ rule SuspiciousString_359
 		description = "Suspicious String 359"
 
 	strings:
-		$a = "H3r03ZiM0uZ"
+		$a = "GreenLine Hacker"
 
 	condition:
 		$a 
@@ -3953,7 +3953,7 @@ rule SuspiciousString_360
 		description = "Suspicious String 360"
 
 	strings:
-		$a = "H3r3 !s 411 D0m4!ns &amp; Us3rs"
+		$a = "Greetz"
 
 	condition:
 		$a 
@@ -3964,7 +3964,7 @@ rule SuspiciousString_361
 		description = "Suspicious String 361"
 
 	strings:
-		$a = "H3ri.ID "
+		$a = "Greetz : Indonesian People"
 
 	condition:
 		$a 
@@ -3975,7 +3975,7 @@ rule SuspiciousString_362
 		description = "Suspicious String 362"
 
 	strings:
-		$a = "H4CK3R"
+		$a = "GrenXPaRTa "
 
 	condition:
 		$a 
@@ -3986,7 +3986,7 @@ rule SuspiciousString_363
 		description = "Suspicious String 363"
 
 	strings:
-		$a = "H@SEB"
+		$a = "Group x3"
 
 	condition:
 		$a 
@@ -3997,7 +3997,7 @@ rule SuspiciousString_364
 		description = "Suspicious String 364"
 
 	strings:
-		$a = "HACKED"
+		$a = "Guru ji zero"
 
 	condition:
 		$a 
@@ -4008,7 +4008,7 @@ rule SuspiciousString_365
 		description = "Suspicious String 365"
 
 	strings:
-		$a = "HACKED BY ANONYNIX"
+		$a = "H1R4ICH1"
 
 	condition:
 		$a 
@@ -4019,7 +4019,7 @@ rule SuspiciousString_366
 		description = "Suspicious String 366"
 
 	strings:
-		$a = "HACKED BY MR.WEXENT"
+		$a = "H311 c0d3"
 
 	condition:
 		$a 
@@ -4030,7 +4030,7 @@ rule SuspiciousString_367
 		description = "Suspicious String 367"
 
 	strings:
-		$a = "HACKED BY SYSTEM G33K"
+		$a = "H3r03ZiM0uZ"
 
 	condition:
 		$a 
@@ -4041,7 +4041,7 @@ rule SuspiciousString_368
 		description = "Suspicious String 368"
 
 	strings:
-		$a = "HACKER Yar"
+		$a = "H3r3 !s 411 D0m4!ns &amp; Us3rs"
 
 	condition:
 		$a 
@@ -4052,7 +4052,7 @@ rule SuspiciousString_369
 		description = "Suspicious String 369"
 
 	strings:
-		$a = "HAXOR N1LOY"
+		$a = "H3ri.ID "
 
 	condition:
 		$a 
@@ -4063,7 +4063,7 @@ rule SuspiciousString_370
 		description = "Suspicious String 370"
 
 	strings:
-		$a = "HA$KEL"
+		$a = "H4CK3R"
 
 	condition:
 		$a 
@@ -4074,7 +4074,7 @@ rule SuspiciousString_371
 		description = "Suspicious String 371"
 
 	strings:
-		$a = "HEXolzWOLF"
+		$a = "H@SEB"
 
 	condition:
 		$a 
@@ -4085,7 +4085,7 @@ rule SuspiciousString_372
 		description = "Suspicious String 372"
 
 	strings:
-		$a = "HOSSAM"
+		$a = "HA$KEL"
 
 	condition:
 		$a 
@@ -4096,7 +4096,7 @@ rule SuspiciousString_373
 		description = "Suspicious String 373"
 
 	strings:
-		$a = "H_P_J"
+		$a = "HACKED"
 
 	condition:
 		$a 
@@ -4107,7 +4107,7 @@ rule SuspiciousString_374
 		description = "Suspicious String 374"
 
 	strings:
-		$a = "HaCkEd By Mo3Gza HaCkEr"
+		$a = "HACKED BY ANONYNIX"
 
 	condition:
 		$a 
@@ -4118,7 +4118,7 @@ rule SuspiciousString_375
 		description = "Suspicious String 375"
 
 	strings:
-		$a = "HaCkEd By RxR HaCkEr"
+		$a = "HACKED BY MR.WEXENT"
 
 	condition:
 		$a 
@@ -4129,7 +4129,7 @@ rule SuspiciousString_376
 		description = "Suspicious String 376"
 
 	strings:
-		$a = "HacKeD By {{LaMiN3 DK}}, Algerian Defacer"
+		$a = "HACKED BY SYSTEM G33K"
 
 	condition:
 		$a 
@@ -4140,7 +4140,7 @@ rule SuspiciousString_377
 		description = "Suspicious String 377"
 
 	strings:
-		$a = "HackTeam"
+		$a = "HACKER Yar"
 
 	condition:
 		$a 
@@ -4151,7 +4151,7 @@ rule SuspiciousString_378
 		description = "Suspicious String 378"
 
 	strings:
-		$a = "HackeD By Hussam"
+		$a = "HAXOR N1LOY"
 
 	condition:
 		$a 
@@ -4162,7 +4162,7 @@ rule SuspiciousString_379
 		description = "Suspicious String 379"
 
 	strings:
-		$a = "HackeD By Skidie KhaN"
+		$a = "HEXolzWOLF"
 
 	condition:
 		$a 
@@ -4173,7 +4173,7 @@ rule SuspiciousString_380
 		description = "Suspicious String 380"
 
 	strings:
-		$a = "Hackeado"
+		$a = "HOSSAM"
 
 	condition:
 		$a 
@@ -4184,7 +4184,7 @@ rule SuspiciousString_381
 		description = "Suspicious String 381"
 
 	strings:
-		$a = "Hacked By BALA SNIPER"
+		$a = "H_P_J"
 
 	condition:
 		$a 
@@ -4195,7 +4195,7 @@ rule SuspiciousString_382
 		description = "Suspicious String 382"
 
 	strings:
-		$a = "Hacked By BDJ-007"
+		$a = "HaCkEd By Mo3Gza HaCkEr"
 
 	condition:
 		$a 
@@ -4206,7 +4206,7 @@ rule SuspiciousString_383
 		description = "Suspicious String 383"
 
 	strings:
-		$a = "Hacked By BadC0de"
+		$a = "HaCkEd By RxR HaCkEr"
 
 	condition:
 		$a 
@@ -4217,7 +4217,7 @@ rule SuspiciousString_384
 		description = "Suspicious String 384"
 
 	strings:
-		$a = "Hacked By Black Sniper"
+		$a = "HacKeD By {{LaMiN3 DK}}, Algerian Defacer"
 
 	condition:
 		$a 
@@ -4228,7 +4228,7 @@ rule SuspiciousString_385
 		description = "Suspicious String 385"
 
 	strings:
-		$a = "Hacked By GeNErAL"
+		$a = "HackTeam"
 
 	condition:
 		$a 
@@ -4239,7 +4239,7 @@ rule SuspiciousString_386
 		description = "Suspicious String 386"
 
 	strings:
-		$a = "Hacked By HentaiC0de"
+		$a = "HackeD By Hussam"
 
 	condition:
 		$a 
@@ -4250,7 +4250,7 @@ rule SuspiciousString_387
 		description = "Suspicious String 387"
 
 	strings:
-		$a = "Hacked By HolaKo"
+		$a = "HackeD By Skidie KhaN"
 
 	condition:
 		$a 
@@ -4261,7 +4261,7 @@ rule SuspiciousString_388
 		description = "Suspicious String 388"
 
 	strings:
-		$a = "Hacked By IDBTE4M"
+		$a = "Hackeado"
 
 	condition:
 		$a 
@@ -4272,7 +4272,7 @@ rule SuspiciousString_389
 		description = "Suspicious String 389"
 
 	strings:
-		$a = "Hacked By Imam"
+		$a = "Hacked By BALA SNIPER"
 
 	condition:
 		$a 
@@ -4283,7 +4283,7 @@ rule SuspiciousString_390
 		description = "Suspicious String 390"
 
 	strings:
-		$a = "Hacked By MuhmadEmad"
+		$a = "Hacked By BDJ-007"
 
 	condition:
 		$a 
@@ -4294,7 +4294,7 @@ rule SuspiciousString_391
 		description = "Suspicious String 391"
 
 	strings:
-		$a = "Hacked By Peyman Siyahi"
+		$a = "Hacked By BadC0de"
 
 	condition:
 		$a 
@@ -4305,7 +4305,7 @@ rule SuspiciousString_392
 		description = "Suspicious String 392"
 
 	strings:
-		$a = "Hacked By SA3D HaCk3D"
+		$a = "Hacked By Black Sniper"
 
 	condition:
 		$a 
@@ -4316,7 +4316,7 @@ rule SuspiciousString_393
 		description = "Suspicious String 393"
 
 	strings:
-		$a = "Hacked By Sneaky"
+		$a = "Hacked By GeNErAL"
 
 	condition:
 		$a 
@@ -4327,7 +4327,7 @@ rule SuspiciousString_394
 		description = "Suspicious String 394"
 
 	strings:
-		$a = "Hacked By TheWayEnd"
+		$a = "Hacked By HentaiC0de"
 
 	condition:
 		$a 
@@ -4338,7 +4338,7 @@ rule SuspiciousString_395
 		description = "Suspicious String 395"
 
 	strings:
-		$a = "Hacked By Ulow"
+		$a = "Hacked By HolaKo"
 
 	condition:
 		$a 
@@ -4349,7 +4349,7 @@ rule SuspiciousString_396
 		description = "Suspicious String 396"
 
 	strings:
-		$a = "Hacked By XwoLfTn"
+		$a = "Hacked By IDBTE4M"
 
 	condition:
 		$a 
@@ -4360,7 +4360,7 @@ rule SuspiciousString_397
 		description = "Suspicious String 397"
 
 	strings:
-		$a = "Hacked By chinafans"
+		$a = "Hacked By Imam"
 
 	condition:
 		$a 
@@ -4371,7 +4371,7 @@ rule SuspiciousString_398
 		description = "Suspicious String 398"
 
 	strings:
-		$a = "Hacked By.D34DCYB3R"
+		$a = "Hacked By MuhmadEmad"
 
 	condition:
 		$a 
@@ -4382,7 +4382,7 @@ rule SuspiciousString_399
 		description = "Suspicious String 399"
 
 	strings:
-		$a = "Hacked By: 4Ri3 60ndr0n9"
+		$a = "Hacked By Peyman Siyahi"
 
 	condition:
 		$a 
@@ -4393,7 +4393,7 @@ rule SuspiciousString_400
 		description = "Suspicious String 400"
 
 	strings:
-		$a = "Hacked ByP!R!7"
+		$a = "Hacked By SA3D HaCk3D"
 
 	condition:
 		$a 
@@ -4404,7 +4404,7 @@ rule SuspiciousString_401
 		description = "Suspicious String 401"
 
 	strings:
-		$a = "Hacked by /Mr.KodoC"
+		$a = "Hacked By Sneaky"
 
 	condition:
 		$a 
@@ -4415,7 +4415,7 @@ rule SuspiciousString_402
 		description = "Suspicious String 402"
 
 	strings:
-		$a = "Hacked by BKSMILE"
+		$a = "Hacked By TheWayEnd"
 
 	condition:
 		$a 
@@ -4426,7 +4426,7 @@ rule SuspiciousString_403
 		description = "Suspicious String 403"
 
 	strings:
-		$a = "Hacked by Dr.SiLnT HilL"
+		$a = "Hacked By Ulow"
 
 	condition:
 		$a 
@@ -4437,7 +4437,7 @@ rule SuspiciousString_404
 		description = "Suspicious String 404"
 
 	strings:
-		$a = "Hacked by Hunter Bajwa"
+		$a = "Hacked By XwoLfTn"
 
 	condition:
 		$a 
@@ -4448,7 +4448,7 @@ rule SuspiciousString_405
 		description = "Suspicious String 405"
 
 	strings:
-		$a = "Hacked by MRH.404"
+		$a = "Hacked By chinafans"
 
 	condition:
 		$a 
@@ -4459,7 +4459,7 @@ rule SuspiciousString_406
 		description = "Suspicious String 406"
 
 	strings:
-		$a = "Hacked by MeRvox"
+		$a = "Hacked By.D34DCYB3R"
 
 	condition:
 		$a 
@@ -4470,7 +4470,7 @@ rule SuspiciousString_407
 		description = "Suspicious String 407"
 
 	strings:
-		$a = "Hacked by R@qeeB"
+		$a = "Hacked By: 4Ri3 60ndr0n9"
 
 	condition:
 		$a 
@@ -4481,7 +4481,7 @@ rule SuspiciousString_408
 		description = "Suspicious String 408"
 
 	strings:
-		$a = "Hacked by RxR HaCkEr"
+		$a = "Hacked ByP!R!7"
 
 	condition:
 		$a 
@@ -4492,7 +4492,7 @@ rule SuspiciousString_409
 		description = "Suspicious String 409"
 
 	strings:
-		$a = "Hacked by Shade"
+		$a = "Hacked by /Mr.KodoC"
 
 	condition:
 		$a 
@@ -4503,7 +4503,7 @@ rule SuspiciousString_410
 		description = "Suspicious String 410"
 
 	strings:
-		$a = "Hacked by Sxtz"
+		$a = "Hacked by BKSMILE"
 
 	condition:
 		$a 
@@ -4514,7 +4514,7 @@ rule SuspiciousString_411
 		description = "Suspicious String 411"
 
 	strings:
-		$a = "Hacked by ZeDaN-Mrx"
+		$a = "Hacked by Dr.SiLnT HilL"
 
 	condition:
 		$a 
@@ -4525,7 +4525,7 @@ rule SuspiciousString_412
 		description = "Suspicious String 412"
 
 	strings:
-		$a = "Hacked in 2015 By [ Mr.PROTOCOL]"
+		$a = "Hacked by Hunter Bajwa"
 
 	condition:
 		$a 
@@ -4536,7 +4536,7 @@ rule SuspiciousString_413
 		description = "Suspicious String 413"
 
 	strings:
-		$a = "Hacker By Conversely"
+		$a = "Hacked by MRH.404"
 
 	condition:
 		$a 
@@ -4547,7 +4547,7 @@ rule SuspiciousString_414
 		description = "Suspicious String 414"
 
 	strings:
-		$a = "Hacker Patah Hati"
+		$a = "Hacked by MeRvox"
 
 	condition:
 		$a 
@@ -4558,7 +4558,7 @@ rule SuspiciousString_415
 		description = "Suspicious String 415"
 
 	strings:
-		$a = "Hacker Sakit Hati "
+		$a = "Hacked by R@qeeB"
 
 	condition:
 		$a 
@@ -4569,7 +4569,7 @@ rule SuspiciousString_416
 		description = "Suspicious String 416"
 
 	strings:
-		$a = "Hackerlady512@gmail.com"
+		$a = "Hacked by RxR HaCkEr"
 
 	condition:
 		$a 
@@ -4580,7 +4580,7 @@ rule SuspiciousString_417
 		description = "Suspicious String 417"
 
 	strings:
-		$a = "Hacktime"
+		$a = "Hacked by Shade"
 
 	condition:
 		$a 
@@ -4591,7 +4591,7 @@ rule SuspiciousString_418
 		description = "Suspicious String 418"
 
 	strings:
-		$a = "Haml3t"
+		$a = "Hacked by Sxtz"
 
 	condition:
 		$a 
@@ -4602,7 +4602,7 @@ rule SuspiciousString_419
 		description = "Suspicious String 419"
 
 	strings:
-		$a = "Happy Ending YunusOchills"
+		$a = "Hacked by ZeDaN-Mrx"
 
 	condition:
 		$a 
@@ -4613,7 +4613,7 @@ rule SuspiciousString_420
 		description = "Suspicious String 420"
 
 	strings:
-		$a = "Haxor"
+		$a = "Hacked in 2015 By [ Mr.PROTOCOL]"
 
 	condition:
 		$a 
@@ -4624,7 +4624,7 @@ rule SuspiciousString_421
 		description = "Suspicious String 421"
 
 	strings:
-		$a = "Heartz009"
+		$a = "Hacker By Conversely"
 
 	condition:
 		$a 
@@ -4635,7 +4635,7 @@ rule SuspiciousString_422
 		description = "Suspicious String 422"
 
 	strings:
-		$a = "HentaiC0de"
+		$a = "Hacker Patah Hati"
 
 	condition:
 		$a 
@@ -4646,7 +4646,7 @@ rule SuspiciousString_423
 		description = "Suspicious String 423"
 
 	strings:
-		$a = "HentaiC0de 6enjot in your security"
+		$a = "Hacker Sakit Hati "
 
 	condition:
 		$a 
@@ -4657,7 +4657,7 @@ rule SuspiciousString_424
 		description = "Suspicious String 424"
 
 	strings:
-		$a = "Hexavhobia  "
+		$a = "Hackerlady512@gmail.com"
 
 	condition:
 		$a 
@@ -4668,7 +4668,7 @@ rule SuspiciousString_425
 		description = "Suspicious String 425"
 
 	strings:
-		$a = "HiDder OwnZz You"
+		$a = "Hacktime"
 
 	condition:
 		$a 
@@ -4679,7 +4679,7 @@ rule SuspiciousString_426
 		description = "Suspicious String 426"
 
 	strings:
-		$a = "HiM! Wire"
+		$a = "Haml3t"
 
 	condition:
 		$a 
@@ -4690,7 +4690,7 @@ rule SuspiciousString_427
 		description = "Suspicious String 427"
 
 	strings:
-		$a = "HiTLER ALsharef"
+		$a = "Happy Ending YunusOchills"
 
 	condition:
 		$a 
@@ -4701,7 +4701,7 @@ rule SuspiciousString_428
 		description = "Suspicious String 428"
 
 	strings:
-		$a = "Hit Me To Download Tar File"
+		$a = "Haxor"
 
 	condition:
 		$a 
@@ -4712,7 +4712,7 @@ rule SuspiciousString_429
 		description = "Suspicious String 429"
 
 	strings:
-		$a = "Hmei7"
+		$a = "Heartz009"
 
 	condition:
 		$a 
@@ -4723,7 +4723,7 @@ rule SuspiciousString_430
 		description = "Suspicious String 430"
 
 	strings:
-		$a = "Hodoor"
+		$a = "HentaiC0de"
 
 	condition:
 		$a 
@@ -4734,7 +4734,7 @@ rule SuspiciousString_431
 		description = "Suspicious String 431"
 
 	strings:
-		$a = "HtjhY"
+		$a = "HentaiC0de 6enjot in your security"
 
 	condition:
 		$a 
@@ -4745,7 +4745,7 @@ rule SuspiciousString_432
 		description = "Suspicious String 432"
 
 	strings:
-		$a = "Hun73r CL4W"
+		$a = "Hexavhobia  "
 
 	condition:
 		$a 
@@ -4756,7 +4756,7 @@ rule SuspiciousString_433
 		description = "Suspicious String 433"
 
 	strings:
-		$a = "HunTerZ Family"
+		$a = "HiDder OwnZz You"
 
 	condition:
 		$a 
@@ -4767,7 +4767,7 @@ rule SuspiciousString_434
 		description = "Suspicious String 434"
 
 	strings:
-		$a = "Hunter Bajwa"
+		$a = "HiM! Wire"
 
 	condition:
 		$a 
@@ -4778,7 +4778,7 @@ rule SuspiciousString_435
 		description = "Suspicious String 435"
 
 	strings:
-		$a = "Hussamvirus"
+		$a = "HiTLER ALsharef"
 
 	condition:
 		$a 
@@ -4789,7 +4789,7 @@ rule SuspiciousString_436
 		description = "Suspicious String 436"
 
 	strings:
-		$a = "HusseiN98D"
+		$a = "Hit Me To Download Tar File"
 
 	condition:
 		$a 
@@ -4800,7 +4800,7 @@ rule SuspiciousString_437
 		description = "Suspicious String 437"
 
 	strings:
-		$a = "Hussin-v"
+		$a = "Hmei7"
 
 	condition:
 		$a 
@@ -4811,7 +4811,7 @@ rule SuspiciousString_438
 		description = "Suspicious String 438"
 
 	strings:
-		$a = "I back to hack"
+		$a = "Hodoor"
 
 	condition:
 		$a 
@@ -4822,7 +4822,7 @@ rule SuspiciousString_439
 		description = "Suspicious String 439"
 
 	strings:
-		$a = "I'm so sorry, hacked you are Website"
+		$a = "HtjhY"
 
 	condition:
 		$a 
@@ -4833,7 +4833,7 @@ rule SuspiciousString_440
 		description = "Suspicious String 440"
 
 	strings:
-		$a = "IDBTE4M"
+		$a = "Hun73r CL4W"
 
 	condition:
 		$a 
@@ -4844,7 +4844,7 @@ rule SuspiciousString_441
 		description = "Suspicious String 441"
 
 	strings:
-		$a = "IN73CT0R"
+		$a = "HunTerZ Family"
 
 	condition:
 		$a 
@@ -4855,7 +4855,7 @@ rule SuspiciousString_442
 		description = "Suspicious String 442"
 
 	strings:
-		$a = "INDONESIAN GRAY HAT HACKER"
+		$a = "Hunter Bajwa"
 
 	condition:
 		$a 
@@ -4866,7 +4866,7 @@ rule SuspiciousString_443
 		description = "Suspicious String 443"
 
 	strings:
-		$a = "INX_r0ot"
+		$a = "Hussamvirus"
 
 	condition:
 		$a 
@@ -4877,7 +4877,7 @@ rule SuspiciousString_444
 		description = "Suspicious String 444"
 
 	strings:
-		$a = "ISI PESAN"
+		$a = "HusseiN98D"
 
 	condition:
 		$a 
@@ -4888,7 +4888,7 @@ rule SuspiciousString_445
 		description = "Suspicious String 445"
 
 	strings:
-		$a = "Iheb Abdelly"
+		$a = "Hussin-v"
 
 	condition:
 		$a 
@@ -4899,7 +4899,7 @@ rule SuspiciousString_446
 		description = "Suspicious String 446"
 
 	strings:
-		$a = "Inbox Mass Mailer"
+		$a = "I back to hack"
 
 	condition:
 		$a 
@@ -4910,7 +4910,7 @@ rule SuspiciousString_447
 		description = "Suspicious String 447"
 
 	strings:
-		$a = "IndoXploit"
+		$a = "I'm so sorry, hacked you are Website"
 
 	condition:
 		$a 
@@ -4921,7 +4921,7 @@ rule SuspiciousString_448
 		description = "Suspicious String 448"
 
 	strings:
-		$a = "IndoXploit Coders Team"
+		$a = "IDBTE4M"
 
 	condition:
 		$a 
@@ -4932,7 +4932,7 @@ rule SuspiciousString_449
 		description = "Suspicious String 449"
 
 	strings:
-		$a = "Indonesia Coders Galau"
+		$a = "IN73CT0R"
 
 	condition:
 		$a 
@@ -4943,7 +4943,7 @@ rule SuspiciousString_450
 		description = "Suspicious String 450"
 
 	strings:
-		$a = "Indonesia Defacer"
+		$a = "INDONESIAN GRAY HAT HACKER"
 
 	condition:
 		$a 
@@ -4954,7 +4954,7 @@ rule SuspiciousString_451
 		description = "Suspicious String 451"
 
 	strings:
-		$a = "Indonesia Defacer Tersakiti Team"
+		$a = "INX_r0ot"
 
 	condition:
 		$a 
@@ -4965,7 +4965,7 @@ rule SuspiciousString_452
 		description = "Suspicious String 452"
 
 	strings:
-		$a = "Indonesian Code Party"
+		$a = "ISI PESAN"
 
 	condition:
 		$a 
@@ -4976,7 +4976,7 @@ rule SuspiciousString_453
 		description = "Suspicious String 453"
 
 	strings:
-		$a = "Indonesian Defacer Tersakiti Team"
+		$a = "Iheb Abdelly"
 
 	condition:
 		$a 
@@ -4987,7 +4987,7 @@ rule SuspiciousString_454
 		description = "Suspicious String 454"
 
 	strings:
-		$a = "Indonesian Freedom Security"
+		$a = "Inbox Mass Mailer"
 
 	condition:
 		$a 
@@ -4998,7 +4998,7 @@ rule SuspiciousString_455
 		description = "Suspicious String 455"
 
 	strings:
-		$a = "Indramayu"
+		$a = "IndoXploit"
 
 	condition:
 		$a 
@@ -5009,7 +5009,7 @@ rule SuspiciousString_456
 		description = "Suspicious String 456"
 
 	strings:
-		$a = "InjecT0r"
+		$a = "IndoXploit Coders Team"
 
 	condition:
 		$a 
@@ -5020,7 +5020,7 @@ rule SuspiciousString_457
 		description = "Suspicious String 457"
 
 	strings:
-		$a = "InjectorDaher"
+		$a = "Indonesia Coders Galau"
 
 	condition:
 		$a 
@@ -5031,7 +5031,7 @@ rule SuspiciousString_458
 		description = "Suspicious String 458"
 
 	strings:
-		$a = "Iranian Hackers"
+		$a = "Indonesia Defacer"
 
 	condition:
 		$a 
@@ -5042,7 +5042,7 @@ rule SuspiciousString_459
 		description = "Suspicious String 459"
 
 	strings:
-		$a = "Irfninja indishell"
+		$a = "Indonesia Defacer Tersakiti Team"
 
 	condition:
 		$a 
@@ -5053,7 +5053,7 @@ rule SuspiciousString_460
 		description = "Suspicious String 460"
 
 	strings:
-		$a = "Islamic Cyber"
+		$a = "Indonesian Code Party"
 
 	condition:
 		$a 
@@ -5064,7 +5064,7 @@ rule SuspiciousString_461
 		description = "Suspicious String 461"
 
 	strings:
-		$a = "Its m3 :p"
+		$a = "Indonesian Defacer Tersakiti Team"
 
 	condition:
 		$a 
@@ -5075,7 +5075,7 @@ rule SuspiciousString_462
 		description = "Suspicious String 462"
 
 	strings:
-		$a = "Izza009"
+		$a = "Indonesian Freedom Security"
 
 	condition:
 		$a 
@@ -5086,7 +5086,7 @@ rule SuspiciousString_463
 		description = "Suspicious String 463"
 
 	strings:
-		$a = "J1ZmZlcmluZw="
+		$a = "Indramayu"
 
 	condition:
 		$a 
@@ -5097,7 +5097,7 @@ rule SuspiciousString_464
 		description = "Suspicious String 464"
 
 	strings:
-		$a = "JAAALiiiK"
+		$a = "InjecT0r"
 
 	condition:
 		$a 
@@ -5108,7 +5108,7 @@ rule SuspiciousString_465
 		description = "Suspicious String 465"
 
 	strings:
-		$a = "JMBUD NGNTD CMP WEB"
+		$a = "InjectorDaher"
 
 	condition:
 		$a 
@@ -5119,7 +5119,7 @@ rule SuspiciousString_466
 		description = "Suspicious String 466"
 
 	strings:
-		$a = "JPMorgan Chase"
+		$a = "Iranian Hackers"
 
 	condition:
 		$a 
@@ -5130,7 +5130,7 @@ rule SuspiciousString_467
 		description = "Suspicious String 467"
 
 	strings:
-		$a = "JankillError404"
+		$a = "Irfninja indishell"
 
 	condition:
 		$a 
@@ -5141,7 +5141,7 @@ rule SuspiciousString_468
 		description = "Suspicious String 468"
 
 	strings:
-		$a = "Jayalah Indonesiaku"
+		$a = "Islamic Cyber"
 
 	condition:
 		$a 
@@ -5152,7 +5152,7 @@ rule SuspiciousString_469
 		description = "Suspicious String 469"
 
 	strings:
-		$a = "JembriX"
+		$a = "Its m3 :p"
 
 	condition:
 		$a 
@@ -5163,7 +5163,7 @@ rule SuspiciousString_470
 		description = "Suspicious String 470"
 
 	strings:
-		$a = "Jiilan404"
+		$a = "Izza009"
 
 	condition:
 		$a 
@@ -5174,7 +5174,7 @@ rule SuspiciousString_471
 		description = "Suspicious String 471"
 
 	strings:
-		$a = "Jijle3"
+		$a = "J1ZmZlcmluZw="
 
 	condition:
 		$a 
@@ -5185,7 +5185,7 @@ rule SuspiciousString_472
 		description = "Suspicious String 472"
 
 	strings:
-		$a = "Jimycoco"
+		$a = "JAAALiiiK"
 
 	condition:
 		$a 
@@ -5196,7 +5196,7 @@ rule SuspiciousString_473
 		description = "Suspicious String 473"
 
 	strings:
-		$a = "Jingklong"
+		$a = "JMBUD NGNTD CMP WEB"
 
 	condition:
 		$a 
@@ -5207,7 +5207,7 @@ rule SuspiciousString_474
 		description = "Suspicious String 474"
 
 	strings:
-		$a = "Jingklong   "
+		$a = "JPMorgan Chase"
 
 	condition:
 		$a 
@@ -5218,7 +5218,7 @@ rule SuspiciousString_475
 		description = "Suspicious String 475"
 
 	strings:
-		$a = "Jiwa Ngidol"
+		$a = "JankillError404"
 
 	condition:
 		$a 
@@ -5229,7 +5229,7 @@ rule SuspiciousString_476
 		description = "Suspicious String 476"
 
 	strings:
-		$a = "Jokr Haxor"
+		$a = "Jayalah Indonesiaku"
 
 	condition:
 		$a 
@@ -5240,7 +5240,7 @@ rule SuspiciousString_477
 		description = "Suspicious String 477"
 
 	strings:
-		$a = "Joky Priv8"
+		$a = "JembriX"
 
 	condition:
 		$a 
@@ -5251,7 +5251,7 @@ rule SuspiciousString_478
 		description = "Suspicious String 478"
 
 	strings:
-		$a = "Jombang Cyber Team"
+		$a = "Jiilan404"
 
 	condition:
 		$a 
@@ -5262,7 +5262,7 @@ rule SuspiciousString_479
 		description = "Suspicious String 479"
 
 	strings:
-		$a = "Joomla Auto Edit User"
+		$a = "Jijle3"
 
 	condition:
 		$a 
@@ -5273,7 +5273,7 @@ rule SuspiciousString_480
 		description = "Suspicious String 480"
 
 	strings:
-		$a = "Jungle_Sec"
+		$a = "Jimycoco"
 
 	condition:
 		$a 
@@ -5284,7 +5284,7 @@ rule SuspiciousString_481
 		description = "Suspicious String 481"
 
 	strings:
-		$a = "Just Wolf"
+		$a = "Jingklong"
 
 	condition:
 		$a 
@@ -5295,7 +5295,7 @@ rule SuspiciousString_482
 		description = "Suspicious String 482"
 
 	strings:
-		$a = "K2LL33D SHELL"
+		$a = "Jingklong   "
 
 	condition:
 		$a 
@@ -5306,7 +5306,7 @@ rule SuspiciousString_483
 		description = "Suspicious String 483"
 
 	strings:
-		$a = "K4MVR3T717"
+		$a = "Jiwa Ngidol"
 
 	condition:
 		$a 
@@ -5317,7 +5317,7 @@ rule SuspiciousString_484
 		description = "Suspicious String 484"
 
 	strings:
-		$a = "KATENABAD"
+		$a = "Jokr Haxor"
 
 	condition:
 		$a 
@@ -5328,7 +5328,7 @@ rule SuspiciousString_485
 		description = "Suspicious String 485"
 
 	strings:
-		$a = "KAYBLAAK2015@GMAIL.COM"
+		$a = "Joky Priv8"
 
 	condition:
 		$a 
@@ -5339,7 +5339,7 @@ rule SuspiciousString_486
 		description = "Suspicious String 486"
 
 	strings:
-		$a = "KERALA CYBER SOLDIERS (KCS)"
+		$a = "Jombang Cyber Team"
 
 	condition:
 		$a 
@@ -5350,7 +5350,7 @@ rule SuspiciousString_487
 		description = "Suspicious String 487"
 
 	strings:
-		$a = "Kali Anda Telah Ngecrot  Disini"
+		$a = "Joomla Auto Edit User"
 
 	condition:
 		$a 
@@ -5361,7 +5361,7 @@ rule SuspiciousString_488
 		description = "Suspicious String 488"
 
 	strings:
-		$a = "Kaneki404 "
+		$a = "Jungle_Sec"
 
 	condition:
 		$a 
@@ -5372,7 +5372,7 @@ rule SuspiciousString_489
 		description = "Suspicious String 489"
 
 	strings:
-		$a = "Karar alShaMi"
+		$a = "Just Wolf"
 
 	condition:
 		$a 
@@ -5383,7 +5383,7 @@ rule SuspiciousString_490
 		description = "Suspicious String 490"
 
 	strings:
-		$a = "Kazuya404"
+		$a = "K2LL33D SHELL"
 
 	condition:
 		$a 
@@ -5394,7 +5394,7 @@ rule SuspiciousString_491
 		description = "Suspicious String 491"
 
 	strings:
-		$a = "Kesalahan Server"
+		$a = "K4MVR3T717"
 
 	condition:
 		$a 
@@ -5405,7 +5405,7 @@ rule SuspiciousString_492
 		description = "Suspicious String 492"
 
 	strings:
-		$a = "Ketan Singh"
+		$a = "KATENABAD"
 
 	condition:
 		$a 
@@ -5416,7 +5416,7 @@ rule SuspiciousString_493
 		description = "Suspicious String 493"
 
 	strings:
-		$a = "Khaled Mardam-Bey"
+		$a = "KAYBLAAK2015@GMAIL.COM"
 
 	condition:
 		$a 
@@ -5427,7 +5427,7 @@ rule SuspiciousString_494
 		description = "Suspicious String 494"
 
 	strings:
-		$a = "Kish0r3 P4sh4"
+		$a = "KERALA CYBER SOLDIERS (KCS)"
 
 	condition:
 		$a 
@@ -5438,7 +5438,7 @@ rule SuspiciousString_495
 		description = "Suspicious String 495"
 
 	strings:
-		$a = "KitcPyg/PSRocGhwJ0FVc210dXJucmVzZXR1O3N3JGxpaW5lcnJvcHViO2lmbXRwLT5"
+		$a = "Kali Anda Telah Ngecrot  Disini"
 
 	condition:
 		$a 
@@ -5449,7 +5449,7 @@ rule SuspiciousString_496
 		description = "Suspicious String 496"
 
 	strings:
-		$a = "Klik Gan"
+		$a = "Kaneki404 "
 
 	condition:
 		$a 
@@ -5460,7 +5460,7 @@ rule SuspiciousString_497
 		description = "Suspicious String 497"
 
 	strings:
-		$a = "Kontoleglayut"
+		$a = "Karar alShaMi"
 
 	condition:
 		$a 
@@ -5471,7 +5471,7 @@ rule SuspiciousString_498
 		description = "Suspicious String 498"
 
 	strings:
-		$a = "Korang Dah Berjaya"
+		$a = "Kazuya404"
 
 	condition:
 		$a 
@@ -5482,7 +5482,7 @@ rule SuspiciousString_499
 		description = "Suspicious String 499"
 
 	strings:
-		$a = "Korang Gagal"
+		$a = "Kesalahan Server"
 
 	condition:
 		$a 
@@ -5493,7 +5493,7 @@ rule SuspiciousString_500
 		description = "Suspicious String 500"
 
 	strings:
-		$a = "KrimOu CPanel Cracker Script & Root Server"
+		$a = "Ketan Singh"
 
 	condition:
 		$a 
@@ -5504,7 +5504,7 @@ rule SuspiciousString_501
 		description = "Suspicious String 501"
 
 	strings:
-		$a = "KrimOu CPanelCracker Script"
+		$a = "Khaled Mardam-Bey"
 
 	condition:
 		$a 
@@ -5515,7 +5515,7 @@ rule SuspiciousString_502
 		description = "Suspicious String 502"
 
 	strings:
-		$a = "Krypton"
+		$a = "Kish0r3 P4sh4"
 
 	condition:
 		$a 
@@ -5526,7 +5526,7 @@ rule SuspiciousString_503
 		description = "Suspicious String 503"
 
 	strings:
-		$a = "Ksk_WTG"
+		$a = "KitcPyg/PSRocGhwJ0FVc210dXJucmVzZXR1O3N3JGxpaW5lcnJvcHViO2lmbXRwLT5"
 
 	condition:
 		$a 
@@ -5537,7 +5537,7 @@ rule SuspiciousString_504
 		description = "Suspicious String 504"
 
 	strings:
-		$a = "Kucing Galau "
+		$a = "Klik Gan"
 
 	condition:
 		$a 
@@ -5548,7 +5548,7 @@ rule SuspiciousString_505
 		description = "Suspicious String 505"
 
 	strings:
-		$a = "Kuuhaku"
+		$a = "Kontoleglayut"
 
 	condition:
 		$a 
@@ -5559,7 +5559,7 @@ rule SuspiciousString_506
 		description = "Suspicious String 506"
 
 	strings:
-		$a = "Kuzu"
+		$a = "Korang Dah Berjaya"
 
 	condition:
 		$a 
@@ -5570,7 +5570,7 @@ rule SuspiciousString_507
 		description = "Suspicious String 507"
 
 	strings:
-		$a = "L3m0t N3t"
+		$a = "Korang Gagal"
 
 	condition:
 		$a 
@@ -5581,7 +5581,7 @@ rule SuspiciousString_508
 		description = "Suspicious String 508"
 
 	strings:
-		$a = "L4W_CyberDKSH404.Not_Found "
+		$a = "KrimOu CPanel Cracker Script & Root Server"
 
 	condition:
 		$a 
@@ -5592,7 +5592,7 @@ rule SuspiciousString_509
 		description = "Suspicious String 509"
 
 	strings:
-		$a = "L4z4ru5"
+		$a = "KrimOu CPanelCracker Script"
 
 	condition:
 		$a 
@@ -5603,7 +5603,7 @@ rule SuspiciousString_510
 		description = "Suspicious String 510"
 
 	strings:
-		$a = "LOCUS7S.COM"
+		$a = "Krypton"
 
 	condition:
 		$a 
@@ -5614,7 +5614,7 @@ rule SuspiciousString_511
 		description = "Suspicious String 511"
 
 	strings:
-		$a = "LaHmuQPfnzW"
+		$a = "Ksk_WTG"
 
 	condition:
 		$a 
@@ -5625,7 +5625,7 @@ rule SuspiciousString_512
 		description = "Suspicious String 512"
 
 	strings:
-		$a = "Lalabitch"
+		$a = "Kucing Galau "
 
 	condition:
 		$a 
@@ -5636,7 +5636,7 @@ rule SuspiciousString_513
 		description = "Suspicious String 513"
 
 	strings:
-		$a = "Lalabitch Team"
+		$a = "Kuuhaku"
 
 	condition:
 		$a 
@@ -5647,7 +5647,7 @@ rule SuspiciousString_514
 		description = "Suspicious String 514"
 
 	strings:
-		$a = "Lalabitch Victimz (2017) Ransomware"
+		$a = "Kuzu"
 
 	condition:
 		$a 
@@ -5658,7 +5658,7 @@ rule SuspiciousString_515
 		description = "Suspicious String 515"
 
 	strings:
-		$a = "Lamongan Exploiters"
+		$a = "L3m0t N3t"
 
 	condition:
 		$a 
@@ -5669,7 +5669,7 @@ rule SuspiciousString_516
 		description = "Suspicious String 516"
 
 	strings:
-		$a = "Laser69"
+		$a = "L4W_CyberDKSH404.Not_Found "
 
 	condition:
 		$a 
@@ -5680,7 +5680,7 @@ rule SuspiciousString_517
 		description = "Suspicious String 517"
 
 	strings:
-		$a = "LazyUser_"
+		$a = "L4z4ru5"
 
 	condition:
 		$a 
@@ -5691,7 +5691,7 @@ rule SuspiciousString_518
 		description = "Suspicious String 518"
 
 	strings:
-		$a = "Legend Bot"
+		$a = "LOCUS7S.COM"
 
 	condition:
 		$a 
@@ -5702,7 +5702,7 @@ rule SuspiciousString_519
 		description = "Suspicious String 519"
 
 	strings:
-		$a = "Legion BOmb3r"
+		$a = "LaHmuQPfnzW"
 
 	condition:
 		$a 
@@ -5713,7 +5713,7 @@ rule SuspiciousString_520
 		description = "Suspicious String 520"
 
 	strings:
-		$a = "LinEnum.sh"
+		$a = "Lalabitch"
 
 	condition:
 		$a 
@@ -5724,7 +5724,7 @@ rule SuspiciousString_521
 		description = "Suspicious String 521"
 
 	strings:
-		$a = "Linux vmsplice Local Root Exploit"
+		$a = "Lalabitch Team"
 
 	condition:
 		$a 
@@ -5735,7 +5735,7 @@ rule SuspiciousString_522
 		description = "Suspicious String 522"
 
 	strings:
-		$a = "Lion.Hacker"
+		$a = "Lalabitch Victimz (2017) Ransomware"
 
 	condition:
 		$a 
@@ -5746,7 +5746,7 @@ rule SuspiciousString_523
 		description = "Suspicious String 523"
 
 	strings:
-		$a = "LoVe511 Mail3R"
+		$a = "Lamongan Exploiters"
 
 	condition:
 		$a 
@@ -5757,7 +5757,7 @@ rule SuspiciousString_524
 		description = "Suspicious String 524"
 
 	strings:
-		$a = "Local Linux Enumeration & Privilege Escalation Script"
+		$a = "Laser69"
 
 	condition:
 		$a 
@@ -5768,7 +5768,7 @@ rule SuspiciousString_525
 		description = "Suspicious String 525"
 
 	strings:
-		$a = "Local root indishell"
+		$a = "LazyUser_"
 
 	condition:
 		$a 
@@ -5779,7 +5779,7 @@ rule SuspiciousString_526
 		description = "Suspicious String 526"
 
 	strings:
-		$a = "LockeD By Joky"
+		$a = "Legend Bot"
 
 	condition:
 		$a 
@@ -5790,7 +5790,7 @@ rule SuspiciousString_527
 		description = "Suspicious String 527"
 
 	strings:
-		$a = "Locus7s Modified c100 Shell"
+		$a = "Legion BOmb3r"
 
 	condition:
 		$a 
@@ -5801,7 +5801,7 @@ rule SuspiciousString_528
 		description = "Suspicious String 528"
 
 	strings:
-		$a = "Login Sukses"
+		$a = "LinEnum.sh"
 
 	condition:
 		$a 
@@ -5812,7 +5812,7 @@ rule SuspiciousString_529
 		description = "Suspicious String 529"
 
 	strings:
-		$a = "Logs Eraser"
+		$a = "Linux vmsplice Local Root Exploit"
 
 	condition:
 		$a 
@@ -5823,7 +5823,7 @@ rule SuspiciousString_530
 		description = "Suspicious String 530"
 
 	strings:
-		$a = "LolzSec"
+		$a = "Lion.Hacker"
 
 	condition:
 		$a 
@@ -5834,7 +5834,7 @@ rule SuspiciousString_531
 		description = "Suspicious String 531"
 
 	strings:
-		$a = "Lon.Cua.Co.Be"
+		$a = "LoVe511 Mail3R"
 
 	condition:
 		$a 
@@ -5845,7 +5845,7 @@ rule SuspiciousString_532
 		description = "Suspicious String 532"
 
 	strings:
-		$a = "LorD of IRAN HACKERS SABOTAGE"
+		$a = "Local Linux Enumeration & Privilege Escalation Script"
 
 	condition:
 		$a 
@@ -5856,7 +5856,7 @@ rule SuspiciousString_533
 		description = "Suspicious String 533"
 
 	strings:
-		$a = "LorD-C0d3r-NT"
+		$a = "Local root indishell"
 
 	condition:
 		$a 
@@ -5867,7 +5867,7 @@ rule SuspiciousString_534
 		description = "Suspicious String 534"
 
 	strings:
-		$a = "Lov3rDns"
+		$a = "LockeD By Joky"
 
 	condition:
 		$a 
@@ -5878,7 +5878,7 @@ rule SuspiciousString_535
 		description = "Suspicious String 535"
 
 	strings:
-		$a = "Ludarubma"
+		$a = "Locus7s Modified c100 Shell"
 
 	condition:
 		$a 
@@ -5889,7 +5889,7 @@ rule SuspiciousString_536
 		description = "Suspicious String 536"
 
 	strings:
-		$a = "Luge Racer"
+		$a = "Login Sukses"
 
 	condition:
 		$a 
@@ -5900,7 +5900,7 @@ rule SuspiciousString_537
 		description = "Suspicious String 537"
 
 	strings:
-		$a = "Lutfen Shell Secin"
+		$a = "Logs Eraser"
 
 	condition:
 		$a 
@@ -5911,7 +5911,7 @@ rule SuspiciousString_538
 		description = "Suspicious String 538"
 
 	strings:
-		$a = "LyMaNlYmCo@YahoO.CoM"
+		$a = "LolzSec"
 
 	condition:
 		$a 
@@ -5922,7 +5922,7 @@ rule SuspiciousString_539
 		description = "Suspicious String 539"
 
 	strings:
-		$a = "Ly_Forbidden"
+		$a = "Lon.Cua.Co.Be"
 
 	condition:
 		$a 
@@ -5933,7 +5933,7 @@ rule SuspiciousString_540
 		description = "Suspicious String 540"
 
 	strings:
-		$a = "Ly_Gh0st"
+		$a = "LorD of IRAN HACKERS SABOTAGE"
 
 	condition:
 		$a 
@@ -5944,7 +5944,7 @@ rule SuspiciousString_541
 		description = "Suspicious String 541"
 
 	strings:
-		$a = "M-Iraq"
+		$a = "LorD-C0d3r-NT"
 
 	condition:
 		$a 
@@ -5955,7 +5955,7 @@ rule SuspiciousString_542
 		description = "Suspicious String 542"
 
 	strings:
-		$a = "M4RY_PR0S4"
+		$a = "Lov3rDns"
 
 	condition:
 		$a 
@@ -5966,7 +5966,7 @@ rule SuspiciousString_543
 		description = "Suspicious String 543"
 
 	strings:
-		$a = "MA DZ TN V2"
+		$a = "Ludarubma"
 
 	condition:
 		$a 
@@ -5977,7 +5977,7 @@ rule SuspiciousString_544
 		description = "Suspicious String 544"
 
 	strings:
-		$a = "MATRIX CYBER TEAM"
+		$a = "Luge Racer"
 
 	condition:
 		$a 
@@ -5988,7 +5988,7 @@ rule SuspiciousString_545
 		description = "Suspicious String 545"
 
 	strings:
-		$a = "MA_h4ck0601"
+		$a = "Lutfen Shell Secin"
 
 	condition:
 		$a 
@@ -5999,7 +5999,7 @@ rule SuspiciousString_546
 		description = "Suspicious String 546"
 
 	strings:
-		$a = "MCA Shell"
+		$a = "LyMaNlYmCo@YahoO.CoM"
 
 	condition:
 		$a 
@@ -6010,7 +6010,7 @@ rule SuspiciousString_547
 		description = "Suspicious String 547"
 
 	strings:
-		$a = "MD-GHOST"
+		$a = "Ly_Forbidden"
 
 	condition:
 		$a 
@@ -6021,7 +6021,7 @@ rule SuspiciousString_548
 		description = "Suspicious String 548"
 
 	strings:
-		$a = "ML/EF8ZjRZnsUrk/hVMOJaQZS19pZ"
+		$a = "Ly_Gh0st"
 
 	condition:
 		$a 
@@ -6032,7 +6032,7 @@ rule SuspiciousString_549
 		description = "Suspicious String 549"
 
 	strings:
-		$a = "MNTR27"
+		$a = "M-Iraq"
 
 	condition:
 		$a 
@@ -6043,7 +6043,7 @@ rule SuspiciousString_550
 		description = "Suspicious String 550"
 
 	strings:
-		$a = "MOSLEM CYBER TEAM"
+		$a = "M4RY_PR0S4"
 
 	condition:
 		$a 
@@ -6054,7 +6054,7 @@ rule SuspiciousString_551
 		description = "Suspicious String 551"
 
 	strings:
-		$a = "MR.N00I3"
+		$a = "MA DZ TN V2"
 
 	condition:
 		$a 
@@ -6065,7 +6065,7 @@ rule SuspiciousString_552
 		description = "Suspicious String 552"
 
 	strings:
-		$a = "MR.ROBOT"
+		$a = "MATRIX CYBER TEAM"
 
 	condition:
 		$a 
@@ -6076,7 +6076,7 @@ rule SuspiciousString_553
 		description = "Suspicious String 553"
 
 	strings:
-		$a = "MR.ZADZIK"
+		$a = "MA_h4ck0601"
 
 	condition:
 		$a 
@@ -6087,7 +6087,7 @@ rule SuspiciousString_554
 		description = "Suspicious String 554"
 
 	strings:
-		$a = "MSRml.pl"
+		$a = "MCA Shell"
 
 	condition:
 		$a 
@@ -6098,7 +6098,7 @@ rule SuspiciousString_555
 		description = "Suspicious String 555"
 
 	strings:
-		$a = "MYREALDAY"
+		$a = "MD-GHOST"
 
 	condition:
 		$a 
@@ -6109,7 +6109,7 @@ rule SuspiciousString_556
 		description = "Suspicious String 556"
 
 	strings:
-		$a = "MaDLeeTs"
+		$a = "ML/EF8ZjRZnsUrk/hVMOJaQZS19pZ"
 
 	condition:
 		$a 
@@ -6120,7 +6120,7 @@ rule SuspiciousString_557
 		description = "Suspicious String 557"
 
 	strings:
-		$a = "MaStEr HaCkEr"
+		$a = "MNTR27"
 
 	condition:
 		$a 
@@ -6131,7 +6131,7 @@ rule SuspiciousString_558
 		description = "Suspicious String 558"
 
 	strings:
-		$a = "Maestro404"
+		$a = "MOSLEM CYBER TEAM"
 
 	condition:
 		$a 
@@ -6142,7 +6142,7 @@ rule SuspiciousString_559
 		description = "Suspicious String 559"
 
 	strings:
-		$a = "Magico HelpeR"
+		$a = "MR.N00I3"
 
 	condition:
 		$a 
@@ -6153,7 +6153,7 @@ rule SuspiciousString_560
 		description = "Suspicious String 560"
 
 	strings:
-		$a = "Magico pws"
+		$a = "MR.ROBOT"
 
 	condition:
 		$a 
@@ -6164,7 +6164,7 @@ rule SuspiciousString_561
 		description = "Suspicious String 561"
 
 	strings:
-		$a = "Magnum sniper"
+		$a = "MR.ZADZIK"
 
 	condition:
 		$a 
@@ -6175,7 +6175,7 @@ rule SuspiciousString_562
 		description = "Suspicious String 562"
 
 	strings:
-		$a = "Mahdi Curva Sud"
+		$a = "MSRml.pl"
 
 	condition:
 		$a 
@@ -6186,7 +6186,7 @@ rule SuspiciousString_563
 		description = "Suspicious String 563"
 
 	strings:
-		$a = "Mahiin"
+		$a = "MYREALDAY"
 
 	condition:
 		$a 
@@ -6197,7 +6197,7 @@ rule SuspiciousString_564
 		description = "Suspicious String 564"
 
 	strings:
-		$a = "MailBox Renewal Portal"
+		$a = "MaDLeeTs"
 
 	condition:
 		$a 
@@ -6208,7 +6208,7 @@ rule SuspiciousString_565
 		description = "Suspicious String 565"
 
 	strings:
-		$a = "Maile Inbox By"
+		$a = "MaStEr HaCkEr"
 
 	condition:
 		$a 
@@ -6219,7 +6219,7 @@ rule SuspiciousString_566
 		description = "Suspicious String 566"
 
 	strings:
-		$a = "Mailer by X-Nero"
+		$a = "Maestro404"
 
 	condition:
 		$a 
@@ -6230,7 +6230,7 @@ rule SuspiciousString_567
 		description = "Suspicious String 567"
 
 	strings:
-		$a = "MainHack"
+		$a = "Magico HelpeR"
 
 	condition:
 		$a 
@@ -6241,7 +6241,7 @@ rule SuspiciousString_568
 		description = "Suspicious String 568"
 
 	strings:
-		$a = "Make in China"
+		$a = "Magico pws"
 
 	condition:
 		$a 
@@ -6252,7 +6252,7 @@ rule SuspiciousString_569
 		description = "Suspicious String 569"
 
 	strings:
-		$a = "Maked By "
+		$a = "Magnum sniper"
 
 	condition:
 		$a 
@@ -6263,7 +6263,7 @@ rule SuspiciousString_570
 		description = "Suspicious String 570"
 
 	strings:
-		$a = "Man404_ID "
+		$a = "Mahdi Curva Sud"
 
 	condition:
 		$a 
@@ -6274,7 +6274,7 @@ rule SuspiciousString_571
 		description = "Suspicious String 571"
 
 	strings:
-		$a = "Mannu"
+		$a = "Mahiin"
 
 	condition:
 		$a 
@@ -6285,7 +6285,7 @@ rule SuspiciousString_572
 		description = "Suspicious String 572"
 
 	strings:
-		$a = "Marwan007"
+		$a = "MailBox Renewal Portal"
 
 	condition:
 		$a 
@@ -6296,7 +6296,7 @@ rule SuspiciousString_573
 		description = "Suspicious String 573"
 
 	strings:
-		$a = "Mauritania Attacker"
+		$a = "Maile Inbox By"
 
 	condition:
 		$a 
@@ -6307,7 +6307,7 @@ rule SuspiciousString_574
 		description = "Suspicious String 574"
 
 	strings:
-		$a = "Mauritania HaCker Team"
+		$a = "Mailer by X-Nero"
 
 	condition:
 		$a 
@@ -6318,7 +6318,7 @@ rule SuspiciousString_575
 		description = "Suspicious String 575"
 
 	strings:
-		$a = "Mdn_newbie"
+		$a = "MainHack"
 
 	condition:
 		$a 
@@ -6329,7 +6329,7 @@ rule SuspiciousString_576
 		description = "Suspicious String 576"
 
 	strings:
-		$a = "Melvin and all ljuska.org and x0rg.org members"
+		$a = "Make in China"
 
 	condition:
 		$a 
@@ -6340,7 +6340,7 @@ rule SuspiciousString_577
 		description = "Suspicious String 577"
 
 	strings:
-		$a = "Mercury2911"
+		$a = "Maked By "
 
 	condition:
 		$a 
@@ -6351,7 +6351,7 @@ rule SuspiciousString_578
 		description = "Suspicious String 578"
 
 	strings:
-		$a = "MikiSoft"
+		$a = "Man404_ID "
 
 	condition:
 		$a 
@@ -6362,7 +6362,7 @@ rule SuspiciousString_579
 		description = "Suspicious String 579"
 
 	strings:
-		$a = "Minhal Mehdi "
+		$a = "Mannu"
 
 	condition:
 		$a 
@@ -6373,7 +6373,7 @@ rule SuspiciousString_580
 		description = "Suspicious String 580"
 
 	strings:
-		$a = "Mini shell"
+		$a = "Marwan007"
 
 	condition:
 		$a 
@@ -6384,7 +6384,7 @@ rule SuspiciousString_581
 		description = "Suspicious String 581"
 
 	strings:
-		$a = "Mirror Zone-BBHH"
+		$a = "Mauritania Attacker"
 
 	condition:
 		$a 
@@ -6395,7 +6395,7 @@ rule SuspiciousString_582
 		description = "Suspicious String 582"
 
 	strings:
-		$a = "Missing type of reverse shell"
+		$a = "Mauritania HaCker Team"
 
 	condition:
 		$a 
@@ -6406,7 +6406,7 @@ rule SuspiciousString_583
 		description = "Suspicious String 583"
 
 	strings:
-		$a = "Miyachung"
+		$a = "Mdn_newbie"
 
 	condition:
 		$a 
@@ -6417,7 +6417,7 @@ rule SuspiciousString_584
 		description = "Suspicious String 584"
 
 	strings:
-		$a = "Mizt3riO-uZ"
+		$a = "Melvin and all ljuska.org and x0rg.org members"
 
 	condition:
 		$a 
@@ -6428,7 +6428,7 @@ rule SuspiciousString_585
 		description = "Suspicious String 585"
 
 	strings:
-		$a = "Modified by Shadow & Preddy"
+		$a = "Mercury2911"
 
 	condition:
 		$a 
@@ -6439,7 +6439,7 @@ rule SuspiciousString_586
 		description = "Suspicious String 586"
 
 	strings:
-		$a = "Modon Tak"
+		$a = "MikiSoft"
 
 	condition:
 		$a 
@@ -6450,7 +6450,7 @@ rule SuspiciousString_587
 		description = "Suspicious String 587"
 
 	strings:
-		$a = "Mohammad Yasir"
+		$a = "Minhal Mehdi "
 
 	condition:
 		$a 
@@ -6461,7 +6461,7 @@ rule SuspiciousString_588
 		description = "Suspicious String 588"
 
 	strings:
-		$a = "Mohkalad HaXor"
+		$a = "Mini shell"
 
 	condition:
 		$a 
@@ -6472,7 +6472,7 @@ rule SuspiciousString_589
 		description = "Suspicious String 589"
 
 	strings:
-		$a = "Moneer Masoud"
+		$a = "Mirror Zone-BBHH"
 
 	condition:
 		$a 
@@ -6483,7 +6483,7 @@ rule SuspiciousString_590
 		description = "Suspicious String 590"
 
 	strings:
-		$a = "Monkey B Luffy"
+		$a = "Missing type of reverse shell"
 
 	condition:
 		$a 
@@ -6494,7 +6494,7 @@ rule SuspiciousString_591
 		description = "Suspicious String 591"
 
 	strings:
-		$a = "Monsters Defacers"
+		$a = "Miyachung"
 
 	condition:
 		$a 
@@ -6505,7 +6505,7 @@ rule SuspiciousString_592
 		description = "Suspicious String 592"
 
 	strings:
-		$a = "MooT HaCkEr - NaiF KSA"
+		$a = "Mizt3riO-uZ"
 
 	condition:
 		$a 
@@ -6516,7 +6516,7 @@ rule SuspiciousString_593
 		description = "Suspicious String 593"
 
 	strings:
-		$a = "Moroccan H4x0r"
+		$a = "Modified by Shadow & Preddy"
 
 	condition:
 		$a 
@@ -6527,7 +6527,7 @@ rule SuspiciousString_594
 		description = "Suspicious String 594"
 
 	strings:
-		$a = "Morocco.Security.Rulz"
+		$a = "Modon Tak"
 
 	condition:
 		$a 
@@ -6538,7 +6538,7 @@ rule SuspiciousString_595
 		description = "Suspicious String 595"
 
 	strings:
-		$a = "Mr. DellatioNx196"
+		$a = "Mohammad Yasir"
 
 	condition:
 		$a 
@@ -6549,7 +6549,7 @@ rule SuspiciousString_596
 		description = "Suspicious String 596"
 
 	strings:
-		$a = "Mr. Trojan"
+		$a = "Mohkalad HaXor"
 
 	condition:
 		$a 
@@ -6560,7 +6560,7 @@ rule SuspiciousString_597
 		description = "Suspicious String 597"
 
 	strings:
-		$a = "Mr.404_NotFound "
+		$a = "Moneer Masoud"
 
 	condition:
 		$a 
@@ -6571,7 +6571,7 @@ rule SuspiciousString_598
 		description = "Suspicious String 598"
 
 	strings:
-		$a = "Mr.Acid Khan"
+		$a = "Monkey B Luffy"
 
 	condition:
 		$a 
@@ -6582,7 +6582,7 @@ rule SuspiciousString_599
 		description = "Suspicious String 599"
 
 	strings:
-		$a = "Mr.BIN"
+		$a = "Monsters Defacers"
 
 	condition:
 		$a 
@@ -6593,7 +6593,7 @@ rule SuspiciousString_600
 		description = "Suspicious String 600"
 
 	strings:
-		$a = "Mr.Blank007"
+		$a = "MooT HaCkEr - NaiF KSA"
 
 	condition:
 		$a 
@@ -6604,7 +6604,7 @@ rule SuspiciousString_601
 		description = "Suspicious String 601"
 
 	strings:
-		$a = "Mr.BroTx"
+		$a = "Moroccan H4x0r"
 
 	condition:
 		$a 
@@ -6615,7 +6615,7 @@ rule SuspiciousString_602
 		description = "Suspicious String 602"
 
 	strings:
-		$a = "Mr.Bro_Tx"
+		$a = "Morocco.Security.Rulz"
 
 	condition:
 		$a 
@@ -6626,7 +6626,7 @@ rule SuspiciousString_603
 		description = "Suspicious String 603"
 
 	strings:
-		$a = "Mr.Cakil"
+		$a = "Mr-Anobs"
 
 	condition:
 		$a 
@@ -6637,7 +6637,7 @@ rule SuspiciousString_604
 		description = "Suspicious String 604"
 
 	strings:
-		$a = "Mr.Dork "
+		$a = "Mr-Lordz"
 
 	condition:
 		$a 
@@ -6648,7 +6648,7 @@ rule SuspiciousString_605
 		description = "Suspicious String 605"
 
 	strings:
-		$a = "Mr.Dr3awe"
+		$a = "Mr. DellatioNx196"
 
 	condition:
 		$a 
@@ -6659,7 +6659,7 @@ rule SuspiciousString_606
 		description = "Suspicious String 606"
 
 	strings:
-		$a = "Mr.FMR"
+		$a = "Mr. Trojan"
 
 	condition:
 		$a 
@@ -6670,7 +6670,7 @@ rule SuspiciousString_607
 		description = "Suspicious String 607"
 
 	strings:
-		$a = "Mr.Ghostteror_404 "
+		$a = "Mr.404_NotFound "
 
 	condition:
 		$a 
@@ -6681,7 +6681,7 @@ rule SuspiciousString_608
 		description = "Suspicious String 608"
 
 	strings:
-		$a = "Mr.HTTP   "
+		$a = "Mr.Acid Khan"
 
 	condition:
 		$a 
@@ -6692,7 +6692,7 @@ rule SuspiciousString_609
 		description = "Suspicious String 609"
 
 	strings:
-		$a = "Mr.HanzID"
+		$a = "Mr.BIN"
 
 	condition:
 		$a 
@@ -6703,7 +6703,7 @@ rule SuspiciousString_610
 		description = "Suspicious String 610"
 
 	strings:
-		$a = "Mr.HaurgeulisX196 "
+		$a = "Mr.Blank007"
 
 	condition:
 		$a 
@@ -6714,7 +6714,7 @@ rule SuspiciousString_611
 		description = "Suspicious String 611"
 
 	strings:
-		$a = "Mr.HiTman"
+		$a = "Mr.BroTx"
 
 	condition:
 		$a 
@@ -6725,7 +6725,7 @@ rule SuspiciousString_612
 		description = "Suspicious String 612"
 
 	strings:
-		$a = "Mr.HydR4"
+		$a = "Mr.Bro_Tx"
 
 	condition:
 		$a 
@@ -6736,7 +6736,7 @@ rule SuspiciousString_613
 		description = "Suspicious String 613"
 
 	strings:
-		$a = "Mr.Hydr4"
+		$a = "Mr.Cakil"
 
 	condition:
 		$a 
@@ -6747,7 +6747,7 @@ rule SuspiciousString_614
 		description = "Suspicious String 614"
 
 	strings:
-		$a = "Mr.Java404"
+		$a = "Mr.Dork "
 
 	condition:
 		$a 
@@ -6758,7 +6758,7 @@ rule SuspiciousString_615
 		description = "Suspicious String 615"
 
 	strings:
-		$a = "Mr.Kro0oz.305"
+		$a = "Mr.Dr3awe"
 
 	condition:
 		$a 
@@ -6769,7 +6769,7 @@ rule SuspiciousString_616
 		description = "Suspicious String 616"
 
 	strings:
-		$a = "Mr.Labib404"
+		$a = "Mr.FMR"
 
 	condition:
 		$a 
@@ -6780,7 +6780,7 @@ rule SuspiciousString_617
 		description = "Suspicious String 617"
 
 	strings:
-		$a = "Mr.LittleHaxor "
+		$a = "Mr.Ghostteror_404 "
 
 	condition:
 		$a 
@@ -6791,7 +6791,7 @@ rule SuspiciousString_618
 		description = "Suspicious String 618"
 
 	strings:
-		$a = "Mr.Luciferz"
+		$a = "Mr.HTTP   "
 
 	condition:
 		$a 
@@ -6802,7 +6802,7 @@ rule SuspiciousString_619
 		description = "Suspicious String 619"
 
 	strings:
-		$a = "Mr.N00B"
+		$a = "Mr.HanzID"
 
 	condition:
 		$a 
@@ -6813,7 +6813,7 @@ rule SuspiciousString_620
 		description = "Suspicious String 620"
 
 	strings:
-		$a = "Mr.P41J0 "
+		$a = "Mr.HaurgeulisX196 "
 
 	condition:
 		$a 
@@ -6824,7 +6824,7 @@ rule SuspiciousString_621
 		description = "Suspicious String 621"
 
 	strings:
-		$a = "Mr.PoorBAD@Alpha.com"
+		$a = "Mr.HiTman"
 
 	condition:
 		$a 
@@ -6835,7 +6835,7 @@ rule SuspiciousString_622
 		description = "Suspicious String 622"
 
 	strings:
-		$a = "Mr.R007"
+		$a = "Mr.HydR4"
 
 	condition:
 		$a 
@@ -6846,7 +6846,7 @@ rule SuspiciousString_623
 		description = "Suspicious String 623"
 
 	strings:
-		$a = "Mr.Robot"
+		$a = "Mr.Hydr4"
 
 	condition:
 		$a 
@@ -6857,7 +6857,7 @@ rule SuspiciousString_624
 		description = "Suspicious String 624"
 
 	strings:
-		$a = "Mr.Swan"
+		$a = "Mr.Java404"
 
 	condition:
 		$a 
@@ -6868,7 +6868,7 @@ rule SuspiciousString_625
 		description = "Suspicious String 625"
 
 	strings:
-		$a = "Mr.TenWap"
+		$a = "Mr.Kro0oz.305"
 
 	condition:
 		$a 
@@ -6879,7 +6879,7 @@ rule SuspiciousString_626
 		description = "Suspicious String 626"
 
 	strings:
-		$a = "Mr.Trouble5hooting"
+		$a = "Mr.Labib404"
 
 	condition:
 		$a 
@@ -6890,7 +6890,7 @@ rule SuspiciousString_627
 		description = "Suspicious String 627"
 
 	strings:
-		$a = "Mr.Vendetta_404"
+		$a = "Mr.LittleHaxor "
 
 	condition:
 		$a 
@@ -6901,7 +6901,7 @@ rule SuspiciousString_628
 		description = "Suspicious String 628"
 
 	strings:
-		$a = "Mr.WeXenT"
+		$a = "Mr.Luciferz"
 
 	condition:
 		$a 
@@ -6912,7 +6912,7 @@ rule SuspiciousString_629
 		description = "Suspicious String 629"
 
 	strings:
-		$a = "Mr.X98"
+		$a = "Mr.N00B"
 
 	condition:
 		$a 
@@ -6923,7 +6923,7 @@ rule SuspiciousString_630
 		description = "Suspicious String 630"
 
 	strings:
-		$a = "Mr.aji.192 "
+		$a = "Mr.P41J0 "
 
 	condition:
 		$a 
@@ -6934,7 +6934,7 @@ rule SuspiciousString_631
 		description = "Suspicious String 631"
 
 	strings:
-		$a = "Mr.dexter.305 "
+		$a = "Mr.PoorBAD@Alpha.com"
 
 	condition:
 		$a 
@@ -6945,7 +6945,7 @@ rule SuspiciousString_632
 		description = "Suspicious String 632"
 
 	strings:
-		$a = "Mr.foxIND27"
+		$a = "Mr.R007"
 
 	condition:
 		$a 
@@ -6956,7 +6956,7 @@ rule SuspiciousString_633
 		description = "Suspicious String 633"
 
 	strings:
-		$a = "Mr.greetz69"
+		$a = "Mr.Robot"
 
 	condition:
 		$a 
@@ -6967,7 +6967,7 @@ rule SuspiciousString_634
 		description = "Suspicious String 634"
 
 	strings:
-		$a = "Mr.wexent"
+		$a = "Mr.Swan"
 
 	condition:
 		$a 
@@ -6978,7 +6978,7 @@ rule SuspiciousString_635
 		description = "Suspicious String 635"
 
 	strings:
-		$a = "Mr.x0x"
+		$a = "Mr.TenWap"
 
 	condition:
 		$a 
@@ -6989,7 +6989,7 @@ rule SuspiciousString_636
 		description = "Suspicious String 636"
 
 	strings:
-		$a = "Mr.xBaraKuda"
+		$a = "Mr.Trouble5hooting"
 
 	condition:
 		$a 
@@ -7000,7 +7000,7 @@ rule SuspiciousString_637
 		description = "Suspicious String 637"
 
 	strings:
-		$a = "MrJoker"
+		$a = "Mr.Vendetta_404"
 
 	condition:
 		$a 
@@ -7011,7 +7011,7 @@ rule SuspiciousString_638
 		description = "Suspicious String 638"
 
 	strings:
-		$a = "Mr-Anobs"
+		$a = "Mr.WeXenT"
 
 	condition:
 		$a 
@@ -7022,7 +7022,7 @@ rule SuspiciousString_639
 		description = "Suspicious String 639"
 
 	strings:
-		$a = "Mr-Lordz"
+		$a = "Mr.X98"
 
 	condition:
 		$a 
@@ -7033,7 +7033,7 @@ rule SuspiciousString_640
 		description = "Suspicious String 640"
 
 	strings:
-		$a = "Mr_Oxygen "
+		$a = "Mr.aji.192 "
 
 	condition:
 		$a 
@@ -7044,7 +7044,7 @@ rule SuspiciousString_641
 		description = "Suspicious String 641"
 
 	strings:
-		$a = "MrxCyberX "
+		$a = "Mr.dexter.305 "
 
 	condition:
 		$a 
@@ -7055,7 +7055,7 @@ rule SuspiciousString_642
 		description = "Suspicious String 642"
 
 	strings:
-		$a = "Mugi Doa Ibu Ingkang Varokah"
+		$a = "Mr.foxIND27"
 
 	condition:
 		$a 
@@ -7066,7 +7066,7 @@ rule SuspiciousString_643
 		description = "Suspicious String 643"
 
 	strings:
-		$a = "MugiwaraCrew"
+		$a = "Mr.greetz69"
 
 	condition:
 		$a 
@@ -7077,7 +7077,7 @@ rule SuspiciousString_644
 		description = "Suspicious String 644"
 
 	strings:
-		$a = "Mujahidin Cyber Army"
+		$a = "Mr.wexent"
 
 	condition:
 		$a 
@@ -7088,7 +7088,7 @@ rule SuspiciousString_645
 		description = "Suspicious String 645"
 
 	strings:
-		$a = "Mujahidin303"
+		$a = "Mr.x0x"
 
 	condition:
 		$a 
@@ -7099,7 +7099,7 @@ rule SuspiciousString_646
 		description = "Suspicious String 646"
 
 	strings:
-		$a = "Muslim Cyber Army"
+		$a = "Mr.xBaraKuda"
 
 	condition:
 		$a 
@@ -7110,7 +7110,7 @@ rule SuspiciousString_647
 		description = "Suspicious String 647"
 
 	strings:
-		$a = "Muslim Cyber Security"
+		$a = "MrJoker"
 
 	condition:
 		$a 
@@ -7121,7 +7121,7 @@ rule SuspiciousString_648
 		description = "Suspicious String 648"
 
 	strings:
-		$a = "My Bee"
+		$a = "Mr_Oxygen "
 
 	condition:
 		$a 
@@ -7132,7 +7132,7 @@ rule SuspiciousString_649
 		description = "Suspicious String 649"
 
 	strings:
-		$a = "My DARK-H"
+		$a = "MrxCyberX "
 
 	condition:
 		$a 
@@ -7143,7 +7143,7 @@ rule SuspiciousString_650
 		description = "Suspicious String 650"
 
 	strings:
-		$a = "My ZONE-H"
+		$a = "Mugi Doa Ibu Ingkang Varokah"
 
 	condition:
 		$a 
@@ -7154,7 +7154,7 @@ rule SuspiciousString_651
 		description = "Suspicious String 651"
 
 	strings:
-		$a = "N16H7H4WK"
+		$a = "MugiwaraCrew"
 
 	condition:
 		$a 
@@ -7165,7 +7165,7 @@ rule SuspiciousString_652
 		description = "Suspicious String 652"
 
 	strings:
-		$a = "N45HT"
+		$a = "Mujahidin Cyber Army"
 
 	condition:
 		$a 
@@ -7176,7 +7176,7 @@ rule SuspiciousString_653
 		description = "Suspicious String 653"
 
 	strings:
-		$a = "N4sKun"
+		$a = "Mujahidin303"
 
 	condition:
 		$a 
@@ -7187,7 +7187,7 @@ rule SuspiciousString_654
 		description = "Suspicious String 654"
 
 	strings:
-		$a = "NO update exists boss"
+		$a = "Muslim Cyber Army"
 
 	condition:
 		$a 
@@ -7198,7 +7198,7 @@ rule SuspiciousString_655
 		description = "Suspicious String 655"
 
 	strings:
-		$a = "NONE@ggledocs.com"
+		$a = "Muslim Cyber Security"
 
 	condition:
 		$a 
@@ -7209,7 +7209,7 @@ rule SuspiciousString_656
 		description = "Suspicious String 656"
 
 	strings:
-		$a = "Naughty_r00tz "
+		$a = "My Bee"
 
 	condition:
 		$a 
@@ -7220,7 +7220,7 @@ rule SuspiciousString_657
 		description = "Suspicious String 657"
 
 	strings:
-		$a = "NeEeO_HaCk"
+		$a = "My DARK-H"
 
 	condition:
 		$a 
@@ -7231,7 +7231,7 @@ rule SuspiciousString_658
 		description = "Suspicious String 658"
 
 	strings:
-		$a = "Neneng Juhairiah"
+		$a = "My ZONE-H"
 
 	condition:
 		$a 
@@ -7242,7 +7242,7 @@ rule SuspiciousString_659
 		description = "Suspicious String 659"
 
 	strings:
-		$a = "Neo hacker ICA"
+		$a = "N16H7H4WK"
 
 	condition:
 		$a 
@@ -7253,7 +7253,7 @@ rule SuspiciousString_660
 		description = "Suspicious String 660"
 
 	strings:
-		$a = "Net Scrap Shop"
+		$a = "N45HT"
 
 	condition:
 		$a 
@@ -7264,7 +7264,7 @@ rule SuspiciousString_661
 		description = "Suspicious String 661"
 
 	strings:
-		$a = "NetJackal"
+		$a = "N4sKun"
 
 	condition:
 		$a 
@@ -7275,7 +7275,7 @@ rule SuspiciousString_662
 		description = "Suspicious String 662"
 
 	strings:
-		$a = "Netflix - Billing Information"
+		$a = "NO update exists boss"
 
 	condition:
 		$a 
@@ -7286,7 +7286,7 @@ rule SuspiciousString_663
 		description = "Suspicious String 663"
 
 	strings:
-		$a = "Netflix - Payment Information"
+		$a = "NONE@ggledocs.com"
 
 	condition:
 		$a 
@@ -7297,7 +7297,7 @@ rule SuspiciousString_664
 		description = "Suspicious String 664"
 
 	strings:
-		$a = "Newbie3viLc063s h3x4Crew RileksCrew Family"
+		$a = "Naughty_r00tz "
 
 	condition:
 		$a 
@@ -7308,7 +7308,7 @@ rule SuspiciousString_665
 		description = "Suspicious String 665"
 
 	strings:
-		$a = "Nginx1337"
+		$a = "NeEeO_HaCk"
 
 	condition:
 		$a 
@@ -7319,7 +7319,7 @@ rule SuspiciousString_666
 		description = "Suspicious String 666"
 
 	strings:
-		$a = "Nilotpal Biswas"
+		$a = "Neneng Juhairiah"
 
 	condition:
 		$a 
@@ -7330,7 +7330,7 @@ rule SuspiciousString_667
 		description = "Suspicious String 667"
 
 	strings:
-		$a = "Ninja-Security"
+		$a = "Neo hacker ICA"
 
 	condition:
 		$a 
@@ -7341,7 +7341,7 @@ rule SuspiciousString_668
 		description = "Suspicious String 668"
 
 	strings:
-		$a = "NmR.Hacker"
+		$a = "Net Scrap Shop"
 
 	condition:
 		$a 
@@ -7352,7 +7352,7 @@ rule SuspiciousString_669
 		description = "Suspicious String 669"
 
 	strings:
-		$a = "Nobrex"
+		$a = "NetJackal"
 
 	condition:
 		$a 
@@ -7363,7 +7363,7 @@ rule SuspiciousString_670
 		description = "Suspicious String 670"
 
 	strings:
-		$a = "NonameUser"
+		$a = "Netflix - Billing Information"
 
 	condition:
 		$a 
@@ -7374,7 +7374,7 @@ rule SuspiciousString_671
 		description = "Suspicious String 671"
 
 	strings:
-		$a = "O-Ghost Hacker"
+		$a = "Netflix - Payment Information"
 
 	condition:
 		$a 
@@ -7385,7 +7385,7 @@ rule SuspiciousString_672
 		description = "Suspicious String 672"
 
 	strings:
-		$a = "Obat Kuat"
+		$a = "Newbie3viLc063s h3x4Crew RileksCrew Family"
 
 	condition:
 		$a 
@@ -7396,7 +7396,7 @@ rule SuspiciousString_673
 		description = "Suspicious String 673"
 
 	strings:
-		$a = "Obfuscation provided by FOPO"
+		$a = "Nginx1337"
 
 	condition:
 		$a 
@@ -7407,7 +7407,7 @@ rule SuspiciousString_674
 		description = "Suspicious String 674"
 
 	strings:
-		$a = "Obisidian Cyber Team"
+		$a = "Nilotpal Biswas"
 
 	condition:
 		$a 
@@ -7418,7 +7418,7 @@ rule SuspiciousString_675
 		description = "Suspicious String 675"
 
 	strings:
-		$a = "Old-Rebuild Lady"
+		$a = "Ninja-Security"
 
 	condition:
 		$a 
@@ -7429,7 +7429,7 @@ rule SuspiciousString_676
 		description = "Suspicious String 676"
 
 	strings:
-		$a = "Oli404"
+		$a = "NmR.Hacker"
 
 	condition:
 		$a 
@@ -7440,7 +7440,7 @@ rule SuspiciousString_677
 		description = "Suspicious String 677"
 
 	strings:
-		$a = "Open-Realty"
+		$a = "Nobrex"
 
 	condition:
 		$a 
@@ -7451,7 +7451,7 @@ rule SuspiciousString_678
 		description = "Suspicious String 678"
 
 	strings:
-		$a = "Opreker"
+		$a = "NonameUser"
 
 	condition:
 		$a 
@@ -7462,7 +7462,7 @@ rule SuspiciousString_679
 		description = "Suspicious String 679"
 
 	strings:
-		$a = "OrionsHunter"
+		$a = "O-Ghost Hacker"
 
 	condition:
 		$a 
@@ -7473,7 +7473,7 @@ rule SuspiciousString_680
 		description = "Suspicious String 680"
 
 	strings:
-		$a = "Ov3rLorD"
+		$a = "Obat Kuat"
 
 	condition:
 		$a 
@@ -7484,7 +7484,7 @@ rule SuspiciousString_681
 		description = "Suspicious String 681"
 
 	strings:
-		$a = "Overl0ser"
+		$a = "Obfuscation provided by FOPO"
 
 	condition:
 		$a 
@@ -7495,7 +7495,7 @@ rule SuspiciousString_682
 		description = "Suspicious String 682"
 
 	strings:
-		$a = "Ownedby|v!nc3"
+		$a = "Obisidian Cyber Team"
 
 	condition:
 		$a 
@@ -7506,7 +7506,7 @@ rule SuspiciousString_683
 		description = "Suspicious String 683"
 
 	strings:
-		$a = "P0150n Op3r470r"
+		$a = "Old-Rebuild Lady"
 
 	condition:
 		$a 
@@ -7517,7 +7517,7 @@ rule SuspiciousString_684
 		description = "Suspicious String 684"
 
 	strings:
-		$a = "P0w3r3d By pedro"
+		$a = "Oli404"
 
 	condition:
 		$a 
@@ -7528,7 +7528,7 @@ rule SuspiciousString_685
 		description = "Suspicious String 685"
 
 	strings:
-		$a = "PATO LOKO PARA DE VIADAGEM"
+		$a = "Open-Realty"
 
 	condition:
 		$a 
@@ -7539,7 +7539,7 @@ rule SuspiciousString_686
 		description = "Suspicious String 686"
 
 	strings:
-		$a = "PD9waHAgJHsiXHg0N0xceDR"
+		$a = "Opreker"
 
 	condition:
 		$a 
@@ -7550,7 +7550,7 @@ rule SuspiciousString_687
 		description = "Suspicious String 687"
 
 	strings:
-		$a = "PETR03X"
+		$a = "OrionsHunter"
 
 	condition:
 		$a 
@@ -7561,7 +7561,7 @@ rule SuspiciousString_688
 		description = "Suspicious String 688"
 
 	strings:
-		$a = "PH4NTHER    "
+		$a = "Ov3rLorD"
 
 	condition:
 		$a 
@@ -7572,7 +7572,7 @@ rule SuspiciousString_689
 		description = "Suspicious String 689"
 
 	strings:
-		$a = "PHOENIX SHELL"
+		$a = "Overl0ser"
 
 	condition:
 		$a 
@@ -7583,7 +7583,7 @@ rule SuspiciousString_690
 		description = "Suspicious String 690"
 
 	strings:
-		$a = "PHP Encode by  http://Www.PHPJiaMi.Com/"
+		$a = "Ownedby|v!nc3"
 
 	condition:
 		$a 
@@ -7594,7 +7594,7 @@ rule SuspiciousString_691
 		description = "Suspicious String 691"
 
 	strings:
-		$a = "PHPJackal"
+		$a = "P0150n Op3r470r"
 
 	condition:
 		$a 
@@ -7605,7 +7605,7 @@ rule SuspiciousString_692
 		description = "Suspicious String 692"
 
 	strings:
-		$a = "PR0L3T3RS"
+		$a = "P0w3r3d By pedro"
 
 	condition:
 		$a 
@@ -7616,7 +7616,7 @@ rule SuspiciousString_693
 		description = "Suspicious String 693"
 
 	strings:
-		$a = "PRI[ll"
+		$a = "PATO LOKO PARA DE VIADAGEM"
 
 	condition:
 		$a 
@@ -7627,7 +7627,7 @@ rule SuspiciousString_694
 		description = "Suspicious String 694"
 
 	strings:
-		$a = "PUBER -"
+		$a = "PD9waHAgJHsiXHg0N0xceDR"
 
 	condition:
 		$a 
@@ -7638,7 +7638,7 @@ rule SuspiciousString_695
 		description = "Suspicious String 695"
 
 	strings:
-		$a = "Pain Script To Symlink Configs"
+		$a = "PETR03X"
 
 	condition:
 		$a 
@@ -7649,7 +7649,7 @@ rule SuspiciousString_696
 		description = "Suspicious String 696"
 
 	strings:
-		$a = "Pain Symlink"
+		$a = "PH4NTHER    "
 
 	condition:
 		$a 
@@ -7660,7 +7660,7 @@ rule SuspiciousString_697
 		description = "Suspicious String 697"
 
 	strings:
-		$a = "Pak Cyber Pyrates"
+		$a = "PHOENIX SHELL"
 
 	condition:
 		$a 
@@ -7671,7 +7671,7 @@ rule SuspiciousString_698
 		description = "Suspicious String 698"
 
 	strings:
-		$a = "Pak Hunters"
+		$a = "PHP Encode by  http://Www.PHPJiaMi.Com/"
 
 	condition:
 		$a 
@@ -7682,7 +7682,7 @@ rule SuspiciousString_699
 		description = "Suspicious String 699"
 
 	strings:
-		$a = "Pakistan Zindabad"
+		$a = "PHPJackal"
 
 	condition:
 		$a 
@@ -7693,7 +7693,7 @@ rule SuspiciousString_700
 		description = "Suspicious String 700"
 
 	strings:
-		$a = "Panel Cracker By Team IndiShell"
+		$a = "PR0L3T3RS"
 
 	condition:
 		$a 
@@ -7704,7 +7704,7 @@ rule SuspiciousString_701
 		description = "Suspicious String 701"
 
 	strings:
-		$a = "Pankaj Sharma"
+		$a = "PRI[ll"
 
 	condition:
 		$a 
@@ -7715,7 +7715,7 @@ rule SuspiciousString_702
 		description = "Suspicious String 702"
 
 	strings:
-		$a = "PayPal US Bank Spam ReZulT"
+		$a = "PUBER -"
 
 	condition:
 		$a 
@@ -7726,7 +7726,7 @@ rule SuspiciousString_703
 		description = "Suspicious String 703"
 
 	strings:
-		$a = "Paypal Token Generator"
+		$a = "Pain Script To Symlink Configs"
 
 	condition:
 		$a 
@@ -7737,7 +7737,7 @@ rule SuspiciousString_704
 		description = "Suspicious String 704"
 
 	strings:
-		$a = "Penggila Coli"
+		$a = "Pain Symlink"
 
 	condition:
 		$a 
@@ -7748,7 +7748,7 @@ rule SuspiciousString_705
 		description = "Suspicious String 705"
 
 	strings:
-		$a = "Persian Gulf For Ever"
+		$a = "Pak Cyber Pyrates"
 
 	condition:
 		$a 
@@ -7759,7 +7759,7 @@ rule SuspiciousString_706
 		description = "Suspicious String 706"
 
 	strings:
-		$a = "Peruvian R00lz"
+		$a = "Pak Hunters"
 
 	condition:
 		$a 
@@ -7770,7 +7770,7 @@ rule SuspiciousString_707
 		description = "Suspicious String 707"
 
 	strings:
-		$a = "Ph33r"
+		$a = "Pakistan Zindabad"
 
 	condition:
 		$a 
@@ -7781,7 +7781,7 @@ rule SuspiciousString_708
 		description = "Suspicious String 708"
 
 	strings:
-		$a = "PhantomGhost"
+		$a = "Panel Cracker By Team IndiShell"
 
 	condition:
 		$a 
@@ -7792,7 +7792,7 @@ rule SuspiciousString_709
 		description = "Suspicious String 709"
 
 	strings:
-		$a = "Phreaker"
+		$a = "Pankaj Sharma"
 
 	condition:
 		$a 
@@ -7803,7 +7803,7 @@ rule SuspiciousString_710
 		description = "Suspicious String 710"
 
 	strings:
-		$a = "Pinpal"
+		$a = "PayPal US Bank Spam ReZulT"
 
 	condition:
 		$a 
@@ -7814,7 +7814,7 @@ rule SuspiciousString_711
 		description = "Suspicious String 711"
 
 	strings:
-		$a = "Please enter the new password"
+		$a = "Paypal Token Generator"
 
 	condition:
 		$a 
@@ -7825,7 +7825,7 @@ rule SuspiciousString_712
 		description = "Suspicious String 712"
 
 	strings:
-		$a = "Plugin Name: Wordpress Plugin Manager"
+		$a = "Penggila Coli"
 
 	condition:
 		$a 
@@ -7836,7 +7836,7 @@ rule SuspiciousString_713
 		description = "Suspicious String 713"
 
 	strings:
-		$a = "PoTi_SaD-Dz"
+		$a = "Persian Gulf For Ever"
 
 	condition:
 		$a 
@@ -7847,7 +7847,7 @@ rule SuspiciousString_714
 		description = "Suspicious String 714"
 
 	strings:
-		$a = "Post DC Back Connect"
+		$a = "Peruvian R00lz"
 
 	condition:
 		$a 
@@ -7858,7 +7858,7 @@ rule SuspiciousString_715
 		description = "Suspicious String 715"
 
 	strings:
-		$a = "Powered By leetc0des.blogspot.com"
+		$a = "Ph33r"
 
 	condition:
 		$a 
@@ -7869,7 +7869,7 @@ rule SuspiciousString_716
 		description = "Suspicious String 716"
 
 	strings:
-		$a = "Prappo Prince"
+		$a = "PhantomGhost"
 
 	condition:
 		$a 
@@ -7880,7 +7880,7 @@ rule SuspiciousString_717
 		description = "Suspicious String 717"
 
 	strings:
-		$a = "Priv8 2011 Attack Shell"
+		$a = "Phreaker"
 
 	condition:
 		$a 
@@ -7891,7 +7891,7 @@ rule SuspiciousString_718
 		description = "Suspicious String 718"
 
 	strings:
-		$a = "Priv8 M@iler"
+		$a = "Pinpal"
 
 	condition:
 		$a 
@@ -7902,7 +7902,7 @@ rule SuspiciousString_719
 		description = "Suspicious String 719"
 
 	strings:
-		$a = "Private Mailer 6.2"
+		$a = "Please enter the new password"
 
 	condition:
 		$a 
@@ -7913,7 +7913,7 @@ rule SuspiciousString_720
 		description = "Suspicious String 720"
 
 	strings:
-		$a = "Problem Cyber Team"
+		$a = "Plugin Name: Wordpress Plugin Manager"
 
 	condition:
 		$a 
@@ -7924,7 +7924,7 @@ rule SuspiciousString_721
 		description = "Suspicious String 721"
 
 	strings:
-		$a = "Procoderz Team Albania"
+		$a = "PoTi_SaD-Dz"
 
 	condition:
 		$a 
@@ -7935,7 +7935,7 @@ rule SuspiciousString_722
 		description = "Suspicious String 722"
 
 	strings:
-		$a = "Procoder’z Team Albania"
+		$a = "Post DC Back Connect"
 
 	condition:
 		$a 
@@ -7946,7 +7946,7 @@ rule SuspiciousString_723
 		description = "Suspicious String 723"
 
 	strings:
-		$a = "Prosox"
+		$a = "Powered By leetc0des.blogspot.com"
 
 	condition:
 		$a 
@@ -7957,7 +7957,7 @@ rule SuspiciousString_724
 		description = "Suspicious String 724"
 
 	strings:
-		$a = "Pwnd?"
+		$a = "Prappo Prince"
 
 	condition:
 		$a 
@@ -7968,7 +7968,7 @@ rule SuspiciousString_725
 		description = "Suspicious String 725"
 
 	strings:
-		$a = "Pwned by Lalabitch"
+		$a = "Priv8 2011 Attack Shell"
 
 	condition:
 		$a 
@@ -7979,7 +7979,7 @@ rule SuspiciousString_726
 		description = "Suspicious String 726"
 
 	strings:
-		$a = "QHR hacker"
+		$a = "Priv8 M@iler"
 
 	condition:
 		$a 
@@ -7990,7 +7990,7 @@ rule SuspiciousString_727
 		description = "Suspicious String 727"
 
 	strings:
-		$a = "R00t3d Br4!n"
+		$a = "Private Mailer 6.2"
 
 	condition:
 		$a 
@@ -8001,7 +8001,7 @@ rule SuspiciousString_728
 		description = "Suspicious String 728"
 
 	strings:
-		$a = "R0xPQkFMUw=="
+		$a = "Problem Cyber Team"
 
 	condition:
 		$a 
@@ -8012,7 +8012,7 @@ rule SuspiciousString_729
 		description = "Suspicious String 729"
 
 	strings:
-		$a = "R3DD3V1L "
+		$a = "Procoderz Team Albania"
 
 	condition:
 		$a 
@@ -8023,7 +8023,7 @@ rule SuspiciousString_730
 		description = "Suspicious String 730"
 
 	strings:
-		$a = "R4ST4_R00T"
+		$a = "Procoder’z Team Albania"
 
 	condition:
 		$a 
@@ -8034,7 +8034,7 @@ rule SuspiciousString_731
 		description = "Suspicious String 731"
 
 	strings:
-		$a = "R4ZW4N BIN SUL4IM4N"
+		$a = "Prosox"
 
 	condition:
 		$a 
@@ -8045,7 +8045,7 @@ rule SuspiciousString_732
 		description = "Suspicious String 732"
 
 	strings:
-		$a = "REVO HAS B33N B4CK"
+		$a = "Pwnd?"
 
 	condition:
 		$a 
@@ -8056,7 +8056,7 @@ rule SuspiciousString_733
 		description = "Suspicious String 733"
 
 	strings:
-		$a = "REVO SHELL"
+		$a = "Pwned by Lalabitch"
 
 	condition:
 		$a 
@@ -8067,7 +8067,7 @@ rule SuspiciousString_734
 		description = "Suspicious String 734"
 
 	strings:
-		$a = "ROOTSHELL"
+		$a = "QHR hacker"
 
 	condition:
 		$a 
@@ -8078,7 +8078,7 @@ rule SuspiciousString_735
 		description = "Suspicious String 735"
 
 	strings:
-		$a = "ROOTTN"
+		$a = "R00t3d Br4!n"
 
 	condition:
 		$a 
@@ -8089,7 +8089,7 @@ rule SuspiciousString_736
 		description = "Suspicious String 736"
 
 	strings:
-		$a = "Raj bhai ji"
+		$a = "R0xPQkFMUw=="
 
 	condition:
 		$a 
@@ -8100,7 +8100,7 @@ rule SuspiciousString_737
 		description = "Suspicious String 737"
 
 	strings:
-		$a = "ReZulT"
+		$a = "R3DD3V1L "
 
 	condition:
 		$a 
@@ -8111,7 +8111,7 @@ rule SuspiciousString_738
 		description = "Suspicious String 738"
 
 	strings:
-		$a = "Re-Modified by "
+		$a = "R4ST4_R00T"
 
 	condition:
 		$a 
@@ -8122,7 +8122,7 @@ rule SuspiciousString_739
 		description = "Suspicious String 739"
 
 	strings:
-		$a = "Reborn India"
+		$a = "R4ZW4N BIN SUL4IM4N"
 
 	condition:
 		$a 
@@ -8133,7 +8133,7 @@ rule SuspiciousString_740
 		description = "Suspicious String 740"
 
 	strings:
-		$a = "Recoded By XGHoSTn"
+		$a = "REVO HAS B33N B4CK"
 
 	condition:
 		$a 
@@ -8144,7 +8144,7 @@ rule SuspiciousString_741
 		description = "Suspicious String 741"
 
 	strings:
-		$a = "Recovery Email Address:"
+		$a = "REVO SHELL"
 
 	condition:
 		$a 
@@ -8155,7 +8155,7 @@ rule SuspiciousString_742
 		description = "Suspicious String 742"
 
 	strings:
-		$a = "Red Warrior"
+		$a = "ROOTSHELL"
 
 	condition:
 		$a 
@@ -8166,7 +8166,7 @@ rule SuspiciousString_743
 		description = "Suspicious String 743"
 
 	strings:
-		$a = "Red X"
+		$a = "ROOTTN"
 
 	condition:
 		$a 
@@ -8177,7 +8177,7 @@ rule SuspiciousString_744
 		description = "Suspicious String 744"
 
 	strings:
-		$a = "Remote Code Execution Exploit"
+		$a = "Raj bhai ji"
 
 	condition:
 		$a 
@@ -8188,7 +8188,7 @@ rule SuspiciousString_745
 		description = "Suspicious String 745"
 
 	strings:
-		$a = "Retarol"
+		$a = "Re-Modified by "
 
 	condition:
 		$a 
@@ -8199,7 +8199,7 @@ rule SuspiciousString_746
 		description = "Suspicious String 746"
 
 	strings:
-		$a = "Rg0d"
+		$a = "ReZulT"
 
 	condition:
 		$a 
@@ -8210,7 +8210,7 @@ rule SuspiciousString_747
 		description = "Suspicious String 747"
 
 	strings:
-		$a = "Rifqyajx"
+		$a = "Reborn India"
 
 	condition:
 		$a 
@@ -8221,7 +8221,7 @@ rule SuspiciousString_748
 		description = "Suspicious String 748"
 
 	strings:
-		$a = "Rinto AR "
+		$a = "Recoded By XGHoSTn"
 
 	condition:
 		$a 
@@ -8232,7 +8232,7 @@ rule SuspiciousString_749
 		description = "Suspicious String 749"
 
 	strings:
-		$a = "Rizi_haxor"
+		$a = "Recovery Email Address:"
 
 	condition:
 		$a 
@@ -8243,7 +8243,7 @@ rule SuspiciousString_750
 		description = "Suspicious String 750"
 
 	strings:
-		$a = "Rizky21ID"
+		$a = "Red Warrior"
 
 	condition:
 		$a 
@@ -8254,7 +8254,7 @@ rule SuspiciousString_751
 		description = "Suspicious String 751"
 
 	strings:
-		$a = "Robot Pirates"
+		$a = "Red X"
 
 	condition:
 		$a 
@@ -8265,7 +8265,7 @@ rule SuspiciousString_752
 		description = "Suspicious String 752"
 
 	strings:
-		$a = "Romanian Security Team"
+		$a = "Remote Code Execution Exploit"
 
 	condition:
 		$a 
@@ -8276,7 +8276,7 @@ rule SuspiciousString_753
 		description = "Suspicious String 753"
 
 	strings:
-		$a = "RooTTn & REV!"
+		$a = "Retarol"
 
 	condition:
 		$a 
@@ -8287,7 +8287,7 @@ rule SuspiciousString_754
 		description = "Suspicious String 754"
 
 	strings:
-		$a = "RxR"
+		$a = "Rg0d"
 
 	condition:
 		$a 
@@ -8298,7 +8298,7 @@ rule SuspiciousString_755
 		description = "Suspicious String 755"
 
 	strings:
-		$a = "Ryan Duff and Firas Durri"
+		$a = "Rifqyajx"
 
 	condition:
 		$a 
@@ -8309,7 +8309,7 @@ rule SuspiciousString_756
 		description = "Suspicious String 756"
 
 	strings:
-		$a = "Rytz"
+		$a = "Rinto AR "
 
 	condition:
 		$a 
@@ -8320,7 +8320,7 @@ rule SuspiciousString_757
 		description = "Suspicious String 757"
 
 	strings:
-		$a = "S-Man"
+		$a = "Rizi_haxor"
 
 	condition:
 		$a 
@@ -8331,7 +8331,7 @@ rule SuspiciousString_758
 		description = "Suspicious String 758"
 
 	strings:
-		$a = "S4!Lh34t"
+		$a = "Rizky21ID"
 
 	condition:
 		$a 
@@ -8342,7 +8342,7 @@ rule SuspiciousString_759
 		description = "Suspicious String 759"
 
 	strings:
-		$a = "S4MP4H"
+		$a = "Robot Pirates"
 
 	condition:
 		$a 
@@ -8353,7 +8353,7 @@ rule SuspiciousString_760
 		description = "Suspicious String 760"
 
 	strings:
-		$a = "SAMPAH"
+		$a = "Romanian Security Team"
 
 	condition:
 		$a 
@@ -8364,7 +8364,7 @@ rule SuspiciousString_761
 		description = "Suspicious String 761"
 
 	strings:
-		$a = "SCAM PAGE PPL V5"
+		$a = "RooTTn & REV!"
 
 	condition:
 		$a 
@@ -8375,7 +8375,7 @@ rule SuspiciousString_762
 		description = "Suspicious String 762"
 
 	strings:
-		$a = "SCAM PAYPAL"
+		$a = "RxR"
 
 	condition:
 		$a 
@@ -8386,7 +8386,7 @@ rule SuspiciousString_763
 		description = "Suspicious String 763"
 
 	strings:
-		$a = "SCAMA"
+		$a = "Ryan Duff and Firas Durri"
 
 	condition:
 		$a 
@@ -8397,7 +8397,7 @@ rule SuspiciousString_764
 		description = "Suspicious String 764"
 
 	strings:
-		$a = "SCYTHE404_LOL"
+		$a = "Rytz"
 
 	condition:
 		$a 
@@ -8408,7 +8408,7 @@ rule SuspiciousString_765
 		description = "Suspicious String 765"
 
 	strings:
-		$a = "SHADOW Z118"
+		$a = "S-Man"
 
 	condition:
 		$a 
@@ -8419,7 +8419,7 @@ rule SuspiciousString_766
 		description = "Suspicious String 766"
 
 	strings:
-		$a = "SILVER FOX"
+		$a = "S4!Lh34t"
 
 	condition:
 		$a 
@@ -8430,7 +8430,7 @@ rule SuspiciousString_767
 		description = "Suspicious String 767"
 
 	strings:
-		$a = "SKSking"
+		$a = "S4MP4H"
 
 	condition:
 		$a 
@@ -8441,7 +8441,7 @@ rule SuspiciousString_768
 		description = "Suspicious String 768"
 
 	strings:
-		$a = "SMTP Grabber"
+		$a = "SAMPAH"
 
 	condition:
 		$a 
@@ -8452,7 +8452,7 @@ rule SuspiciousString_769
 		description = "Suspicious String 769"
 
 	strings:
-		$a = "SNMP cracker"
+		$a = "SCAM PAGE PPL V5"
 
 	condition:
 		$a 
@@ -8463,7 +8463,7 @@ rule SuspiciousString_770
 		description = "Suspicious String 770"
 
 	strings:
-		$a = "SQL CMD 3.0 | al-swisre"
+		$a = "SCAM PAYPAL"
 
 	condition:
 		$a 
@@ -8474,7 +8474,7 @@ rule SuspiciousString_771
 		description = "Suspicious String 771"
 
 	strings:
-		$a = "SQL_CMD 3.0 by al-swisre"
+		$a = "SCAMA"
 
 	condition:
 		$a 
@@ -8485,7 +8485,7 @@ rule SuspiciousString_772
 		description = "Suspicious String 772"
 
 	strings:
-		$a = "SQli 1.0 Exploiter "
+		$a = "SCYTHE404_LOL"
 
 	condition:
 		$a 
@@ -8496,7 +8496,7 @@ rule SuspiciousString_773
 		description = "Suspicious String 773"
 
 	strings:
-		$a = "SUNUCU HAKKINDA"
+		$a = "SHADOW Z118"
 
 	condition:
 		$a 
@@ -8507,7 +8507,7 @@ rule SuspiciousString_774
 		description = "Suspicious String 774"
 
 	strings:
-		$a = "SYMLINKER BY GRAY BYTE"
+		$a = "SILVER FOX"
 
 	condition:
 		$a 
@@ -8518,7 +8518,7 @@ rule SuspiciousString_775
 		description = "Suspicious String 775"
 
 	strings:
-		$a = "SaM Shell"
+		$a = "SKSking"
 
 	condition:
 		$a 
@@ -8529,7 +8529,7 @@ rule SuspiciousString_776
 		description = "Suspicious String 776"
 
 	strings:
-		$a = "SaTtAr"
+		$a = "SMTP Grabber"
 
 	condition:
 		$a 
@@ -8540,7 +8540,7 @@ rule SuspiciousString_777
 		description = "Suspicious String 777"
 
 	strings:
-		$a = "Sadrazam SHELL"
+		$a = "SNMP cracker"
 
 	condition:
 		$a 
@@ -8551,7 +8551,7 @@ rule SuspiciousString_778
 		description = "Suspicious String 778"
 
 	strings:
-		$a = "SahaainG"
+		$a = "SQL CMD 3.0 | al-swisre"
 
 	condition:
 		$a 
@@ -8562,7 +8562,7 @@ rule SuspiciousString_779
 		description = "Suspicious String 779"
 
 	strings:
-		$a = "Saliy Tool"
+		$a = "SQL_CMD 3.0 by al-swisre"
 
 	condition:
 		$a 
@@ -8573,7 +8573,7 @@ rule SuspiciousString_780
 		description = "Suspicious String 780"
 
 	strings:
-		$a = "Sanjungan Jiwa Team"
+		$a = "SQli 1.0 Exploiter "
 
 	condition:
 		$a 
@@ -8584,7 +8584,7 @@ rule SuspiciousString_781
 		description = "Suspicious String 781"
 
 	strings:
-		$a = "Saudi Attacker"
+		$a = "SUNUCU HAKKINDA"
 
 	condition:
 		$a 
@@ -8595,7 +8595,7 @@ rule SuspiciousString_782
 		description = "Suspicious String 782"
 
 	strings:
-		$a = "Say To Safemode Go To HeLl By php.ini"
+		$a = "SYMLINKER BY GRAY BYTE"
 
 	condition:
 		$a 
@@ -8606,7 +8606,7 @@ rule SuspiciousString_783
 		description = "Suspicious String 783"
 
 	strings:
-		$a = "ScarleT7"
+		$a = "SaM Shell"
 
 	condition:
 		$a 
@@ -8617,7 +8617,7 @@ rule SuspiciousString_784
 		description = "Suspicious String 784"
 
 	strings:
-		$a = "Scorpiol"
+		$a = "SaTtAr"
 
 	condition:
 		$a 
@@ -8628,7 +8628,7 @@ rule SuspiciousString_785
 		description = "Suspicious String 785"
 
 	strings:
-		$a = "Script Resetpass CP"
+		$a = "Sadrazam SHELL"
 
 	condition:
 		$a 
@@ -8639,7 +8639,7 @@ rule SuspiciousString_786
 		description = "Suspicious String 786"
 
 	strings:
-		$a = "Sec BY Jonior.com"
+		$a = "SahaainG"
 
 	condition:
 		$a 
@@ -8650,7 +8650,7 @@ rule SuspiciousString_787
 		description = "Suspicious String 787"
 
 	strings:
-		$a = "Secsion<infos@hacker_Shenzen>"
+		$a = "Saliy Tool"
 
 	condition:
 		$a 
@@ -8661,7 +8661,7 @@ rule SuspiciousString_788
 		description = "Suspicious String 788"
 
 	strings:
-		$a = "Security Angel Team [S4T]"
+		$a = "Sanjungan Jiwa Team"
 
 	condition:
 		$a 
@@ -8672,7 +8672,7 @@ rule SuspiciousString_789
 		description = "Suspicious String 789"
 
 	strings:
-		$a = "Security Cyber Art"
+		$a = "Saudi Attacker"
 
 	condition:
 		$a 
@@ -8683,7 +8683,7 @@ rule SuspiciousString_790
 		description = "Suspicious String 790"
 
 	strings:
-		$a = "Security Ghost"
+		$a = "Say To Safemode Go To HeLl By php.ini"
 
 	condition:
 		$a 
@@ -8694,7 +8694,7 @@ rule SuspiciousString_791
 		description = "Suspicious String 791"
 
 	strings:
-		$a = "SecurityBus"
+		$a = "ScarleT7"
 
 	condition:
 		$a 
@@ -8705,7 +8705,7 @@ rule SuspiciousString_792
 		description = "Suspicious String 792"
 
 	strings:
-		$a = "Setor PP Boz"
+		$a = "Scorpiol"
 
 	condition:
 		$a 
@@ -8716,7 +8716,7 @@ rule SuspiciousString_793
 		description = "Suspicious String 793"
 
 	strings:
-		$a = "Sh4hien"
+		$a = "Script Resetpass CP"
 
 	condition:
 		$a 
@@ -8727,7 +8727,7 @@ rule SuspiciousString_794
 		description = "Suspicious String 794"
 
 	strings:
-		$a = "Shalyse"
+		$a = "Sec BY Jonior.com"
 
 	condition:
 		$a 
@@ -8738,7 +8738,7 @@ rule SuspiciousString_795
 		description = "Suspicious String 795"
 
 	strings:
-		$a = "Shardhanand"
+		$a = "Secsion<infos@hacker_Shenzen>"
 
 	condition:
 		$a 
@@ -8749,7 +8749,7 @@ rule SuspiciousString_796
 		description = "Suspicious String 796"
 
 	strings:
-		$a = "Sheko H4CK3R"
+		$a = "Security Angel Team [S4T]"
 
 	condition:
 		$a 
@@ -8760,7 +8760,7 @@ rule SuspiciousString_797
 		description = "Suspicious String 797"
 
 	strings:
-		$a = "Shell Accessed!!!"
+		$a = "Security Cyber Art"
 
 	condition:
 		$a 
@@ -8771,7 +8771,7 @@ rule SuspiciousString_798
 		description = "Suspicious String 798"
 
 	strings:
-		$a = "Shell Checker"
+		$a = "Security Ghost"
 
 	condition:
 		$a 
@@ -8782,7 +8782,7 @@ rule SuspiciousString_799
 		description = "Suspicious String 799"
 
 	strings:
-		$a = "Shell Finder"
+		$a = "SecurityBus"
 
 	condition:
 		$a 
@@ -8793,7 +8793,7 @@ rule SuspiciousString_800
 		description = "Suspicious String 800"
 
 	strings:
-		$a = "Shell Recoded From IndoXploit Shell"
+		$a = "Setor PP Boz"
 
 	condition:
 		$a 
@@ -8804,7 +8804,7 @@ rule SuspiciousString_801
 		description = "Suspicious String 801"
 
 	strings:
-		$a = "ShinChan"
+		$a = "Sh4hien"
 
 	condition:
 		$a 
@@ -8815,7 +8815,7 @@ rule SuspiciousString_802
 		description = "Suspicious String 802"
 
 	strings:
-		$a = "ShinChan    "
+		$a = "Shalyse"
 
 	condition:
 		$a 
@@ -8826,7 +8826,7 @@ rule SuspiciousString_803
 		description = "Suspicious String 803"
 
 	strings:
-		$a = "Shindex404    "
+		$a = "Shardhanand"
 
 	condition:
 		$a 
@@ -8837,7 +8837,7 @@ rule SuspiciousString_804
 		description = "Suspicious String 804"
 
 	strings:
-		$a = "Shut_Down404 "
+		$a = "Sheko H4CK3R"
 
 	condition:
 		$a 
@@ -8848,7 +8848,7 @@ rule SuspiciousString_805
 		description = "Suspicious String 805"
 
 	strings:
-		$a = "Silent poison India"
+		$a = "Shell Accessed!!!"
 
 	condition:
 		$a 
@@ -8859,7 +8859,7 @@ rule SuspiciousString_806
 		description = "Suspicious String 806"
 
 	strings:
-		$a = "Siliwangi"
+		$a = "Shell Checker"
 
 	condition:
 		$a 
@@ -8870,7 +8870,7 @@ rule SuspiciousString_807
 		description = "Suspicious String 807"
 
 	strings:
-		$a = "Siluman nanas"
+		$a = "Shell Finder"
 
 	condition:
 		$a 
@@ -8881,7 +8881,7 @@ rule SuspiciousString_808
 		description = "Suspicious String 808"
 
 	strings:
-		$a = "Skidie Khan"
+		$a = "Shell Recoded From IndoXploit Shell"
 
 	condition:
 		$a 
@@ -8892,7 +8892,7 @@ rule SuspiciousString_809
 		description = "Suspicious String 809"
 
 	strings:
-		$a = "Something is wrong. Download - IS NOT OK"
+		$a = "ShinChan"
 
 	condition:
 		$a 
@@ -8903,7 +8903,7 @@ rule SuspiciousString_810
 		description = "Suspicious String 810"
 
 	strings:
-		$a = "Special Thanks To MadLeets"
+		$a = "ShinChan    "
 
 	condition:
 		$a 
@@ -8914,7 +8914,7 @@ rule SuspiciousString_811
 		description = "Suspicious String 811"
 
 	strings:
-		$a = "SpecimenT"
+		$a = "Shindex404    "
 
 	condition:
 		$a 
@@ -8925,7 +8925,7 @@ rule SuspiciousString_812
 		description = "Suspicious String 812"
 
 	strings:
-		$a = "Spirit Hunder"
+		$a = "Shut_Down404 "
 
 	condition:
 		$a 
@@ -8936,7 +8936,7 @@ rule SuspiciousString_813
 		description = "Suspicious String 813"
 
 	strings:
-		$a = "SpyHackerz.Com"
+		$a = "Silent poison India"
 
 	condition:
 		$a 
@@ -8947,7 +8947,7 @@ rule SuspiciousString_814
 		description = "Suspicious String 814"
 
 	strings:
-		$a = "Spyk1r4"
+		$a = "Siliwangi"
 
 	condition:
 		$a 
@@ -8958,7 +8958,7 @@ rule SuspiciousString_815
 		description = "Suspicious String 815"
 
 	strings:
-		$a = "Stealth MultiFunctional IrcBot writen in Perl"
+		$a = "Siluman nanas"
 
 	condition:
 		$a 
@@ -8969,7 +8969,7 @@ rule SuspiciousString_816
 		description = "Suspicious String 816"
 
 	strings:
-		$a = "Stealth Shellbot"
+		$a = "Skidie Khan"
 
 	condition:
 		$a 
@@ -8980,7 +8980,7 @@ rule SuspiciousString_817
 		description = "Suspicious String 817"
 
 	strings:
-		$a = "Stm Nazie 102"
+		$a = "Something is wrong. Download - IS NOT OK"
 
 	condition:
 		$a 
@@ -8991,7 +8991,7 @@ rule SuspiciousString_818
 		description = "Suspicious String 818"
 
 	strings:
-		$a = "Stupidc0de Family"
+		$a = "Special Thanks To MadLeets"
 
 	condition:
 		$a 
@@ -9002,7 +9002,7 @@ rule SuspiciousString_819
 		description = "Suspicious String 819"
 
 	strings:
-		$a = "SuLiMaN.HackeR"
+		$a = "SpecimenT"
 
 	condition:
 		$a 
@@ -9013,7 +9013,7 @@ rule SuspiciousString_820
 		description = "Suspicious String 820"
 
 	strings:
-		$a = "Success Upload :D"
+		$a = "Spirit Hunder"
 
 	condition:
 		$a 
@@ -9024,7 +9024,7 @@ rule SuspiciousString_821
 		description = "Suspicious String 821"
 
 	strings:
-		$a = "Successfully R00T(ed)"
+		$a = "SpyHackerz.Com"
 
 	condition:
 		$a 
@@ -9035,7 +9035,7 @@ rule SuspiciousString_822
 		description = "Suspicious String 822"
 
 	strings:
-		$a = "Sukses Deface"
+		$a = "Spyk1r4"
 
 	condition:
 		$a 
@@ -9046,7 +9046,7 @@ rule SuspiciousString_823
 		description = "Suspicious String 823"
 
 	strings:
-		$a = "SultanHaikal"
+		$a = "Stealth MultiFunctional IrcBot writen in Perl"
 
 	condition:
 		$a 
@@ -9057,7 +9057,7 @@ rule SuspiciousString_824
 		description = "Suspicious String 824"
 
 	strings:
-		$a = "Suç İşleyeceksen Sanat'a Çevir"
+		$a = "Stealth Shellbot"
 
 	condition:
 		$a 
@@ -9068,7 +9068,7 @@ rule SuspiciousString_825
 		description = "Suspicious String 825"
 
 	strings:
-		$a = "Sy-Hacker"
+		$a = "Stm Nazie 102"
 
 	condition:
 		$a 
@@ -9079,7 +9079,7 @@ rule SuspiciousString_826
 		description = "Suspicious String 826"
 
 	strings:
-		$a = "Symlink Based Cpanel Cracker"
+		$a = "Stupidc0de Family"
 
 	condition:
 		$a 
@@ -9090,7 +9090,7 @@ rule SuspiciousString_827
 		description = "Suspicious String 827"
 
 	strings:
-		$a = "Symlink ByPass"
+		$a = "SuLiMaN.HackeR"
 
 	condition:
 		$a 
@@ -9101,7 +9101,7 @@ rule SuspiciousString_828
 		description = "Suspicious String 828"
 
 	strings:
-		$a = "Symlink Bypass 2014 by Faisal 1337"
+		$a = "Success Upload :D"
 
 	condition:
 		$a 
@@ -9112,7 +9112,7 @@ rule SuspiciousString_829
 		description = "Suspicious String 829"
 
 	strings:
-		$a = "Symlink Config Graber"
+		$a = "Successfully R00T(ed)"
 
 	condition:
 		$a 
@@ -9123,7 +9123,7 @@ rule SuspiciousString_830
 		description = "Suspicious String 830"
 
 	strings:
-		$a = "Symlink based cpanel cracking"
+		$a = "Sukses Deface"
 
 	condition:
 		$a 
@@ -9134,7 +9134,7 @@ rule SuspiciousString_831
 		description = "Suspicious String 831"
 
 	strings:
-		$a = "Syntax-True"
+		$a = "SultanHaikal"
 
 	condition:
 		$a 
@@ -9145,7 +9145,7 @@ rule SuspiciousString_832
 		description = "Suspicious String 832"
 
 	strings:
-		$a = "SyntaxNotFound"
+		$a = "Suç İşleyeceksen Sanat'a Çevir"
 
 	condition:
 		$a 
@@ -9156,7 +9156,7 @@ rule SuspiciousString_833
 		description = "Suspicious String 833"
 
 	strings:
-		$a = "SystemX64MGB "
+		$a = "Sy-Hacker"
 
 	condition:
 		$a 
@@ -9167,7 +9167,7 @@ rule SuspiciousString_834
 		description = "Suspicious String 834"
 
 	strings:
-		$a = "T1KUS90T"
+		$a = "Symlink Based Cpanel Cracker"
 
 	condition:
 		$a 
@@ -9178,7 +9178,7 @@ rule SuspiciousString_835
 		description = "Suspicious String 835"
 
 	strings:
-		$a = "TC9A16C47DA8EEE87"
+		$a = "Symlink ByPass"
 
 	condition:
 		$a 
@@ -9189,7 +9189,7 @@ rule SuspiciousString_836
 		description = "Suspicious String 836"
 
 	strings:
-		$a = "THA Disastar"
+		$a = "Symlink Bypass 2014 by Faisal 1337"
 
 	condition:
 		$a 
@@ -9200,7 +9200,7 @@ rule SuspiciousString_837
 		description = "Suspicious String 837"
 
 	strings:
-		$a = "TKJ Cyber Art"
+		$a = "Symlink Config Graber"
 
 	condition:
 		$a 
@@ -9211,7 +9211,7 @@ rule SuspiciousString_838
 		description = "Suspicious String 838"
 
 	strings:
-		$a = "TOBILOBA"
+		$a = "Symlink based cpanel cracking"
 
 	condition:
 		$a 
@@ -9222,7 +9222,7 @@ rule SuspiciousString_839
 		description = "Suspicious String 839"
 
 	strings:
-		$a = "Tak Ada Kata"
+		$a = "Syntax-True"
 
 	condition:
 		$a 
@@ -9233,7 +9233,7 @@ rule SuspiciousString_840
 		description = "Suspicious String 840"
 
 	strings:
-		$a = "TanpaNama404 "
+		$a = "SyntaxNotFound"
 
 	condition:
 		$a 
@@ -9244,7 +9244,7 @@ rule SuspiciousString_841
 		description = "Suspicious String 841"
 
 	strings:
-		$a = "Tapi Selebihnya"
+		$a = "SystemX64MGB "
 
 	condition:
 		$a 
@@ -9255,7 +9255,7 @@ rule SuspiciousString_842
 		description = "Suspicious String 842"
 
 	strings:
-		$a = "Tata ReZulT"
+		$a = "T1KUS90T"
 
 	condition:
 		$a 
@@ -9266,7 +9266,7 @@ rule SuspiciousString_843
 		description = "Suspicious String 843"
 
 	strings:
-		$a = "Tatsumi Crew"
+		$a = "TC9A16C47DA8EEE87"
 
 	condition:
 		$a 
@@ -9277,7 +9277,7 @@ rule SuspiciousString_844
 		description = "Suspicious String 844"
 
 	strings:
-		$a = "Tchix"
+		$a = "THA Disastar"
 
 	condition:
 		$a 
@@ -9288,7 +9288,7 @@ rule SuspiciousString_845
 		description = "Suspicious String 845"
 
 	strings:
-		$a = "TeaM HacKer EgypT"
+		$a = "TKJ Cyber Art"
 
 	condition:
 		$a 
@@ -9299,7 +9299,7 @@ rule SuspiciousString_846
 		description = "Suspicious String 846"
 
 	strings:
-		$a = "TeaM System Dz"
+		$a = "TOBILOBA"
 
 	condition:
 		$a 
@@ -9310,7 +9310,7 @@ rule SuspiciousString_847
 		description = "Suspicious String 847"
 
 	strings:
-		$a = "Team Arena"
+		$a = "Tak Ada Kata"
 
 	condition:
 		$a 
@@ -9321,7 +9321,7 @@ rule SuspiciousString_848
 		description = "Suspicious String 848"
 
 	strings:
-		$a = "Team BlackLeets"
+		$a = "TanpaNama404 "
 
 	condition:
 		$a 
@@ -9332,7 +9332,7 @@ rule SuspiciousString_849
 		description = "Suspicious String 849"
 
 	strings:
-		$a = "Team IndiShell"
+		$a = "Tapi Selebihnya"
 
 	condition:
 		$a 
@@ -9343,7 +9343,7 @@ rule SuspiciousString_850
 		description = "Suspicious String 850"
 
 	strings:
-		$a = "Team_CC"
+		$a = "Tata ReZulT"
 
 	condition:
 		$a 
@@ -9354,7 +9354,7 @@ rule SuspiciousString_851
 		description = "Suspicious String 851"
 
 	strings:
-		$a = "Teamp0ison"
+		$a = "Tatsumi Crew"
 
 	condition:
 		$a 
@@ -9365,7 +9365,7 @@ rule SuspiciousString_852
 		description = "Suspicious String 852"
 
 	strings:
-		$a = "Tersakti"
+		$a = "Tchix"
 
 	condition:
 		$a 
@@ -9376,7 +9376,7 @@ rule SuspiciousString_853
 		description = "Suspicious String 853"
 
 	strings:
-		$a = "Th3 D3str0yer"
+		$a = "TeaM HacKer EgypT"
 
 	condition:
 		$a 
@@ -9387,7 +9387,7 @@ rule SuspiciousString_854
 		description = "Suspicious String 854"
 
 	strings:
-		$a = "Th3 K!LL3r Dz"
+		$a = "TeaM System Dz"
 
 	condition:
 		$a 
@@ -9398,7 +9398,7 @@ rule SuspiciousString_855
 		description = "Suspicious String 855"
 
 	strings:
-		$a = "Th3 K!ng Scam"
+		$a = "Team Arena"
 
 	condition:
 		$a 
@@ -9409,7 +9409,7 @@ rule SuspiciousString_856
 		description = "Suspicious String 856"
 
 	strings:
-		$a = "Thanks Buat Yg Udh Support Buat Shell Ini"
+		$a = "Team BlackLeets"
 
 	condition:
 		$a 
@@ -9420,7 +9420,7 @@ rule SuspiciousString_857
 		description = "Suspicious String 857"
 
 	strings:
-		$a = "Thanks To Brothers V!rus YassCom"
+		$a = "Team IndiShell"
 
 	condition:
 		$a 
@@ -9431,7 +9431,7 @@ rule SuspiciousString_858
 		description = "Suspicious String 858"
 
 	strings:
-		$a = "Thats Good lemme try"
+		$a = "Team_CC"
 
 	condition:
 		$a 
@@ -9442,7 +9442,7 @@ rule SuspiciousString_859
 		description = "Suspicious String 859"
 
 	strings:
-		$a = "The Cyber Heroez White-Hat Crew"
+		$a = "Teamp0ison"
 
 	condition:
 		$a 
@@ -9453,7 +9453,7 @@ rule SuspiciousString_860
 		description = "Suspicious String 860"
 
 	strings:
-		$a = "The Next JanCox Shell"
+		$a = "Tersakti"
 
 	condition:
 		$a 
@@ -9464,7 +9464,7 @@ rule SuspiciousString_861
 		description = "Suspicious String 861"
 
 	strings:
-		$a = "The Scam is 100% Clean Undetected Forever"
+		$a = "Th3 D3str0yer"
 
 	condition:
 		$a 
@@ -9475,7 +9475,7 @@ rule SuspiciousString_862
 		description = "Suspicious String 862"
 
 	strings:
-		$a = "The file you want Downloadable was nonexistent"
+		$a = "Th3 K!LL3r Dz"
 
 	condition:
 		$a 
@@ -9486,7 +9486,7 @@ rule SuspiciousString_863
 		description = "Suspicious String 863"
 
 	strings:
-		$a = "The r600 mailer has finished his job"
+		$a = "Th3 K!ng Scam"
 
 	condition:
 		$a 
@@ -9497,7 +9497,7 @@ rule SuspiciousString_864
 		description = "Suspicious String 864"
 
 	strings:
-		$a = "TheChozen"
+		$a = "Thanks Buat Yg Udh Support Buat Shell Ini"
 
 	condition:
 		$a 
@@ -9508,7 +9508,7 @@ rule SuspiciousString_865
 		description = "Suspicious String 865"
 
 	strings:
-		$a = "TheLords"
+		$a = "Thanks To Brothers V!rus YassCom"
 
 	condition:
 		$a 
@@ -9519,7 +9519,7 @@ rule SuspiciousString_866
 		description = "Suspicious String 866"
 
 	strings:
-		$a = "Tn-ViRus"
+		$a = "Thats Good lemme try"
 
 	condition:
 		$a 
@@ -9530,7 +9530,7 @@ rule SuspiciousString_867
 		description = "Suspicious String 867"
 
 	strings:
-		$a = "Tn.SkullCyber"
+		$a = "The Cyber Heroez White-Hat Crew"
 
 	condition:
 		$a 
@@ -9541,7 +9541,7 @@ rule SuspiciousString_868
 		description = "Suspicious String 868"
 
 	strings:
-		$a = "To known the password, you must first send"
+		$a = "The Next JanCox Shell"
 
 	condition:
 		$a 
@@ -9552,7 +9552,7 @@ rule SuspiciousString_869
 		description = "Suspicious String 869"
 
 	strings:
-		$a = "TobaSec"
+		$a = "The Scam is 100% Clean Undetected Forever"
 
 	condition:
 		$a 
@@ -9563,7 +9563,7 @@ rule SuspiciousString_870
 		description = "Suspicious String 870"
 
 	strings:
-		$a = "TobaSec "
+		$a = "The file you want Downloadable was nonexistent"
 
 	condition:
 		$a 
@@ -9574,7 +9574,7 @@ rule SuspiciousString_871
 		description = "Suspicious String 871"
 
 	strings:
-		$a = "Tools Carder"
+		$a = "The r600 mailer has finished his job"
 
 	condition:
 		$a 
@@ -9585,7 +9585,7 @@ rule SuspiciousString_872
 		description = "Suspicious String 872"
 
 	strings:
-		$a = "Toxica DZ Was Here"
+		$a = "TheChozen"
 
 	condition:
 		$a 
@@ -9596,7 +9596,7 @@ rule SuspiciousString_873
 		description = "Suspicious String 873"
 
 	strings:
-		$a = "TrYaG"
+		$a = "TheLords"
 
 	condition:
 		$a 
@@ -9607,7 +9607,7 @@ rule SuspiciousString_874
 		description = "Suspicious String 874"
 
 	strings:
-		$a = "Trickster"
+		$a = "Tn-ViRus"
 
 	condition:
 		$a 
@@ -9618,7 +9618,7 @@ rule SuspiciousString_875
 		description = "Suspicious String 875"
 
 	strings:
-		$a = "Triple A"
+		$a = "Tn.SkullCyber"
 
 	condition:
 		$a 
@@ -9629,7 +9629,7 @@ rule SuspiciousString_876
 		description = "Suspicious String 876"
 
 	strings:
-		$a = "True Login (via cURL) Scams"
+		$a = "To known the password, you must first send"
 
 	condition:
 		$a 
@@ -9640,7 +9640,7 @@ rule SuspiciousString_877
 		description = "Suspicious String 877"
 
 	strings:
-		$a = "Tryag File Manager"
+		$a = "TobaSec"
 
 	condition:
 		$a 
@@ -9651,7 +9651,7 @@ rule SuspiciousString_878
 		description = "Suspicious String 878"
 
 	strings:
-		$a = "Tu5b0l3d"
+		$a = "TobaSec "
 
 	condition:
 		$a 
@@ -9662,7 +9662,7 @@ rule SuspiciousString_879
 		description = "Suspicious String 879"
 
 	strings:
-		$a = "Tu5b0l3d    "
+		$a = "Tools Carder"
 
 	condition:
 		$a 
@@ -9673,7 +9673,7 @@ rule SuspiciousString_880
 		description = "Suspicious String 880"
 
 	strings:
-		$a = "Tuan_galau "
+		$a = "Toxica DZ Was Here"
 
 	condition:
 		$a 
@@ -9684,7 +9684,7 @@ rule SuspiciousString_881
 		description = "Suspicious String 881"
 
 	strings:
-		$a = "Tunisian HaCker"
+		$a = "TrYaG"
 
 	condition:
 		$a 
@@ -9695,7 +9695,7 @@ rule SuspiciousString_882
 		description = "Suspicious String 882"
 
 	strings:
-		$a = "Turbo Force By TrYaG.CC"
+		$a = "Trickster"
 
 	condition:
 		$a 
@@ -9706,7 +9706,7 @@ rule SuspiciousString_883
 		description = "Suspicious String 883"
 
 	strings:
-		$a = "Tuyul Gaul Team "
+		$a = "Triple A"
 
 	condition:
 		$a 
@@ -9717,7 +9717,7 @@ rule SuspiciousString_884
 		description = "Suspicious String 884"
 
 	strings:
-		$a = "T�x�� Ph��t�m"
+		$a = "True Login (via cURL) Scams"
 
 	condition:
 		$a 
@@ -9728,7 +9728,7 @@ rule SuspiciousString_885
 		description = "Suspicious String 885"
 
 	strings:
-		$a = "U7TiM4T3 H4x0R"
+		$a = "Tryag File Manager"
 
 	condition:
 		$a 
@@ -9739,7 +9739,7 @@ rule SuspiciousString_886
 		description = "Suspicious String 886"
 
 	strings:
-		$a = "UDP DDoSing"
+		$a = "Tu5b0l3d"
 
 	condition:
 		$a 
@@ -9750,7 +9750,7 @@ rule SuspiciousString_887
 		description = "Suspicious String 887"
 
 	strings:
-		$a = "UNDERGROUND HACKERS"
+		$a = "Tu5b0l3d    "
 
 	condition:
 		$a 
@@ -9761,7 +9761,7 @@ rule SuspiciousString_888
 		description = "Suspicious String 888"
 
 	strings:
-		$a = "UP=\"pentagon\""
+		$a = "Tuan_galau "
 
 	condition:
 		$a 
@@ -9772,7 +9772,7 @@ rule SuspiciousString_889
 		description = "Suspicious String 889"
 
 	strings:
-		$a = "United Bangladeshi Hackers"
+		$a = "Tunisian HaCker"
 
 	condition:
 		$a 
@@ -9783,7 +9783,7 @@ rule SuspiciousString_890
 		description = "Suspicious String 890"
 
 	strings:
-		$a = "UnkCrew"
+		$a = "Turbo Force By TrYaG.CC"
 
 	condition:
 		$a 
@@ -9794,7 +9794,7 @@ rule SuspiciousString_891
 		description = "Suspicious String 891"
 
 	strings:
-		$a = "Upl04d3r"
+		$a = "Tuyul Gaul Team "
 
 	condition:
 		$a 
@@ -9805,7 +9805,7 @@ rule SuspiciousString_892
 		description = "Suspicious String 892"
 
 	strings:
-		$a = "Upload Fail !!!"
+		$a = "T�x�� Ph��t�m"
 
 	condition:
 		$a 
@@ -9816,7 +9816,7 @@ rule SuspiciousString_893
 		description = "Suspicious String 893"
 
 	strings:
-		$a = "Upload Shell Korang"
+		$a = "U7TiM4T3 H4x0R"
 
 	condition:
 		$a 
@@ -9827,7 +9827,7 @@ rule SuspiciousString_894
 		description = "Suspicious String 894"
 
 	strings:
-		$a = "Upload Success !!!"
+		$a = "UDP DDoSing"
 
 	condition:
 		$a 
@@ -9838,7 +9838,7 @@ rule SuspiciousString_895
 		description = "Suspicious String 895"
 
 	strings:
-		$a = "Uploader By Psyco!"
+		$a = "UNDERGROUND HACKERS"
 
 	condition:
 		$a 
@@ -9849,7 +9849,7 @@ rule SuspiciousString_896
 		description = "Suspicious String 896"
 
 	strings:
-		$a = "Use this function to check in witch domain zones user comes"
+		$a = "UP=\"pentagon\""
 
 	condition:
 		$a 
@@ -9860,7 +9860,7 @@ rule SuspiciousString_897
 		description = "Suspicious String 897"
 
 	strings:
-		$a = "UseYourBrain"
+		$a = "United Bangladeshi Hackers"
 
 	condition:
 		$a 
@@ -9871,7 +9871,7 @@ rule SuspiciousString_898
 		description = "Suspicious String 898"
 
 	strings:
-		$a = "UseYourDream"
+		$a = "UnkCrew"
 
 	condition:
 		$a 
@@ -9882,7 +9882,7 @@ rule SuspiciousString_899
 		description = "Suspicious String 899"
 
 	strings:
-		$a = "V3rluchie"
+		$a = "Upl04d3r"
 
 	condition:
 		$a 
@@ -9893,7 +9893,7 @@ rule SuspiciousString_900
 		description = "Suspicious String 900"
 
 	strings:
-		$a = "VERSION mIRC version by LaNTaK GaNTeNG"
+		$a = "Upload Fail !!!"
 
 	condition:
 		$a 
@@ -9904,7 +9904,7 @@ rule SuspiciousString_901
 		description = "Suspicious String 901"
 
 	strings:
-		$a = "VIRUSX"
+		$a = "Upload Shell Korang"
 
 	condition:
 		$a 
@@ -9915,7 +9915,7 @@ rule SuspiciousString_902
 		description = "Suspicious String 902"
 
 	strings:
-		$a = "VISA_DYALNA"
+		$a = "Upload Success !!!"
 
 	condition:
 		$a 
@@ -9926,7 +9926,7 @@ rule SuspiciousString_903
 		description = "Suspicious String 903"
 
 	strings:
-		$a = "VNC ScaNNer by ARZ"
+		$a = "Uploader By Psyco!"
 
 	condition:
 		$a 
@@ -9937,7 +9937,7 @@ rule SuspiciousString_904
 		description = "Suspicious String 904"
 
 	strings:
-		$a = "ViKi "
+		$a = "Use this function to check in witch domain zones user comes"
 
 	condition:
 		$a 
@@ -9948,7 +9948,7 @@ rule SuspiciousString_905
 		description = "Suspicious String 905"
 
 	strings:
-		$a = "ViRuS702"
+		$a = "UseYourBrain"
 
 	condition:
 		$a 
@@ -9959,7 +9959,7 @@ rule SuspiciousString_906
 		description = "Suspicious String 906"
 
 	strings:
-		$a = "ViRusx"
+		$a = "UseYourDream"
 
 	condition:
 		$a 
@@ -9970,7 +9970,7 @@ rule SuspiciousString_907
 		description = "Suspicious String 907"
 
 	strings:
-		$a = "Virusa Worm"
+		$a = "V3rluchie"
 
 	condition:
 		$a 
@@ -9981,7 +9981,7 @@ rule SuspiciousString_908
 		description = "Suspicious String 908"
 
 	strings:
-		$a = "VrCy    "
+		$a = "VERSION mIRC version by LaNTaK GaNTeNG"
 
 	condition:
 		$a 
@@ -9992,7 +9992,7 @@ rule SuspiciousString_909
 		description = "Suspicious String 909"
 
 	strings:
-		$a = "Vrcy"
+		$a = "VIRUSX"
 
 	condition:
 		$a 
@@ -10003,7 +10003,7 @@ rule SuspiciousString_910
 		description = "Suspicious String 910"
 
 	strings:
-		$a = "Vurdum mu Samari Oynar Gotunun Damari"
+		$a = "VISA_DYALNA"
 
 	condition:
 		$a 
@@ -10014,7 +10014,7 @@ rule SuspiciousString_911
 		description = "Suspicious String 911"
 
 	strings:
-		$a = "W1R3"
+		$a = "VNC ScaNNer by ARZ"
 
 	condition:
 		$a 
@@ -10025,7 +10025,7 @@ rule SuspiciousString_912
 		description = "Suspicious String 912"
 
 	strings:
-		$a = "W3lc0m3 M4st3r"
+		$a = "ViKi "
 
 	condition:
 		$a 
@@ -10036,7 +10036,7 @@ rule SuspiciousString_913
 		description = "Suspicious String 913"
 
 	strings:
-		$a = "WHIT3 DR4G0N"
+		$a = "ViRuS702"
 
 	condition:
 		$a 
@@ -10047,7 +10047,7 @@ rule SuspiciousString_914
 		description = "Suspicious String 914"
 
 	strings:
-		$a = "WHMCS KILLER V3 CODED BY RAB3OUN"
+		$a = "ViRusx"
 
 	condition:
 		$a 
@@ -10058,7 +10058,7 @@ rule SuspiciousString_915
 		description = "Suspicious String 915"
 
 	strings:
-		$a = "WHMCS Killer v3 Decoded By N!nj@"
+		$a = "Virusa Worm"
 
 	condition:
 		$a 
@@ -10069,7 +10069,7 @@ rule SuspiciousString_916
 		description = "Suspicious String 916"
 
 	strings:
-		$a = "WORK HARD DREAM B!G"
+		$a = "VrCy    "
 
 	condition:
 		$a 
@@ -10080,7 +10080,7 @@ rule SuspiciousString_917
 		description = "Suspicious String 917"
 
 	strings:
-		$a = "WSO 2.1.5"
+		$a = "Vrcy"
 
 	condition:
 		$a 
@@ -10091,7 +10091,7 @@ rule SuspiciousString_918
 		description = "Suspicious String 918"
 
 	strings:
-		$a = "WSO [2.6]"
+		$a = "Vurdum mu Samari Oynar Gotunun Damari"
 
 	condition:
 		$a 
@@ -10102,7 +10102,7 @@ rule SuspiciousString_919
 		description = "Suspicious String 919"
 
 	strings:
-		$a = "WSO r3coded by eX-Sh1Ne"
+		$a = "W1R3"
 
 	condition:
 		$a 
@@ -10113,7 +10113,7 @@ rule SuspiciousString_920
 		description = "Suspicious String 920"
 
 	strings:
-		$a = "WSOsetcookie"
+		$a = "W3lc0m3 M4st3r"
 
 	condition:
 		$a 
@@ -10124,7 +10124,7 @@ rule SuspiciousString_921
 		description = "Suspicious String 921"
 
 	strings:
-		$a = "WScript.Shell"
+		$a = "WHIT3 DR4G0N"
 
 	condition:
 		$a 
@@ -10135,7 +10135,7 @@ rule SuspiciousString_922
 		description = "Suspicious String 922"
 
 	strings:
-		$a = "Wa7sh Hacker"
+		$a = "WHMCS KILLER V3 CODED BY RAB3OUN"
 
 	condition:
 		$a 
@@ -10146,7 +10146,7 @@ rule SuspiciousString_923
 		description = "Suspicious String 923"
 
 	strings:
-		$a = "Walid Curva Nord"
+		$a = "WHMCS Killer v3 Decoded By N!nj@"
 
 	condition:
 		$a 
@@ -10157,7 +10157,7 @@ rule SuspiciousString_924
 		description = "Suspicious String 924"
 
 	strings:
-		$a = "Wayaw"
+		$a = "WORK HARD DREAM B!G"
 
 	condition:
 		$a 
@@ -10168,7 +10168,7 @@ rule SuspiciousString_925
 		description = "Suspicious String 925"
 
 	strings:
-		$a = "We Are Anonymous"
+		$a = "WSO 2.1.5"
 
 	condition:
 		$a 
@@ -10179,7 +10179,7 @@ rule SuspiciousString_926
 		description = "Suspicious String 926"
 
 	strings:
-		$a = "We Are Bangladeshi Hacker"
+		$a = "WSO [2.6]"
 
 	condition:
 		$a 
@@ -10190,7 +10190,7 @@ rule SuspiciousString_927
 		description = "Suspicious String 927"
 
 	strings:
-		$a = "We Are Legion"
+		$a = "WSO r3coded by eX-Sh1Ne"
 
 	condition:
 		$a 
@@ -10201,7 +10201,7 @@ rule SuspiciousString_928
 		description = "Suspicious String 928"
 
 	strings:
-		$a = "We Are Royal Battler BD"
+		$a = "WSOsetcookie"
 
 	condition:
 		$a 
@@ -10212,7 +10212,7 @@ rule SuspiciousString_929
 		description = "Suspicious String 929"
 
 	strings:
-		$a = "We Do not Forget"
+		$a = "WScript.Shell"
 
 	condition:
 		$a 
@@ -10223,7 +10223,7 @@ rule SuspiciousString_930
 		description = "Suspicious String 930"
 
 	strings:
-		$a = "We Do not Forgiv"
+		$a = "Wa7sh Hacker"
 
 	condition:
 		$a 
@@ -10234,7 +10234,7 @@ rule SuspiciousString_931
 		description = "Suspicious String 931"
 
 	strings:
-		$a = "We aRe International Muslim Hacker Team"
+		$a = "Walid Curva Nord"
 
 	condition:
 		$a 
@@ -10245,7 +10245,7 @@ rule SuspiciousString_932
 		description = "Suspicious String 932"
 
 	strings:
-		$a = "We are Anonymous"
+		$a = "Wayaw"
 
 	condition:
 		$a 
@@ -10256,7 +10256,7 @@ rule SuspiciousString_933
 		description = "Suspicious String 933"
 
 	strings:
-		$a = "We are Legion"
+		$a = "We Are Anonymous"
 
 	condition:
 		$a 
@@ -10267,7 +10267,7 @@ rule SuspiciousString_934
 		description = "Suspicious String 934"
 
 	strings:
-		$a = "We do not Forget"
+		$a = "We Are Bangladeshi Hacker"
 
 	condition:
 		$a 
@@ -10278,7 +10278,7 @@ rule SuspiciousString_935
 		description = "Suspicious String 935"
 
 	strings:
-		$a = "We do not Forgive"
+		$a = "We Are Legion"
 
 	condition:
 		$a 
@@ -10289,7 +10289,7 @@ rule SuspiciousString_936
 		description = "Suspicious String 936"
 
 	strings:
-		$a = "We make your security better by breaking it"
+		$a = "We Are Royal Battler BD"
 
 	condition:
 		$a 
@@ -10300,7 +10300,7 @@ rule SuspiciousString_937
 		description = "Suspicious String 937"
 
 	strings:
-		$a = "We only wanna Mine"
+		$a = "We Do not Forget"
 
 	condition:
 		$a 
@@ -10311,7 +10311,7 @@ rule SuspiciousString_938
 		description = "Suspicious String 938"
 
 	strings:
-		$a = "We will return as our ancestors did"
+		$a = "We Do not Forgiv"
 
 	condition:
 		$a 
@@ -10322,7 +10322,7 @@ rule SuspiciousString_939
 		description = "Suspicious String 939"
 
 	strings:
-		$a = "Web Shell"
+		$a = "We aRe International Muslim Hacker Team"
 
 	condition:
 		$a 
@@ -10333,7 +10333,7 @@ rule SuspiciousString_940
 		description = "Suspicious String 940"
 
 	strings:
-		$a = "Web Shell by HARD _LINUX"
+		$a = "We are Anonymous"
 
 	condition:
 		$a 
@@ -10344,7 +10344,7 @@ rule SuspiciousString_941
 		description = "Suspicious String 941"
 
 	strings:
-		$a = "WebShellOrb 2.6 - With PHP 7"
+		$a = "We are Legion"
 
 	condition:
 		$a 
@@ -10355,7 +10355,7 @@ rule SuspiciousString_942
 		description = "Suspicious String 942"
 
 	strings:
-		$a = "Webmail Of Sellers"
+		$a = "We do not Forget"
 
 	condition:
 		$a 
@@ -10366,7 +10366,7 @@ rule SuspiciousString_943
 		description = "Suspicious String 943"
 
 	strings:
-		$a = "Webshell"
+		$a = "We do not Forgive"
 
 	condition:
 		$a 
@@ -10377,7 +10377,7 @@ rule SuspiciousString_944
 		description = "Suspicious String 944"
 
 	strings:
-		$a = "WellsFargo Login Result"
+		$a = "We make your security better by breaking it"
 
 	condition:
 		$a 
@@ -10388,7 +10388,7 @@ rule SuspiciousString_945
 		description = "Suspicious String 945"
 
 	strings:
-		$a = "What is your favourite plac?"
+		$a = "We only wanna Mine"
 
 	condition:
 		$a 
@@ -10399,7 +10399,7 @@ rule SuspiciousString_946
 		description = "Suspicious String 946"
 
 	strings:
-		$a = "Whcms Killer"
+		$a = "We will return as our ancestors did"
 
 	condition:
 		$a 
@@ -10410,7 +10410,7 @@ rule SuspiciousString_947
 		description = "Suspicious String 947"
 
 	strings:
-		$a = "WordPress Auto Deface"
+		$a = "Web Shell"
 
 	condition:
 		$a 
@@ -10421,7 +10421,7 @@ rule SuspiciousString_948
 		description = "Suspicious String 948"
 
 	strings:
-		$a = "Wordpress Csrf Exploit"
+		$a = "Web Shell by HARD _LINUX"
 
 	condition:
 		$a 
@@ -10432,7 +10432,7 @@ rule SuspiciousString_949
 		description = "Suspicious String 949"
 
 	strings:
-		$a = "Wr0nG P4sSw0rD"
+		$a = "WebShellOrb 2.6 - With PHP 7"
 
 	condition:
 		$a 
@@ -10443,7 +10443,7 @@ rule SuspiciousString_950
 		description = "Suspicious String 950"
 
 	strings:
-		$a = "Wscript.Shell"
+		$a = "Webmail Of Sellers"
 
 	condition:
 		$a 
@@ -10454,7 +10454,7 @@ rule SuspiciousString_951
 		description = "Suspicious String 951"
 
 	strings:
-		$a = "Wso1 SHELL"
+		$a = "Webshell"
 
 	condition:
 		$a 
@@ -10465,7 +10465,7 @@ rule SuspiciousString_952
 		description = "Suspicious String 952"
 
 	strings:
-		$a = "WwW.Gaza-Hacker.NeT"
+		$a = "WellsFargo Login Result"
 
 	condition:
 		$a 
@@ -10476,7 +10476,7 @@ rule SuspiciousString_953
 		description = "Suspicious String 953"
 
 	strings:
-		$a = "WwW.SeCuReDeAtH.cOm"
+		$a = "What is your favourite plac?"
 
 	condition:
 		$a 
@@ -10487,7 +10487,7 @@ rule SuspiciousString_954
 		description = "Suspicious String 954"
 
 	strings:
-		$a = "X Attacker"
+		$a = "Whcms Killer"
 
 	condition:
 		$a 
@@ -10498,7 +10498,7 @@ rule SuspiciousString_955
 		description = "Suspicious String 955"
 
 	strings:
-		$a = "X-Wu7z "
+		$a = "WordPress Auto Deface"
 
 	condition:
 		$a 
@@ -10509,7 +10509,7 @@ rule SuspiciousString_956
 		description = "Suspicious String 956"
 
 	strings:
-		$a = "X0blank@yahoo.com"
+		$a = "Wordpress Csrf Exploit"
 
 	condition:
 		$a 
@@ -10520,7 +10520,7 @@ rule SuspiciousString_957
 		description = "Suspicious String 957"
 
 	strings:
-		$a = "X3VzZXJfYWJ"
+		$a = "Wr0nG P4sSw0rD"
 
 	condition:
 		$a 
@@ -10531,7 +10531,7 @@ rule SuspiciousString_958
 		description = "Suspicious String 958"
 
 	strings:
-		$a = "XMRig"
+		$a = "Wscript.Shell"
 
 	condition:
 		$a 
@@ -10542,7 +10542,7 @@ rule SuspiciousString_959
 		description = "Suspicious String 959"
 
 	strings:
-		$a = "XXX~HACKER TEAM"
+		$a = "Wso1 SHELL"
 
 	condition:
 		$a 
@@ -10553,7 +10553,7 @@ rule SuspiciousString_960
 		description = "Suspicious String 960"
 
 	strings:
-		$a = "XXX~HACKER TEAM WAS HERE"
+		$a = "WwW.Gaza-Hacker.NeT"
 
 	condition:
 		$a 
@@ -10564,7 +10564,7 @@ rule SuspiciousString_961
 		description = "Suspicious String 961"
 
 	strings:
-		$a = "X-Blackerz INC."
+		$a = "WwW.SeCuReDeAtH.cOm"
 
 	condition:
 		$a 
@@ -10575,7 +10575,7 @@ rule SuspiciousString_962
 		description = "Suspicious String 962"
 
 	strings:
-		$a = "X-GHOST MA"
+		$a = "X Attacker"
 
 	condition:
 		$a 
@@ -10586,7 +10586,7 @@ rule SuspiciousString_963
 		description = "Suspicious String 963"
 
 	strings:
-		$a = "X-Sn!p3r_P4l"
+		$a = "X-Blackerz INC."
 
 	condition:
 		$a 
@@ -10597,7 +10597,7 @@ rule SuspiciousString_964
 		description = "Suspicious String 964"
 
 	strings:
-		$a = "X-Wjdy"
+		$a = "X-GHOST MA"
 
 	condition:
 		$a 
@@ -10608,7 +10608,7 @@ rule SuspiciousString_965
 		description = "Suspicious String 965"
 
 	strings:
-		$a = "X_0"
+		$a = "X-Sn!p3r_P4l"
 
 	condition:
 		$a 
@@ -10619,7 +10619,7 @@ rule SuspiciousString_966
 		description = "Suspicious String 966"
 
 	strings:
-		$a = "XaiSyndicate"
+		$a = "X-Wjdy"
 
 	condition:
 		$a 
@@ -10630,7 +10630,7 @@ rule SuspiciousString_967
 		description = "Suspicious String 967"
 
 	strings:
-		$a = "Xalvadela "
+		$a = "X-Wu7z "
 
 	condition:
 		$a 
@@ -10641,7 +10641,7 @@ rule SuspiciousString_968
 		description = "Suspicious String 968"
 
 	strings:
-		$a = "Xaveroz_Tersakiti"
+		$a = "X0blank@yahoo.com"
 
 	condition:
 		$a 
@@ -10652,7 +10652,7 @@ rule SuspiciousString_969
 		description = "Suspicious String 969"
 
 	strings:
-		$a = "Xaveroz_Tersakiti "
+		$a = "X3VzZXJfYWJ"
 
 	condition:
 		$a 
@@ -10663,7 +10663,7 @@ rule SuspiciousString_970
 		description = "Suspicious String 970"
 
 	strings:
-		$a = "Xclusiv-3D-Logs"
+		$a = "XMRig"
 
 	condition:
 		$a 
@@ -10674,7 +10674,7 @@ rule SuspiciousString_971
 		description = "Suspicious String 971"
 
 	strings:
-		$a = "XnonGremX"
+		$a = "XXX~HACKER TEAM"
 
 	condition:
 		$a 
@@ -10685,7 +10685,7 @@ rule SuspiciousString_972
 		description = "Suspicious String 972"
 
 	strings:
-		$a = "YAHOO 2015"
+		$a = "XXX~HACKER TEAM WAS HERE"
 
 	condition:
 		$a 
@@ -10696,7 +10696,7 @@ rule SuspiciousString_973
 		description = "Suspicious String 973"
 
 	strings:
-		$a = "YAHOO.membership"
+		$a = "X_0"
 
 	condition:
 		$a 
@@ -10707,7 +10707,7 @@ rule SuspiciousString_974
 		description = "Suspicious String 974"
 
 	strings:
-		$a = "YASSINOX CONFIG FUCKER"
+		$a = "XaiSyndicate"
 
 	condition:
 		$a 
@@ -10718,7 +10718,7 @@ rule SuspiciousString_975
 		description = "Suspicious String 975"
 
 	strings:
-		$a = "YaNaL-x Jo"
+		$a = "Xalvadela "
 
 	condition:
 		$a 
@@ -10729,7 +10729,7 @@ rule SuspiciousString_976
 		description = "Suspicious String 976"
 
 	strings:
-		$a = "YaSser Ma"
+		$a = "Xaveroz_Tersakiti"
 
 	condition:
 		$a 
@@ -10740,7 +10740,7 @@ rule SuspiciousString_977
 		description = "Suspicious String 977"
 
 	strings:
-		$a = "Yash"
+		$a = "Xaveroz_Tersakiti "
 
 	condition:
 		$a 
@@ -10751,7 +10751,7 @@ rule SuspiciousString_978
 		description = "Suspicious String 978"
 
 	strings:
-		$a = "Yazilimlar SHELL"
+		$a = "Xclusiv-3D-Logs"
 
 	condition:
 		$a 
@@ -10762,7 +10762,7 @@ rule SuspiciousString_979
 		description = "Suspicious String 979"
 
 	strings:
-		$a = "YeMeNi HaCkeR"
+		$a = "XnonGremX"
 
 	condition:
 		$a 
@@ -10773,7 +10773,7 @@ rule SuspiciousString_980
 		description = "Suspicious String 980"
 
 	strings:
-		$a = "Yet Another Miner by yvg1900"
+		$a = "YAHOO 2015"
 
 	condition:
 		$a 
@@ -10784,7 +10784,7 @@ rule SuspiciousString_981
 		description = "Suspicious String 981"
 
 	strings:
-		$a = "You Security is very low"
+		$a = "YAHOO.membership"
 
 	condition:
 		$a 
@@ -10795,7 +10795,7 @@ rule SuspiciousString_982
 		description = "Suspicious String 982"
 
 	strings:
-		$a = "Your WebSite Got Boxed"
+		$a = "YASSINOX CONFIG FUCKER"
 
 	condition:
 		$a 
@@ -10806,7 +10806,7 @@ rule SuspiciousString_983
 		description = "Suspicious String 983"
 
 	strings:
-		$a = "Your data are encrypted"
+		$a = "YaNaL-x Jo"
 
 	condition:
 		$a 
@@ -10817,7 +10817,7 @@ rule SuspiciousString_984
 		description = "Suspicious String 984"
 
 	strings:
-		$a = "Yrid06 "
+		$a = "YaSser Ma"
 
 	condition:
 		$a 
@@ -10828,7 +10828,7 @@ rule SuspiciousString_985
 		description = "Suspicious String 985"
 
 	strings:
-		$a = "ZETHA WEB SHELL"
+		$a = "Yash"
 
 	condition:
 		$a 
@@ -10839,7 +10839,7 @@ rule SuspiciousString_986
 		description = "Suspicious String 986"
 
 	strings:
-		$a = "ZONE-H"
+		$a = "Yazilimlar SHELL"
 
 	condition:
 		$a 
@@ -10850,7 +10850,7 @@ rule SuspiciousString_987
 		description = "Suspicious String 987"
 
 	strings:
-		$a = "ZWNobyAiPGI+Ii5waHBfdW5hbWUoKS4iPC9iPiI7IA0KZWNobyAiPGJy"
+		$a = "YeMeNi HaCkeR"
 
 	condition:
 		$a 
@@ -10861,7 +10861,7 @@ rule SuspiciousString_988
 		description = "Suspicious String 988"
 
 	strings:
-		$a = "ZXJyb3JfcmVwb3J0aW5nKDApO"
+		$a = "Yet Another Miner by yvg1900"
 
 	condition:
 		$a 
@@ -10872,7 +10872,7 @@ rule SuspiciousString_989
 		description = "Suspicious String 989"
 
 	strings:
-		$a = "ZakirDotId"
+		$a = "You Security is very low"
 
 	condition:
 		$a 
@@ -10883,7 +10883,7 @@ rule SuspiciousString_990
 		description = "Suspicious String 990"
 
 	strings:
-		$a = "Zar0us"
+		$a = "Your WebSite Got Boxed"
 
 	condition:
 		$a 
@@ -10894,7 +10894,7 @@ rule SuspiciousString_991
 		description = "Suspicious String 991"
 
 	strings:
-		$a = "ZeroBy7es"
+		$a = "Your data are encrypted"
 
 	condition:
 		$a 
@@ -10905,7 +10905,7 @@ rule SuspiciousString_992
 		description = "Suspicious String 992"
 
 	strings:
-		$a = "Zero_S"
+		$a = "Yrid06 "
 
 	condition:
 		$a 
@@ -10916,7 +10916,7 @@ rule SuspiciousString_993
 		description = "Suspicious String 993"
 
 	strings:
-		$a = "Zetas Oujdi"
+		$a = "ZETHA WEB SHELL"
 
 	condition:
 		$a 
@@ -10927,7 +10927,7 @@ rule SuspiciousString_994
 		description = "Suspicious String 994"
 
 	strings:
-		$a = "ZoRRoKiN"
+		$a = "ZONE-H"
 
 	condition:
 		$a 
@@ -10938,7 +10938,7 @@ rule SuspiciousString_995
 		description = "Suspicious String 995"
 
 	strings:
-		$a = "Zone-H"
+		$a = "ZWNobyAiPGI+Ii5waHBfdW5hbWUoKS4iPC9iPiI7IA0KZWNobyAiPGJy"
 
 	condition:
 		$a 
@@ -10949,7 +10949,7 @@ rule SuspiciousString_996
 		description = "Suspicious String 996"
 
 	strings:
-		$a = "Zz3ro CooL"
+		$a = "ZXJyb3JfcmVwb3J0aW5nKDApO"
 
 	condition:
 		$a 
@@ -10960,7 +10960,7 @@ rule SuspiciousString_997
 		description = "Suspicious String 997"
 
 	strings:
-		$a = "$kola"
+		$a = "ZakirDotId"
 
 	condition:
 		$a 
@@ -10971,7 +10971,7 @@ rule SuspiciousString_998
 		description = "Suspicious String 998"
 
 	strings:
-		$a = "$payload_file"
+		$a = "Zar0us"
 
 	condition:
 		$a 
@@ -10982,7 +10982,7 @@ rule SuspiciousString_999
 		description = "Suspicious String 999"
 
 	strings:
-		$a = "$udborfbq=\"data\""
+		$a = "ZeroBy7es"
 
 	condition:
 		$a 
@@ -10993,7 +10993,7 @@ rule SuspiciousString_1000
 		description = "Suspicious String 1000"
 
 	strings:
-		$a = "**(RooTTN)**"
+		$a = "Zero_S"
 
 	condition:
 		$a 
@@ -11004,7 +11004,7 @@ rule SuspiciousString_1001
 		description = "Suspicious String 1001"
 
 	strings:
-		$a = "***We can read root's home directory!"
+		$a = "Zetas Oujdi"
 
 	condition:
 		$a 
@@ -11015,7 +11015,7 @@ rule SuspiciousString_1002
 		description = "Suspicious String 1002"
 
 	strings:
-		$a = "-W3lc0me"
+		$a = "ZoRRoKiN"
 
 	condition:
 		$a 
@@ -11026,7 +11026,7 @@ rule SuspiciousString_1003
 		description = "Suspicious String 1003"
 
 	strings:
-		$a = "---:||Wellsfargo||:---"
+		$a = "Zone-H"
 
 	condition:
 		$a 
@@ -11037,7 +11037,7 @@ rule SuspiciousString_1004
 		description = "Suspicious String 1004"
 
 	strings:
-		$a = "-risen-"
+		$a = "Zz3ro CooL"
 
 	condition:
 		$a 
@@ -15250,7 +15250,7 @@ rule SuspiciousString_1387
 		description = "Suspicious String 1387"
 
 	strings:
-		$a = "p1mmaxweel@gmail.com"
+		$a = "p0wny@shell"
 
 	condition:
 		$a 
@@ -15261,7 +15261,7 @@ rule SuspiciousString_1388
 		description = "Suspicious String 1388"
 
 	strings:
-		$a = "p4rs.net"
+		$a = "p1mmaxweel@gmail.com"
 
 	condition:
 		$a 
@@ -15272,7 +15272,7 @@ rule SuspiciousString_1389
 		description = "Suspicious String 1389"
 
 	strings:
-		$a = "p62a2e"
+		$a = "p4rs.net"
 
 	condition:
 		$a 
@@ -15283,7 +15283,7 @@ rule SuspiciousString_1390
 		description = "Suspicious String 1390"
 
 	strings:
-		$a = "pOcOpOcO"
+		$a = "p62a2e"
 
 	condition:
 		$a 
@@ -15294,7 +15294,7 @@ rule SuspiciousString_1391
 		description = "Suspicious String 1391"
 
 	strings:
-		$a = "passwbypass"
+		$a = "pOcOpOcO"
 
 	condition:
 		$a 
@@ -15305,7 +15305,7 @@ rule SuspiciousString_1392
 		description = "Suspicious String 1392"
 
 	strings:
-		$a = "paulodadaj1@gmail.com"
+		$a = "passwbypass"
 
 	condition:
 		$a 
@@ -15316,7 +15316,7 @@ rule SuspiciousString_1393
 		description = "Suspicious String 1393"
 
 	strings:
-		$a = "php SSH"
+		$a = "paulodadaj1@gmail.com"
 
 	condition:
 		$a 
@@ -15327,7 +15327,7 @@ rule SuspiciousString_1394
 		description = "Suspicious String 1394"
 
 	strings:
-		$a = "php_ini@126.com"
+		$a = "php SSH"
 
 	condition:
 		$a 
@@ -15338,7 +15338,7 @@ rule SuspiciousString_1395
 		description = "Suspicious String 1395"
 
 	strings:
-		$a = "phpremoteview"
+		$a = "php_ini@126.com"
 
 	condition:
 		$a 
@@ -15349,7 +15349,7 @@ rule SuspiciousString_1396
 		description = "Suspicious String 1396"
 
 	strings:
-		$a = "phpshell"
+		$a = "phpremoteview"
 
 	condition:
 		$a 
@@ -15360,7 +15360,7 @@ rule SuspiciousString_1397
 		description = "Suspicious String 1397"
 
 	strings:
-		$a = "phpsploitclass.php"
+		$a = "phpshell"
 
 	condition:
 		$a 
@@ -15371,7 +15371,7 @@ rule SuspiciousString_1398
 		description = "Suspicious String 1398"
 
 	strings:
-		$a = "phpspypass"
+		$a = "phpsploitclass.php"
 
 	condition:
 		$a 
@@ -15382,7 +15382,7 @@ rule SuspiciousString_1399
 		description = "Suspicious String 1399"
 
 	strings:
-		$a = "pokemon exploit"
+		$a = "phpspypass"
 
 	condition:
 		$a 
@@ -15393,7 +15393,7 @@ rule SuspiciousString_1400
 		description = "Suspicious String 1400"
 
 	strings:
-		$a = "portal-f"
+		$a = "pokemon exploit"
 
 	condition:
 		$a 
@@ -15404,7 +15404,7 @@ rule SuspiciousString_1401
 		description = "Suspicious String 1401"
 
 	strings:
-		$a = "poti.sadz@gmail.com"
+		$a = "portal-f"
 
 	condition:
 		$a 
@@ -15415,7 +15415,7 @@ rule SuspiciousString_1402
 		description = "Suspicious String 1402"
 
 	strings:
-		$a = "powered by os comerce"
+		$a = "poti.sadz@gmail.com"
 
 	condition:
 		$a 
@@ -15426,7 +15426,7 @@ rule SuspiciousString_1403
 		description = "Suspicious String 1403"
 
 	strings:
-		$a = "prappo-prince.me"
+		$a = "powered by os comerce"
 
 	condition:
 		$a 
@@ -15437,7 +15437,7 @@ rule SuspiciousString_1404
 		description = "Suspicious String 1404"
 
 	strings:
-		$a = "prepare_the_exploit"
+		$a = "prappo-prince.me"
 
 	condition:
 		$a 
@@ -15448,7 +15448,7 @@ rule SuspiciousString_1405
 		description = "Suspicious String 1405"
 
 	strings:
-		$a = "psherwoodmarketing@gmail.com"
+		$a = "prepare_the_exploit"
 
 	condition:
 		$a 
@@ -15459,7 +15459,7 @@ rule SuspiciousString_1406
 		description = "Suspicious String 1406"
 
 	strings:
-		$a = "psybnc"
+		$a = "psherwoodmarketing@gmail.com"
 
 	condition:
 		$a 
@@ -15470,7 +15470,7 @@ rule SuspiciousString_1407
 		description = "Suspicious String 1407"
 
 	strings:
-		$a = "ptrace_pokedata"
+		$a = "psybnc"
 
 	condition:
 		$a 
@@ -15481,7 +15481,7 @@ rule SuspiciousString_1408
 		description = "Suspicious String 1408"
 
 	strings:
-		$a = "pw/XcTyTp"
+		$a = "ptrace_pokedata"
 
 	condition:
 		$a 
@@ -15492,7 +15492,7 @@ rule SuspiciousString_1409
 		description = "Suspicious String 1409"
 
 	strings:
-		$a = "pw/bash/include/xtaccess"
+		$a = "pw/XcTyTp"
 
 	condition:
 		$a 
@@ -15503,7 +15503,7 @@ rule SuspiciousString_1410
 		description = "Suspicious String 1410"
 
 	strings:
-		$a = "pwned"
+		$a = "pw/bash/include/xtaccess"
 
 	condition:
 		$a 
@@ -15514,7 +15514,7 @@ rule SuspiciousString_1411
 		description = "Suspicious String 1411"
 
 	strings:
-		$a = "python connect-back door"
+		$a = "pwned"
 
 	condition:
 		$a 
@@ -15525,7 +15525,7 @@ rule SuspiciousString_1412
 		description = "Suspicious String 1412"
 
 	strings:
-		$a = "qusckboendqg"
+		$a = "python connect-back door"
 
 	condition:
 		$a 
@@ -15536,7 +15536,7 @@ rule SuspiciousString_1413
 		description = "Suspicious String 1413"
 
 	strings:
-		$a = "r00txxPcP"
+		$a = "qusckboendqg"
 
 	condition:
 		$a 
@@ -15547,7 +15547,7 @@ rule SuspiciousString_1414
 		description = "Suspicious String 1414"
 
 	strings:
-		$a = "r0nin"
+		$a = "r00txxPcP"
 
 	condition:
 		$a 
@@ -15558,7 +15558,7 @@ rule SuspiciousString_1415
 		description = "Suspicious String 1415"
 
 	strings:
-		$a = "r3coded by Kerupuk"
+		$a = "r0nin"
 
 	condition:
 		$a 
@@ -15569,7 +15569,7 @@ rule SuspiciousString_1416
 		description = "Suspicious String 1416"
 
 	strings:
-		$a = "r3v3ng4ns"
+		$a = "r3coded by Kerupuk"
 
 	condition:
 		$a 
@@ -15580,7 +15580,7 @@ rule SuspiciousString_1417
 		description = "Suspicious String 1417"
 
 	strings:
-		$a = "r57"
+		$a = "r3v3ng4ns"
 
 	condition:
 		$a 
@@ -15591,7 +15591,7 @@ rule SuspiciousString_1418
 		description = "Suspicious String 1418"
 
 	strings:
-		$a = "rEd X"
+		$a = "r57"
 
 	condition:
 		$a 
@@ -15602,7 +15602,7 @@ rule SuspiciousString_1419
 		description = "Suspicious String 1419"
 
 	strings:
-		$a = "rOx"
+		$a = "rEd X"
 
 	condition:
 		$a 
@@ -15613,7 +15613,7 @@ rule SuspiciousString_1420
 		description = "Suspicious String 1420"
 
 	strings:
-		$a = "rWmpisiBWQglW/n3OBtqwt8T0NwjeiW+8Kd9N"
+		$a = "rOx"
 
 	condition:
 		$a 
@@ -15624,7 +15624,7 @@ rule SuspiciousString_1421
 		description = "Suspicious String 1421"
 
 	strings:
-		$a = "rab3oun.net"
+		$a = "rWmpisiBWQglW/n3OBtqwt8T0NwjeiW+8Kd9N"
 
 	condition:
 		$a 
@@ -15635,7 +15635,7 @@ rule SuspiciousString_1422
 		description = "Suspicious String 1422"
 
 	strings:
-		$a = "rad paul"
+		$a = "rab3oun.net"
 
 	condition:
 		$a 
@@ -15646,7 +15646,7 @@ rule SuspiciousString_1423
 		description = "Suspicious String 1423"
 
 	strings:
-		$a = "ransomeware@Lalabitch.today"
+		$a = "rad paul"
 
 	condition:
 		$a 
@@ -15657,7 +15657,7 @@ rule SuspiciousString_1424
 		description = "Suspicious String 1424"
 
 	strings:
-		$a = "raslan58"
+		$a = "ransomeware@Lalabitch.today"
 
 	condition:
 		$a 
@@ -15668,7 +15668,7 @@ rule SuspiciousString_1425
 		description = "Suspicious String 1425"
 
 	strings:
-		$a = "recaptcha-in"
+		$a = "raslan58"
 
 	condition:
 		$a 
@@ -15679,7 +15679,7 @@ rule SuspiciousString_1426
 		description = "Suspicious String 1426"
 
 	strings:
-		$a = "rednoize"
+		$a = "recaptcha-in"
 
 	condition:
 		$a 
@@ -15690,7 +15690,7 @@ rule SuspiciousString_1427
 		description = "Suspicious String 1427"
 
 	strings:
-		$a = "regions.com"
+		$a = "rednoize"
 
 	condition:
 		$a 
@@ -15701,7 +15701,7 @@ rule SuspiciousString_1428
 		description = "Suspicious String 1428"
 
 	strings:
-		$a = "renownd"
+		$a = "regions.com"
 
 	condition:
 		$a 
@@ -15712,7 +15712,7 @@ rule SuspiciousString_1429
 		description = "Suspicious String 1429"
 
 	strings:
-		$a = "reply@result.com"
+		$a = "renownd"
 
 	condition:
 		$a 
@@ -15723,7 +15723,7 @@ rule SuspiciousString_1430
 		description = "Suspicious String 1430"
 
 	strings:
-		$a = "reputable3811@yandex.com"
+		$a = "reply@result.com"
 
 	condition:
 		$a 
@@ -15734,7 +15734,7 @@ rule SuspiciousString_1431
 		description = "Suspicious String 1431"
 
 	strings:
-		$a = "resultbox99999@gmail.com"
+		$a = "reputable3811@yandex.com"
 
 	condition:
 		$a 
@@ -15745,7 +15745,7 @@ rule SuspiciousString_1432
 		description = "Suspicious String 1432"
 
 	strings:
-		$a = "resultshere2@gmail.com"
+		$a = "resultbox99999@gmail.com"
 
 	condition:
 		$a 
@@ -15756,7 +15756,7 @@ rule SuspiciousString_1433
 		description = "Suspicious String 1433"
 
 	strings:
-		$a = "romio2_100@yahoo.com"
+		$a = "resultshere2@gmail.com"
 
 	condition:
 		$a 
@@ -15767,7 +15767,7 @@ rule SuspiciousString_1434
 		description = "Suspicious String 1434"
 
 	strings:
-		$a = "root@indoxploit"
+		$a = "romio2_100@yahoo.com"
 
 	condition:
 		$a 
@@ -15778,7 +15778,7 @@ rule SuspiciousString_1435
 		description = "Suspicious String 1435"
 
 	strings:
-		$a = "root_devil"
+		$a = "root@indoxploit"
 
 	condition:
 		$a 
@@ -15789,7 +15789,7 @@ rule SuspiciousString_1436
 		description = "Suspicious String 1436"
 
 	strings:
-		$a = "roottn@vodka"
+		$a = "root_devil"
 
 	condition:
 		$a 
@@ -15800,7 +15800,7 @@ rule SuspiciousString_1437
 		description = "Suspicious String 1437"
 
 	strings:
-		$a = "rosekellymsk2@gmail.com"
+		$a = "roottn@vodka"
 
 	condition:
 		$a 
@@ -15811,7 +15811,7 @@ rule SuspiciousString_1438
 		description = "Suspicious String 1438"
 
 	strings:
-		$a = "royalbank.com"
+		$a = "rosekellymsk2@gmail.com"
 
 	condition:
 		$a 
@@ -15822,7 +15822,7 @@ rule SuspiciousString_1439
 		description = "Suspicious String 1439"
 
 	strings:
-		$a = "s3a8ece"
+		$a = "royalbank.com"
 
 	condition:
 		$a 
@@ -15833,7 +15833,7 @@ rule SuspiciousString_1440
 		description = "Suspicious String 1440"
 
 	strings:
-		$a = "s3cre3t   "
+		$a = "s3a8ece"
 
 	condition:
 		$a 
@@ -15844,7 +15844,7 @@ rule SuspiciousString_1441
 		description = "Suspicious String 1441"
 
 	strings:
-		$a = "s3n4t00r"
+		$a = "s3cre3t   "
 
 	condition:
 		$a 
@@ -15855,7 +15855,7 @@ rule SuspiciousString_1442
 		description = "Suspicious String 1442"
 
 	strings:
-		$a = "sHaf00n"
+		$a = "s3n4t00r"
 
 	condition:
 		$a 
@@ -15866,7 +15866,7 @@ rule SuspiciousString_1443
 		description = "Suspicious String 1443"
 
 	strings:
-		$a = "saatchiart.com"
+		$a = "sHaf00n"
 
 	condition:
 		$a 
@@ -15877,7 +15877,7 @@ rule SuspiciousString_1444
 		description = "Suspicious String 1444"
 
 	strings:
-		$a = "safecheck1.net"
+		$a = "saatchiart.com"
 
 	condition:
 		$a 
@@ -15888,7 +15888,7 @@ rule SuspiciousString_1445
 		description = "Suspicious String 1445"
 
 	strings:
-		$a = "sandranix001@hotmail.com"
+		$a = "safecheck1.net"
 
 	condition:
 		$a 
@@ -15899,7 +15899,7 @@ rule SuspiciousString_1446
 		description = "Suspicious String 1446"
 
 	strings:
-		$a = "sant.marasliyanziylan@gmail.com"
+		$a = "sandranix001@hotmail.com"
 
 	condition:
 		$a 
@@ -15910,7 +15910,7 @@ rule SuspiciousString_1447
 		description = "Suspicious String 1447"
 
 	strings:
-		$a = "sc.imp.live.com"
+		$a = "sant.marasliyanziylan@gmail.com"
 
 	condition:
 		$a 
@@ -15921,7 +15921,7 @@ rule SuspiciousString_1448
 		description = "Suspicious String 1448"
 
 	strings:
-		$a = "scotiabank.com"
+		$a = "sc.imp.live.com"
 
 	condition:
 		$a 
@@ -15932,7 +15932,7 @@ rule SuspiciousString_1449
 		description = "Suspicious String 1449"
 
 	strings:
-		$a = "sec-w.com"
+		$a = "scotiabank.com"
 
 	condition:
 		$a 
@@ -15943,7 +15943,7 @@ rule SuspiciousString_1450
 		description = "Suspicious String 1450"
 
 	strings:
-		$a = "semi-priv8"
+		$a = "sec-w.com"
 
 	condition:
 		$a 
@@ -15954,7 +15954,7 @@ rule SuspiciousString_1451
 		description = "Suspicious String 1451"
 
 	strings:
-		$a = "send an report to "
+		$a = "semi-priv8"
 
 	condition:
 		$a 
@@ -15965,7 +15965,7 @@ rule SuspiciousString_1452
 		description = "Suspicious String 1452"
 
 	strings:
-		$a = "serjoi.colmadory@gmail.com"
+		$a = "send an report to "
 
 	condition:
 		$a 
@@ -15976,7 +15976,7 @@ rule SuspiciousString_1453
 		description = "Suspicious String 1453"
 
 	strings:
-		$a = "sgtdennisnathan@gmail.com"
+		$a = "serjoi.colmadory@gmail.com"
 
 	condition:
 		$a 
@@ -15987,7 +15987,7 @@ rule SuspiciousString_1454
 		description = "Suspicious String 1454"
 
 	strings:
-		$a = "sh3LL"
+		$a = "sgtdennisnathan@gmail.com"
 
 	condition:
 		$a 
@@ -15998,7 +15998,7 @@ rule SuspiciousString_1455
 		description = "Suspicious String 1455"
 
 	strings:
-		$a = "shad0wLin3"
+		$a = "sh3LL"
 
 	condition:
 		$a 
@@ -16009,7 +16009,7 @@ rule SuspiciousString_1456
 		description = "Suspicious String 1456"
 
 	strings:
-		$a = "shawnphill77345@aol.in"
+		$a = "shad0wLin3"
 
 	condition:
 		$a 
@@ -16020,7 +16020,7 @@ rule SuspiciousString_1457
 		description = "Suspicious String 1457"
 
 	strings:
-		$a = "shellbot"
+		$a = "shawnphill77345@aol.in"
 
 	condition:
 		$a 
@@ -16031,7 +16031,7 @@ rule SuspiciousString_1458
 		description = "Suspicious String 1458"
 
 	strings:
-		$a = "shellchk"
+		$a = "shellbot"
 
 	condition:
 		$a 
@@ -16042,7 +16042,7 @@ rule SuspiciousString_1459
 		description = "Suspicious String 1459"
 
 	strings:
-		$a = "shellinvoker"
+		$a = "shellchk"
 
 	condition:
 		$a 
@@ -16053,7 +16053,7 @@ rule SuspiciousString_1460
 		description = "Suspicious String 1460"
 
 	strings:
-		$a = "shellololol"
+		$a = "shellinvoker"
 
 	condition:
 		$a 
@@ -16064,7 +16064,7 @@ rule SuspiciousString_1461
 		description = "Suspicious String 1461"
 
 	strings:
-		$a = "shellw0rm"
+		$a = "shellololol"
 
 	condition:
 		$a 
@@ -16075,7 +16075,7 @@ rule SuspiciousString_1462
 		description = "Suspicious String 1462"
 
 	strings:
-		$a = "shl-ed1"
+		$a = "shellw0rm"
 
 	condition:
 		$a 
@@ -16086,7 +16086,7 @@ rule SuspiciousString_1463
 		description = "Suspicious String 1463"
 
 	strings:
-		$a = "silent hacker"
+		$a = "shl-ed1"
 
 	condition:
 		$a 
@@ -16097,7 +16097,7 @@ rule SuspiciousString_1464
 		description = "Suspicious String 1464"
 
 	strings:
-		$a = "skrill"
+		$a = "silent hacker"
 
 	condition:
 		$a 
@@ -16108,7 +16108,7 @@ rule SuspiciousString_1465
 		description = "Suspicious String 1465"
 
 	strings:
-		$a = "skyline@cash4u.com"
+		$a = "skrill"
 
 	condition:
 		$a 
@@ -16119,7 +16119,7 @@ rule SuspiciousString_1466
 		description = "Suspicious String 1466"
 
 	strings:
-		$a = "slac4ever@gmail.com"
+		$a = "skyline@cash4u.com"
 
 	condition:
 		$a 
@@ -16130,7 +16130,7 @@ rule SuspiciousString_1467
 		description = "Suspicious String 1467"
 
 	strings:
-		$a = "solevisible@gmail.com"
+		$a = "slac4ever@gmail.com"
 
 	condition:
 		$a 
@@ -16141,7 +16141,7 @@ rule SuspiciousString_1468
 		description = "Suspicious String 1468"
 
 	strings:
-		$a = "spKINGS.com"
+		$a = "solevisible@gmail.com"
 
 	condition:
 		$a 
@@ -16152,7 +16152,7 @@ rule SuspiciousString_1469
 		description = "Suspicious String 1469"
 
 	strings:
-		$a = "spam_rezult@spammerindo.com"
+		$a = "spKINGS.com"
 
 	condition:
 		$a 
@@ -16163,7 +16163,7 @@ rule SuspiciousString_1470
 		description = "Suspicious String 1470"
 
 	strings:
-		$a = "spendit.laulau@yahoo.co"
+		$a = "spam_rezult@spammerindo.com"
 
 	condition:
 		$a 
@@ -16174,7 +16174,7 @@ rule SuspiciousString_1471
 		description = "Suspicious String 1471"
 
 	strings:
-		$a = "spymeta"
+		$a = "spendit.laulau@yahoo.co"
 
 	condition:
 		$a 
@@ -16185,7 +16185,7 @@ rule SuspiciousString_1472
 		description = "Suspicious String 1472"
 
 	strings:
-		$a = "starktomtht"
+		$a = "spymeta"
 
 	condition:
 		$a 
@@ -16196,7 +16196,7 @@ rule SuspiciousString_1473
 		description = "Suspicious String 1473"
 
 	strings:
-		$a = "startonthisfuckingpoint"
+		$a = "starktomtht"
 
 	condition:
 		$a 
@@ -16207,7 +16207,7 @@ rule SuspiciousString_1474
 		description = "Suspicious String 1474"
 
 	strings:
-		$a = "stat-dns.com "
+		$a = "startonthisfuckingpoint"
 
 	condition:
 		$a 
@@ -16218,7 +16218,7 @@ rule SuspiciousString_1475
 		description = "Suspicious String 1475"
 
 	strings:
-		$a = "stayinfranschhoek.co.za"
+		$a = "stat-dns.com "
 
 	condition:
 		$a 
@@ -16229,7 +16229,7 @@ rule SuspiciousString_1476
 		description = "Suspicious String 1476"
 
 	strings:
-		$a = "storesbrown147@gmail.com"
+		$a = "stayinfranschhoek.co.za"
 
 	condition:
 		$a 
@@ -16240,7 +16240,7 @@ rule SuspiciousString_1477
 		description = "Suspicious String 1477"
 
 	strings:
-		$a = "sub attacker"
+		$a = "storesbrown147@gmail.com"
 
 	condition:
 		$a 
@@ -16251,7 +16251,7 @@ rule SuspiciousString_1478
 		description = "Suspicious String 1478"
 
 	strings:
-		$a = "susanalbert1980@gmail.com"
+		$a = "sub attacker"
 
 	condition:
 		$a 
@@ -16262,7 +16262,7 @@ rule SuspiciousString_1479
 		description = "Suspicious String 1479"
 
 	strings:
-		$a = "suthallen@gmail.com"
+		$a = "susanalbert1980@gmail.com"
 
 	condition:
 		$a 
@@ -16273,7 +16273,7 @@ rule SuspiciousString_1480
 		description = "Suspicious String 1480"
 
 	strings:
-		$a = "svtpdagx"
+		$a = "suthallen@gmail.com"
 
 	condition:
 		$a 
@@ -16284,7 +16284,7 @@ rule SuspiciousString_1481
 		description = "Suspicious String 1481"
 
 	strings:
-		$a = "symlinker"
+		$a = "svtpdagx"
 
 	condition:
 		$a 
@@ -16295,7 +16295,7 @@ rule SuspiciousString_1482
 		description = "Suspicious String 1482"
 
 	strings:
-		$a = "sysctl -n kern"
+		$a = "symlinker"
 
 	condition:
 		$a 
@@ -16306,7 +16306,7 @@ rule SuspiciousString_1483
 		description = "Suspicious String 1483"
 
 	strings:
-		$a = "tHAnks tO Sir ShOcKs"
+		$a = "sysctl -n kern"
 
 	condition:
 		$a 
@@ -16317,7 +16317,7 @@ rule SuspiciousString_1484
 		description = "Suspicious String 1484"
 
 	strings:
-		$a = "tHAnks tO Timeless"
+		$a = "tHAnks tO Sir ShOcKs"
 
 	condition:
 		$a 
@@ -16328,7 +16328,7 @@ rule SuspiciousString_1485
 		description = "Suspicious String 1485"
 
 	strings:
-		$a = "tafiki"
+		$a = "tHAnks tO Timeless"
 
 	condition:
 		$a 
@@ -16339,7 +16339,7 @@ rule SuspiciousString_1486
 		description = "Suspicious String 1486"
 
 	strings:
-		$a = "tds-narod.ru"
+		$a = "tafiki"
 
 	condition:
 		$a 
@@ -16350,7 +16350,7 @@ rule SuspiciousString_1487
 		description = "Suspicious String 1487"
 
 	strings:
-		$a = "tesemelgan@gmail.com"
+		$a = "tds-narod.ru"
 
 	condition:
 		$a 
@@ -16361,7 +16361,7 @@ rule SuspiciousString_1488
 		description = "Suspicious String 1488"
 
 	strings:
-		$a = "tl4s.com.sa"
+		$a = "tesemelgan@gmail.com"
 
 	condition:
 		$a 
@@ -16372,7 +16372,7 @@ rule SuspiciousString_1489
 		description = "Suspicious String 1489"
 
 	strings:
-		$a = "toolzmorathy1"
+		$a = "tl4s.com.sa"
 
 	condition:
 		$a 
@@ -16383,7 +16383,7 @@ rule SuspiciousString_1490
 		description = "Suspicious String 1490"
 
 	strings:
-		$a = "totallyfreecursors.com"
+		$a = "toolzmorathy1"
 
 	condition:
 		$a 
@@ -16394,7 +16394,7 @@ rule SuspiciousString_1491
 		description = "Suspicious String 1491"
 
 	strings:
-		$a = "try.ciela.co"
+		$a = "totallyfreecursors.com"
 
 	condition:
 		$a 
@@ -16405,7 +16405,7 @@ rule SuspiciousString_1492
 		description = "Suspicious String 1492"
 
 	strings:
-		$a = "try.ucr.news"
+		$a = "try.ciela.co"
 
 	condition:
 		$a 
@@ -16416,7 +16416,7 @@ rule SuspiciousString_1493
 		description = "Suspicious String 1493"
 
 	strings:
-		$a = "tujuanmail"
+		$a = "try.ucr.news"
 
 	condition:
 		$a 
@@ -16427,7 +16427,7 @@ rule SuspiciousString_1494
 		description = "Suspicious String 1494"
 
 	strings:
-		$a = "turkblackhats"
+		$a = "tujuanmail"
 
 	condition:
 		$a 
@@ -16438,7 +16438,7 @@ rule SuspiciousString_1495
 		description = "Suspicious String 1495"
 
 	strings:
-		$a = "turkishkebab00@gmail.com"
+		$a = "turkblackhats"
 
 	condition:
 		$a 
@@ -16449,7 +16449,7 @@ rule SuspiciousString_1496
 		description = "Suspicious String 1496"
 
 	strings:
-		$a = "tvweipud"
+		$a = "turkishkebab00@gmail.com"
 
 	condition:
 		$a 
@@ -16460,7 +16460,7 @@ rule SuspiciousString_1497
 		description = "Suspicious String 1497"
 
 	strings:
-		$a = "ubhteam.org"
+		$a = "tvweipud"
 
 	condition:
 		$a 
@@ -16471,7 +16471,7 @@ rule SuspiciousString_1498
 		description = "Suspicious String 1498"
 
 	strings:
-		$a = "uon7bHxvy09"
+		$a = "ubhteam.org"
 
 	condition:
 		$a 
@@ -16482,7 +16482,7 @@ rule SuspiciousString_1499
 		description = "Suspicious String 1499"
 
 	strings:
-		$a = "upl0ad"
+		$a = "uon7bHxvy09"
 
 	condition:
 		$a 
@@ -16493,7 +16493,7 @@ rule SuspiciousString_1500
 		description = "Suspicious String 1500"
 
 	strings:
-		$a = "upload shell and manage site or server using console :D, happy hacking ;)"
+		$a = "upl0ad"
 
 	condition:
 		$a 
@@ -16504,7 +16504,7 @@ rule SuspiciousString_1501
 		description = "Suspicious String 1501"
 
 	strings:
-		$a = "upload.sa3eka.com"
+		$a = "upload shell and manage site or server using console :D, happy hacking ;)"
 
 	condition:
 		$a 
@@ -16515,7 +16515,7 @@ rule SuspiciousString_1502
 		description = "Suspicious String 1502"
 
 	strings:
-		$a = "usaa.com"
+		$a = "upload.sa3eka.com"
 
 	condition:
 		$a 
@@ -16526,7 +16526,7 @@ rule SuspiciousString_1503
 		description = "Suspicious String 1503"
 
 	strings:
-		$a = "usta upload basarili olmadi.Baska siteye dal!!"
+		$a = "usaa.com"
 
 	condition:
 		$a 
@@ -16537,7 +16537,7 @@ rule SuspiciousString_1504
 		description = "Suspicious String 1504"
 
 	strings:
-		$a = "vSDzq3Md"
+		$a = "usta upload basarili olmadi.Baska siteye dal!!"
 
 	condition:
 		$a 
@@ -16548,7 +16548,7 @@ rule SuspiciousString_1505
 		description = "Suspicious String 1505"
 
 	strings:
-		$a = "van1lle"
+		$a = "vSDzq3Md"
 
 	condition:
 		$a 
@@ -16559,7 +16559,7 @@ rule SuspiciousString_1506
 		description = "Suspicious String 1506"
 
 	strings:
-		$a = "var miner=new WMP.User"
+		$a = "van1lle"
 
 	condition:
 		$a 
@@ -16570,7 +16570,7 @@ rule SuspiciousString_1507
 		description = "Suspicious String 1507"
 
 	strings:
-		$a = "vecweb.net.ua"
+		$a = "var miner=new WMP.User"
 
 	condition:
 		$a 
@@ -16581,7 +16581,7 @@ rule SuspiciousString_1508
 		description = "Suspicious String 1508"
 
 	strings:
-		$a = "victim@host.com"
+		$a = "vecweb.net.ua"
 
 	condition:
 		$a 
@@ -16592,7 +16592,7 @@ rule SuspiciousString_1509
 		description = "Suspicious String 1509"
 
 	strings:
-		$a = "vinsm0ke_id"
+		$a = "victim@host.com"
 
 	condition:
 		$a 
@@ -16603,7 +16603,7 @@ rule SuspiciousString_1510
 		description = "Suspicious String 1510"
 
 	strings:
-		$a = "vito-RawckerheaD"
+		$a = "vinsm0ke_id"
 
 	condition:
 		$a 
@@ -16614,7 +16614,7 @@ rule SuspiciousString_1511
 		description = "Suspicious String 1511"
 
 	strings:
-		$a = "void.ru"
+		$a = "vito-RawckerheaD"
 
 	condition:
 		$a 
@@ -16625,7 +16625,7 @@ rule SuspiciousString_1512
 		description = "Suspicious String 1512"
 
 	strings:
-		$a = "vulns could lead to total disaters"
+		$a = "void.ru"
 
 	condition:
 		$a 
@@ -16636,7 +16636,7 @@ rule SuspiciousString_1513
 		description = "Suspicious String 1513"
 
 	strings:
-		$a = "vulnscan"
+		$a = "vulns could lead to total disaters"
 
 	condition:
 		$a 
@@ -16647,7 +16647,7 @@ rule SuspiciousString_1514
 		description = "Suspicious String 1514"
 
 	strings:
-		$a = "w00t"
+		$a = "vulnscan"
 
 	condition:
 		$a 
@@ -16658,7 +16658,7 @@ rule SuspiciousString_1515
 		description = "Suspicious String 1515"
 
 	strings:
-		$a = "w0lgix-tool"
+		$a = "w00t"
 
 	condition:
 		$a 
@@ -16669,7 +16669,7 @@ rule SuspiciousString_1516
 		description = "Suspicious String 1516"
 
 	strings:
-		$a = "w4ck1ng"
+		$a = "w0lgix-tool"
 
 	condition:
 		$a 
@@ -16680,7 +16680,7 @@ rule SuspiciousString_1517
 		description = "Suspicious String 1517"
 
 	strings:
-		$a = "w7h7j7c57.homepage.t-online.de"
+		$a = "w4ck1ng"
 
 	condition:
 		$a 
@@ -16691,7 +16691,7 @@ rule SuspiciousString_1518
 		description = "Suspicious String 1518"
 
 	strings:
-		$a = "w7sh.syria"
+		$a = "w7h7j7c57.homepage.t-online.de"
 
 	condition:
 		$a 
@@ -16702,7 +16702,7 @@ rule SuspiciousString_1519
 		description = "Suspicious String 1519"
 
 	strings:
-		$a = "walemilton003@gmail.com"
+		$a = "w7sh.syria"
 
 	condition:
 		$a 
@@ -16713,7 +16713,7 @@ rule SuspiciousString_1520
 		description = "Suspicious String 1520"
 
 	strings:
-		$a = "webconsole.php"
+		$a = "walemilton003@gmail.com"
 
 	condition:
 		$a 
@@ -16724,7 +16724,7 @@ rule SuspiciousString_1521
 		description = "Suspicious String 1521"
 
 	strings:
-		$a = "webmaster@altavistadelago.com"
+		$a = "webconsole.php"
 
 	condition:
 		$a 
@@ -16735,7 +16735,7 @@ rule SuspiciousString_1522
 		description = "Suspicious String 1522"
 
 	strings:
-		$a = "webminepool.com"
+		$a = "webmaster@altavistadelago.com"
 
 	condition:
 		$a 
@@ -16746,7 +16746,7 @@ rule SuspiciousString_1523
 		description = "Suspicious String 1523"
 
 	strings:
-		$a = "weevely backdoor"
+		$a = "webminepool.com"
 
 	condition:
 		$a 
@@ -16757,7 +16757,7 @@ rule SuspiciousString_1524
 		description = "Suspicious String 1524"
 
 	strings:
-		$a = "wellsfargo.com"
+		$a = "weevely backdoor"
 
 	condition:
 		$a 
@@ -16768,7 +16768,7 @@ rule SuspiciousString_1525
 		description = "Suspicious String 1525"
 
 	strings:
-		$a = "wfagoss@gmail.com"
+		$a = "wellsfargo.com"
 
 	condition:
 		$a 
@@ -16779,7 +16779,7 @@ rule SuspiciousString_1526
 		description = "Suspicious String 1526"
 
 	strings:
-		$a = "wi.na "
+		$a = "wfagoss@gmail.com"
 
 	condition:
 		$a 
@@ -16790,7 +16790,7 @@ rule SuspiciousString_1527
 		description = "Suspicious String 1527"
 
 	strings:
-		$a = "williambell101@yahoo.com"
+		$a = "wi.na "
 
 	condition:
 		$a 
@@ -16801,7 +16801,7 @@ rule SuspiciousString_1528
 		description = "Suspicious String 1528"
 
 	strings:
-		$a = "williambell1233@gmail.com"
+		$a = "williambell101@yahoo.com"
 
 	condition:
 		$a 
@@ -16812,7 +16812,7 @@ rule SuspiciousString_1529
 		description = "Suspicious String 1529"
 
 	strings:
-		$a = "wkendy76@blumail.org"
+		$a = "williambell1233@gmail.com"
 
 	condition:
 		$a 
@@ -16823,7 +16823,7 @@ rule SuspiciousString_1530
 		description = "Suspicious String 1530"
 
 	strings:
-		$a = "wolu yb dekcah"
+		$a = "wkendy76@blumail.org"
 
 	condition:
 		$a 
@@ -16834,7 +16834,7 @@ rule SuspiciousString_1531
 		description = "Suspicious String 1531"
 
 	strings:
-		$a = "wonderfulboy01@gmai.com"
+		$a = "wolu yb dekcah"
 
 	condition:
 		$a 
@@ -16845,7 +16845,7 @@ rule SuspiciousString_1532
 		description = "Suspicious String 1532"
 
 	strings:
-		$a = "wp mass info changer"
+		$a = "wonderfulboy01@gmai.com"
 
 	condition:
 		$a 
@@ -16856,7 +16856,7 @@ rule SuspiciousString_1533
 		description = "Suspicious String 1533"
 
 	strings:
-		$a = "wrgggthhd"
+		$a = "wp mass info changer"
 
 	condition:
 		$a 
@@ -16867,7 +16867,7 @@ rule SuspiciousString_1534
 		description = "Suspicious String 1534"
 
 	strings:
-		$a = "wso@protonmail.com"
+		$a = "wrgggthhd"
 
 	condition:
 		$a 
@@ -16878,7 +16878,7 @@ rule SuspiciousString_1535
 		description = "Suspicious String 1535"
 
 	strings:
-		$a = "www.adobe.com.zip"
+		$a = "wso@protonmail.com"
 
 	condition:
 		$a 
@@ -16889,7 +16889,7 @@ rule SuspiciousString_1536
 		description = "Suspicious String 1536"
 
 	strings:
-		$a = "www.ahdal.com"
+		$a = "www.adobe.com.zip"
 
 	condition:
 		$a 
@@ -16900,7 +16900,7 @@ rule SuspiciousString_1537
 		description = "Suspicious String 1537"
 
 	strings:
-		$a = "www.ayyildiz.org"
+		$a = "www.ahdal.com"
 
 	condition:
 		$a 
@@ -16911,7 +16911,7 @@ rule SuspiciousString_1538
 		description = "Suspicious String 1538"
 
 	strings:
-		$a = "www.c99.me"
+		$a = "www.ayyildiz.org"
 
 	condition:
 		$a 
@@ -16922,7 +16922,7 @@ rule SuspiciousString_1539
 		description = "Suspicious String 1539"
 
 	strings:
-		$a = "www.gudangkesehatan.com"
+		$a = "www.c99.me"
 
 	condition:
 		$a 
@@ -16933,7 +16933,7 @@ rule SuspiciousString_1540
 		description = "Suspicious String 1540"
 
 	strings:
-		$a = "www.sec-krb.org"
+		$a = "www.gudangkesehatan.com"
 
 	condition:
 		$a 
@@ -16944,7 +16944,7 @@ rule SuspiciousString_1541
 		description = "Suspicious String 1541"
 
 	strings:
-		$a = "x shell"
+		$a = "www.sec-krb.org"
 
 	condition:
 		$a 
@@ -16955,7 +16955,7 @@ rule SuspiciousString_1542
 		description = "Suspicious String 1542"
 
 	strings:
-		$a = "x'1n73ct "
+		$a = "x shell"
 
 	condition:
 		$a 
@@ -16966,7 +16966,7 @@ rule SuspiciousString_1543
 		description = "Suspicious String 1543"
 
 	strings:
-		$a = "x1.minerxmr.ru"
+		$a = "x'1n73ct "
 
 	condition:
 		$a 
@@ -16977,7 +16977,7 @@ rule SuspiciousString_1544
 		description = "Suspicious String 1544"
 
 	strings:
-		$a = "x@erebor.dwarfpool.com"
+		$a = "x1.minerxmr.ru"
 
 	condition:
 		$a 
@@ -16988,7 +16988,7 @@ rule SuspiciousString_1545
 		description = "Suspicious String 1545"
 
 	strings:
-		$a = "x@moria.dwarfpool.com"
+		$a = "x@erebor.dwarfpool.com"
 
 	condition:
 		$a 
@@ -16999,7 +16999,7 @@ rule SuspiciousString_1546
 		description = "Suspicious String 1546"
 
 	strings:
-		$a = "xCut10n "
+		$a = "x@moria.dwarfpool.com"
 
 	condition:
 		$a 
@@ -17010,7 +17010,7 @@ rule SuspiciousString_1547
 		description = "Suspicious String 1547"
 
 	strings:
-		$a = "xLon3ly"
+		$a = "xCut10n "
 
 	condition:
 		$a 
@@ -17021,7 +17021,7 @@ rule SuspiciousString_1548
 		description = "Suspicious String 1548"
 
 	strings:
-		$a = "xXEz"
+		$a = "xLon3ly"
 
 	condition:
 		$a 
@@ -17032,7 +17032,7 @@ rule SuspiciousString_1549
 		description = "Suspicious String 1549"
 
 	strings:
-		$a = "xbgbkyqvqgwu"
+		$a = "xXEz"
 
 	condition:
 		$a 
@@ -17043,7 +17043,7 @@ rule SuspiciousString_1550
 		description = "Suspicious String 1550"
 
 	strings:
-		$a = "xplOi73r"
+		$a = "xbgbkyqvqgwu"
 
 	condition:
 		$a 
@@ -17054,7 +17054,7 @@ rule SuspiciousString_1551
 		description = "Suspicious String 1551"
 
 	strings:
-		$a = "xrob0t.cpanels@gmail.com"
+		$a = "xplOi73r"
 
 	condition:
 		$a 
@@ -17065,7 +17065,7 @@ rule SuspiciousString_1552
 		description = "Suspicious String 1552"
 
 	strings:
-		$a = "xtases no-life"
+		$a = "xrob0t.cpanels@gmail.com"
 
 	condition:
 		$a 
@@ -17076,7 +17076,7 @@ rule SuspiciousString_1553
 		description = "Suspicious String 1553"
 
 	strings:
-		$a = "y2Google"
+		$a = "xtases no-life"
 
 	condition:
 		$a 
@@ -17087,7 +17087,7 @@ rule SuspiciousString_1554
 		description = "Suspicious String 1554"
 
 	strings:
-		$a = "yahoopassword"
+		$a = "y2Google"
 
 	condition:
 		$a 
@@ -17098,7 +17098,7 @@ rule SuspiciousString_1555
 		description = "Suspicious String 1555"
 
 	strings:
-		$a = "yang8559420"
+		$a = "yahoopassword"
 
 	condition:
 		$a 
@@ -17109,7 +17109,7 @@ rule SuspiciousString_1556
 		description = "Suspicious String 1556"
 
 	strings:
-		$a = "ydteam"
+		$a = "yang8559420"
 
 	condition:
 		$a 
@@ -17120,7 +17120,7 @@ rule SuspiciousString_1557
 		description = "Suspicious String 1557"
 
 	strings:
-		$a = "youngbloodcharlesx@gmail.com"
+		$a = "ydteam"
 
 	condition:
 		$a 
@@ -17131,7 +17131,7 @@ rule SuspiciousString_1558
 		description = "Suspicious String 1558"
 
 	strings:
-		$a = "zPayPal_2018"
+		$a = "youngbloodcharlesx@gmail.com"
 
 	condition:
 		$a 
@@ -17142,7 +17142,7 @@ rule SuspiciousString_1559
 		description = "Suspicious String 1559"
 
 	strings:
-		$a = "zen.co.uk"
+		$a = "zPayPal_2018"
 
 	condition:
 		$a 
@@ -17153,7 +17153,7 @@ rule SuspiciousString_1560
 		description = "Suspicious String 1560"
 
 	strings:
-		$a = "zetas.oujda"
+		$a = "zen.co.uk"
 
 	condition:
 		$a 
@@ -17164,7 +17164,7 @@ rule SuspiciousString_1561
 		description = "Suspicious String 1561"
 
 	strings:
-		$a = "zhikou.yo2.cn"
+		$a = "zetas.oujda"
 
 	condition:
 		$a 
@@ -17175,7 +17175,7 @@ rule SuspiciousString_1562
 		description = "Suspicious String 1562"
 
 	strings:
-		$a = "zigw"
+		$a = "zhikou.yo2.cn"
 
 	condition:
 		$a 
@@ -17186,7 +17186,7 @@ rule SuspiciousString_1563
 		description = "Suspicious String 1563"
 
 	strings:
-		$a = "ziteditora.com.br"
+		$a = "zigw"
 
 	condition:
 		$a 
@@ -17197,7 +17197,7 @@ rule SuspiciousString_1564
 		description = "Suspicious String 1564"
 
 	strings:
-		$a = "zoozoo"
+		$a = "ziteditora.com.br"
 
 	condition:
 		$a 
@@ -17206,6 +17206,17 @@ rule SuspiciousString_1565
 {
 	meta:
 		description = "Suspicious String 1565"
+
+	strings:
+		$a = "zoozoo"
+
+	condition:
+		$a 
+}
+rule SuspiciousString_1566
+{
+	meta:
+		description = "Suspicious String 1566"
 
 	strings:
 		$a = "互相伤害啊"
