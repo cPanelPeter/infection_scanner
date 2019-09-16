@@ -17224,3 +17224,47 @@ rule SuspiciousString_1566
 	condition:
 		$a 
 }
+rule SuspiciousString_1567
+{
+	meta:
+		description = "Suspicious String 1567"
+
+	strings:
+		$a = "watchd0g.sh"
+
+	condition:
+		$a 
+}
+rule SuspiciousString_1568
+{
+	meta:
+		description = "Suspicious String 1568"
+
+	strings:
+		$a = "systemdo"
+
+	condition:
+		$a 
+}
+rule SuspiciousString_1569
+{
+	meta:
+		description = "Suspicious String 1569"
+
+	strings:
+		$a = "222.184.79.11"
+
+	condition:
+		$a 
+}
+rule SuspiciousString_1570
+{
+	meta:
+		description = "Suspicious String 1570"
+
+	strings:
+		$a = "dada.x86_64"
+
+	condition:
+		$a 
+}
