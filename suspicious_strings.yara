@@ -17268,3 +17268,58 @@ rule SuspiciousString_1570
 	condition:
 		$a 
 }
+rule SuspiciousString_1571
+{
+	meta:
+		description = "Suspicious String 1571"
+
+	strings:
+		$a = "bbc.servehalflife.com"
+
+	condition:
+		$a 
+}
+rule SuspiciousString_1572
+{
+	meta:
+		description = "Suspicious String 1572"
+
+	strings:
+		$a = "190.60.206.11"
+
+	condition:
+		$a 
+}
+rule SuspiciousString_1573
+{
+	meta:
+		description = "Suspicious String 1573"
+
+	strings:
+		$a = "182.18.8.69"
+
+	condition:
+		$a 
+}
+rule SuspiciousString_1574
+{
+	meta:
+		description = "Suspicious String 1574"
+
+	strings:
+		$a = "jbos.7766.org"
+
+	condition:
+		$a 
+}
+rule SuspiciousString_1575
+{
+	meta:
+		description = "Suspicious String 1575"
+
+	strings:
+		$a = "115.231.218.38"
+
+	condition:
+		$a 
+}
