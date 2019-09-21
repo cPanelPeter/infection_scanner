@@ -17323,3 +17323,91 @@ rule SuspiciousString_1575
 	condition:
 		$a 
 }
+rule SuspiciousString_1576
+{
+	meta:
+		description = "Suspicious String 1576"
+
+	strings:
+		$a = "zayaflowers.ru/3.03_conf"
+
+	condition:
+		$a 
+}
+rule SuspiciousString_1577
+{
+	meta:
+		description = "Suspicious String 1577"
+
+	strings:
+		$a = "3.03_config"
+
+	condition:
+		$a 
+}
+rule SuspiciousString_1578
+{
+	meta:
+		description = "Suspicious String 1578"
+
+	strings:
+		$a = "gsqdecfoo"
+
+	condition:
+		$a 
+}
+rule SuspiciousString_1579
+{
+	meta:
+		description = "Suspicious String 1579"
+
+	strings:
+		$a = "dydwfdnuls"
+
+	condition:
+		$a 
+}
+rule SuspiciousString_1580
+{
+	meta:
+		description = "Suspicious String 1580"
+
+	strings:
+		$a = "rqutuvbow"
+
+	condition:
+		$a 
+}
+rule SuspiciousString_1581
+{
+	meta:
+		description = "Suspicious String 1581"
+
+	strings:
+		$a = "osvbkai"
+
+	condition:
+		$a 
+}
+rule SuspiciousString_1582
+{
+	meta:
+		description = "Suspicious String 1582"
+
+	strings:
+		$a = "fwaywusurl"
+
+	condition:
+		$a 
+}
+rule SuspiciousString_1583
+{
+	meta:
+		description = "Suspicious String 1583"
+
+	strings:
+		$a = "O7JBlDzqAkyShKcoEsTQSmtQHEM4aY0G"
+
+	condition:
+		$a 
+}
