@@ -758,6 +758,7 @@ Rizky21ID
 Robot Pirates
 Romanian Security Team
 RooTTn & REV!
+RsyncWeakCheck
 RxR
 Ryan Duff and Firas Durri
 Rytz
@@ -819,6 +820,7 @@ SpecimenT
 Spirit Hunder
 SpyHackerz.Com
 Spyk1r4
+Stager uploaded successfully
 Stealth MultiFunctional IrcBot writen in Perl
 Stealth Shellbot
 Stm Nazie 102
@@ -921,11 +923,13 @@ WHIT3 DR4G0N
 WHMCS KILLER V3 CODED BY RAB3OUN
 WHMCS Killer v3 Decoded By N!nj@
 WORK HARD DREAM B!G
+WSHShell
 WSO 2.1.5
 WSO \[2.6\]
 WSO r3coded by eX-Sh1Ne
 WSOsetcookie
 WScript.Shell
+WScript.shell
 Wa7sh Hacker
 Walid Curva Nord
 Wayaw
@@ -1108,6 +1112,7 @@ chiacheng2012@gmail.com
 chinazfans@gmail.com
 chishijen12
 chizzyspamm@gmail.com
+chpasswd.sh
 chr(112).chr(49)
 christbb616@gmail.com
 chukuma0000007@yahoo.com
