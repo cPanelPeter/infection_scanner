@@ -1,3 +1,8 @@
+/*
+    This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) and open to any user or organization, as    long as you use it under this license.
+
+Last Updated: Thu Oct  3 10:55:07 CDT 2019
+*/
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String $kola triggered"
 	strings: $suspicious_string = "$kola"
@@ -6789,1157 +6794,1157 @@ rule Rule_1358_triggered {
 	condition: $suspicious_string
 }
 rule Rule_1359_triggered {
-	meta: description = "Rule # 1359 Suspicious String multiviews triggered"
-	strings: $suspicious_string = "multiviews"
-	condition: $suspicious_string
-}
-rule Rule_1360_triggered {
-	meta: description = "Rule # 1360 Suspicious String mvp.collinsrobinson@mail.ru triggered"
+	meta: description = "Rule # 1359 Suspicious String mvp.collinsrobinson@mail.ru triggered"
 	strings: $suspicious_string = "mvp.collinsrobinson@mail.ru"
 	condition: $suspicious_string
 }
-rule Rule_1361_triggered {
-	meta: description = "Rule # 1361 Suspicious String myrealday1@gmail.com triggered"
+rule Rule_1360_triggered {
+	meta: description = "Rule # 1360 Suspicious String myrealday1@gmail.com triggered"
 	strings: $suspicious_string = "myrealday1@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1362_triggered {
-	meta: description = "Rule # 1362 Suspicious String n5c098ab8546b2 triggered"
+rule Rule_1361_triggered {
+	meta: description = "Rule # 1361 Suspicious String n5c098ab8546b2 triggered"
 	strings: $suspicious_string = "n5c098ab8546b2"
 	condition: $suspicious_string
 }
-rule Rule_1363_triggered {
-	meta: description = "Rule # 1363 Suspicious String n96I4A33EYNVO71FC.Program triggered"
+rule Rule_1362_triggered {
+	meta: description = "Rule # 1362 Suspicious String n96I4A33EYNVO71FC.Program triggered"
 	strings: $suspicious_string = "n96I4A33EYNVO71FC.Program"
 	condition: $suspicious_string
 }
-rule Rule_1364_triggered {
-	meta: description = "Rule # 1364 Suspicious String n9nj2.X triggered"
+rule Rule_1363_triggered {
+	meta: description = "Rule # 1363 Suspicious String n9nj2.X triggered"
 	strings: $suspicious_string = "n9nj2.X"
 	condition: $suspicious_string
 }
-rule Rule_1365_triggered {
-	meta: description = "Rule # 1365 Suspicious String neighborer triggered"
+rule Rule_1364_triggered {
+	meta: description = "Rule # 1364 Suspicious String neighborer triggered"
 	strings: $suspicious_string = "neighborer"
 	condition: $suspicious_string
 }
-rule Rule_1366_triggered {
-	meta: description = "Rule # 1366 Suspicious String netjackal.by.ru triggered"
+rule Rule_1365_triggered {
+	meta: description = "Rule # 1365 Suspicious String netjackal.by.ru triggered"
 	strings: $suspicious_string = "netjackal.by.ru"
 	condition: $suspicious_string
 }
-rule Rule_1367_triggered {
-	meta: description = "Rule # 1367 Suspicious String newCredentials triggered"
+rule Rule_1366_triggered {
+	meta: description = "Rule # 1366 Suspicious String newCredentials triggered"
 	strings: $suspicious_string = "newCredentials"
 	condition: $suspicious_string
 }
-rule Rule_1368_triggered {
-	meta: description = "Rule # 1368 Suspicious String newbie patah hati  triggered"
+rule Rule_1367_triggered {
+	meta: description = "Rule # 1367 Suspicious String newbie patah hati  triggered"
 	strings: $suspicious_string = "newbie patah hati "
 	condition: $suspicious_string
 }
-rule Rule_1369_triggered {
-	meta: description = "Rule # 1369 Suspicious String neweggstats.com triggered"
+rule Rule_1368_triggered {
+	meta: description = "Rule # 1368 Suspicious String neweggstats.com triggered"
 	strings: $suspicious_string = "neweggstats.com"
 	condition: $suspicious_string
 }
-rule Rule_1370_triggered {
-	meta: description = "Rule # 1370 Suspicious String newlife1470@gmail.com triggered"
+rule Rule_1369_triggered {
+	meta: description = "Rule # 1369 Suspicious String newlife1470@gmail.com triggered"
 	strings: $suspicious_string = "newlife1470@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1371_triggered {
-	meta: description = "Rule # 1371 Suspicious String newmeak@gmail.com triggered"
+rule Rule_1370_triggered {
+	meta: description = "Rule # 1370 Suspicious String newmeak@gmail.com triggered"
 	strings: $suspicious_string = "newmeak@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1372_triggered {
-	meta: description = "Rule # 1372 Suspicious String newsupdate@servicedrive.com triggered"
+rule Rule_1371_triggered {
+	meta: description = "Rule # 1371 Suspicious String newsupdate@servicedrive.com triggered"
 	strings: $suspicious_string = "newsupdate@servicedrive.com"
 	condition: $suspicious_string
 }
-rule Rule_1373_triggered {
-	meta: description = "Rule # 1373 Suspicious String newsupdate@servisdropbox.com triggered"
+rule Rule_1372_triggered {
+	meta: description = "Rule # 1372 Suspicious String newsupdate@servisdropbox.com triggered"
 	strings: $suspicious_string = "newsupdate@servisdropbox.com"
 	condition: $suspicious_string
 }
-rule Rule_1374_triggered {
-	meta: description = "Rule # 1374 Suspicious String newsupdated@servisd.com triggered"
+rule Rule_1373_triggered {
+	meta: description = "Rule # 1373 Suspicious String newsupdated@servisd.com triggered"
 	strings: $suspicious_string = "newsupdated@servisd.com"
 	condition: $suspicious_string
 }
-rule Rule_1375_triggered {
-	meta: description = "Rule # 1375 Suspicious String nginx1337 triggered"
+rule Rule_1374_triggered {
+	meta: description = "Rule # 1374 Suspicious String nginx1337 triggered"
 	strings: $suspicious_string = "nginx1337"
 	condition: $suspicious_string
 }
-rule Rule_1376_triggered {
-	meta: description = "Rule # 1376 Suspicious String nighttgr33n triggered"
+rule Rule_1375_triggered {
+	meta: description = "Rule # 1375 Suspicious String nighttgr33n triggered"
 	strings: $suspicious_string = "nighttgr33n"
 	condition: $suspicious_string
 }
-rule Rule_1377_triggered {
-	meta: description = "Rule # 1377 Suspicious String ninja_1263 triggered"
+rule Rule_1376_triggered {
+	meta: description = "Rule # 1376 Suspicious String ninja_1263 triggered"
 	strings: $suspicious_string = "ninja_1263"
 	condition: $suspicious_string
 }
-rule Rule_1378_triggered {
-	meta: description = "Rule # 1378 Suspicious String notification.job@gmail.com triggered"
+rule Rule_1377_triggered {
+	meta: description = "Rule # 1377 Suspicious String notification.job@gmail.com triggered"
 	strings: $suspicious_string = "notification.job@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1379_triggered {
-	meta: description = "Rule # 1379 Suspicious String o8aedac7 triggered"
+rule Rule_1378_triggered {
+	meta: description = "Rule # 1378 Suspicious String o8aedac7 triggered"
 	strings: $suspicious_string = "o8aedac7"
 	condition: $suspicious_string
 }
-rule Rule_1380_triggered {
-	meta: description = "Rule # 1380 Suspicious String oalah asoooooooooooh triggered"
+rule Rule_1379_triggered {
+	meta: description = "Rule # 1379 Suspicious String oalah asoooooooooooh triggered"
 	strings: $suspicious_string = "oalah asoooooooooooh"
 	condition: $suspicious_string
 }
-rule Rule_1381_triggered {
-	meta: description = "Rule # 1381 Suspicious String oficeofthe@gmail.com triggered"
+rule Rule_1380_triggered {
+	meta: description = "Rule # 1380 Suspicious String oficeofthe@gmail.com triggered"
 	strings: $suspicious_string = "oficeofthe@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1382_triggered {
-	meta: description = "Rule # 1382 Suspicious String online encode by cha88.cn triggered"
+rule Rule_1381_triggered {
+	meta: description = "Rule # 1381 Suspicious String online encode by cha88.cn triggered"
 	strings: $suspicious_string = "online encode by cha88.cn"
 	condition: $suspicious_string
 }
-rule Rule_1383_triggered {
-	meta: description = "Rule # 1383 Suspicious String owhggiku triggered"
+rule Rule_1382_triggered {
+	meta: description = "Rule # 1382 Suspicious String owhggiku triggered"
 	strings: $suspicious_string = "owhggiku"
 	condition: $suspicious_string
 }
-rule Rule_1384_triggered {
-	meta: description = "Rule # 1384 Suspicious String ownersdirectorsintl@gmail.com triggered"
+rule Rule_1383_triggered {
+	meta: description = "Rule # 1383 Suspicious String ownersdirectorsintl@gmail.com triggered"
 	strings: $suspicious_string = "ownersdirectorsintl@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1385_triggered {
-	meta: description = "Rule # 1385 Suspicious String ozcanlesbigboss@hotmail.fr triggered"
+rule Rule_1384_triggered {
+	meta: description = "Rule # 1384 Suspicious String ozcanlesbigboss@hotmail.fr triggered"
 	strings: $suspicious_string = "ozcanlesbigboss@hotmail.fr"
 	condition: $suspicious_string
 }
-rule Rule_1386_triggered {
-	meta: description = "Rule # 1386 Suspicious String ozlok  triggered"
+rule Rule_1385_triggered {
+	meta: description = "Rule # 1385 Suspicious String ozlok  triggered"
 	strings: $suspicious_string = "ozlok "
 	condition: $suspicious_string
 }
-rule Rule_1387_triggered {
-	meta: description = "Rule # 1387 Suspicious String p0wny@shell triggered"
+rule Rule_1386_triggered {
+	meta: description = "Rule # 1386 Suspicious String p0wny@shell triggered"
 	strings: $suspicious_string = "p0wny@shell"
 	condition: $suspicious_string
 }
-rule Rule_1388_triggered {
-	meta: description = "Rule # 1388 Suspicious String p1mmaxweel@gmail.com triggered"
+rule Rule_1387_triggered {
+	meta: description = "Rule # 1387 Suspicious String p1mmaxweel@gmail.com triggered"
 	strings: $suspicious_string = "p1mmaxweel@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1389_triggered {
-	meta: description = "Rule # 1389 Suspicious String p4rs.net triggered"
+rule Rule_1388_triggered {
+	meta: description = "Rule # 1388 Suspicious String p4rs.net triggered"
 	strings: $suspicious_string = "p4rs.net"
 	condition: $suspicious_string
 }
-rule Rule_1390_triggered {
-	meta: description = "Rule # 1390 Suspicious String p62a2e triggered"
+rule Rule_1389_triggered {
+	meta: description = "Rule # 1389 Suspicious String p62a2e triggered"
 	strings: $suspicious_string = "p62a2e"
 	condition: $suspicious_string
 }
-rule Rule_1391_triggered {
-	meta: description = "Rule # 1391 Suspicious String pOcOpOcO triggered"
+rule Rule_1390_triggered {
+	meta: description = "Rule # 1390 Suspicious String pOcOpOcO triggered"
 	strings: $suspicious_string = "pOcOpOcO"
 	condition: $suspicious_string
 }
-rule Rule_1392_triggered {
-	meta: description = "Rule # 1392 Suspicious String passwbypass triggered"
+rule Rule_1391_triggered {
+	meta: description = "Rule # 1391 Suspicious String passwbypass triggered"
 	strings: $suspicious_string = "passwbypass"
 	condition: $suspicious_string
 }
-rule Rule_1393_triggered {
-	meta: description = "Rule # 1393 Suspicious String paulodadaj1@gmail.com triggered"
+rule Rule_1392_triggered {
+	meta: description = "Rule # 1392 Suspicious String paulodadaj1@gmail.com triggered"
 	strings: $suspicious_string = "paulodadaj1@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1394_triggered {
-	meta: description = "Rule # 1394 Suspicious String php SSH triggered"
+rule Rule_1393_triggered {
+	meta: description = "Rule # 1393 Suspicious String php SSH triggered"
 	strings: $suspicious_string = "php SSH"
 	condition: $suspicious_string
 }
-rule Rule_1395_triggered {
-	meta: description = "Rule # 1395 Suspicious String php_ini@126.com triggered"
+rule Rule_1394_triggered {
+	meta: description = "Rule # 1394 Suspicious String php_ini@126.com triggered"
 	strings: $suspicious_string = "php_ini@126.com"
 	condition: $suspicious_string
 }
-rule Rule_1396_triggered {
-	meta: description = "Rule # 1396 Suspicious String phpremoteview triggered"
+rule Rule_1395_triggered {
+	meta: description = "Rule # 1395 Suspicious String phpremoteview triggered"
 	strings: $suspicious_string = "phpremoteview"
 	condition: $suspicious_string
 }
-rule Rule_1397_triggered {
-	meta: description = "Rule # 1397 Suspicious String phpshell triggered"
+rule Rule_1396_triggered {
+	meta: description = "Rule # 1396 Suspicious String phpshell triggered"
 	strings: $suspicious_string = "phpshell"
 	condition: $suspicious_string
 }
-rule Rule_1398_triggered {
-	meta: description = "Rule # 1398 Suspicious String phpsploitclass.php triggered"
+rule Rule_1397_triggered {
+	meta: description = "Rule # 1397 Suspicious String phpsploitclass.php triggered"
 	strings: $suspicious_string = "phpsploitclass.php"
 	condition: $suspicious_string
 }
-rule Rule_1399_triggered {
-	meta: description = "Rule # 1399 Suspicious String phpspypass triggered"
+rule Rule_1398_triggered {
+	meta: description = "Rule # 1398 Suspicious String phpspypass triggered"
 	strings: $suspicious_string = "phpspypass"
 	condition: $suspicious_string
 }
-rule Rule_1400_triggered {
-	meta: description = "Rule # 1400 Suspicious String pokemon exploit triggered"
+rule Rule_1399_triggered {
+	meta: description = "Rule # 1399 Suspicious String pokemon exploit triggered"
 	strings: $suspicious_string = "pokemon exploit"
 	condition: $suspicious_string
 }
-rule Rule_1401_triggered {
-	meta: description = "Rule # 1401 Suspicious String portal-f triggered"
+rule Rule_1400_triggered {
+	meta: description = "Rule # 1400 Suspicious String portal-f triggered"
 	strings: $suspicious_string = "portal-f"
 	condition: $suspicious_string
 }
-rule Rule_1402_triggered {
-	meta: description = "Rule # 1402 Suspicious String poti.sadz@gmail.com triggered"
+rule Rule_1401_triggered {
+	meta: description = "Rule # 1401 Suspicious String poti.sadz@gmail.com triggered"
 	strings: $suspicious_string = "poti.sadz@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1403_triggered {
-	meta: description = "Rule # 1403 Suspicious String powered by os comerce triggered"
+rule Rule_1402_triggered {
+	meta: description = "Rule # 1402 Suspicious String powered by os comerce triggered"
 	strings: $suspicious_string = "powered by os comerce"
 	condition: $suspicious_string
 }
-rule Rule_1404_triggered {
-	meta: description = "Rule # 1404 Suspicious String prappo-prince.me triggered"
+rule Rule_1403_triggered {
+	meta: description = "Rule # 1403 Suspicious String prappo-prince.me triggered"
 	strings: $suspicious_string = "prappo-prince.me"
 	condition: $suspicious_string
 }
-rule Rule_1405_triggered {
-	meta: description = "Rule # 1405 Suspicious String prepare_the_exploit triggered"
+rule Rule_1404_triggered {
+	meta: description = "Rule # 1404 Suspicious String prepare_the_exploit triggered"
 	strings: $suspicious_string = "prepare_the_exploit"
 	condition: $suspicious_string
 }
-rule Rule_1406_triggered {
-	meta: description = "Rule # 1406 Suspicious String psherwoodmarketing@gmail.com triggered"
+rule Rule_1405_triggered {
+	meta: description = "Rule # 1405 Suspicious String psherwoodmarketing@gmail.com triggered"
 	strings: $suspicious_string = "psherwoodmarketing@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1407_triggered {
-	meta: description = "Rule # 1407 Suspicious String psybnc triggered"
+rule Rule_1406_triggered {
+	meta: description = "Rule # 1406 Suspicious String psybnc triggered"
 	strings: $suspicious_string = "psybnc"
 	condition: $suspicious_string
 }
-rule Rule_1408_triggered {
-	meta: description = "Rule # 1408 Suspicious String ptrace_pokedata triggered"
+rule Rule_1407_triggered {
+	meta: description = "Rule # 1407 Suspicious String ptrace_pokedata triggered"
 	strings: $suspicious_string = "ptrace_pokedata"
 	condition: $suspicious_string
 }
-rule Rule_1409_triggered {
-	meta: description = "Rule # 1409 Suspicious String pw/XcTyTp triggered"
+rule Rule_1408_triggered {
+	meta: description = "Rule # 1408 Suspicious String pw/XcTyTp triggered"
 	strings: $suspicious_string = "pw/XcTyTp"
 	condition: $suspicious_string
 }
-rule Rule_1410_triggered {
-	meta: description = "Rule # 1410 Suspicious String pw/bash/include/xtaccess triggered"
+rule Rule_1409_triggered {
+	meta: description = "Rule # 1409 Suspicious String pw/bash/include/xtaccess triggered"
 	strings: $suspicious_string = "pw/bash/include/xtaccess"
 	condition: $suspicious_string
 }
-rule Rule_1411_triggered {
-	meta: description = "Rule # 1411 Suspicious String pwned triggered"
+rule Rule_1410_triggered {
+	meta: description = "Rule # 1410 Suspicious String pwned triggered"
 	strings: $suspicious_string = "pwned"
 	condition: $suspicious_string
 }
-rule Rule_1412_triggered {
-	meta: description = "Rule # 1412 Suspicious String python connect-back door triggered"
+rule Rule_1411_triggered {
+	meta: description = "Rule # 1411 Suspicious String python connect-back door triggered"
 	strings: $suspicious_string = "python connect-back door"
 	condition: $suspicious_string
 }
-rule Rule_1413_triggered {
-	meta: description = "Rule # 1413 Suspicious String qusckboendqg triggered"
+rule Rule_1412_triggered {
+	meta: description = "Rule # 1412 Suspicious String qusckboendqg triggered"
 	strings: $suspicious_string = "qusckboendqg"
 	condition: $suspicious_string
 }
-rule Rule_1414_triggered {
-	meta: description = "Rule # 1414 Suspicious String r00txxPcP triggered"
+rule Rule_1413_triggered {
+	meta: description = "Rule # 1413 Suspicious String r00txxPcP triggered"
 	strings: $suspicious_string = "r00txxPcP"
 	condition: $suspicious_string
 }
-rule Rule_1415_triggered {
-	meta: description = "Rule # 1415 Suspicious String r0nin triggered"
+rule Rule_1414_triggered {
+	meta: description = "Rule # 1414 Suspicious String r0nin triggered"
 	strings: $suspicious_string = "r0nin"
 	condition: $suspicious_string
 }
-rule Rule_1416_triggered {
-	meta: description = "Rule # 1416 Suspicious String r3coded by Kerupuk triggered"
+rule Rule_1415_triggered {
+	meta: description = "Rule # 1415 Suspicious String r3coded by Kerupuk triggered"
 	strings: $suspicious_string = "r3coded by Kerupuk"
 	condition: $suspicious_string
 }
-rule Rule_1417_triggered {
-	meta: description = "Rule # 1417 Suspicious String r3v3ng4ns triggered"
+rule Rule_1416_triggered {
+	meta: description = "Rule # 1416 Suspicious String r3v3ng4ns triggered"
 	strings: $suspicious_string = "r3v3ng4ns"
 	condition: $suspicious_string
 }
-rule Rule_1418_triggered {
-	meta: description = "Rule # 1418 Suspicious String r57 triggered"
+rule Rule_1417_triggered {
+	meta: description = "Rule # 1417 Suspicious String r57 triggered"
 	strings: $suspicious_string = "r57"
 	condition: $suspicious_string
 }
-rule Rule_1419_triggered {
-	meta: description = "Rule # 1419 Suspicious String rEd X triggered"
+rule Rule_1418_triggered {
+	meta: description = "Rule # 1418 Suspicious String rEd X triggered"
 	strings: $suspicious_string = "rEd X"
 	condition: $suspicious_string
 }
-rule Rule_1420_triggered {
-	meta: description = "Rule # 1420 Suspicious String rOx triggered"
+rule Rule_1419_triggered {
+	meta: description = "Rule # 1419 Suspicious String rOx triggered"
 	strings: $suspicious_string = "rOx"
 	condition: $suspicious_string
 }
-rule Rule_1421_triggered {
-	meta: description = "Rule # 1421 Suspicious String rWmpisiBWQglW/n3OBtqwt8T0NwjeiW+8Kd9N triggered"
+rule Rule_1420_triggered {
+	meta: description = "Rule # 1420 Suspicious String rWmpisiBWQglW/n3OBtqwt8T0NwjeiW+8Kd9N triggered"
 	strings: $suspicious_string = "rWmpisiBWQglW/n3OBtqwt8T0NwjeiW+8Kd9N"
 	condition: $suspicious_string
 }
-rule Rule_1422_triggered {
-	meta: description = "Rule # 1422 Suspicious String rab3oun.net triggered"
+rule Rule_1421_triggered {
+	meta: description = "Rule # 1421 Suspicious String rab3oun.net triggered"
 	strings: $suspicious_string = "rab3oun.net"
 	condition: $suspicious_string
 }
-rule Rule_1423_triggered {
-	meta: description = "Rule # 1423 Suspicious String rad paul triggered"
+rule Rule_1422_triggered {
+	meta: description = "Rule # 1422 Suspicious String rad paul triggered"
 	strings: $suspicious_string = "rad paul"
 	condition: $suspicious_string
 }
-rule Rule_1424_triggered {
-	meta: description = "Rule # 1424 Suspicious String ransomeware@Lalabitch.today triggered"
+rule Rule_1423_triggered {
+	meta: description = "Rule # 1423 Suspicious String ransomeware@Lalabitch.today triggered"
 	strings: $suspicious_string = "ransomeware@Lalabitch.today"
 	condition: $suspicious_string
 }
-rule Rule_1425_triggered {
-	meta: description = "Rule # 1425 Suspicious String raslan58 triggered"
+rule Rule_1424_triggered {
+	meta: description = "Rule # 1424 Suspicious String raslan58 triggered"
 	strings: $suspicious_string = "raslan58"
 	condition: $suspicious_string
 }
-rule Rule_1426_triggered {
-	meta: description = "Rule # 1426 Suspicious String recaptcha-in triggered"
+rule Rule_1425_triggered {
+	meta: description = "Rule # 1425 Suspicious String recaptcha-in triggered"
 	strings: $suspicious_string = "recaptcha-in"
 	condition: $suspicious_string
 }
-rule Rule_1427_triggered {
-	meta: description = "Rule # 1427 Suspicious String rednoize triggered"
+rule Rule_1426_triggered {
+	meta: description = "Rule # 1426 Suspicious String rednoize triggered"
 	strings: $suspicious_string = "rednoize"
 	condition: $suspicious_string
 }
-rule Rule_1428_triggered {
-	meta: description = "Rule # 1428 Suspicious String regions.com triggered"
+rule Rule_1427_triggered {
+	meta: description = "Rule # 1427 Suspicious String regions.com triggered"
 	strings: $suspicious_string = "regions.com"
 	condition: $suspicious_string
 }
-rule Rule_1429_triggered {
-	meta: description = "Rule # 1429 Suspicious String renownd triggered"
+rule Rule_1428_triggered {
+	meta: description = "Rule # 1428 Suspicious String renownd triggered"
 	strings: $suspicious_string = "renownd"
 	condition: $suspicious_string
 }
-rule Rule_1430_triggered {
-	meta: description = "Rule # 1430 Suspicious String reply@result.com triggered"
+rule Rule_1429_triggered {
+	meta: description = "Rule # 1429 Suspicious String reply@result.com triggered"
 	strings: $suspicious_string = "reply@result.com"
 	condition: $suspicious_string
 }
-rule Rule_1431_triggered {
-	meta: description = "Rule # 1431 Suspicious String reputable3811@yandex.com triggered"
+rule Rule_1430_triggered {
+	meta: description = "Rule # 1430 Suspicious String reputable3811@yandex.com triggered"
 	strings: $suspicious_string = "reputable3811@yandex.com"
 	condition: $suspicious_string
 }
-rule Rule_1432_triggered {
-	meta: description = "Rule # 1432 Suspicious String resultbox99999@gmail.com triggered"
+rule Rule_1431_triggered {
+	meta: description = "Rule # 1431 Suspicious String resultbox99999@gmail.com triggered"
 	strings: $suspicious_string = "resultbox99999@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1433_triggered {
-	meta: description = "Rule # 1433 Suspicious String resultshere2@gmail.com triggered"
+rule Rule_1432_triggered {
+	meta: description = "Rule # 1432 Suspicious String resultshere2@gmail.com triggered"
 	strings: $suspicious_string = "resultshere2@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1434_triggered {
-	meta: description = "Rule # 1434 Suspicious String romio2_100@yahoo.com triggered"
+rule Rule_1433_triggered {
+	meta: description = "Rule # 1433 Suspicious String romio2_100@yahoo.com triggered"
 	strings: $suspicious_string = "romio2_100@yahoo.com"
 	condition: $suspicious_string
 }
-rule Rule_1435_triggered {
-	meta: description = "Rule # 1435 Suspicious String root@indoxploit triggered"
+rule Rule_1434_triggered {
+	meta: description = "Rule # 1434 Suspicious String root@indoxploit triggered"
 	strings: $suspicious_string = "root@indoxploit"
 	condition: $suspicious_string
 }
-rule Rule_1436_triggered {
-	meta: description = "Rule # 1436 Suspicious String root_devil triggered"
+rule Rule_1435_triggered {
+	meta: description = "Rule # 1435 Suspicious String root_devil triggered"
 	strings: $suspicious_string = "root_devil"
 	condition: $suspicious_string
 }
-rule Rule_1437_triggered {
-	meta: description = "Rule # 1437 Suspicious String roottn@vodka triggered"
+rule Rule_1436_triggered {
+	meta: description = "Rule # 1436 Suspicious String roottn@vodka triggered"
 	strings: $suspicious_string = "roottn@vodka"
 	condition: $suspicious_string
 }
-rule Rule_1438_triggered {
-	meta: description = "Rule # 1438 Suspicious String rosekellymsk2@gmail.com triggered"
+rule Rule_1437_triggered {
+	meta: description = "Rule # 1437 Suspicious String rosekellymsk2@gmail.com triggered"
 	strings: $suspicious_string = "rosekellymsk2@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1439_triggered {
-	meta: description = "Rule # 1439 Suspicious String royalbank.com triggered"
+rule Rule_1438_triggered {
+	meta: description = "Rule # 1438 Suspicious String royalbank.com triggered"
 	strings: $suspicious_string = "royalbank.com"
 	condition: $suspicious_string
 }
-rule Rule_1440_triggered {
-	meta: description = "Rule # 1440 Suspicious String s3a8ece triggered"
+rule Rule_1439_triggered {
+	meta: description = "Rule # 1439 Suspicious String s3a8ece triggered"
 	strings: $suspicious_string = "s3a8ece"
 	condition: $suspicious_string
 }
-rule Rule_1441_triggered {
-	meta: description = "Rule # 1441 Suspicious String s3cre3t    triggered"
+rule Rule_1440_triggered {
+	meta: description = "Rule # 1440 Suspicious String s3cre3t    triggered"
 	strings: $suspicious_string = "s3cre3t   "
 	condition: $suspicious_string
 }
-rule Rule_1442_triggered {
-	meta: description = "Rule # 1442 Suspicious String s3n4t00r triggered"
+rule Rule_1441_triggered {
+	meta: description = "Rule # 1441 Suspicious String s3n4t00r triggered"
 	strings: $suspicious_string = "s3n4t00r"
 	condition: $suspicious_string
 }
-rule Rule_1443_triggered {
-	meta: description = "Rule # 1443 Suspicious String sHaf00n triggered"
+rule Rule_1442_triggered {
+	meta: description = "Rule # 1442 Suspicious String sHaf00n triggered"
 	strings: $suspicious_string = "sHaf00n"
 	condition: $suspicious_string
 }
-rule Rule_1444_triggered {
-	meta: description = "Rule # 1444 Suspicious String saatchiart.com triggered"
+rule Rule_1443_triggered {
+	meta: description = "Rule # 1443 Suspicious String saatchiart.com triggered"
 	strings: $suspicious_string = "saatchiart.com"
 	condition: $suspicious_string
 }
-rule Rule_1445_triggered {
-	meta: description = "Rule # 1445 Suspicious String safecheck1.net triggered"
+rule Rule_1444_triggered {
+	meta: description = "Rule # 1444 Suspicious String safecheck1.net triggered"
 	strings: $suspicious_string = "safecheck1.net"
 	condition: $suspicious_string
 }
-rule Rule_1446_triggered {
-	meta: description = "Rule # 1446 Suspicious String sandranix001@hotmail.com triggered"
+rule Rule_1445_triggered {
+	meta: description = "Rule # 1445 Suspicious String sandranix001@hotmail.com triggered"
 	strings: $suspicious_string = "sandranix001@hotmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1447_triggered {
-	meta: description = "Rule # 1447 Suspicious String sant.marasliyanziylan@gmail.com triggered"
+rule Rule_1446_triggered {
+	meta: description = "Rule # 1446 Suspicious String sant.marasliyanziylan@gmail.com triggered"
 	strings: $suspicious_string = "sant.marasliyanziylan@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1448_triggered {
-	meta: description = "Rule # 1448 Suspicious String sc.imp.live.com triggered"
+rule Rule_1447_triggered {
+	meta: description = "Rule # 1447 Suspicious String sc.imp.live.com triggered"
 	strings: $suspicious_string = "sc.imp.live.com"
 	condition: $suspicious_string
 }
-rule Rule_1449_triggered {
-	meta: description = "Rule # 1449 Suspicious String scotiabank.com triggered"
+rule Rule_1448_triggered {
+	meta: description = "Rule # 1448 Suspicious String scotiabank.com triggered"
 	strings: $suspicious_string = "scotiabank.com"
 	condition: $suspicious_string
 }
-rule Rule_1450_triggered {
-	meta: description = "Rule # 1450 Suspicious String sec-w.com triggered"
+rule Rule_1449_triggered {
+	meta: description = "Rule # 1449 Suspicious String sec-w.com triggered"
 	strings: $suspicious_string = "sec-w.com"
 	condition: $suspicious_string
 }
-rule Rule_1451_triggered {
-	meta: description = "Rule # 1451 Suspicious String semi-priv8 triggered"
+rule Rule_1450_triggered {
+	meta: description = "Rule # 1450 Suspicious String semi-priv8 triggered"
 	strings: $suspicious_string = "semi-priv8"
 	condition: $suspicious_string
 }
-rule Rule_1452_triggered {
-	meta: description = "Rule # 1452 Suspicious String send an report to  triggered"
+rule Rule_1451_triggered {
+	meta: description = "Rule # 1451 Suspicious String send an report to  triggered"
 	strings: $suspicious_string = "send an report to "
 	condition: $suspicious_string
 }
-rule Rule_1453_triggered {
-	meta: description = "Rule # 1453 Suspicious String serjoi.colmadory@gmail.com triggered"
+rule Rule_1452_triggered {
+	meta: description = "Rule # 1452 Suspicious String serjoi.colmadory@gmail.com triggered"
 	strings: $suspicious_string = "serjoi.colmadory@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1454_triggered {
-	meta: description = "Rule # 1454 Suspicious String sgtdennisnathan@gmail.com triggered"
+rule Rule_1453_triggered {
+	meta: description = "Rule # 1453 Suspicious String sgtdennisnathan@gmail.com triggered"
 	strings: $suspicious_string = "sgtdennisnathan@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1455_triggered {
-	meta: description = "Rule # 1455 Suspicious String sh3LL triggered"
+rule Rule_1454_triggered {
+	meta: description = "Rule # 1454 Suspicious String sh3LL triggered"
 	strings: $suspicious_string = "sh3LL"
 	condition: $suspicious_string
 }
-rule Rule_1456_triggered {
-	meta: description = "Rule # 1456 Suspicious String shad0wLin3 triggered"
+rule Rule_1455_triggered {
+	meta: description = "Rule # 1455 Suspicious String shad0wLin3 triggered"
 	strings: $suspicious_string = "shad0wLin3"
 	condition: $suspicious_string
 }
-rule Rule_1457_triggered {
-	meta: description = "Rule # 1457 Suspicious String shawnphill77345@aol.in triggered"
+rule Rule_1456_triggered {
+	meta: description = "Rule # 1456 Suspicious String shawnphill77345@aol.in triggered"
 	strings: $suspicious_string = "shawnphill77345@aol.in"
 	condition: $suspicious_string
 }
-rule Rule_1458_triggered {
-	meta: description = "Rule # 1458 Suspicious String shellbot triggered"
+rule Rule_1457_triggered {
+	meta: description = "Rule # 1457 Suspicious String shellbot triggered"
 	strings: $suspicious_string = "shellbot"
 	condition: $suspicious_string
 }
-rule Rule_1459_triggered {
-	meta: description = "Rule # 1459 Suspicious String shellchk triggered"
+rule Rule_1458_triggered {
+	meta: description = "Rule # 1458 Suspicious String shellchk triggered"
 	strings: $suspicious_string = "shellchk"
 	condition: $suspicious_string
 }
-rule Rule_1460_triggered {
-	meta: description = "Rule # 1460 Suspicious String shellinvoker triggered"
+rule Rule_1459_triggered {
+	meta: description = "Rule # 1459 Suspicious String shellinvoker triggered"
 	strings: $suspicious_string = "shellinvoker"
 	condition: $suspicious_string
 }
-rule Rule_1461_triggered {
-	meta: description = "Rule # 1461 Suspicious String shellololol triggered"
+rule Rule_1460_triggered {
+	meta: description = "Rule # 1460 Suspicious String shellololol triggered"
 	strings: $suspicious_string = "shellololol"
 	condition: $suspicious_string
 }
-rule Rule_1462_triggered {
-	meta: description = "Rule # 1462 Suspicious String shellw0rm triggered"
+rule Rule_1461_triggered {
+	meta: description = "Rule # 1461 Suspicious String shellw0rm triggered"
 	strings: $suspicious_string = "shellw0rm"
 	condition: $suspicious_string
 }
-rule Rule_1463_triggered {
-	meta: description = "Rule # 1463 Suspicious String shl-ed1 triggered"
+rule Rule_1462_triggered {
+	meta: description = "Rule # 1462 Suspicious String shl-ed1 triggered"
 	strings: $suspicious_string = "shl-ed1"
 	condition: $suspicious_string
 }
-rule Rule_1464_triggered {
-	meta: description = "Rule # 1464 Suspicious String silent hacker triggered"
+rule Rule_1463_triggered {
+	meta: description = "Rule # 1463 Suspicious String silent hacker triggered"
 	strings: $suspicious_string = "silent hacker"
 	condition: $suspicious_string
 }
-rule Rule_1465_triggered {
-	meta: description = "Rule # 1465 Suspicious String skrill triggered"
+rule Rule_1464_triggered {
+	meta: description = "Rule # 1464 Suspicious String skrill triggered"
 	strings: $suspicious_string = "skrill"
 	condition: $suspicious_string
 }
-rule Rule_1466_triggered {
-	meta: description = "Rule # 1466 Suspicious String skyline@cash4u.com triggered"
+rule Rule_1465_triggered {
+	meta: description = "Rule # 1465 Suspicious String skyline@cash4u.com triggered"
 	strings: $suspicious_string = "skyline@cash4u.com"
 	condition: $suspicious_string
 }
-rule Rule_1467_triggered {
-	meta: description = "Rule # 1467 Suspicious String slac4ever@gmail.com triggered"
+rule Rule_1466_triggered {
+	meta: description = "Rule # 1466 Suspicious String slac4ever@gmail.com triggered"
 	strings: $suspicious_string = "slac4ever@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1468_triggered {
-	meta: description = "Rule # 1468 Suspicious String solevisible@gmail.com triggered"
+rule Rule_1467_triggered {
+	meta: description = "Rule # 1467 Suspicious String solevisible@gmail.com triggered"
 	strings: $suspicious_string = "solevisible@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1469_triggered {
-	meta: description = "Rule # 1469 Suspicious String spKINGS.com triggered"
+rule Rule_1468_triggered {
+	meta: description = "Rule # 1468 Suspicious String spKINGS.com triggered"
 	strings: $suspicious_string = "spKINGS.com"
 	condition: $suspicious_string
 }
-rule Rule_1470_triggered {
-	meta: description = "Rule # 1470 Suspicious String spam_rezult@spammerindo.com triggered"
+rule Rule_1469_triggered {
+	meta: description = "Rule # 1469 Suspicious String spam_rezult@spammerindo.com triggered"
 	strings: $suspicious_string = "spam_rezult@spammerindo.com"
 	condition: $suspicious_string
 }
-rule Rule_1471_triggered {
-	meta: description = "Rule # 1471 Suspicious String spendit.laulau@yahoo.co triggered"
+rule Rule_1470_triggered {
+	meta: description = "Rule # 1470 Suspicious String spendit.laulau@yahoo.co triggered"
 	strings: $suspicious_string = "spendit.laulau@yahoo.co"
 	condition: $suspicious_string
 }
-rule Rule_1472_triggered {
-	meta: description = "Rule # 1472 Suspicious String spymeta triggered"
+rule Rule_1471_triggered {
+	meta: description = "Rule # 1471 Suspicious String spymeta triggered"
 	strings: $suspicious_string = "spymeta"
 	condition: $suspicious_string
 }
-rule Rule_1473_triggered {
-	meta: description = "Rule # 1473 Suspicious String starktomtht triggered"
+rule Rule_1472_triggered {
+	meta: description = "Rule # 1472 Suspicious String starktomtht triggered"
 	strings: $suspicious_string = "starktomtht"
 	condition: $suspicious_string
 }
-rule Rule_1474_triggered {
-	meta: description = "Rule # 1474 Suspicious String startonthisfuckingpoint triggered"
+rule Rule_1473_triggered {
+	meta: description = "Rule # 1473 Suspicious String startonthisfuckingpoint triggered"
 	strings: $suspicious_string = "startonthisfuckingpoint"
 	condition: $suspicious_string
 }
-rule Rule_1475_triggered {
-	meta: description = "Rule # 1475 Suspicious String stat-dns.com  triggered"
+rule Rule_1474_triggered {
+	meta: description = "Rule # 1474 Suspicious String stat-dns.com  triggered"
 	strings: $suspicious_string = "stat-dns.com "
 	condition: $suspicious_string
 }
-rule Rule_1476_triggered {
-	meta: description = "Rule # 1476 Suspicious String stayinfranschhoek.co.za triggered"
+rule Rule_1475_triggered {
+	meta: description = "Rule # 1475 Suspicious String stayinfranschhoek.co.za triggered"
 	strings: $suspicious_string = "stayinfranschhoek.co.za"
 	condition: $suspicious_string
 }
-rule Rule_1477_triggered {
-	meta: description = "Rule # 1477 Suspicious String storesbrown147@gmail.com triggered"
+rule Rule_1476_triggered {
+	meta: description = "Rule # 1476 Suspicious String storesbrown147@gmail.com triggered"
 	strings: $suspicious_string = "storesbrown147@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1478_triggered {
-	meta: description = "Rule # 1478 Suspicious String sub attacker triggered"
+rule Rule_1477_triggered {
+	meta: description = "Rule # 1477 Suspicious String sub attacker triggered"
 	strings: $suspicious_string = "sub attacker"
 	condition: $suspicious_string
 }
-rule Rule_1479_triggered {
-	meta: description = "Rule # 1479 Suspicious String susanalbert1980@gmail.com triggered"
+rule Rule_1478_triggered {
+	meta: description = "Rule # 1478 Suspicious String susanalbert1980@gmail.com triggered"
 	strings: $suspicious_string = "susanalbert1980@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1480_triggered {
-	meta: description = "Rule # 1480 Suspicious String suthallen@gmail.com triggered"
+rule Rule_1479_triggered {
+	meta: description = "Rule # 1479 Suspicious String suthallen@gmail.com triggered"
 	strings: $suspicious_string = "suthallen@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1481_triggered {
-	meta: description = "Rule # 1481 Suspicious String svtpdagx triggered"
+rule Rule_1480_triggered {
+	meta: description = "Rule # 1480 Suspicious String svtpdagx triggered"
 	strings: $suspicious_string = "svtpdagx"
 	condition: $suspicious_string
 }
-rule Rule_1482_triggered {
-	meta: description = "Rule # 1482 Suspicious String symlinker triggered"
+rule Rule_1481_triggered {
+	meta: description = "Rule # 1481 Suspicious String symlinker triggered"
 	strings: $suspicious_string = "symlinker"
 	condition: $suspicious_string
 }
-rule Rule_1483_triggered {
-	meta: description = "Rule # 1483 Suspicious String sysctl -n kern triggered"
+rule Rule_1482_triggered {
+	meta: description = "Rule # 1482 Suspicious String sysctl -n kern triggered"
 	strings: $suspicious_string = "sysctl -n kern"
 	condition: $suspicious_string
 }
-rule Rule_1484_triggered {
-	meta: description = "Rule # 1484 Suspicious String tHAnks tO Sir ShOcKs triggered"
+rule Rule_1483_triggered {
+	meta: description = "Rule # 1483 Suspicious String tHAnks tO Sir ShOcKs triggered"
 	strings: $suspicious_string = "tHAnks tO Sir ShOcKs"
 	condition: $suspicious_string
 }
-rule Rule_1485_triggered {
-	meta: description = "Rule # 1485 Suspicious String tHAnks tO Timeless triggered"
+rule Rule_1484_triggered {
+	meta: description = "Rule # 1484 Suspicious String tHAnks tO Timeless triggered"
 	strings: $suspicious_string = "tHAnks tO Timeless"
 	condition: $suspicious_string
 }
-rule Rule_1486_triggered {
-	meta: description = "Rule # 1486 Suspicious String tafiki triggered"
+rule Rule_1485_triggered {
+	meta: description = "Rule # 1485 Suspicious String tafiki triggered"
 	strings: $suspicious_string = "tafiki"
 	condition: $suspicious_string
 }
-rule Rule_1487_triggered {
-	meta: description = "Rule # 1487 Suspicious String tds-narod.ru triggered"
+rule Rule_1486_triggered {
+	meta: description = "Rule # 1486 Suspicious String tds-narod.ru triggered"
 	strings: $suspicious_string = "tds-narod.ru"
 	condition: $suspicious_string
 }
-rule Rule_1488_triggered {
-	meta: description = "Rule # 1488 Suspicious String tesemelgan@gmail.com triggered"
+rule Rule_1487_triggered {
+	meta: description = "Rule # 1487 Suspicious String tesemelgan@gmail.com triggered"
 	strings: $suspicious_string = "tesemelgan@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1489_triggered {
-	meta: description = "Rule # 1489 Suspicious String tl4s.com.sa triggered"
+rule Rule_1488_triggered {
+	meta: description = "Rule # 1488 Suspicious String tl4s.com.sa triggered"
 	strings: $suspicious_string = "tl4s.com.sa"
 	condition: $suspicious_string
 }
-rule Rule_1490_triggered {
-	meta: description = "Rule # 1490 Suspicious String toolzmorathy1 triggered"
+rule Rule_1489_triggered {
+	meta: description = "Rule # 1489 Suspicious String toolzmorathy1 triggered"
 	strings: $suspicious_string = "toolzmorathy1"
 	condition: $suspicious_string
 }
-rule Rule_1491_triggered {
-	meta: description = "Rule # 1491 Suspicious String totallyfreecursors.com triggered"
+rule Rule_1490_triggered {
+	meta: description = "Rule # 1490 Suspicious String totallyfreecursors.com triggered"
 	strings: $suspicious_string = "totallyfreecursors.com"
 	condition: $suspicious_string
 }
-rule Rule_1492_triggered {
-	meta: description = "Rule # 1492 Suspicious String try.ciela.co triggered"
+rule Rule_1491_triggered {
+	meta: description = "Rule # 1491 Suspicious String try.ciela.co triggered"
 	strings: $suspicious_string = "try.ciela.co"
 	condition: $suspicious_string
 }
-rule Rule_1493_triggered {
-	meta: description = "Rule # 1493 Suspicious String try.ucr.news triggered"
+rule Rule_1492_triggered {
+	meta: description = "Rule # 1492 Suspicious String try.ucr.news triggered"
 	strings: $suspicious_string = "try.ucr.news"
 	condition: $suspicious_string
 }
-rule Rule_1494_triggered {
-	meta: description = "Rule # 1494 Suspicious String tujuanmail triggered"
+rule Rule_1493_triggered {
+	meta: description = "Rule # 1493 Suspicious String tujuanmail triggered"
 	strings: $suspicious_string = "tujuanmail"
 	condition: $suspicious_string
 }
-rule Rule_1495_triggered {
-	meta: description = "Rule # 1495 Suspicious String turkblackhats triggered"
+rule Rule_1494_triggered {
+	meta: description = "Rule # 1494 Suspicious String turkblackhats triggered"
 	strings: $suspicious_string = "turkblackhats"
 	condition: $suspicious_string
 }
-rule Rule_1496_triggered {
-	meta: description = "Rule # 1496 Suspicious String turkishkebab00@gmail.com triggered"
+rule Rule_1495_triggered {
+	meta: description = "Rule # 1495 Suspicious String turkishkebab00@gmail.com triggered"
 	strings: $suspicious_string = "turkishkebab00@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1497_triggered {
-	meta: description = "Rule # 1497 Suspicious String tvweipud triggered"
+rule Rule_1496_triggered {
+	meta: description = "Rule # 1496 Suspicious String tvweipud triggered"
 	strings: $suspicious_string = "tvweipud"
 	condition: $suspicious_string
 }
-rule Rule_1498_triggered {
-	meta: description = "Rule # 1498 Suspicious String ubhteam.org triggered"
+rule Rule_1497_triggered {
+	meta: description = "Rule # 1497 Suspicious String ubhteam.org triggered"
 	strings: $suspicious_string = "ubhteam.org"
 	condition: $suspicious_string
 }
-rule Rule_1499_triggered {
-	meta: description = "Rule # 1499 Suspicious String uon7bHxvy09 triggered"
+rule Rule_1498_triggered {
+	meta: description = "Rule # 1498 Suspicious String uon7bHxvy09 triggered"
 	strings: $suspicious_string = "uon7bHxvy09"
 	condition: $suspicious_string
 }
-rule Rule_1500_triggered {
-	meta: description = "Rule # 1500 Suspicious String upl0ad triggered"
+rule Rule_1499_triggered {
+	meta: description = "Rule # 1499 Suspicious String upl0ad triggered"
 	strings: $suspicious_string = "upl0ad"
 	condition: $suspicious_string
 }
-rule Rule_1501_triggered {
-	meta: description = "Rule # 1501 Suspicious String upload shell and manage site or server using console :D, happy hacking ;) triggered"
+rule Rule_1500_triggered {
+	meta: description = "Rule # 1500 Suspicious String upload shell and manage site or server using console :D, happy hacking ;) triggered"
 	strings: $suspicious_string = "upload shell and manage site or server using console :D, happy hacking ;)"
 	condition: $suspicious_string
 }
-rule Rule_1502_triggered {
-	meta: description = "Rule # 1502 Suspicious String upload.sa3eka.com triggered"
+rule Rule_1501_triggered {
+	meta: description = "Rule # 1501 Suspicious String upload.sa3eka.com triggered"
 	strings: $suspicious_string = "upload.sa3eka.com"
 	condition: $suspicious_string
 }
-rule Rule_1503_triggered {
-	meta: description = "Rule # 1503 Suspicious String usaa.com triggered"
+rule Rule_1502_triggered {
+	meta: description = "Rule # 1502 Suspicious String usaa.com triggered"
 	strings: $suspicious_string = "usaa.com"
 	condition: $suspicious_string
 }
-rule Rule_1504_triggered {
-	meta: description = "Rule # 1504 Suspicious String usta upload basarili olmadi.Baska siteye dal!! triggered"
+rule Rule_1503_triggered {
+	meta: description = "Rule # 1503 Suspicious String usta upload basarili olmadi.Baska siteye dal!! triggered"
 	strings: $suspicious_string = "usta upload basarili olmadi.Baska siteye dal!!"
 	condition: $suspicious_string
 }
-rule Rule_1505_triggered {
-	meta: description = "Rule # 1505 Suspicious String vSDzq3Md triggered"
+rule Rule_1504_triggered {
+	meta: description = "Rule # 1504 Suspicious String vSDzq3Md triggered"
 	strings: $suspicious_string = "vSDzq3Md"
 	condition: $suspicious_string
 }
-rule Rule_1506_triggered {
-	meta: description = "Rule # 1506 Suspicious String van1lle triggered"
+rule Rule_1505_triggered {
+	meta: description = "Rule # 1505 Suspicious String van1lle triggered"
 	strings: $suspicious_string = "van1lle"
 	condition: $suspicious_string
 }
-rule Rule_1507_triggered {
-	meta: description = "Rule # 1507 Suspicious String var miner=new WMP.User triggered"
+rule Rule_1506_triggered {
+	meta: description = "Rule # 1506 Suspicious String var miner=new WMP.User triggered"
 	strings: $suspicious_string = "var miner=new WMP.User"
 	condition: $suspicious_string
 }
-rule Rule_1508_triggered {
-	meta: description = "Rule # 1508 Suspicious String vecweb.net.ua triggered"
+rule Rule_1507_triggered {
+	meta: description = "Rule # 1507 Suspicious String vecweb.net.ua triggered"
 	strings: $suspicious_string = "vecweb.net.ua"
 	condition: $suspicious_string
 }
-rule Rule_1509_triggered {
-	meta: description = "Rule # 1509 Suspicious String victim@host.com triggered"
+rule Rule_1508_triggered {
+	meta: description = "Rule # 1508 Suspicious String victim@host.com triggered"
 	strings: $suspicious_string = "victim@host.com"
 	condition: $suspicious_string
 }
-rule Rule_1510_triggered {
-	meta: description = "Rule # 1510 Suspicious String vinsm0ke_id triggered"
+rule Rule_1509_triggered {
+	meta: description = "Rule # 1509 Suspicious String vinsm0ke_id triggered"
 	strings: $suspicious_string = "vinsm0ke_id"
 	condition: $suspicious_string
 }
-rule Rule_1511_triggered {
-	meta: description = "Rule # 1511 Suspicious String vito-RawckerheaD triggered"
+rule Rule_1510_triggered {
+	meta: description = "Rule # 1510 Suspicious String vito-RawckerheaD triggered"
 	strings: $suspicious_string = "vito-RawckerheaD"
 	condition: $suspicious_string
 }
-rule Rule_1512_triggered {
-	meta: description = "Rule # 1512 Suspicious String void.ru triggered"
+rule Rule_1511_triggered {
+	meta: description = "Rule # 1511 Suspicious String void.ru triggered"
 	strings: $suspicious_string = "void.ru"
 	condition: $suspicious_string
 }
-rule Rule_1513_triggered {
-	meta: description = "Rule # 1513 Suspicious String vulns could lead to total disaters triggered"
+rule Rule_1512_triggered {
+	meta: description = "Rule # 1512 Suspicious String vulns could lead to total disaters triggered"
 	strings: $suspicious_string = "vulns could lead to total disaters"
 	condition: $suspicious_string
 }
-rule Rule_1514_triggered {
-	meta: description = "Rule # 1514 Suspicious String vulnscan triggered"
+rule Rule_1513_triggered {
+	meta: description = "Rule # 1513 Suspicious String vulnscan triggered"
 	strings: $suspicious_string = "vulnscan"
 	condition: $suspicious_string
 }
-rule Rule_1515_triggered {
-	meta: description = "Rule # 1515 Suspicious String w00t triggered"
+rule Rule_1514_triggered {
+	meta: description = "Rule # 1514 Suspicious String w00t triggered"
 	strings: $suspicious_string = "w00t"
 	condition: $suspicious_string
 }
-rule Rule_1516_triggered {
-	meta: description = "Rule # 1516 Suspicious String w0lgix-tool triggered"
+rule Rule_1515_triggered {
+	meta: description = "Rule # 1515 Suspicious String w0lgix-tool triggered"
 	strings: $suspicious_string = "w0lgix-tool"
 	condition: $suspicious_string
 }
-rule Rule_1517_triggered {
-	meta: description = "Rule # 1517 Suspicious String w4ck1ng triggered"
+rule Rule_1516_triggered {
+	meta: description = "Rule # 1516 Suspicious String w4ck1ng triggered"
 	strings: $suspicious_string = "w4ck1ng"
 	condition: $suspicious_string
 }
-rule Rule_1518_triggered {
-	meta: description = "Rule # 1518 Suspicious String w7h7j7c57.homepage.t-online.de triggered"
+rule Rule_1517_triggered {
+	meta: description = "Rule # 1517 Suspicious String w7h7j7c57.homepage.t-online.de triggered"
 	strings: $suspicious_string = "w7h7j7c57.homepage.t-online.de"
 	condition: $suspicious_string
 }
-rule Rule_1519_triggered {
-	meta: description = "Rule # 1519 Suspicious String w7sh.syria triggered"
+rule Rule_1518_triggered {
+	meta: description = "Rule # 1518 Suspicious String w7sh.syria triggered"
 	strings: $suspicious_string = "w7sh.syria"
 	condition: $suspicious_string
 }
-rule Rule_1520_triggered {
-	meta: description = "Rule # 1520 Suspicious String walemilton003@gmail.com triggered"
+rule Rule_1519_triggered {
+	meta: description = "Rule # 1519 Suspicious String walemilton003@gmail.com triggered"
 	strings: $suspicious_string = "walemilton003@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1521_triggered {
-	meta: description = "Rule # 1521 Suspicious String webconsole.php triggered"
+rule Rule_1520_triggered {
+	meta: description = "Rule # 1520 Suspicious String webconsole.php triggered"
 	strings: $suspicious_string = "webconsole.php"
 	condition: $suspicious_string
 }
-rule Rule_1522_triggered {
-	meta: description = "Rule # 1522 Suspicious String webmaster@altavistadelago.com triggered"
+rule Rule_1521_triggered {
+	meta: description = "Rule # 1521 Suspicious String webmaster@altavistadelago.com triggered"
 	strings: $suspicious_string = "webmaster@altavistadelago.com"
 	condition: $suspicious_string
 }
-rule Rule_1523_triggered {
-	meta: description = "Rule # 1523 Suspicious String webminepool.com triggered"
+rule Rule_1522_triggered {
+	meta: description = "Rule # 1522 Suspicious String webminepool.com triggered"
 	strings: $suspicious_string = "webminepool.com"
 	condition: $suspicious_string
 }
-rule Rule_1524_triggered {
-	meta: description = "Rule # 1524 Suspicious String weevely backdoor triggered"
+rule Rule_1523_triggered {
+	meta: description = "Rule # 1523 Suspicious String weevely backdoor triggered"
 	strings: $suspicious_string = "weevely backdoor"
 	condition: $suspicious_string
 }
-rule Rule_1525_triggered {
-	meta: description = "Rule # 1525 Suspicious String wellsfargo.com triggered"
+rule Rule_1524_triggered {
+	meta: description = "Rule # 1524 Suspicious String wellsfargo.com triggered"
 	strings: $suspicious_string = "wellsfargo.com"
 	condition: $suspicious_string
 }
-rule Rule_1526_triggered {
-	meta: description = "Rule # 1526 Suspicious String wfagoss@gmail.com triggered"
+rule Rule_1525_triggered {
+	meta: description = "Rule # 1525 Suspicious String wfagoss@gmail.com triggered"
 	strings: $suspicious_string = "wfagoss@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1527_triggered {
-	meta: description = "Rule # 1527 Suspicious String wi.na  triggered"
+rule Rule_1526_triggered {
+	meta: description = "Rule # 1526 Suspicious String wi.na  triggered"
 	strings: $suspicious_string = "wi.na "
 	condition: $suspicious_string
 }
-rule Rule_1528_triggered {
-	meta: description = "Rule # 1528 Suspicious String williambell101@yahoo.com triggered"
+rule Rule_1527_triggered {
+	meta: description = "Rule # 1527 Suspicious String williambell101@yahoo.com triggered"
 	strings: $suspicious_string = "williambell101@yahoo.com"
 	condition: $suspicious_string
 }
-rule Rule_1529_triggered {
-	meta: description = "Rule # 1529 Suspicious String williambell1233@gmail.com triggered"
+rule Rule_1528_triggered {
+	meta: description = "Rule # 1528 Suspicious String williambell1233@gmail.com triggered"
 	strings: $suspicious_string = "williambell1233@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1530_triggered {
-	meta: description = "Rule # 1530 Suspicious String wkendy76@blumail.org triggered"
+rule Rule_1529_triggered {
+	meta: description = "Rule # 1529 Suspicious String wkendy76@blumail.org triggered"
 	strings: $suspicious_string = "wkendy76@blumail.org"
 	condition: $suspicious_string
 }
-rule Rule_1531_triggered {
-	meta: description = "Rule # 1531 Suspicious String wolu yb dekcah triggered"
+rule Rule_1530_triggered {
+	meta: description = "Rule # 1530 Suspicious String wolu yb dekcah triggered"
 	strings: $suspicious_string = "wolu yb dekcah"
 	condition: $suspicious_string
 }
-rule Rule_1532_triggered {
-	meta: description = "Rule # 1532 Suspicious String wonderfulboy01@gmai.com triggered"
+rule Rule_1531_triggered {
+	meta: description = "Rule # 1531 Suspicious String wonderfulboy01@gmai.com triggered"
 	strings: $suspicious_string = "wonderfulboy01@gmai.com"
 	condition: $suspicious_string
 }
-rule Rule_1533_triggered {
-	meta: description = "Rule # 1533 Suspicious String wp mass info changer triggered"
+rule Rule_1532_triggered {
+	meta: description = "Rule # 1532 Suspicious String wp mass info changer triggered"
 	strings: $suspicious_string = "wp mass info changer"
 	condition: $suspicious_string
 }
-rule Rule_1534_triggered {
-	meta: description = "Rule # 1534 Suspicious String wrgggthhd triggered"
+rule Rule_1533_triggered {
+	meta: description = "Rule # 1533 Suspicious String wrgggthhd triggered"
 	strings: $suspicious_string = "wrgggthhd"
 	condition: $suspicious_string
 }
-rule Rule_1535_triggered {
-	meta: description = "Rule # 1535 Suspicious String wso@protonmail.com triggered"
+rule Rule_1534_triggered {
+	meta: description = "Rule # 1534 Suspicious String wso@protonmail.com triggered"
 	strings: $suspicious_string = "wso@protonmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1536_triggered {
-	meta: description = "Rule # 1536 Suspicious String www.adobe.com.zip triggered"
+rule Rule_1535_triggered {
+	meta: description = "Rule # 1535 Suspicious String www.adobe.com.zip triggered"
 	strings: $suspicious_string = "www.adobe.com.zip"
 	condition: $suspicious_string
 }
-rule Rule_1537_triggered {
-	meta: description = "Rule # 1537 Suspicious String www.ahdal.com triggered"
+rule Rule_1536_triggered {
+	meta: description = "Rule # 1536 Suspicious String www.ahdal.com triggered"
 	strings: $suspicious_string = "www.ahdal.com"
 	condition: $suspicious_string
 }
-rule Rule_1538_triggered {
-	meta: description = "Rule # 1538 Suspicious String www.ayyildiz.org triggered"
+rule Rule_1537_triggered {
+	meta: description = "Rule # 1537 Suspicious String www.ayyildiz.org triggered"
 	strings: $suspicious_string = "www.ayyildiz.org"
 	condition: $suspicious_string
 }
-rule Rule_1539_triggered {
-	meta: description = "Rule # 1539 Suspicious String www.c99.me triggered"
+rule Rule_1538_triggered {
+	meta: description = "Rule # 1538 Suspicious String www.c99.me triggered"
 	strings: $suspicious_string = "www.c99.me"
 	condition: $suspicious_string
 }
-rule Rule_1540_triggered {
-	meta: description = "Rule # 1540 Suspicious String www.gudangkesehatan.com triggered"
+rule Rule_1539_triggered {
+	meta: description = "Rule # 1539 Suspicious String www.gudangkesehatan.com triggered"
 	strings: $suspicious_string = "www.gudangkesehatan.com"
 	condition: $suspicious_string
 }
-rule Rule_1541_triggered {
-	meta: description = "Rule # 1541 Suspicious String www.sec-krb.org triggered"
+rule Rule_1540_triggered {
+	meta: description = "Rule # 1540 Suspicious String www.sec-krb.org triggered"
 	strings: $suspicious_string = "www.sec-krb.org"
 	condition: $suspicious_string
 }
-rule Rule_1542_triggered {
-	meta: description = "Rule # 1542 Suspicious String x shell triggered"
+rule Rule_1541_triggered {
+	meta: description = "Rule # 1541 Suspicious String x shell triggered"
 	strings: $suspicious_string = "x shell"
 	condition: $suspicious_string
 }
-rule Rule_1543_triggered {
-	meta: description = "Rule # 1543 Suspicious String x'1n73ct  triggered"
+rule Rule_1542_triggered {
+	meta: description = "Rule # 1542 Suspicious String x'1n73ct  triggered"
 	strings: $suspicious_string = "x'1n73ct "
 	condition: $suspicious_string
 }
-rule Rule_1544_triggered {
-	meta: description = "Rule # 1544 Suspicious String x1.minerxmr.ru triggered"
+rule Rule_1543_triggered {
+	meta: description = "Rule # 1543 Suspicious String x1.minerxmr.ru triggered"
 	strings: $suspicious_string = "x1.minerxmr.ru"
 	condition: $suspicious_string
 }
-rule Rule_1545_triggered {
-	meta: description = "Rule # 1545 Suspicious String x@erebor.dwarfpool.com triggered"
+rule Rule_1544_triggered {
+	meta: description = "Rule # 1544 Suspicious String x@erebor.dwarfpool.com triggered"
 	strings: $suspicious_string = "x@erebor.dwarfpool.com"
 	condition: $suspicious_string
 }
-rule Rule_1546_triggered {
-	meta: description = "Rule # 1546 Suspicious String x@moria.dwarfpool.com triggered"
+rule Rule_1545_triggered {
+	meta: description = "Rule # 1545 Suspicious String x@moria.dwarfpool.com triggered"
 	strings: $suspicious_string = "x@moria.dwarfpool.com"
 	condition: $suspicious_string
 }
-rule Rule_1547_triggered {
-	meta: description = "Rule # 1547 Suspicious String xCut10n  triggered"
+rule Rule_1546_triggered {
+	meta: description = "Rule # 1546 Suspicious String xCut10n  triggered"
 	strings: $suspicious_string = "xCut10n "
 	condition: $suspicious_string
 }
-rule Rule_1548_triggered {
-	meta: description = "Rule # 1548 Suspicious String xLon3ly triggered"
+rule Rule_1547_triggered {
+	meta: description = "Rule # 1547 Suspicious String xLon3ly triggered"
 	strings: $suspicious_string = "xLon3ly"
 	condition: $suspicious_string
 }
-rule Rule_1549_triggered {
-	meta: description = "Rule # 1549 Suspicious String xXEz triggered"
+rule Rule_1548_triggered {
+	meta: description = "Rule # 1548 Suspicious String xXEz triggered"
 	strings: $suspicious_string = "xXEz"
 	condition: $suspicious_string
 }
-rule Rule_1550_triggered {
-	meta: description = "Rule # 1550 Suspicious String xbgbkyqvqgwu triggered"
+rule Rule_1549_triggered {
+	meta: description = "Rule # 1549 Suspicious String xbgbkyqvqgwu triggered"
 	strings: $suspicious_string = "xbgbkyqvqgwu"
 	condition: $suspicious_string
 }
-rule Rule_1551_triggered {
-	meta: description = "Rule # 1551 Suspicious String xplOi73r triggered"
+rule Rule_1550_triggered {
+	meta: description = "Rule # 1550 Suspicious String xplOi73r triggered"
 	strings: $suspicious_string = "xplOi73r"
 	condition: $suspicious_string
 }
-rule Rule_1552_triggered {
-	meta: description = "Rule # 1552 Suspicious String xrob0t.cpanels@gmail.com triggered"
+rule Rule_1551_triggered {
+	meta: description = "Rule # 1551 Suspicious String xrob0t.cpanels@gmail.com triggered"
 	strings: $suspicious_string = "xrob0t.cpanels@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1553_triggered {
-	meta: description = "Rule # 1553 Suspicious String xtases no-life triggered"
+rule Rule_1552_triggered {
+	meta: description = "Rule # 1552 Suspicious String xtases no-life triggered"
 	strings: $suspicious_string = "xtases no-life"
 	condition: $suspicious_string
 }
-rule Rule_1554_triggered {
-	meta: description = "Rule # 1554 Suspicious String y2Google triggered"
+rule Rule_1553_triggered {
+	meta: description = "Rule # 1553 Suspicious String y2Google triggered"
 	strings: $suspicious_string = "y2Google"
 	condition: $suspicious_string
 }
-rule Rule_1555_triggered {
-	meta: description = "Rule # 1555 Suspicious String yahoopassword triggered"
+rule Rule_1554_triggered {
+	meta: description = "Rule # 1554 Suspicious String yahoopassword triggered"
 	strings: $suspicious_string = "yahoopassword"
 	condition: $suspicious_string
 }
-rule Rule_1556_triggered {
-	meta: description = "Rule # 1556 Suspicious String yang8559420 triggered"
+rule Rule_1555_triggered {
+	meta: description = "Rule # 1555 Suspicious String yang8559420 triggered"
 	strings: $suspicious_string = "yang8559420"
 	condition: $suspicious_string
 }
-rule Rule_1557_triggered {
-	meta: description = "Rule # 1557 Suspicious String ydteam triggered"
+rule Rule_1556_triggered {
+	meta: description = "Rule # 1556 Suspicious String ydteam triggered"
 	strings: $suspicious_string = "ydteam"
 	condition: $suspicious_string
 }
-rule Rule_1558_triggered {
-	meta: description = "Rule # 1558 Suspicious String youngbloodcharlesx@gmail.com triggered"
+rule Rule_1557_triggered {
+	meta: description = "Rule # 1557 Suspicious String youngbloodcharlesx@gmail.com triggered"
 	strings: $suspicious_string = "youngbloodcharlesx@gmail.com"
 	condition: $suspicious_string
 }
-rule Rule_1559_triggered {
-	meta: description = "Rule # 1559 Suspicious String zPayPal_2018 triggered"
+rule Rule_1558_triggered {
+	meta: description = "Rule # 1558 Suspicious String zPayPal_2018 triggered"
 	strings: $suspicious_string = "zPayPal_2018"
 	condition: $suspicious_string
 }
-rule Rule_1560_triggered {
-	meta: description = "Rule # 1560 Suspicious String zen.co.uk triggered"
+rule Rule_1559_triggered {
+	meta: description = "Rule # 1559 Suspicious String zen.co.uk triggered"
 	strings: $suspicious_string = "zen.co.uk"
 	condition: $suspicious_string
 }
-rule Rule_1561_triggered {
-	meta: description = "Rule # 1561 Suspicious String zetas.oujda triggered"
+rule Rule_1560_triggered {
+	meta: description = "Rule # 1560 Suspicious String zetas.oujda triggered"
 	strings: $suspicious_string = "zetas.oujda"
 	condition: $suspicious_string
 }
-rule Rule_1562_triggered {
-	meta: description = "Rule # 1562 Suspicious String zhikou.yo2.cn triggered"
+rule Rule_1561_triggered {
+	meta: description = "Rule # 1561 Suspicious String zhikou.yo2.cn triggered"
 	strings: $suspicious_string = "zhikou.yo2.cn"
 	condition: $suspicious_string
 }
-rule Rule_1563_triggered {
-	meta: description = "Rule # 1563 Suspicious String zigw triggered"
+rule Rule_1562_triggered {
+	meta: description = "Rule # 1562 Suspicious String zigw triggered"
 	strings: $suspicious_string = "zigw"
 	condition: $suspicious_string
 }
-rule Rule_1564_triggered {
-	meta: description = "Rule # 1564 Suspicious String ziteditora.com.br triggered"
+rule Rule_1563_triggered {
+	meta: description = "Rule # 1563 Suspicious String ziteditora.com.br triggered"
 	strings: $suspicious_string = "ziteditora.com.br"
 	condition: $suspicious_string
 }
-rule Rule_1565_triggered {
-	meta: description = "Rule # 1565 Suspicious String zoozoo triggered"
+rule Rule_1564_triggered {
+	meta: description = "Rule # 1564 Suspicious String zoozoo triggered"
 	strings: $suspicious_string = "zoozoo"
 	condition: $suspicious_string
 }
-rule Rule_1566_triggered {
-	meta: description = "Rule # 1566 Suspicious String 互相伤害啊 triggered"
+rule Rule_1565_triggered {
+	meta: description = "Rule # 1565 Suspicious String 互相伤害啊 triggered"
 	strings: $suspicious_string = "互相伤害啊"
 	condition: $suspicious_string
 }
-rule Rule_1567_triggered {
-	meta: description = "Rule # 1567 Suspicious String watchd0g.sh triggered"
+rule Rule_1566_triggered {
+	meta: description = "Rule # 1566 Suspicious String watchd0g.sh triggered"
 	strings: $suspicious_string = "watchd0g.sh"
 	condition: $suspicious_string
 }
-rule Rule_1568_triggered {
-	meta: description = "Rule # 1568 Suspicious String systemdo triggered"
+rule Rule_1567_triggered {
+	meta: description = "Rule # 1567 Suspicious String systemdo triggered"
 	strings: $suspicious_string = "systemdo"
 	condition: $suspicious_string
 }
-rule Rule_1569_triggered {
-	meta: description = "Rule # 1569 Suspicious String 222.184.79.11 triggered"
+rule Rule_1568_triggered {
+	meta: description = "Rule # 1568 Suspicious String 222.184.79.11 triggered"
 	strings: $suspicious_string = "222.184.79.11"
 	condition: $suspicious_string
 }
-rule Rule_1570_triggered {
-	meta: description = "Rule # 1570 Suspicious String dada.x86_64 triggered"
+rule Rule_1569_triggered {
+	meta: description = "Rule # 1569 Suspicious String dada.x86_64 triggered"
 	strings: $suspicious_string = "dada.x86_64"
 	condition: $suspicious_string
 }
-rule Rule_1571_triggered {
-	meta: description = "Rule # 1571 Suspicious String bbc.servehalflife.com triggered"
+rule Rule_1570_triggered {
+	meta: description = "Rule # 1570 Suspicious String bbc.servehalflife.com triggered"
 	strings: $suspicious_string = "bbc.servehalflife.com"
 	condition: $suspicious_string
 }
-rule Rule_1572_triggered {
-	meta: description = "Rule # 1572 Suspicious String 190.60.206.11 triggered"
+rule Rule_1571_triggered {
+	meta: description = "Rule # 1571 Suspicious String 190.60.206.11 triggered"
 	strings: $suspicious_string = "190.60.206.11"
 	condition: $suspicious_string
 }
-rule Rule_1573_triggered {
-	meta: description = "Rule # 1573 Suspicious String 182.18.8.69 triggered"
+rule Rule_1572_triggered {
+	meta: description = "Rule # 1572 Suspicious String 182.18.8.69 triggered"
 	strings: $suspicious_string = "182.18.8.69"
 	condition: $suspicious_string
 }
-rule Rule_1574_triggered {
-	meta: description = "Rule # 1574 Suspicious String jbos.7766.org triggered"
+rule Rule_1573_triggered {
+	meta: description = "Rule # 1573 Suspicious String jbos.7766.org triggered"
 	strings: $suspicious_string = "jbos.7766.org"
 	condition: $suspicious_string
 }
-rule Rule_1575_triggered {
-	meta: description = "Rule # 1575 Suspicious String 115.231.218.38 triggered"
+rule Rule_1574_triggered {
+	meta: description = "Rule # 1574 Suspicious String 115.231.218.38 triggered"
 	strings: $suspicious_string = "115.231.218.38"
 	condition: $suspicious_string
 }
-rule Rule_1576_triggered {
-	meta: description = "Rule # 1576 Suspicious String zayaflowers.ru/3.03_conf triggered"
+rule Rule_1575_triggered {
+	meta: description = "Rule # 1575 Suspicious String zayaflowers.ru/3.03_conf triggered"
 	strings: $suspicious_string = "zayaflowers.ru/3.03_conf"
 	condition: $suspicious_string
 }
-rule Rule_1577_triggered {
-	meta: description = "Rule # 1577 Suspicious String 3.03_config triggered"
+rule Rule_1576_triggered {
+	meta: description = "Rule # 1576 Suspicious String 3.03_config triggered"
 	strings: $suspicious_string = "3.03_config"
 	condition: $suspicious_string
 }
-rule Rule_1578_triggered {
-	meta: description = "Rule # 1578 Suspicious String gsqdecfoo triggered"
+rule Rule_1577_triggered {
+	meta: description = "Rule # 1577 Suspicious String gsqdecfoo triggered"
 	strings: $suspicious_string = "gsqdecfoo"
 	condition: $suspicious_string
 }
-rule Rule_1579_triggered {
-	meta: description = "Rule # 1579 Suspicious String dydwfdnuls triggered"
+rule Rule_1578_triggered {
+	meta: description = "Rule # 1578 Suspicious String dydwfdnuls triggered"
 	strings: $suspicious_string = "dydwfdnuls"
 	condition: $suspicious_string
 }
-rule Rule_1580_triggered {
-	meta: description = "Rule # 1580 Suspicious String rqutuvbow triggered"
+rule Rule_1579_triggered {
+	meta: description = "Rule # 1579 Suspicious String rqutuvbow triggered"
 	strings: $suspicious_string = "rqutuvbow"
 	condition: $suspicious_string
 }
-rule Rule_1581_triggered {
-	meta: description = "Rule # 1581 Suspicious String osvbkai triggered"
+rule Rule_1580_triggered {
+	meta: description = "Rule # 1580 Suspicious String osvbkai triggered"
 	strings: $suspicious_string = "osvbkai"
 	condition: $suspicious_string
 }
-rule Rule_1582_triggered {
-	meta: description = "Rule # 1582 Suspicious String fwaywusurl triggered"
+rule Rule_1581_triggered {
+	meta: description = "Rule # 1581 Suspicious String fwaywusurl triggered"
 	strings: $suspicious_string = "fwaywusurl"
 	condition: $suspicious_string
 }
-rule Rule_1583_triggered {
-	meta: description = "Rule # 1583 Suspicious String O7JBlDzqAkyShKcoEsTQSmtQHEM4aY0G triggered"
+rule Rule_1582_triggered {
+	meta: description = "Rule # 1582 Suspicious String O7JBlDzqAkyShKcoEsTQSmtQHEM4aY0G triggered"
 	strings: $suspicious_string = "O7JBlDzqAkyShKcoEsTQSmtQHEM4aY0G"
 	condition: $suspicious_string
 }
-rule Rule_1584_triggered {
-	meta: description = "Rule # 1584 Suspicious String RsyncWeakCheck triggered"
+rule Rule_1583_triggered {
+	meta: description = "Rule # 1583 Suspicious String RsyncWeakCheck triggered"
 	strings: $suspicious_string = "RsyncWeakCheck"
 	condition: $suspicious_string
 }
-rule Rule_1585_triggered {
-	meta: description = "Rule # 1585 Suspicious String WScript.Shell triggered"
+rule Rule_1584_triggered {
+	meta: description = "Rule # 1584 Suspicious String WScript.Shell triggered"
 	strings: $suspicious_string = "WScript.Shell"
 	condition: $suspicious_string
 }
-rule Rule_1586_triggered {
-	meta: description = "Rule # 1586 Suspicious String WScript.shell triggered"
+rule Rule_1585_triggered {
+	meta: description = "Rule # 1585 Suspicious String WScript.shell triggered"
 	strings: $suspicious_string = "WScript.shell"
 	condition: $suspicious_string
 }
-rule Rule_1587_triggered {
-	meta: description = "Rule # 1587 Suspicious String WSHShell triggered"
+rule Rule_1586_triggered {
+	meta: description = "Rule # 1586 Suspicious String WSHShell triggered"
 	strings: $suspicious_string = "WSHShell"
 	condition: $suspicious_string
 }
-rule Rule_1588_triggered {
-	meta: description = "Rule # 1588 Suspicious String Stager uploaded successfully triggered"
+rule Rule_1587_triggered {
+	meta: description = "Rule # 1587 Suspicious String Stager uploaded successfully triggered"
 	strings: $suspicious_string = "Stager uploaded successfully"
 	condition: $suspicious_string
 }
-rule Rule_1589_triggered {
-	meta: description = "Rule # 1589 Suspicious String chpasswd.sh triggered"
+rule Rule_1588_triggered {
+	meta: description = "Rule # 1588 Suspicious String chpasswd.sh triggered"
 	strings: $suspicious_string = "chpasswd.sh"
+	condition: $suspicious_string
+}
+rule Rule_1589_triggered {
+	meta: description = "Rule # 1589 Suspicious String Mr Secretz Shell triggered"
+	strings: $suspicious_string = "Mr Secretz Shell"
 	condition: $suspicious_string
 }
