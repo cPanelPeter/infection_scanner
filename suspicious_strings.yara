@@ -1,7 +1,8 @@
 /*
-    This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) and open to any user or organization, as    long as you use it under this license.
+    This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
+    and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Tue Oct 15 10:10:51 CDT 2019
+Last Updated: Sat Nov  2 14:40:31 CDT 2019
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String $kola triggered"
@@ -7966,5 +7967,100 @@ rule Rule_1592_triggered {
 rule Rule_1593_triggered {
 	meta: description = "Rule # 1593 Suspicious String googletagmanaaer.com triggered"
 	strings: $suspicious_string = "googletagmanaaer.com"
+	condition: $suspicious_string
+}
+rule Rule_1594_triggered {
+	meta: description = "Rule # 1594 Suspicious String prizehdru triggered"
+	strings: $suspicious_string = "prizehdru"
+	condition: $suspicious_string
+}
+rule Rule_1595_triggered {
+	meta: description = "Rule # 1595 Suspicious String Mister Spy & Souheyl Bypass Shell triggered"
+	strings: $suspicious_string = "Mister Spy & Souheyl Bypass Shell"
+	condition: $suspicious_string
+}
+rule Rule_1596_triggered {
+	meta: description = "Rule # 1596 Suspicious String Welcome To Our Shell triggered"
+	strings: $suspicious_string = "Welcome To Our Shell"
+	condition: $suspicious_string
+}
+rule Rule_1597_triggered {
+	meta: description = "Rule # 1597 Suspicious String WSCRIPT.SHELL triggered"
+	strings: $suspicious_string = "WSCRIPT.SHELL"
+	condition: $suspicious_string
+}
+rule Rule_1598_triggered {
+	meta: description = "Rule # 1598 Suspicious String One_LAYS triggered"
+	strings: $suspicious_string = "One_LAYS"
+	condition: $suspicious_string
+}
+rule Rule_1599_triggered {
+	meta: description = "Rule # 1599 Suspicious String PHP Encode v1.0 by zeura.com triggered"
+	strings: $suspicious_string = "PHP Encode v1.0 by zeura.com"
+	condition: $suspicious_string
+}
+rule Rule_1600_triggered {
+	meta: description = "Rule # 1600 Suspicious String LUL404 triggered"
+	strings: $suspicious_string = "LUL404"
+	condition: $suspicious_string
+}
+rule Rule_1601_triggered {
+	meta: description = "Rule # 1601 Suspicious String Bersih PAK! triggered"
+	strings: $suspicious_string = "Bersih PAK!"
+	condition: $suspicious_string
+}
+rule Rule_1602_triggered {
+	meta: description = "Rule # 1602 Suspicious String Gagal PAK!!! triggered"
+	strings: $suspicious_string = "Gagal PAK!!!"
+	condition: $suspicious_string
+}
+rule Rule_1603_triggered {
+	meta: description = "Rule # 1603 Suspicious String W3LL SQUAD triggered"
+	strings: $suspicious_string = "W3LL SQUAD"
+	condition: $suspicious_string
+}
+rule Rule_1604_triggered {
+	meta: description = "Rule # 1604 Suspicious String dl/nygt.whiqp_c triggered"
+	strings: $suspicious_string = "dl/nygt.whiqp_c"
+	condition: $suspicious_string
+}
+rule Rule_1605_triggered {
+	meta: description = "Rule # 1605 Suspicious String mdXfyCGA8070 triggered"
+	strings: $suspicious_string = "mdXfyCGA8070"
+	condition: $suspicious_string
+}
+rule Rule_1606_triggered {
+	meta: description = "Rule # 1606 Suspicious String MzcoOhsRdQ9rY0RVPSEeZR0RJABRc3VIFB8vPyB triggered"
+	strings: $suspicious_string = "MzcoOhsRdQ9rY0RVPSEeZR0RJABRc3VIFB8vPyB"
+	condition: $suspicious_string
+}
+rule Rule_1607_triggered {
+	meta: description = "Rule # 1607 Suspicious String ooRKSGZh2631 triggered"
+	strings: $suspicious_string = "ooRKSGZh2631"
+	condition: $suspicious_string
+}
+rule Rule_1608_triggered {
+	meta: description = "Rule # 1608 Suspicious String dxNNrWQccDmaVMALjoEPDAXpoqCRbaTBbwTVbXc triggered"
+	strings: $suspicious_string = "dxNNrWQccDmaVMALjoEPDAXpoqCRbaTBbwTVbXc"
+	condition: $suspicious_string
+}
+rule Rule_1609_triggered {
+	meta: description = "Rule # 1609 Suspicious String c4a4629314f86e064c94188729fcdf1cc4a4629 triggered"
+	strings: $suspicious_string = "c4a4629314f86e064c94188729fcdf1cc4a4629"
+	condition: $suspicious_string
+}
+rule Rule_1610_triggered {
+	meta: description = "Rule # 1610 Suspicious String UcpEVe6863 triggered"
+	strings: $suspicious_string = "UcpEVe6863"
+	condition: $suspicious_string
+}
+rule Rule_1611_triggered {
+	meta: description = "Rule # 1611 Suspicious String YwmI1780 triggered"
+	strings: $suspicious_string = "YwmI1780"
+	condition: $suspicious_string
+}
+rule Rule_1612_triggered {
+	meta: description = "Rule # 1612 Suspicious String <h1>#p@$c@#</h1> triggered"
+	strings: $suspicious_string = "<h1>#p@$c@#</h1>"
 	condition: $suspicious_string
 }
