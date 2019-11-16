@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Tue Nov 12 13:21:54 CST 2019
+Last Updated: Sat Nov 16 13:42:37 CST 2019
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String $kola triggered"
@@ -8072,5 +8072,10 @@ rule Rule_1613_triggered {
 rule Rule_1614_triggered {
 	meta: description = "Rule # 1614 Suspicious String Shabab Hacker triggered"
 	strings: $suspicious_string = "Shabab Hacker"
+	condition: $suspicious_string
+}
+rule Rule_1615_triggered {
+	meta: description = "Rule # 1615 Suspicious String scripts.trasnaltemyrecords.com triggered"
+	strings: $suspicious_string = "scripts.trasnaltemyrecords.com"
 	condition: $suspicious_string
 }
