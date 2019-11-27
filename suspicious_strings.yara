@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Sat Nov 16 13:42:37 CST 2019
+Last Updated: Wed Nov 27 07:43:52 CST 2019
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String $kola triggered"
@@ -8077,5 +8077,85 @@ rule Rule_1614_triggered {
 rule Rule_1615_triggered {
 	meta: description = "Rule # 1615 Suspicious String scripts.trasnaltemyrecords.com triggered"
 	strings: $suspicious_string = "scripts.trasnaltemyrecords.com"
+	condition: $suspicious_string
+}
+rule Rule_1616_triggered {
+	meta: description = "Rule # 1616 Suspicious String by aDriv4 triggered"
+	strings: $suspicious_string = "by aDriv4"
+	condition: $suspicious_string
+}
+rule Rule_1617_triggered {
+	meta: description = "Rule # 1617 Suspicious String xNot_RespondinGx Gans triggered"
+	strings: $suspicious_string = "xNot_RespondinGx Gans"
+	condition: $suspicious_string
+}
+rule Rule_1618_triggered {
+	meta: description = "Rule # 1618 Suspicious String extremecrew triggered"
+	strings: $suspicious_string = "extremecrew"
+	condition: $suspicious_string
+}
+rule Rule_1619_triggered {
+	meta: description = "Rule # 1619 Suspicious String Hajar Goblok!!! triggered"
+	strings: $suspicious_string = "Hajar Goblok!!!"
+	condition: $suspicious_string
+}
+rule Rule_1620_triggered {
+	meta: description = "Rule # 1620 Suspicious String cek Disini goblok!!! triggered"
+	strings: $suspicious_string = "cek Disini goblok!!!"
+	condition: $suspicious_string
+}
+rule Rule_1621_triggered {
+	meta: description = "Rule # 1621 Suspicious String PRO Mailer V2 triggered"
+	strings: $suspicious_string = "PRO Mailer V2"
+	condition: $suspicious_string
+}
+rule Rule_1622_triggered {
+	meta: description = "Rule # 1622 Suspicious String Mailer Inbox Sender triggered"
+	strings: $suspicious_string = "Mailer Inbox Sender"
+	condition: $suspicious_string
+}
+rule Rule_1623_triggered {
+	meta: description = "Rule # 1623 Suspicious String MAILER IS UNABLE TO CONNECT SMTP !! triggered"
+	strings: $suspicious_string = "MAILER IS UNABLE TO CONNECT SMTP !!"
+	condition: $suspicious_string
+}
+rule Rule_1624_triggered {
+	meta: description = "Rule # 1624 Suspicious String RECEPIENT CAN'T RECEIVE MESSAGE triggered"
+	strings: $suspicious_string = "RECEPIENT CAN'T RECEIVE MESSAGE"
+	condition: $suspicious_string
+}
+rule Rule_1625_triggered {
+	meta: description = "Rule # 1625 Suspicious String adriv4 triggered"
+	strings: $suspicious_string = "adriv4"
+	condition: $suspicious_string
+}
+rule Rule_1626_triggered {
+	meta: description = "Rule # 1626 Suspicious String Leaf PHP Mailer by [leafmailer.pw] triggered"
+	strings: $suspicious_string = "Leaf PHP Mailer by [leafmailer.pw]"
+	condition: $suspicious_string
+}
+rule Rule_1627_triggered {
+	meta: description = "Rule # 1627 Suspicious String 6319a819898755e8.paste.se triggered"
+	strings: $suspicious_string = "6319a819898755e8.paste.se"
+	condition: $suspicious_string
+}
+rule Rule_1628_triggered {
+	meta: description = "Rule # 1628 Suspicious String pastebin.com/raw/3ByK3R00 triggered"
+	strings: $suspicious_string = "pastebin.com/raw/3ByK3R00"
+	condition: $suspicious_string
+}
+rule Rule_1629_triggered {
+	meta: description = "Rule # 1629 Suspicious String smevkpathan triggered"
+	strings: $suspicious_string = "smevkpathan"
+	condition: $suspicious_string
+}
+rule Rule_1630_triggered {
+	meta: description = "Rule # 1630 Suspicious String SmEvK_PaThAn Shell v3 Coded by Kashif Khan triggered"
+	strings: $suspicious_string = "SmEvK_PaThAn Shell v3 Coded by Kashif Khan"
+	condition: $suspicious_string
+}
+rule Rule_1631_triggered {
+	meta: description = "Rule # 1631 Suspicious String Edit Shell according to your choice. triggered"
+	strings: $suspicious_string = "Edit Shell according to your choice."
 	condition: $suspicious_string
 }
