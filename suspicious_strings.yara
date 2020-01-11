@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Tue Jan  7 12:51:12 CST 2020
+Last Updated: Sat Jan 11 11:30:46 CST 2020
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String $kola triggered"
@@ -8367,5 +8367,85 @@ rule Rule_1672_triggered {
 rule Rule_1673_triggered {
 	meta: description = "Rule # 1673 Suspicious String eXploiting Done triggered"
 	strings: $suspicious_string = "eXploiting Done"
+	condition: $suspicious_string
+}
+rule Rule_1674_triggered {
+	meta: description = "Rule # 1674 Suspicious String gaza_hacker triggered"
+	strings: $suspicious_string = "gaza_hacker"
+	condition: $suspicious_string
+}
+rule Rule_1675_triggered {
+	meta: description = "Rule # 1675 Suspicious String gaza_mysql_file triggered"
+	strings: $suspicious_string = "gaza_mysql_file"
+	condition: $suspicious_string
+}
+rule Rule_1676_triggered {
+	meta: description = "Rule # 1676 Suspicious String Coded By TKL triggered"
+	strings: $suspicious_string = "Coded By TKL"
+	condition: $suspicious_string
+}
+rule Rule_1677_triggered {
+	meta: description = "Rule # 1677 Suspicious String Mr.Alsa3ek triggered"
+	strings: $suspicious_string = "Mr.Alsa3ek"
+	condition: $suspicious_string
+}
+rule Rule_1678_triggered {
+	meta: description = "Rule # 1678 Suspicious String TeaM HacKer Egypt triggered"
+	strings: $suspicious_string = "TeaM HacKer Egypt"
+	condition: $suspicious_string
+}
+rule Rule_1679_triggered {
+	meta: description = "Rule # 1679 Suspicious String Mr.SaFa7 triggered"
+	strings: $suspicious_string = "Mr.SaFa7"
+	condition: $suspicious_string
+}
+rule Rule_1680_triggered {
+	meta: description = "Rule # 1680 Suspicious String v4-team.com triggered"
+	strings: $suspicious_string = "v4-team.com"
+	condition: $suspicious_string
+}
+rule Rule_1681_triggered {
+	meta: description = "Rule # 1681 Suspicious String evil files created succes triggered"
+	strings: $suspicious_string = "evil files created succes"
+	condition: $suspicious_string
+}
+rule Rule_1682_triggered {
+	meta: description = "Rule # 1682 Suspicious String exploited by success! triggered"
+	strings: $suspicious_string = "exploited by success!"
+	condition: $suspicious_string
+}
+rule Rule_1683_triggered {
+	meta: description = "Rule # 1683 Suspicious String djekmani4ever triggered"
+	strings: $suspicious_string = "djekmani4ever"
+	condition: $suspicious_string
+}
+rule Rule_1684_triggered {
+	meta: description = "Rule # 1684 Suspicious String ghost hacker triggered"
+	strings: $suspicious_string = "ghost hacker"
+	condition: $suspicious_string
+}
+rule Rule_1685_triggered {
+	meta: description = "Rule # 1685 Suspicious String Str0ke triggered"
+	strings: $suspicious_string = "Str0ke"
+	condition: $suspicious_string
+}
+rule Rule_1686_triggered {
+	meta: description = "Rule # 1686 Suspicious String ShAfEKo4EvEr triggered"
+	strings: $suspicious_string = "ShAfEKo4EvEr"
+	condition: $suspicious_string
+}
+rule Rule_1687_triggered {
+	meta: description = "Rule # 1687 Suspicious String Mr.Mn7oS triggered"
+	strings: $suspicious_string = "Mr.Mn7oS"
+	condition: $suspicious_string
+}
+rule Rule_1688_triggered {
+	meta: description = "Rule # 1688 Suspicious String 2b432a58d113cc6c4c108b30f176f5e1 triggered"
+	strings: $suspicious_string = "2b432a58d113cc6c4c108b30f176f5e1"
+	condition: $suspicious_string
+}
+rule Rule_1689_triggered {
+	meta: description = "Rule # 1689 Suspicious String Coded By Mr.SaHr triggered"
+	strings: $suspicious_string = "Coded By Mr.SaHr"
 	condition: $suspicious_string
 }
