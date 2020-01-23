@@ -988,6 +988,7 @@ ViRusx
 Virusa Worm
 VrCy    
 Vrcy
+Vuln!! patch it Now!
 Vurdum mu Samari Oynar Gotunun Damari
 W1R3
 W3LL SQUAD
@@ -1098,6 +1099,8 @@ aBu.HaLiL501
 aWYgKGlzc2V0KCRfUkVRVUVTVFsnc
 ada data yang kosong
 add.francafranca.com
+admarketlocation.com
+admarketsearch.xyz
 admin.furstoutountzi.com
 adminer.php
 adorablejimalvarez@gmail.com
@@ -1241,6 +1244,7 @@ dannymckay
 dcvi.net
 deface
 default pass : haurgeulis
+dfh34w34A345WEFSDF
 dgkxjegdyzqnv
 diapedesis
 die(PHP_OS.chr(49).chr(48).chr(43).md5(0987654321
@@ -1525,6 +1529,7 @@ pw/XcTyTp
 pw/bash/include/xtaccess
 pwned
 python connect\-back door
+q6asmr-hiyjd3lz9ovn71wxbc4et058p2k_guf
 qusckboendqg
 r00txxPcP
 r0nin
@@ -1629,6 +1634,8 @@ victim@host.com
 vinsm0ke_id
 vito\-RawckerheaD
 void\.ru
+vuln.htm
+vuln.php
 vulns could lead to total disaters
 vulnscan
 w00t
@@ -1686,7 +1693,3 @@ zigw
 ziteditora.com.br
 zoozoo
 互相伤害啊
-q6asmr-hiyjd3lz9ovn71wxbc4et058p2k_guf
-Vuln!! patch it Now!
-vuln.php
-vuln.htm
