@@ -149,6 +149,7 @@ Bella!
 BerdendangC0de
 Bersih PAK!
 Bhuppi
+BigNorouzi
 BigStar
 Bksmile
 Bl@cK Ic3
@@ -259,6 +260,7 @@ Cyber 71
 Cyber Ace
 Cyber Merah Putih
 Cyber Security Down
+Cyber Team Official
 Cyber Tron Darkness
 CyberTeamRox
 Cybertech
@@ -313,6 +315,7 @@ EITest
 EXI2T\-team
 EXIT_KERNEL_TO_NULL
 EXPECT US!
+EbRaHiM-VaKeR
 Eddie Kidiw
 EdiT3R: Dr.KAsBeR
 Edit Shell according to your choice.
@@ -381,6 +384,7 @@ H311 c0d3
 H3r03ZiM0uZ
 H3r3 !s 411 D0m4!ns &amp; Us3rs
 H3ri.ID 
+H43ER
 H4CK3R
 H@SEB
 HACKED
@@ -403,6 +407,7 @@ HackTeam
 HackeD By Hussam
 HackeD By Skidie KhaN
 Hackeado
+Hackeado por el Team Hack Hispano
 Hacked By BALA SNIPER
 Hacked By BDJ-007
 Hacked By BadC0de
@@ -478,6 +483,7 @@ INDONESIAN GRAY HAT HACKER
 INX_r0ot
 ISI PESAN
 Iheb Abdelly
+ImanGorji
 Inbox Mass Mailer
 IndoXploit
 IndoXploit Coders Team
@@ -493,6 +499,7 @@ Infinity Cyber Team
 InjecT0r
 InjectorDaher
 Iranian Hackers
+Iranian_Hackers
 Irfninja indishell
 Islamic Cyber
 Its m3 :p
@@ -560,6 +567,8 @@ Legion BOmb3r
 LinEnum.sh
 Linux vmsplice Local Root Exploit
 Lion.Hacker
+Liosion Team
+Liosion_team
 LoVe511 Mail3R
 Local Linux Enumeration & Privilege Escalation Script
 Local root indishell
@@ -693,6 +702,7 @@ MrJoker
 Mr\-Anobs
 Mr\-Lordz
 Mr_Oxygen 
+Mrb3hz4d
 MrxCyberX 
 Mugi Doa Ibu Ingkang Varokah
 MugiwaraCrew
@@ -719,6 +729,7 @@ Netflix \- Billing Information
 Netflix \- Payment Information
 Newbie3viLc063s h3x4Crew RileksCrew Family
 Nginx1337
+NikbinHK
 Nilotpal Biswas
 Ninja\-Security
 NmR.Hacker
@@ -766,6 +777,7 @@ Pankaj Sharma
 PayPal US Bank Spam ReZulT
 Paypal Token Generator
 Penggila Coli
+Perilous Man
 Persian Gulf For Ever
 Peruvian R00lz
 Ph33r
@@ -887,6 +899,7 @@ Stager uploaded successfully
 Stealth MultiFunctional IrcBot writen in Perl
 Stealth Shellbot
 Stm Nazie 102
+Storm Security Team
 Str0ke
 Stupidc0de Family
 SuLiMaN.HackeR
@@ -910,7 +923,9 @@ SyntaxNotFound
 System Hacked
 SystemX64MGB 
 T1KUS90T
+T4arik\[J3N\]
 TC9A16C47DA8EEE87
+TEAMHACKHISPANO
 THA Disastar
 TKJ Cyber Art
 TOBILOBA
@@ -943,6 +958,7 @@ The r600 mailer has finished his job
 TheChozen
 TheLords
 Tn-ViRus
+Tn.Deep7
 Tn.SkullCyber
 To known the password, you must first send
 TobaSec
@@ -1105,6 +1121,7 @@ admin.furstoutountzi.com
 adminer.php
 adorablejimalvarez@gmail.com
 adriv4
+adsformarket.com
 advanced html base64 encryptor
 aeskoly
 afoikoko@gmail.com
@@ -1327,6 +1344,7 @@ goodslife201
 google.ssl.info.cc
 google_warrior
 googletagmanaaer.com
+gotosecond2.com
 grav3
 gsqdecfoo
 guardservices

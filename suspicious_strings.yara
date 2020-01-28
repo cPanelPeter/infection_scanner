@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Thu Jan 23 09:14:49 CST 2020
+Last Updated: Tue Jan 28 15:51:01 CST 2020
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String $kola triggered"
@@ -8447,5 +8447,95 @@ rule Rule_1688_triggered {
 rule Rule_1689_triggered {
 	meta: description = "Rule # 1689 Suspicious String admarketsearch.xyz triggered"
 	strings: $suspicious_string = "admarketsearch.xyz"
+	condition: $suspicious_string
+}
+rule Rule_1690_triggered {
+	meta: description = "Rule # 1690 Suspicious String adsformarket.com triggered"
+	strings: $suspicious_string = "adsformarket.com"
+	condition: $suspicious_string
+}
+rule Rule_1691_triggered {
+	meta: description = "Rule # 1691 Suspicious String gotosecond2.com triggered"
+	strings: $suspicious_string = "gotosecond2.com"
+	condition: $suspicious_string
+}
+rule Rule_1692_triggered {
+	meta: description = "Rule # 1692 Suspicious String Tn.Deep7 triggered"
+	strings: $suspicious_string = "Tn.Deep7"
+	condition: $suspicious_string
+}
+rule Rule_1693_triggered {
+	meta: description = "Rule # 1693 Suspicious String Cyber Team Official triggered"
+	strings: $suspicious_string = "Cyber Team Official"
+	condition: $suspicious_string
+}
+rule Rule_1694_triggered {
+	meta: description = "Rule # 1694 Suspicious String Liosion_team triggered"
+	strings: $suspicious_string = "Liosion_team"
+	condition: $suspicious_string
+}
+rule Rule_1695_triggered {
+	meta: description = "Rule # 1695 Suspicious String Mrb3hz4d triggered"
+	strings: $suspicious_string = "Mrb3hz4d"
+	condition: $suspicious_string
+}
+rule Rule_1696_triggered {
+	meta: description = "Rule # 1696 Suspicious String Iranian_Hackers triggered"
+	strings: $suspicious_string = "Iranian_Hackers"
+	condition: $suspicious_string
+}
+rule Rule_1697_triggered {
+	meta: description = "Rule # 1697 Suspicious String H43ER triggered"
+	strings: $suspicious_string = "H43ER"
+	condition: $suspicious_string
+}
+rule Rule_1698_triggered {
+	meta: description = "Rule # 1698 Suspicious String T4arik[J3N] triggered"
+	strings: $suspicious_string = "T4arik[J3N]"
+	condition: $suspicious_string
+}
+rule Rule_1699_triggered {
+	meta: description = "Rule # 1699 Suspicious String NikbinHK triggered"
+	strings: $suspicious_string = "NikbinHK"
+	condition: $suspicious_string
+}
+rule Rule_1700_triggered {
+	meta: description = "Rule # 1700 Suspicious String ImanGorji triggered"
+	strings: $suspicious_string = "ImanGorji"
+	condition: $suspicious_string
+}
+rule Rule_1701_triggered {
+	meta: description = "Rule # 1701 Suspicious String EbRaHiM-VaKeR triggered"
+	strings: $suspicious_string = "EbRaHiM-VaKeR"
+	condition: $suspicious_string
+}
+rule Rule_1702_triggered {
+	meta: description = "Rule # 1702 Suspicious String Perilous Man triggered"
+	strings: $suspicious_string = "Perilous Man"
+	condition: $suspicious_string
+}
+rule Rule_1703_triggered {
+	meta: description = "Rule # 1703 Suspicious String BigNorouzi triggered"
+	strings: $suspicious_string = "BigNorouzi"
+	condition: $suspicious_string
+}
+rule Rule_1704_triggered {
+	meta: description = "Rule # 1704 Suspicious String Storm Security Team triggered"
+	strings: $suspicious_string = "Storm Security Team"
+	condition: $suspicious_string
+}
+rule Rule_1705_triggered {
+	meta: description = "Rule # 1705 Suspicious String Liosion Team triggered"
+	strings: $suspicious_string = "Liosion Team"
+	condition: $suspicious_string
+}
+rule Rule_1706_triggered {
+	meta: description = "Rule # 1706 Suspicious String Hackeado por el Team Hack Hispano triggered"
+	strings: $suspicious_string = "Hackeado por el Team Hack Hispano"
+	condition: $suspicious_string
+}
+rule Rule_1707_triggered {
+	meta: description = "Rule # 1707 Suspicious String TEAMHACKHISPANO triggered"
+	strings: $suspicious_string = "TEAMHACKHISPANO"
 	condition: $suspicious_string
 }
