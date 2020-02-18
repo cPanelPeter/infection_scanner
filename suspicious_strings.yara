@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Tue Feb 11 14:32:53 CST 2020
+Last Updated: Tue Feb 18 06:56:26 CST 2020
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String $kola triggered"
@@ -8537,5 +8537,30 @@ rule Rule_1706_triggered {
 rule Rule_1707_triggered {
 	meta: description = "Rule # 1707 Suspicious String 26_pndau9vcgfit5 triggered"
 	strings: $suspicious_string = "26_pndau9vcgfit5"
+	condition: $suspicious_string
+}
+rule Rule_1708_triggered {
+	meta: description = "Rule # 1708 Suspicious String Uploader By ATTARI triggered"
+	strings: $suspicious_string = "Uploader By ATTARI"
+	condition: $suspicious_string
+}
+rule Rule_1709_triggered {
+	meta: description = "Rule # 1709 Suspicious String www.a-l-e-x-u-s.ru triggered"
+	strings: $suspicious_string = "www.a-l-e-x-u-s.ru"
+	condition: $suspicious_string
+}
+rule Rule_1710_triggered {
+	meta: description = "Rule # 1710 Suspicious String alexusMailer triggered"
+	strings: $suspicious_string = "alexusMailer"
+	condition: $suspicious_string
+}
+rule Rule_1711_triggered {
+	meta: description = "Rule # 1711 Suspicious String ofuxshell triggered"
+	strings: $suspicious_string = "ofuxshell"
+	condition: $suspicious_string
+}
+rule Rule_1712_triggered {
+	meta: description = "Rule # 1712 Suspicious String hacker0000 triggered"
+	strings: $suspicious_string = "hacker0000"
 	condition: $suspicious_string
 }
