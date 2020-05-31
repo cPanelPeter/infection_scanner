@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Thu May 28 16:13:59 CDT 2020
+Last Updated: Sun May 31 15:54:02 CDT 2020
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String (c)oded by 1dt.w0lf triggered"
@@ -8847,5 +8847,20 @@ rule Rule_1768_triggered {
 rule Rule_1769_triggered {
 	meta: description = "Rule # 1769 Suspicious String 互相伤害啊 triggered"
 	strings: $suspicious_string = "互相伤害啊"
+	condition: $suspicious_string
+}
+rule Rule_1770_triggered {
+	meta: description = "Rule # 1770 Suspicious String AnonymousFox triggered"
+	strings: $suspicious_string = "AnonymousFox"
+	condition: $suspicious_string
+}
+rule Rule_1771_triggered {
+	meta: description = "Rule # 1771 Suspicious String Pwnd By Souheyel! triggered"
+	strings: $suspicious_string = "Pwnd By Souheyel!"
+	condition: $suspicious_string
+}
+rule Rule_1772_triggered {
+	meta: description = "Rule # 1772 Suspicious String Shell Uploaded ! triggered"
+	strings: $suspicious_string = "Shell Uploaded !"
 	condition: $suspicious_string
 }
