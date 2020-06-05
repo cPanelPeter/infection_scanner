@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Thu Jun  4 15:40:41 CDT 2020
+Last Updated: Fri Jun  5 13:25:37 CDT 2020
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String (c)oded by 1dt.w0lf triggered"
@@ -8872,5 +8872,40 @@ rule Rule_1773_triggered {
 rule Rule_1774_triggered {
 	meta: description = "Rule # 1774 Suspicious String Con7ext Shell triggered"
 	strings: $suspicious_string = "Con7ext Shell"
+	condition: $suspicious_string
+}
+rule Rule_1775_triggered {
+	meta: description = "Rule # 1775 Suspicious String wb9nzo0haf5gvj73sup2x1k6 triggered"
+	strings: $suspicious_string = "wb9nzo0haf5gvj73sup2x1k6"
+	condition: $suspicious_string
+}
+rule Rule_1776_triggered {
+	meta: description = "Rule # 1776 Suspicious String raPo_rZluoE triggered"
+	strings: $suspicious_string = "raPo_rZluoE"
+	condition: $suspicious_string
+}
+rule Rule_1777_triggered {
+	meta: description = "Rule # 1777 Suspicious String 85gwl3qu9pv1koimbf2ceds triggered"
+	strings: $suspicious_string = "85gwl3qu9pv1koimbf2ceds"
+	condition: $suspicious_string
+}
+rule Rule_1778_triggered {
+	meta: description = "Rule # 1778 Suspicious String WHY MINI SHELL triggered"
+	strings: $suspicious_string = "WHY MINI SHELL"
+	condition: $suspicious_string
+}
+rule Rule_1779_triggered {
+	meta: description = "Rule # 1779 Suspicious String O_O0_0OO0_ triggered"
+	strings: $suspicious_string = "O_O0_0OO0_"
+	condition: $suspicious_string
+}
+rule Rule_1780_triggered {
+	meta: description = "Rule # 1780 Suspicious String D_RNwGygrx9Y5 triggered"
+	strings: $suspicious_string = "D_RNwGygrx9Y5"
+	condition: $suspicious_string
+}
+rule Rule_1781_triggered {
+	meta: description = "Rule # 1781 Suspicious String Z2RyYi9tYTV2dnQwaTkyLXJ triggered"
+	strings: $suspicious_string = "Z2RyYi9tYTV2dnQwaTkyLXJ"
 	condition: $suspicious_string
 }
