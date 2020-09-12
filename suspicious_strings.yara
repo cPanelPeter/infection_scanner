@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Sat Aug  1 15:33:24 CDT 2020
+Last Updated: Fri Sep 11 19:50:09 CDT 2020
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String (c)oded by 1dt.w0lf triggered"
@@ -9092,5 +9092,30 @@ rule Rule_1817_triggered {
 rule Rule_1818_triggered {
 	meta: description = "Rule # 1818 Suspicious String CMSmap - WordPress Shell triggered"
 	strings: $suspicious_string = "CMSmap - WordPress Shell"
+	condition: $suspicious_string
+}
+rule Rule_1819_triggered {
+	meta: description = "Rule # 1819 Suspicious String xmr-stak-rx triggered"
+	strings: $suspicious_string = "xmr-stak-rx"
+	condition: $suspicious_string
+}
+rule Rule_1820_triggered {
+	meta: description = "Rule # 1820 Suspicious String fireice_uk triggered"
+	strings: $suspicious_string = "fireice_uk"
+	condition: $suspicious_string
+}
+rule Rule_1821_triggered {
+	meta: description = "Rule # 1821 Suspicious String psychocrypt triggered"
+	strings: $suspicious_string = "psychocrypt"
+	condition: $suspicious_string
+}
+rule Rule_1822_triggered {
+	meta: description = "Rule # 1822 Suspicious String yhXRANDOM triggered"
+	strings: $suspicious_string = "yhXRANDOM"
+	condition: $suspicious_string
+}
+rule Rule_1823_triggered {
+	meta: description = "Rule # 1823 Suspicious String moparisthebest triggered"
+	strings: $suspicious_string = "moparisthebest"
 	condition: $suspicious_string
 }
