@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Thu Oct  1 16:09:00 CDT 2020
+Last Updated: Thu Oct 15 12:17:59 CDT 2020
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String (c)oded by 1dt.w0lf triggered"
@@ -9127,5 +9127,60 @@ rule Rule_1824_triggered {
 rule Rule_1825_triggered {
 	meta: description = "Rule # 1825 Suspicious String nerogammer77@gmail.com triggered"
 	strings: $suspicious_string = "nerogammer77@gmail.com"
+	condition: $suspicious_string
+}
+rule Rule_1826_triggered {
+	meta: description = "Rule # 1826 Suspicious String FoxAuto triggered"
+	strings: $suspicious_string = "FoxAuto"
+	condition: $suspicious_string
+}
+rule Rule_1827_triggered {
+	meta: description = "Rule # 1827 Suspicious String anonymousefox.com triggered"
+	strings: $suspicious_string = "anonymousefox.com"
+	condition: $suspicious_string
+}
+rule Rule_1828_triggered {
+	meta: description = "Rule # 1828 Suspicious String TycpKSkpKSkpKSkpKSkpKSkpKSkpOw== triggered"
+	strings: $suspicious_string = "TycpKSkpKSkpKSkpKSkpKSkpKSkpOw=="
+	condition: $suspicious_string
+}
+rule Rule_1829_triggered {
+	meta: description = "Rule # 1829 Suspicious String leafmailer.pw triggered"
+	strings: $suspicious_string = "leafmailer.pw"
+	condition: $suspicious_string
+}
+rule Rule_1830_triggered {
+	meta: description = "Rule # 1830 Suspicious String tunX.io triggered"
+	strings: $suspicious_string = "tunX.io"
+	condition: $suspicious_string
+}
+rule Rule_1831_triggered {
+	meta: description = "Rule # 1831 Suspicious String PHP Encode Sh*ll Auto v4 Fox triggered"
+	strings: $suspicious_string = "PHP Encode Sh*ll Auto v4 Fox"
+	condition: $suspicious_string
+}
+rule Rule_1832_triggered {
+	meta: description = "Rule # 1832 Suspicious String 0AB4CF224FE277316B85B34C7B96081E triggered"
+	strings: $suspicious_string = "0AB4CF224FE277316B85B34C7B96081E"
+	condition: $suspicious_string
+}
+rule Rule_1833_triggered {
+	meta: description = "Rule # 1833 Suspicious String 3xBeast symlink & wp pass changer triggered"
+	strings: $suspicious_string = "3xBeast symlink & wp pass changer"
+	condition: $suspicious_string
+}
+rule Rule_1834_triggered {
+	meta: description = "Rule # 1834 Suspicious String ICQ: 744324366 triggered"
+	strings: $suspicious_string = "ICQ: 744324366"
+	condition: $suspicious_string
+}
+rule Rule_1835_triggered {
+	meta: description = "Rule # 1835 Suspicious String https://ghostbin.co/paste/vqcn3/ triggered"
+	strings: $suspicious_string = "https://ghostbin.co/paste/vqcn3/"
+	condition: $suspicious_string
+}
+rule Rule_1836_triggered {
+	meta: description = "Rule # 1836 Suspicious String nobledaddy933@yandex.com triggered"
+	strings: $suspicious_string = "nobledaddy933@yandex.com"
 	condition: $suspicious_string
 }
