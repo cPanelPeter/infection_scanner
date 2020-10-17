@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Fri Oct 16 02:14:37 CDT 2020
+Last Updated: Sat Oct 17 08:38:59 CDT 2020
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String (c)oded by 1dt.w0lf triggered"
@@ -9130,8 +9130,8 @@ rule Rule_1825_triggered {
 	condition: $suspicious_string
 }
 rule Rule_1826_triggered {
-	meta: description = "Rule # 1826 Suspicious String FoxAuto triggered"
-	strings: $suspicious_string = "FoxAuto"
+	meta: description = "Rule # 1826 Suspicious String FoxAutoV4 triggered"
+	strings: $suspicious_string = "FoxAutoV4"
 	condition: $suspicious_string
 }
 rule Rule_1827_triggered {
