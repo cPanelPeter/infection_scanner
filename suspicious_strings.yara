@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Sat Oct 17 08:38:59 CDT 2020
+Last Updated: Mon Nov  9 18:10:30 CST 2020
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String (c)oded by 1dt.w0lf triggered"
@@ -9187,5 +9187,15 @@ rule Rule_1836_triggered {
 rule Rule_1837_triggered {
 	meta: description = "Rule # 1837 Suspicious String fkmpvwAEGIJOQRVW5d9cc3cc6ce0f triggered"
 	strings: $suspicious_string = "fkmpvwAEGIJOQRVW5d9cc3cc6ce0f"
+	condition: $suspicious_string
+}
+rule Rule_1838_triggered {
+	meta: description = "Rule # 1838 Suspicious String Xsam_Xadoo_BoT triggered"
+	strings: $suspicious_string = "Xsam_Xadoo_BoT"
+	condition: $suspicious_string
+}
+rule Rule_1839_triggered {
+	meta: description = "Rule # 1839 Suspicious String PRIVET BOT BY XSam-XAdoo triggered"
+	strings: $suspicious_string = "PRIVET BOT BY XSam-XAdoo"
 	condition: $suspicious_string
 }
