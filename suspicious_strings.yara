@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Mon Nov  9 18:10:30 CST 2020
+Last Updated: Sat Dec  5 22:14:09 CST 2020
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String (c)oded by 1dt.w0lf triggered"
