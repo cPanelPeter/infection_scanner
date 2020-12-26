@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Sat Dec 19 13:00:40 CST 2020
+Last Updated: Sat Dec 26 14:04:35 CST 2020
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String 04d92810.com triggered"
@@ -9257,5 +9257,15 @@ rule Rule_1850_triggered {
 rule Rule_1851_triggered {
 	meta: description = "Rule # 1851 Suspicious String 互相伤害啊 triggered"
 	strings: $suspicious_string = "互相伤害啊"
+	condition: $suspicious_string
+}
+rule Rule_1852_triggered {
+	meta: description = "Rule # 1852 Suspicious String https://pastebin.com/raw/63LjCNAs triggered"
+	strings: $suspicious_string = "https://pastebin.com/raw/63LjCNAs"
+	condition: $suspicious_string
+}
+rule Rule_1853_triggered {
+	meta: description = "Rule # 1853 Suspicious String ATTARI triggered"
+	strings: $suspicious_string = "ATTARI"
 	condition: $suspicious_string
 }
