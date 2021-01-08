@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Tue Dec 29 11:22:27 CST 2020
+Last Updated: Fri Jan  8 16:48:57 CST 2021
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String 04d92810.com triggered"
@@ -9277,5 +9277,50 @@ rule Rule_1854_triggered {
 rule Rule_1855_triggered {
 	meta: description = "Rule # 1855 Suspicious String function _pPfT triggered"
 	strings: $suspicious_string = "function _pPfT"
+	condition: $suspicious_string
+}
+rule Rule_1856_triggered {
+	meta: description = "Rule # 1856 Suspicious String Linux.Kaiowas triggered"
+	strings: $suspicious_string = "Linux.Kaiowas"
+	condition: $suspicious_string
+}
+rule Rule_1857_triggered {
+	meta: description = "Rule # 1857 Suspicious String Gobleen Warrior//SMF triggered"
+	strings: $suspicious_string = "Gobleen Warrior//SMF"
+	condition: $suspicious_string
+}
+rule Rule_1858_triggered {
+	meta: description = "Rule # 1858 Suspicious String trax31337@hotmail.com triggered"
+	strings: $suspicious_string = "trax31337@hotmail.com"
+	condition: $suspicious_string
+}
+rule Rule_1859_triggered {
+	meta: description = "Rule # 1859 Suspicious String NuxBee by Bumblebee triggered"
+	strings: $suspicious_string = "NuxBee by Bumblebee"
+	condition: $suspicious_string
+}
+rule Rule_1860_triggered {
+	meta: description = "Rule # 1860 Suspicious String The NeXt Frontier triggered"
+	strings: $suspicious_string = "The NeXt Frontier"
+	condition: $suspicious_string
+}
+rule Rule_1861_triggered {
+	meta: description = "Rule # 1861 Suspicious String unix.satyr triggered"
+	strings: $suspicious_string = "unix.satyr"
+	condition: $suspicious_string
+}
+rule Rule_1862_triggered {
+	meta: description = "Rule # 1862 Suspicious String Shitdown [MIONS] triggered"
+	strings: $suspicious_string = "Shitdown [MIONS]"
+	condition: $suspicious_string
+}
+rule Rule_1863_triggered {
+	meta: description = "Rule # 1863 Suspicious String http://shitdown.sf.cz triggered"
+	strings: $suspicious_string = "http://shitdown.sf.cz"
+	condition: $suspicious_string
+}
+rule Rule_1864_triggered {
+	meta: description = "Rule # 1864 Suspicious String Logi_Internet triggered"
+	strings: $suspicious_string = "Logi_Internet"
 	condition: $suspicious_string
 }
