@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Fri Jan  8 16:48:57 CST 2021
+Last Updated: Sat Jan 23 18:45:59 CST 2021
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String 04d92810.com triggered"
@@ -9322,5 +9322,10 @@ rule Rule_1863_triggered {
 rule Rule_1864_triggered {
 	meta: description = "Rule # 1864 Suspicious String Logi_Internet triggered"
 	strings: $suspicious_string = "Logi_Internet"
+	condition: $suspicious_string
+}
+rule Rule_1865_triggered {
+	meta: description = "Rule # 1865 Suspicious String stop-writes-on-bgsave-error triggered"
+	strings: $suspicious_string = "stop-writes-on-bgsave-error"
 	condition: $suspicious_string
 }
