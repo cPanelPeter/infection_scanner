@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Sat Jan 23 18:45:59 CST 2021
+Last Updated: Sat Feb 20 22:46:46 CST 2021
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String 04d92810.com triggered"
@@ -9327,5 +9327,20 @@ rule Rule_1864_triggered {
 rule Rule_1865_triggered {
 	meta: description = "Rule # 1865 Suspicious String stop-writes-on-bgsave-error triggered"
 	strings: $suspicious_string = "stop-writes-on-bgsave-error"
+	condition: $suspicious_string
+}
+rule Rule_1866_triggered {
+	meta: description = "Rule # 1866 Suspicious String BLackTools triggered"
+	strings: $suspicious_string = "BLackTools"
+	condition: $suspicious_string
+}
+rule Rule_1867_triggered {
+	meta: description = "Rule # 1867 Suspicious String test123Cp.php triggered"
+	strings: $suspicious_string = "test123Cp.php"
+	condition: $suspicious_string
+}
+rule Rule_1868_triggered {
+	meta: description = "Rule # 1868 Suspicious String ZXZhbCUyOCUyNnF1b3QlM0IlM0YlMjZ triggered"
+	strings: $suspicious_string = "ZXZhbCUyOCUyNnF1b3QlM0IlM0YlMjZ"
 	condition: $suspicious_string
 }
