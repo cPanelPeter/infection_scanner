@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Sat Feb 20 22:46:46 CST 2021
+Last Updated: Wed Feb 24 13:28:56 CST 2021
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String 04d92810.com triggered"
@@ -9342,5 +9342,25 @@ rule Rule_1867_triggered {
 rule Rule_1868_triggered {
 	meta: description = "Rule # 1868 Suspicious String ZXZhbCUyOCUyNnF1b3QlM0IlM0YlMjZ triggered"
 	strings: $suspicious_string = "ZXZhbCUyOCUyNnF1b3QlM0IlM0YlMjZ"
+	condition: $suspicious_string
+}
+rule Rule_1869_triggered {
+	meta: description = "Rule # 1869 Suspicious String AutomaticWHMCracker triggered"
+	strings: $suspicious_string = "AutomaticWHMCracker"
+	condition: $suspicious_string
+}
+rule Rule_1870_triggered {
+	meta: description = "Rule # 1870 Suspicious String Automatic WHM Cracker By triggered"
+	strings: $suspicious_string = "Automatic WHM Cracker By"
+	condition: $suspicious_string
+}
+rule Rule_1871_triggered {
+	meta: description = "Rule # 1871 Suspicious String Auto WHM Cracker triggered"
+	strings: $suspicious_string = "Auto WHM Cracker"
+	condition: $suspicious_string
+}
+rule Rule_1872_triggered {
+	meta: description = "Rule # 1872 Suspicious String TeamCyberAssassins triggered"
+	strings: $suspicious_string = "TeamCyberAssassins"
 	condition: $suspicious_string
 }
