@@ -653,7 +653,7 @@ gsqdecfoo
 guardservices
 gujj4rPcP
 Guru ji zero
-<h1>#p@$c@#</h1>
+<h1>#p@\$c@#</h1>
 H1R4ICH1
 H311 c0d3
 H3r03ZiM0uZ
@@ -1271,7 +1271,7 @@ paulodadaj1@gmail.com
 ++====\[ PayPal \]====++
 Paypal Token Generator
 PayPal US Bank Spam ReZulT
-$p=$_COOKIE;(count($p)==
+\$p=\$_COOKIE;(count(\$p)==
 PD9waHAgJHsiXHg0N0xceDR
 Penggila Coli
 Perilous Man
@@ -1872,3 +1872,7 @@ AutomaticWHMCracker
 Automatic WHM Cracker By
 Auto WHM Cracker
 TeamCyberAssassins
+chpok.pw
+\$botbotbot
+###ERROR 404
+Three_Column_Screen_Layout

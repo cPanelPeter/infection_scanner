@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Wed Feb 24 13:28:56 CST 2021
+Last Updated: Wed Feb 24 20:32:09 CST 2021
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String 04d92810.com triggered"
@@ -9362,5 +9362,25 @@ rule Rule_1871_triggered {
 rule Rule_1872_triggered {
 	meta: description = "Rule # 1872 Suspicious String TeamCyberAssassins triggered"
 	strings: $suspicious_string = "TeamCyberAssassins"
+	condition: $suspicious_string
+}
+rule Rule_1873_triggered {
+	meta: description = "Rule # 1873 Suspicious String chpok.pw triggered"
+	strings: $suspicious_string = "chpok.pw"
+	condition: $suspicious_string
+}
+rule Rule_1874_triggered {
+	meta: description = "Rule # 1874 Suspicious String $botbotbot triggered"
+	strings: $suspicious_string = "$botbotbot"
+	condition: $suspicious_string
+}
+rule Rule_1875_triggered {
+	meta: description = "Rule # 1875 Suspicious String ###ERROR 404 triggered"
+	strings: $suspicious_string = "###ERROR 404"
+	condition: $suspicious_string
+}
+rule Rule_1876_triggered {
+	meta: description = "Rule # 1876 Suspicious String Three_Column_Screen_Layout triggered"
+	strings: $suspicious_string = "Three_Column_Screen_Layout"
 	condition: $suspicious_string
 }
