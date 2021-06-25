@@ -143,6 +143,7 @@ AnonymousFox-BackDor
 AnonyniX
 ANTIBOTS DZEB
 aoldocs
+api.telegram.org/bot
 ashrepetto43@gmail.com
 Ashura
 ASPX Shell by LT
@@ -182,8 +183,7 @@ AZZATSSINS
 azzatssins.cyberserkers
 B0c4H_Id30T
 B0tchZ
-b374k 2.8
-b374k-shell
+b374k
 b4che10r
 b4nk5b4nk5@yandex.com
 BackBone
@@ -245,6 +245,7 @@ bomba1
 Bops<br>Lollz 
 \$botbotbot
 botnick
+bot_who
 Bougaa DZ
 Boycot israel
 brewer_armstrong@yahoo.com
@@ -321,8 +322,12 @@ changed every time so chrome & bots can\'t see the scam source code
 Changes every cPanel password on the server and stores the credentials
 chase.com
 Chase USA 
+check_attack/0.txt
+check_curl
 Check  Mailling
 Check Mail Pass Login Access
+check_openssl
+check_root
 chiacheng2012@gmail.com
 ChickenLittle Shell
 chinazfans@gmail.com
@@ -544,6 +549,7 @@ emp3ror.com
 eM.Pr404
 Encoded By: 3x Encoder
 Encryption provided by iWEBTOOL.com
+encrypt_root
 engcolinjj@gmail.com
 eqzv4.resonguterthet.top
 ###ERROR 404
@@ -635,6 +641,7 @@ gaza_hacker
 gaza_mysql_file
 Gend3ruw0   
 geraldineb1963@hotmail.com
+get_script_crypt
 ggmail.html
 G\-Google ACCU
 gh0st
@@ -853,6 +860,8 @@ InjecT0r
 injectoDaher
 InjectorDaher
 inspiredlean@gmai.com
+Install curl and clear yum log
+Install OpenSSL and clear yum log
 intuit.com
 INX_r0ot
 Iranian Hackers
@@ -1001,6 +1010,7 @@ LoliC0d3
 LolzSec
 LOLZ YOU
 Lon.Cua.Co.Be
+loop_wget_telegram
 LorD\-C0d3r\-NT
 LorD of IRAN HACKERS SABOTAGE
 Lov3rDns
@@ -1073,6 +1083,8 @@ MD\-GHOST
 Mdn_newbie
 mdXfyCGA8070
 me@faialahmed.me
+megapassword
+MegPw0rD3
 Melvin and all ljuska.org and x0rg.org members
 mer4en7y
 Mercury2911
@@ -1599,6 +1611,7 @@ Team IndiShell
 Teamp0ison
 TeaM System Dz
 TEH Squad Cyber
+tele_send_fase1
 Tersakti
 tesemelgan@gmail.com
 test123Cp.php
