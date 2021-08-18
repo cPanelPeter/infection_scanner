@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Fri Jul 23 08:19:51 CDT 2021
+Last Updated: Wed Aug 18 13:10:30 CDT 2021
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String 04d92810.com triggered"
@@ -9495,22 +9495,17 @@ rule Rule_1898_triggered {
 	condition: $suspicious_string
 }
 rule Rule_1899_triggered {
-	meta: description = "Rule # 1899 Suspicious String 互相伤害啊 triggered"
-	strings: $suspicious_string = "互相伤害啊"
-	condition: $suspicious_string
-}
-rule Rule_1900_triggered {
-	meta: description = "Rule # 1900 Suspicious String sh0ted by ./mexalz triggered"
+	meta: description = "Rule # 1899 Suspicious String sh0ted by ./mexalz triggered"
 	strings: $suspicious_string = "sh0ted by ./mexalz"
 	condition: $suspicious_string
 }
-rule Rule_1901_triggered {
-	meta: description = "Rule # 1901 Suspicious String area17.mexalz.us triggered"
+rule Rule_1900_triggered {
+	meta: description = "Rule # 1900 Suspicious String area17.mexalz.us triggered"
 	strings: $suspicious_string = "area17.mexalz.us"
 	condition: $suspicious_string
 }
-rule Rule_1902_triggered {
-	meta: description = "Rule # 1902 Suspicious String getingmineru triggered"
+rule Rule_1901_triggered {
+	meta: description = "Rule # 1901 Suspicious String getingmineru triggered"
 	strings: $suspicious_string = "getingmineru"
 	condition: $suspicious_string
 }
