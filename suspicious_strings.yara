@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Thu Oct 21 08:57:09 CDT 2021
+Last Updated: Wed Dec  8 10:20:01 CST 2021
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String 04d92810.com triggered"
@@ -9512,5 +9512,70 @@ rule Rule_1901_triggered {
 rule Rule_1902_triggered {
 	meta: description = "Rule # 1902 Suspicious String b3i8ohd2_4qy5p9rnkuflegt1amjs6 triggered"
 	strings: $suspicious_string = "b3i8ohd2_4qy5p9rnkuflegt1amjs6"
+	condition: $suspicious_string
+}
+rule Rule_1903_triggered {
+	meta: description = "Rule # 1903 Suspicious String anons79 triggered"
+	strings: $suspicious_string = "anons79"
+	condition: $suspicious_string
+}
+rule Rule_1904_triggered {
+	meta: description = "Rule # 1904 Suspicious String anons79shellworks triggered"
+	strings: $suspicious_string = "anons79shellworks"
+	condition: $suspicious_string
+}
+rule Rule_1905_triggered {
+	meta: description = "Rule # 1905 Suspicious String anons79cmd triggered"
+	strings: $suspicious_string = "anons79cmd"
+	condition: $suspicious_string
+}
+rule Rule_1906_triggered {
+	meta: description = "Rule # 1906 Suspicious String Sh3ll BY Anons79 triggered"
+	strings: $suspicious_string = "Sh3ll BY Anons79"
+	condition: $suspicious_string
+}
+rule Rule_1907_triggered {
+	meta: description = "Rule # 1907 Suspicious String E2OM_DE1 triggered"
+	strings: $suspicious_string = "E2OM_DE1"
+	condition: $suspicious_string
+}
+rule Rule_1908_triggered {
+	meta: description = "Rule # 1908 Suspicious String darkness triggered"
+	strings: $suspicious_string = "darkness"
+	condition: $suspicious_string
+}
+rule Rule_1909_triggered {
+	meta: description = "Rule # 1909 Suspicious String QuaD triggered"
+	strings: $suspicious_string = "QuaD"
+	condition: $suspicious_string
+}
+rule Rule_1910_triggered {
+	meta: description = "Rule # 1910 Suspicious String admin.roirc.me triggered"
+	strings: $suspicious_string = "admin.roirc.me"
+	condition: $suspicious_string
+}
+rule Rule_1911_triggered {
+	meta: description = "Rule # 1911 Suspicious String by panasync triggered"
+	strings: $suspicious_string = "by panasync"
+	condition: $suspicious_string
+}
+rule Rule_1912_triggered {
+	meta: description = "Rule # 1912 Suspicious String Keep it to yourself! triggered"
+	strings: $suspicious_string = "Keep it to yourself!"
+	condition: $suspicious_string
+}
+rule Rule_1913_triggered {
+	meta: description = "Rule # 1913 Suspicious String by Dominic Clifton aka Hydra triggered"
+	strings: $suspicious_string = "by Dominic Clifton aka Hydra"
+	condition: $suspicious_string
+}
+rule Rule_1914_triggered {
+	meta: description = "Rule # 1914 Suspicious String HydraIRC on EFNet triggered"
+	strings: $suspicious_string = "HydraIRC on EFNet"
+	condition: $suspicious_string
+}
+rule Rule_1915_triggered {
+	meta: description = "Rule # 1915 Suspicious String by acidflash - Almost there triggered"
+	strings: $suspicious_string = "by acidflash - Almost there"
 	condition: $suspicious_string
 }
