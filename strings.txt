@@ -1914,3 +1914,24 @@ by acidflash - Almost there
 cacdmcinisctractcocrc
 fadmftfnisftrfatorf
 q-r_utj7simwb3a18
+WCESERVICE
+WCE_SERVICE
+WCE SERVICE
+mimilib
+mimikatz
+Mimikatz
+privilege::debug
+sekurlsa::LogonPasswords
+sekurlsa::logonpasswords
+meterpreter
+METERPRETER
+spoofing
+keylogger
+powersploit
+passdumper
+creddumper
+credentialdumper
+XScanPF
+ysoserial-0
+Powersploit
+Invoke-Mimikatz

@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Tue 18 Jan 2022 04:42:32 PM UTC
+Last Updated: Thu 20 Jan 2022 07:58:21 PM UTC
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String 04d92810.com triggered"
@@ -9567,5 +9567,110 @@ rule Rule_1912_triggered {
 rule Rule_1913_triggered {
 	meta: description = "Rule # 1913 Suspicious String q-r_utj7simwb3a18 triggered"
 	strings: $suspicious_string = "q-r_utj7simwb3a18"
+	condition: $suspicious_string
+}
+rule Rule_1914_triggered {
+	meta: description = "Rule # 1914 Suspicious String WCESERVICE triggered"
+	strings: $suspicious_string = "WCESERVICE"
+	condition: $suspicious_string
+}
+rule Rule_1915_triggered {
+	meta: description = "Rule # 1915 Suspicious String WCE_SERVICE triggered"
+	strings: $suspicious_string = "WCE_SERVICE"
+	condition: $suspicious_string
+}
+rule Rule_1916_triggered {
+	meta: description = "Rule # 1916 Suspicious String WCE SERVICE triggered"
+	strings: $suspicious_string = "WCE SERVICE"
+	condition: $suspicious_string
+}
+rule Rule_1917_triggered {
+	meta: description = "Rule # 1917 Suspicious String mimilib triggered"
+	strings: $suspicious_string = "mimilib"
+	condition: $suspicious_string
+}
+rule Rule_1918_triggered {
+	meta: description = "Rule # 1918 Suspicious String mimikatz triggered"
+	strings: $suspicious_string = "mimikatz"
+	condition: $suspicious_string
+}
+rule Rule_1919_triggered {
+	meta: description = "Rule # 1919 Suspicious String Mimikatz triggered"
+	strings: $suspicious_string = "Mimikatz"
+	condition: $suspicious_string
+}
+rule Rule_1920_triggered {
+	meta: description = "Rule # 1920 Suspicious String privilege::debug triggered"
+	strings: $suspicious_string = "privilege::debug"
+	condition: $suspicious_string
+}
+rule Rule_1921_triggered {
+	meta: description = "Rule # 1921 Suspicious String sekurlsa::LogonPasswords triggered"
+	strings: $suspicious_string = "sekurlsa::LogonPasswords"
+	condition: $suspicious_string
+}
+rule Rule_1922_triggered {
+	meta: description = "Rule # 1922 Suspicious String sekurlsa::logonpasswords triggered"
+	strings: $suspicious_string = "sekurlsa::logonpasswords"
+	condition: $suspicious_string
+}
+rule Rule_1923_triggered {
+	meta: description = "Rule # 1923 Suspicious String meterpreter triggered"
+	strings: $suspicious_string = "meterpreter"
+	condition: $suspicious_string
+}
+rule Rule_1924_triggered {
+	meta: description = "Rule # 1924 Suspicious String METERPRETER triggered"
+	strings: $suspicious_string = "METERPRETER"
+	condition: $suspicious_string
+}
+rule Rule_1925_triggered {
+	meta: description = "Rule # 1925 Suspicious String spoofing triggered"
+	strings: $suspicious_string = "spoofing"
+	condition: $suspicious_string
+}
+rule Rule_1926_triggered {
+	meta: description = "Rule # 1926 Suspicious String keylogger triggered"
+	strings: $suspicious_string = "keylogger"
+	condition: $suspicious_string
+}
+rule Rule_1927_triggered {
+	meta: description = "Rule # 1927 Suspicious String powersploit triggered"
+	strings: $suspicious_string = "powersploit"
+	condition: $suspicious_string
+}
+rule Rule_1928_triggered {
+	meta: description = "Rule # 1928 Suspicious String passdumper triggered"
+	strings: $suspicious_string = "passdumper"
+	condition: $suspicious_string
+}
+rule Rule_1929_triggered {
+	meta: description = "Rule # 1929 Suspicious String creddumper triggered"
+	strings: $suspicious_string = "creddumper"
+	condition: $suspicious_string
+}
+rule Rule_1930_triggered {
+	meta: description = "Rule # 1930 Suspicious String credentialdumper triggered"
+	strings: $suspicious_string = "credentialdumper"
+	condition: $suspicious_string
+}
+rule Rule_1931_triggered {
+	meta: description = "Rule # 1931 Suspicious String XScanPF triggered"
+	strings: $suspicious_string = "XScanPF"
+	condition: $suspicious_string
+}
+rule Rule_1932_triggered {
+	meta: description = "Rule # 1932 Suspicious String ysoserial-0 triggered"
+	strings: $suspicious_string = "ysoserial-0"
+	condition: $suspicious_string
+}
+rule Rule_1933_triggered {
+	meta: description = "Rule # 1933 Suspicious String Powersploit triggered"
+	strings: $suspicious_string = "Powersploit"
+	condition: $suspicious_string
+}
+rule Rule_1934_triggered {
+	meta: description = "Rule # 1934 Suspicious String Invoke-Mimikatz triggered"
+	strings: $suspicious_string = "Invoke-Mimikatz"
 	condition: $suspicious_string
 }
