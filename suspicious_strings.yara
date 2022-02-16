@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Thu 20 Jan 2022 07:58:21 PM UTC
+Last Updated: Wed 16 Feb 2022 02:15:26 PM UTC
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String 04d92810.com triggered"
@@ -9672,5 +9672,20 @@ rule Rule_1933_triggered {
 rule Rule_1934_triggered {
 	meta: description = "Rule # 1934 Suspicious String Invoke-Mimikatz triggered"
 	strings: $suspicious_string = "Invoke-Mimikatz"
+	condition: $suspicious_string
+}
+rule Rule_1935_triggered {
+	meta: description = "Rule # 1935 Suspicious String i1lpjybwn8hrde triggered"
+	strings: $suspicious_string = "i1lpjybwn8hrde"
+	condition: $suspicious_string
+}
+rule Rule_1936_triggered {
+	meta: description = "Rule # 1936 Suspicious String obama152 triggered"
+	strings: $suspicious_string = "obama152"
+	condition: $suspicious_string
+}
+rule Rule_1937_triggered {
+	meta: description = "Rule # 1937 Suspicious String ZXVyb3BlL21vc2Nvdw== triggered"
+	strings: $suspicious_string = "ZXVyb3BlL21vc2Nvdw=="
 	condition: $suspicious_string
 }
