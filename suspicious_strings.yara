@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Wed 16 Feb 2022 02:15:26 PM UTC
+Last Updated: Tue 22 Mar 2022 12:21:16 PM CDT
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String 04d92810.com triggered"
@@ -9687,5 +9687,25 @@ rule Rule_1936_triggered {
 rule Rule_1937_triggered {
 	meta: description = "Rule # 1937 Suspicious String ZXVyb3BlL21vc2Nvdw== triggered"
 	strings: $suspicious_string = "ZXVyb3BlL21vc2Nvdw=="
+	condition: $suspicious_string
+}
+rule Rule_1938_triggered {
+	meta: description = "Rule # 1938 Suspicious String noitcnuf_etaerc triggered"
+	strings: $suspicious_string = "noitcnuf_etaerc"
+	condition: $suspicious_string
+}
+rule Rule_1939_triggered {
+	meta: description = "Rule # 1939 Suspicious String XV7SHBwF1oqZKBGoEhsBtWc triggered"
+	strings: $suspicious_string = "XV7SHBwF1oqZKBGoEhsBtWc"
+	condition: $suspicious_string
+}
+rule Rule_1940_triggered {
+	meta: description = "Rule # 1940 Suspicious String Tiny File Manager triggered"
+	strings: $suspicious_string = "Tiny File Manager"
+	condition: $suspicious_string
+}
+rule Rule_1941_triggered {
+	meta: description = "Rule # 1941 Suspicious String H3K triggered"
+	strings: $suspicious_string = "H3K"
 	condition: $suspicious_string
 }
