@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Mon 16 May 2022 08:07:08 AM CDT
+Last Updated: Tue 31 May 2022 08:40:06 AM CDT
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String 04d92810.com triggered"
@@ -9705,17 +9705,37 @@ rule Rule_1940_triggered {
 	condition: $suspicious_string
 }
 rule Rule_1941_triggered {
-	meta: description = "Rule # 1941 Suspicious String H3K triggered"
-	strings: $suspicious_string = "H3K"
-	condition: $suspicious_string
-}
-rule Rule_1942_triggered {
-	meta: description = "Rule # 1942 Suspicious String .sp3ctra_XO.php triggered"
+	meta: description = "Rule # 1941 Suspicious String .sp3ctra_XO.php triggered"
 	strings: $suspicious_string = ".sp3ctra_XO.php"
 	condition: $suspicious_string
 }
-rule Rule_1943_triggered {
-	meta: description = "Rule # 1943 Suspicious String d3wL7 triggered"
+rule Rule_1942_triggered {
+	meta: description = "Rule # 1942 Suspicious String d3wL7 triggered"
 	strings: $suspicious_string = "d3wL7"
+	condition: $suspicious_string
+}
+rule Rule_1943_triggered {
+	meta: description = "Rule # 1943 Suspicious String coded by romarakhlin triggered"
+	strings: $suspicious_string = "coded by romarakhlin"
+	condition: $suspicious_string
+}
+rule Rule_1944_triggered {
+	meta: description = "Rule # 1944 Suspicious String passwords_chrome.txt triggered"
+	strings: $suspicious_string = "passwords_chrome.txt"
+	condition: $suspicious_string
+}
+rule Rule_1945_triggered {
+	meta: description = "Rule # 1945 Suspicious String passwords_opera.txt triggered"
+	strings: $suspicious_string = "passwords_opera.txt"
+	condition: $suspicious_string
+}
+rule Rule_1946_triggered {
+	meta: description = "Rule # 1946 Suspicious String RAT-via-Telegram-Bot triggered"
+	strings: $suspicious_string = "RAT-via-Telegram-Bot"
+	condition: $suspicious_string
+}
+rule Rule_1947_triggered {
+	meta: description = "Rule # 1947 Suspicious String cockies_chrome triggered"
+	strings: $suspicious_string = "cockies_chrome"
 	condition: $suspicious_string
 }

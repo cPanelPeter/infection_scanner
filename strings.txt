@@ -1941,6 +1941,10 @@ ZXVyb3BlL21vc2Nvdw==
 noitcnuf_etaerc
 XV7SHBwF1oqZKBGoEhsBtWc
 Tiny File Manager
-H3K
 .sp3ctra_XO.php
 d3wL7
+coded by romarakhlin
+passwords_chrome.txt
+passwords_opera.txt
+RAT-via-Telegram-Bot
+cockies_chrome
