@@ -1948,3 +1948,14 @@ passwords_chrome.txt
 passwords_opera.txt
 RAT-via-Telegram-Bot
 cockies_chrome
+HMRC - Payments
+uzage: Learn Perl Bici
+Rekoobe backdoor
+eJzsfet627i16P88BZt
+bY Fox Cyber Security
+https://t.me/FoxCyberSecurity
+FCS.is
+ufox.co
+youfox.co
+anonymousfox.co.uk
+anonymousfox.is

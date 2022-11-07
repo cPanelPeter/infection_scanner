@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Tue 31 May 2022 08:40:06 AM CDT
+Last Updated: Mon 07 Nov 2022 02:43:14 PM CST
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String 04d92810.com triggered"
@@ -9737,5 +9737,60 @@ rule Rule_1946_triggered {
 rule Rule_1947_triggered {
 	meta: description = "Rule # 1947 Suspicious String cockies_chrome triggered"
 	strings: $suspicious_string = "cockies_chrome"
+	condition: $suspicious_string
+}
+rule Rule_1948_triggered {
+	meta: description = "Rule # 1948 Suspicious String HMRC - Payments triggered"
+	strings: $suspicious_string = "HMRC - Payments"
+	condition: $suspicious_string
+}
+rule Rule_1949_triggered {
+	meta: description = "Rule # 1949 Suspicious String uzage: Learn Perl Bici triggered"
+	strings: $suspicious_string = "uzage: Learn Perl Bici"
+	condition: $suspicious_string
+}
+rule Rule_1950_triggered {
+	meta: description = "Rule # 1950 Suspicious String Rekoobe backdoor triggered"
+	strings: $suspicious_string = "Rekoobe backdoor"
+	condition: $suspicious_string
+}
+rule Rule_1951_triggered {
+	meta: description = "Rule # 1951 Suspicious String eJzsfet627i16P88BZt triggered"
+	strings: $suspicious_string = "eJzsfet627i16P88BZt"
+	condition: $suspicious_string
+}
+rule Rule_1952_triggered {
+	meta: description = "Rule # 1952 Suspicious String bY Fox Cyber Security triggered"
+	strings: $suspicious_string = "bY Fox Cyber Security"
+	condition: $suspicious_string
+}
+rule Rule_1953_triggered {
+	meta: description = "Rule # 1953 Suspicious String https://t.me/FoxCyberSecurity triggered"
+	strings: $suspicious_string = "https://t.me/FoxCyberSecurity"
+	condition: $suspicious_string
+}
+rule Rule_1954_triggered {
+	meta: description = "Rule # 1954 Suspicious String FCS.is triggered"
+	strings: $suspicious_string = "FCS.is"
+	condition: $suspicious_string
+}
+rule Rule_1955_triggered {
+	meta: description = "Rule # 1955 Suspicious String ufox.co triggered"
+	strings: $suspicious_string = "ufox.co"
+	condition: $suspicious_string
+}
+rule Rule_1956_triggered {
+	meta: description = "Rule # 1956 Suspicious String youfox.co triggered"
+	strings: $suspicious_string = "youfox.co"
+	condition: $suspicious_string
+}
+rule Rule_1957_triggered {
+	meta: description = "Rule # 1957 Suspicious String anonymousfox.co.uk triggered"
+	strings: $suspicious_string = "anonymousfox.co.uk"
+	condition: $suspicious_string
+}
+rule Rule_1958_triggered {
+	meta: description = "Rule # 1958 Suspicious String anonymousfox.is triggered"
+	strings: $suspicious_string = "anonymousfox.is"
 	condition: $suspicious_string
 }
