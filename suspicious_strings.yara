@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Mon 07 Nov 2022 02:43:14 PM CST
+Last Updated: Wed 08 Mar 2023 02:40:18 PM CST
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String 04d92810.com triggered"
@@ -9792,5 +9792,15 @@ rule Rule_1957_triggered {
 rule Rule_1958_triggered {
 	meta: description = "Rule # 1958 Suspicious String anonymousfox.is triggered"
 	strings: $suspicious_string = "anonymousfox.is"
+	condition: $suspicious_string
+}
+rule Rule_1959_triggered {
+	meta: description = "Rule # 1959 Suspicious String kX1IpOyRfUj0wOyRfWD0wOw== triggered"
+	strings: $suspicious_string = "kX1IpOyRfUj0wOyRfWD0wOw=="
+	condition: $suspicious_string
+}
+rule Rule_1960_triggered {
+	meta: description = "Rule # 1960 Suspicious String W A R N I N G: Private Server triggered"
+	strings: $suspicious_string = "W A R N I N G: Private Server"
 	condition: $suspicious_string
 }
