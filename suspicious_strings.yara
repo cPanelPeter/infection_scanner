@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Mon 17 Apr 2023 03:13:59 PM CDT
+Last Updated: Wed 21 Jun 2023 08:47:10 AM CDT
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String 04d92810.com triggered"
@@ -9847,5 +9847,10 @@ rule Rule_1968_triggered {
 rule Rule_1969_triggered {
 	meta: description = "Rule # 1969 Suspicious String Shell v3 NEW! triggered"
 	strings: $suspicious_string = "Shell v3 NEW!"
+	condition: $suspicious_string
+}
+rule Rule_1970_triggered {
+	meta: description = "Rule # 1970 Suspicious String MIG Logcleaner triggered"
+	strings: $suspicious_string = "MIG Logcleaner"
 	condition: $suspicious_string
 }
