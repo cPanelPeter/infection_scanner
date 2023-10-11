@@ -1971,3 +1971,5 @@ z0227_18.sofaairplane.shop
 Visit our shop
 Shell v3 NEW!
 MIG Logcleaner
+zexit_wp_ajax_no
+zexit_wp_ajax_adm

@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Wed 21 Jun 2023 08:47:10 AM CDT
+Last Updated: Wed 11 Oct 2023 12:45:32 PM CDT
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String 04d92810.com triggered"
@@ -9852,5 +9852,15 @@ rule Rule_1969_triggered {
 rule Rule_1970_triggered {
 	meta: description = "Rule # 1970 Suspicious String MIG Logcleaner triggered"
 	strings: $suspicious_string = "MIG Logcleaner"
+	condition: $suspicious_string
+}
+rule Rule_1971_triggered {
+	meta: description = "Rule # 1971 Suspicious String zexit_wp_ajax_no triggered"
+	strings: $suspicious_string = "zexit_wp_ajax_no"
+	condition: $suspicious_string
+}
+rule Rule_1972_triggered {
+	meta: description = "Rule # 1972 Suspicious String zexit_wp_ajax_adm triggered"
+	strings: $suspicious_string = "zexit_wp_ajax_adm"
 	condition: $suspicious_string
 }
