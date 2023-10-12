@@ -1973,3 +1973,6 @@ Shell v3 NEW!
 MIG Logcleaner
 zexit_wp_ajax_no
 zexit_wp_ajax_adm
+_pln_cmd_roll
+_pln_cmd_hide
+_pln_is_bot
