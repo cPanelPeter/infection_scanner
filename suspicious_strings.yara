@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Thu 12 Oct 2023 08:58:18 AM CDT
+Last Updated: Thu 28 Dec 2023 10:48:53 AM CST
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String 04d92810.com triggered"
@@ -9877,5 +9877,25 @@ rule Rule_1974_triggered {
 rule Rule_1975_triggered {
 	meta: description = "Rule # 1975 Suspicious String _pln_is_bot triggered"
 	strings: $suspicious_string = "_pln_is_bot"
+	condition: $suspicious_string
+}
+rule Rule_1976_triggered {
+	meta: description = "Rule # 1976 Suspicious String LET'S MAKE SOME ADMINS TO CRY! triggered"
+	strings: $suspicious_string = "LET'S MAKE SOME ADMINS TO CRY!"
+	condition: $suspicious_string
+}
+rule Rule_1977_triggered {
+	meta: description = "Rule # 1977 Suspicious String PRG-oldTeam triggered"
+	strings: $suspicious_string = "PRG-oldTeam"
+	condition: $suspicious_string
+}
+rule Rule_1978_triggered {
+	meta: description = "Rule # 1978 Suspicious String CREATED BY StrX triggered"
+	strings: $suspicious_string = "CREATED BY StrX"
+	condition: $suspicious_string
+}
+rule Rule_1979_triggered {
+	meta: description = "Rule # 1979 Suspicious String PRGSSH triggered"
+	strings: $suspicious_string = "PRGSSH"
 	condition: $suspicious_string
 }

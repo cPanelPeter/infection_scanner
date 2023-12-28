@@ -1976,3 +1976,7 @@ zexit_wp_ajax_adm
 _pln_cmd_roll
 _pln_cmd_hide
 _pln_is_bot
+LET'S MAKE SOME ADMINS TO CRY!
+PRG-oldTeam
+CREATED BY StrX
+PRGSSH
