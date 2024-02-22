@@ -1980,3 +1980,8 @@ LET'S MAKE SOME ADMINS TO CRY!
 PRG-oldTeam
 CREATED BY StrX
 PRGSSH
+Unique private keys discovered
+Unique shell accounts accessed
+Unique systems accessed
+github.com/MegaManSec/SSH-Snake
+SSH-Snake: Automated SSH-Based Network Traversal

@@ -2,7 +2,7 @@
     This Yara ruleset is under the GNU-GPLv2 license (http://www.gnu.org/licenses/gpl-2.0.html) 
     and open to any user or organization, as long as you use it under this license.
 
-Last Updated: Thu 28 Dec 2023 10:48:53 AM CST
+Last Updated: Thu 22 Feb 2024 07:57:19 AM CST
 */
 rule Rule_1_triggered {
 	meta: description = "Rule # 1 Suspicious String 04d92810.com triggered"
@@ -9897,5 +9897,30 @@ rule Rule_1978_triggered {
 rule Rule_1979_triggered {
 	meta: description = "Rule # 1979 Suspicious String PRGSSH triggered"
 	strings: $suspicious_string = "PRGSSH"
+	condition: $suspicious_string
+}
+rule Rule_1980_triggered {
+	meta: description = "Rule # 1980 Suspicious String Unique private keys discovered triggered"
+	strings: $suspicious_string = "Unique private keys discovered"
+	condition: $suspicious_string
+}
+rule Rule_1981_triggered {
+	meta: description = "Rule # 1981 Suspicious String Unique shell accounts accessed triggered"
+	strings: $suspicious_string = "Unique shell accounts accessed"
+	condition: $suspicious_string
+}
+rule Rule_1982_triggered {
+	meta: description = "Rule # 1982 Suspicious String Unique systems accessed triggered"
+	strings: $suspicious_string = "Unique systems accessed"
+	condition: $suspicious_string
+}
+rule Rule_1983_triggered {
+	meta: description = "Rule # 1983 Suspicious String github.com/MegaManSec/SSH-Snake triggered"
+	strings: $suspicious_string = "github.com/MegaManSec/SSH-Snake"
+	condition: $suspicious_string
+}
+rule Rule_1984_triggered {
+	meta: description = "Rule # 1984 Suspicious String SSH-Snake: Automated SSH-Based Network Traversal triggered"
+	strings: $suspicious_string = "SSH-Snake: Automated SSH-Based Network Traversal"
 	condition: $suspicious_string
 }
